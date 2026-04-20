@@ -1,0 +1,66 @@
+# 設定檔：法說會情緒密碼分析
+
+# 分析標的
+symbols:
+  # HuggingFace 逐字稿代碼 → yfinance 股價代碼 → 超額報酬基準
+  - transcript_symbol: AAPL
+    price_symbol: AAPL
+    benchmark: SPY
+    company_name: Apple
+  - transcript_symbol: MSFT
+    price_symbol: MSFT
+    benchmark: SPY
+    company_name: Microsoft
+  - transcript_symbol: GOOGL
+    price_symbol: GOOGL
+    benchmark: SPY
+    company_name: Alphabet
+  - transcript_symbol: AMZN
+    price_symbol: AMZN
+    benchmark: SPY
+    company_name: Amazon
+  - transcript_symbol: NVDA
+    price_symbol: NVDA
+    benchmark: SPY
+    company_name: NVIDIA
+  - transcript_symbol: META
+    price_symbol: META
+    benchmark: SPY
+    company_name: Meta
+  - transcript_symbol: TSLA
+    price_symbol: TSLA
+    benchmark: SPY
+    company_name: Tesla
+  - transcript_symbol: TSM
+    price_symbol: 2330.TW
+    benchmark: 0050.TW
+    company_name: TSMC
+
+# 時間範圍
+start_year: 2020
+end_year: 2025
+
+# 報酬計算窗口（交易日）
+return_windows: [1, 3, 5, 10, 20, 60, 180]
+
+# 情緒維度
+sentiment_dimensions:
+  - overall_sentiment
+  - confidence_score
+  - forward_guidance_tone
+  - risk_disclosure_intensity
+  - qa_evasiveness
+  - quantitative_specificity
+  - capex_enthusiasm
+  - demand_strength
+  - pricing_power
+  - competitive_moat
+  - innovation_momentum
+  - management_consistency
+
+# Gemini 設定
+gemini:
+  model: gemini-3.1-pro
+  temperature: 0
+  retry_count: 3
+  sleep_between_calls: 2

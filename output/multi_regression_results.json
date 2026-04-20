@@ -1,0 +1,286 @@
+[
+  {
+    "target": "R_10",
+    "r_squared": 0.044764905109062725,
+    "adj_r_squared": -0.020736929969172868,
+    "f_statistic": 0.6834145189305815,
+    "f_p_value": 0.7660051443703013,
+    "n_samples": 188,
+    "coefficients": {
+      "overall_sentiment": {
+        "beta": 0.030163629873344006,
+        "p_value": 0.6614226098931244,
+        "significant": "False"
+      },
+      "confidence_score": {
+        "beta": 0.04384604889722191,
+        "p_value": 0.81227504092186,
+        "significant": "False"
+      },
+      "forward_guidance_tone": {
+        "beta": 0.0025995131165406317,
+        "p_value": 0.9462257286594914,
+        "significant": "False"
+      },
+      "risk_disclosure_intensity": {
+        "beta": 0.05614254551260226,
+        "p_value": 0.27707231993136794,
+        "significant": "False"
+      },
+      "qa_evasiveness": {
+        "beta": 0.07045729642514428,
+        "p_value": 0.45586967606842066,
+        "significant": "False"
+      },
+      "quantitative_specificity": {
+        "beta": 0.05669233634984503,
+        "p_value": 0.5884421629374568,
+        "significant": "False"
+      },
+      "capex_enthusiasm": {
+        "beta": 0.01835405353222938,
+        "p_value": 0.4760538770982359,
+        "significant": "False"
+      },
+      "demand_strength": {
+        "beta": -0.024835577478129735,
+        "p_value": 0.679205209640792,
+        "significant": "False"
+      },
+      "pricing_power": {
+        "beta": -0.06753819116451729,
+        "p_value": 0.14150027806797794,
+        "significant": "False"
+      },
+      "competitive_moat": {
+        "beta": -0.0438845671414161,
+        "p_value": 0.6496651390115312,
+        "significant": "False"
+      },
+      "innovation_momentum": {
+        "beta": 0.1026365956559687,
+        "p_value": 0.3695067608194912,
+        "significant": "False"
+      },
+      "management_consistency": {
+        "beta": 0.08501193689758077,
+        "p_value": 0.3255555196671284,
+        "significant": "False"
+      }
+    },
+    "summary_text": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                      y   R-squared:                       0.045\nModel:                            OLS   Adj. R-squared:                 -0.021\nMethod:                 Least Squares   F-statistic:                    0.6834\nDate:                Mon, 20 Apr 2026   Prob (F-statistic):              0.766\nTime:                        07:27:14   Log-Likelihood:                 231.17\nNo. Observations:                 188   AIC:                            -436.3\nDf Residuals:                     175   BIC:                            -394.3\nDf Model:                          12                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P>|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst         -0.2068      0.178     -1.162      0.247      -0.558       0.145\nx1             0.0302      0.069      0.439      0.661      -0.106       0.166\nx2             0.0438      0.184      0.238      0.812      -0.320       0.408\nx3             0.0026      0.038      0.068      0.946      -0.073       0.079\nx4             0.0561      0.051      1.090      0.277      -0.045       0.158\nx5             0.0705      0.094      0.747      0.456      -0.116       0.257\nx6             0.0567      0.105      0.542      0.588      -0.150       0.263\nx7             0.0184      0.026      0.714      0.476      -0.032       0.069\nx8            -0.0248      0.060     -0.414      0.679      -0.143       0.093\nx9            -0.0675      0.046     -1.477      0.142      -0.158       0.023\nx10           -0.0439      0.096     -0.455      0.650      -0.234       0.146\nx11            0.1026      0.114      0.900      0.370      -0.123       0.328\nx12            0.0850      0.086      0.986      0.326      -0.085       0.255\n==============================================================================\nOmnibus:                       47.282   Durbin-Watson:                   2.001\nProb(Omnibus):                  0.000   Jarque-Bera (JB):              131.518\nSkew:                           1.036   Prob(JB):                     2.76e-29\nKurtosis:                       6.534   Cond. No.                         114.\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified."
+  },
+  {
+    "target": "R_20",
+    "r_squared": 0.08107843953042448,
+    "adj_r_squared": 0.018066675383939357,
+    "f_statistic": 1.2867190853749035,
+    "f_p_value": 0.22993663213438678,
+    "n_samples": 188,
+    "coefficients": {
+      "overall_sentiment": {
+        "beta": 0.02853810292335235,
+        "p_value": 0.7584791483372693,
+        "significant": "False"
+      },
+      "confidence_score": {
+        "beta": 0.0875181392510048,
+        "p_value": 0.7250687325760269,
+        "significant": "False"
+      },
+      "forward_guidance_tone": {
+        "beta": -0.007045426634427865,
+        "p_value": 0.892113053960814,
+        "significant": "False"
+      },
+      "risk_disclosure_intensity": {
+        "beta": 0.04131096839603571,
+        "p_value": 0.5524313744995287,
+        "significant": "False"
+      },
+      "qa_evasiveness": {
+        "beta": 0.1428304257413151,
+        "p_value": 0.262522872269209,
+        "significant": "False"
+      },
+      "quantitative_specificity": {
+        "beta": -0.004765038478773159,
+        "p_value": 0.9730695941368194,
+        "significant": "False"
+      },
+      "capex_enthusiasm": {
+        "beta": 0.010569160630176273,
+        "p_value": 0.7606121194173664,
+        "significant": "False"
+      },
+      "demand_strength": {
+        "beta": -0.04753983087473805,
+        "p_value": 0.5570662249805659,
+        "significant": "False"
+      },
+      "pricing_power": {
+        "beta": -0.14196158472115747,
+        "p_value": 0.022435086080551357,
+        "significant": "True"
+      },
+      "competitive_moat": {
+        "beta": 0.0020995141259501776,
+        "p_value": 0.9871317896390527,
+        "significant": "False"
+      },
+      "innovation_momentum": {
+        "beta": 0.2422673848758531,
+        "p_value": 0.1168893189312496,
+        "significant": "False"
+      },
+      "management_consistency": {
+        "beta": 0.13916555226268773,
+        "p_value": 0.23274557114377575,
+        "significant": "False"
+      }
+    },
+    "summary_text": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                      y   R-squared:                       0.081\nModel:                            OLS   Adj. R-squared:                  0.018\nMethod:                 Least Squares   F-statistic:                     1.287\nDate:                Mon, 20 Apr 2026   Prob (F-statistic):              0.230\nTime:                        07:27:14   Log-Likelihood:                 175.06\nNo. Observations:                 188   AIC:                            -324.1\nDf Residuals:                     175   BIC:                            -282.1\nDf Model:                          12                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P>|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst         -0.3202      0.240     -1.334      0.184      -0.794       0.153\nx1             0.0285      0.093      0.308      0.758      -0.154       0.211\nx2             0.0875      0.248      0.352      0.725      -0.403       0.578\nx3            -0.0070      0.052     -0.136      0.892      -0.109       0.095\nx4             0.0413      0.069      0.595      0.552      -0.096       0.178\nx5             0.1428      0.127      1.124      0.263      -0.108       0.394\nx6            -0.0048      0.141     -0.034      0.973      -0.283       0.273\nx7             0.0106      0.035      0.305      0.761      -0.058       0.079\nx8            -0.0475      0.081     -0.588      0.557      -0.207       0.112\nx9            -0.1420      0.062     -2.303      0.022      -0.264      -0.020\nx10            0.0021      0.130      0.016      0.987      -0.254       0.259\nx11            0.2423      0.154      1.576      0.117      -0.061       0.546\nx12            0.1392      0.116      1.197      0.233      -0.090       0.369\n==============================================================================\nOmnibus:                        9.605   Durbin-Watson:                   2.289\nProb(Omnibus):                  0.008   Jarque-Bera (JB):               14.659\nSkew:                          -0.280   Prob(JB):                     0.000656\nKurtosis:                       4.248   Cond. No.                         114.\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified."
+  },
+  {
+    "target": "alpha_10",
+    "r_squared": 0.03990186131730045,
+    "adj_r_squared": -0.025933439620941856,
+    "f_statistic": 0.6060861080399856,
+    "f_p_value": 0.8352306435894684,
+    "n_samples": 188,
+    "coefficients": {
+      "overall_sentiment": {
+        "beta": 0.023237068946754837,
+        "p_value": 0.6745319143878608,
+        "significant": "False"
+      },
+      "confidence_score": {
+        "beta": 0.049003742777560796,
+        "p_value": 0.7411397616629831,
+        "significant": "False"
+      },
+      "forward_guidance_tone": {
+        "beta": -0.006984188829653721,
+        "p_value": 0.8215644728743663,
+        "significant": "False"
+      },
+      "risk_disclosure_intensity": {
+        "beta": 0.05212733164429797,
+        "p_value": 0.20933910929616695,
+        "significant": "False"
+      },
+      "qa_evasiveness": {
+        "beta": 0.0160700185750058,
+        "p_value": 0.8322333691916555,
+        "significant": "False"
+      },
+      "quantitative_specificity": {
+        "beta": 0.02807201633703835,
+        "p_value": 0.738703843253507,
+        "significant": "False"
+      },
+      "capex_enthusiasm": {
+        "beta": 0.01584175479593128,
+        "p_value": 0.4439593137486109,
+        "significant": "False"
+      },
+      "demand_strength": {
+        "beta": -0.02399677135262012,
+        "p_value": 0.6189853825880788,
+        "significant": "False"
+      },
+      "pricing_power": {
+        "beta": -0.045655582055948316,
+        "p_value": 0.2156615746414124,
+        "significant": "False"
+      },
+      "competitive_moat": {
+        "beta": 0.005672512542935767,
+        "p_value": 0.9417270267809489,
+        "significant": "False"
+      },
+      "innovation_momentum": {
+        "beta": 0.11156281795648357,
+        "p_value": 0.225152733241671,
+        "significant": "False"
+      },
+      "management_consistency": {
+        "beta": 0.033914221541704405,
+        "p_value": 0.6250825526976812,
+        "significant": "False"
+      }
+    },
+    "summary_text": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                      y   R-squared:                       0.040\nModel:                            OLS   Adj. R-squared:                 -0.026\nMethod:                 Least Squares   F-statistic:                    0.6061\nDate:                Mon, 20 Apr 2026   Prob (F-statistic):              0.835\nTime:                        07:27:14   Log-Likelihood:                 272.32\nNo. Observations:                 188   AIC:                            -518.6\nDf Residuals:                     175   BIC:                            -476.6\nDf Model:                          12                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P>|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst         -0.2002      0.143     -1.399      0.163      -0.483       0.082\nx1             0.0232      0.055      0.421      0.675      -0.086       0.132\nx2             0.0490      0.148      0.331      0.741      -0.243       0.341\nx3            -0.0070      0.031     -0.226      0.822      -0.068       0.054\nx4             0.0521      0.041      1.260      0.209      -0.030       0.134\nx5             0.0161      0.076      0.212      0.832      -0.133       0.166\nx6             0.0281      0.084      0.334      0.739      -0.138       0.194\nx7             0.0158      0.021      0.767      0.444      -0.025       0.057\nx8            -0.0240      0.048     -0.498      0.619      -0.119       0.071\nx9            -0.0457      0.037     -1.243      0.216      -0.118       0.027\nx10            0.0057      0.077      0.073      0.942      -0.147       0.159\nx11            0.1116      0.092      1.217      0.225      -0.069       0.292\nx12            0.0339      0.069      0.490      0.625      -0.103       0.171\n==============================================================================\nOmnibus:                      105.481   Durbin-Watson:                   1.908\nProb(Omnibus):                  0.000   Jarque-Bera (JB):              803.886\nSkew:                           1.986   Prob(JB):                    2.74e-175\nKurtosis:                      12.319   Cond. No.                         114.\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified."
+  },
+  {
+    "target": "alpha_20",
+    "r_squared": 0.0610628124728998,
+    "adj_r_squared": -0.0033214518146726935,
+    "f_statistic": 0.9484120560912596,
+    "f_p_value": 0.50023689309565,
+    "n_samples": 188,
+    "coefficients": {
+      "overall_sentiment": {
+        "beta": 0.03513163723313957,
+        "p_value": 0.6279640390667325,
+        "significant": "False"
+      },
+      "confidence_score": {
+        "beta": 0.057018014650992946,
+        "p_value": 0.7692070035872237,
+        "significant": "False"
+      },
+      "forward_guidance_tone": {
+        "beta": 0.001649506157246139,
+        "p_value": 0.9675650087916158,
+        "significant": "False"
+      },
+      "risk_disclosure_intensity": {
+        "beta": 0.03243969473629443,
+        "p_value": 0.5502439953391153,
+        "significant": "False"
+      },
+      "qa_evasiveness": {
+        "beta": 0.08057005686309646,
+        "p_value": 0.41792916025696975,
+        "significant": "False"
+      },
+      "quantitative_specificity": {
+        "beta": 0.011345381845199384,
+        "p_value": 0.9180245893863193,
+        "significant": "False"
+      },
+      "capex_enthusiasm": {
+        "beta": -0.0016053836456513125,
+        "p_value": 0.9527396298279031,
+        "significant": "False"
+      },
+      "demand_strength": {
+        "beta": -0.046825338978608466,
+        "p_value": 0.4590599168079253,
+        "significant": "False"
+      },
+      "pricing_power": {
+        "beta": -0.09359969277883193,
+        "p_value": 0.0534200955073201,
+        "significant": "False"
+      },
+      "competitive_moat": {
+        "beta": -0.0036925866587185358,
+        "p_value": 0.9710245410643135,
+        "significant": "False"
+      },
+      "innovation_momentum": {
+        "beta": 0.2014646062455331,
+        "p_value": 0.09514948391539421,
+        "significant": "False"
+      },
+      "management_consistency": {
+        "beta": 0.05526904477139809,
+        "p_value": 0.5433395622447142,
+        "significant": "False"
+      }
+    },
+    "summary_text": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                      y   R-squared:                       0.061\nModel:                            OLS   Adj. R-squared:                 -0.003\nMethod:                 Least Squares   F-statistic:                    0.9484\nDate:                Mon, 20 Apr 2026   Prob (F-statistic):              0.500\nTime:                        07:27:14   Log-Likelihood:                 221.55\nNo. Observations:                 188   AIC:                            -417.1\nDf Residuals:                     175   BIC:                            -375.0\nDf Model:                          12                                         \nCovariance Type:            nonrobust                                         \n==============================================================================\n                 coef    std err          t      P>|t|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst         -0.2335      0.187     -1.246      0.215      -0.603       0.136\nx1             0.0351      0.072      0.485      0.628      -0.108       0.178\nx2             0.0570      0.194      0.294      0.769      -0.326       0.440\nx3             0.0016      0.041      0.041      0.968      -0.078       0.082\nx4             0.0324      0.054      0.599      0.550      -0.075       0.139\nx5             0.0806      0.099      0.812      0.418      -0.115       0.276\nx6             0.0113      0.110      0.103      0.918      -0.206       0.229\nx7            -0.0016      0.027     -0.059      0.953      -0.055       0.052\nx8            -0.0468      0.063     -0.742      0.459      -0.171       0.078\nx9            -0.0936      0.048     -1.945      0.053      -0.189       0.001\nx10           -0.0037      0.102     -0.036      0.971      -0.204       0.197\nx11            0.2015      0.120      1.678      0.095      -0.036       0.438\nx12            0.0553      0.091      0.609      0.543      -0.124       0.234\n==============================================================================\nOmnibus:                       19.833   Durbin-Watson:                   2.301\nProb(Omnibus):                  0.000   Jarque-Bera (JB):               55.366\nSkew:                           0.358   Prob(JB):                     9.49e-13\nKurtosis:                       5.560   Cond. No.                         114.\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified."
+  }
+]

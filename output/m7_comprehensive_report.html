@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財報情緒密碼：七巨頭＋台積電 終極解密報告</title>
+    <meta name="description" content="涵蓋 192 季法說會逐字稿，利用 Gemini 量化 12 維度情緒，揭開華爾街長線與短線的獲利密碼。">
+    <meta property="og:title" content="財報情緒密碼：七巨頭＋台積電 終極解密報告">
+    <meta property="og:description" content="AI 監聽法說會，秒懂 CEO 內心戲！192 季回測證明：情緒分數能領先股價。">
+    <meta property="og:image" content="m7_og.png">
+    <meta property="og:type" content="website">
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --secondary-color: #312e81;
+            --background-color: #f8fafc;
+            --text-color: #334155;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --accent: #ec4899;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 3rem 2rem;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 1rem;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .highlight {
+            background-color: #eef2ff;
+            border-left: 4px solid var(--primary-color);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+
+        .alert {
+            background-color: #fff1f2;
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .industry-card {
+            background: linear-gradient(180deg, #ffffff, #f8fafc);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .industry-card h4 {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .step-box {
+            background-color: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            font-weight: bold;
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🌐 財報情緒密碼：全球科技巨頭 192 季終極解密</h1>
+        <p>涵蓋 Apple, Microsoft, Google, Amazon, NVIDIA, Meta, Tesla 及 台積電 (TSM)</p>
+    </header>
+
+    <div class="card">
+        <h2>🧐 導讀：這是什麼樣的報告？</h2>
+        <p>先前我們單獨測試了「台積電」，並證明 AI 抓出的情緒分數可以預測股價。現在，我們把這個雷達的掃描範圍擴大到了<strong>「美股七巨頭 (Magnificent 7) 加上台積電」</strong>！</p>
+        <p>我們利用 Gemini 3.1 Pro 模型，將這 8 家全球頂尖科技公司從 2020 年到 2025 年、一共 <strong>192 場法說會逐字稿</strong>（超過上百萬字）全部量化成 12 個維度的情緒分數。然後，我們將這些分數與它們在法說會後 1 天到半年（180 天）的「真實超額股價報酬」進行對比。</p>
+        <p>這份報告將告訴你：<b>華爾街在聽科技巨頭開會時，到底真正在乎什麼？</b></p>
+    </div>
+
+    <div class="card">
+        <h2>🏆 全局洞察：所有公司共通的「股價密碼」</h2>
+        <p>當我們把這 8 家公司的數據混在一起看時，出現了極具統計意義（P 值小於 0.05）的現象：</p>
+
+        <div class="highlight">
+            <h3 style="margin-top: 0;">🚀 1. 創新動能 (Innovation Momentum) 是長線王者</h3>
+            <p><strong>數據表現：</strong>與法說會後 60 天（一季）及 180 天（半年）的報酬呈現顯著「正相關」。</p>
+            <p><strong>白話文解釋：</strong>當 CEO 滿腔熱血地大談 AI 突破、新技術研發時，短期內股價不一定會立刻噴發，但<strong>放長線來看，這些公司通常會大幅擊敗大盤！</strong>這印證了科技股的估值很大程度建立在「未來的想像空間」上。</p>
+        </div>
+
+        <div class="alert">
+            <h3 style="margin-top: 0;">⚠️ 2. 數據具體度 (Quantitative Specificity) 的反面效應</h3>
+            <p><strong>數據表現：</strong>與 180 天報酬呈現顯著「負相關」。</p>
+            <p><strong>白話文解釋：</strong>有趣的是，如果管理層在法說會上「過度糾結於非常瑣碎、具體的營收數字或小數點」，反而未來的長線股價表現會比較差。這可能是因為：當高層缺乏宏大的未來願景時，往往只能拿細微的數字來做文章掩飾；或者過於著重短期數字，代表公司正處於成長瓶頸期。</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🏭 產業分群解密：不同行業，不同玩法</h2>
+        <p>我們進一步把這 8 家公司分成三個產業群體。結果發現，不同產業的投資人，在乎的點完全不一樣！</p>
+
+        <div class="grid">
+            <div class="industry-card">
+                <h4>💻 【半導體兄弟】 (台積電, 輝達)</h4>
+                <p><strong>最強指標：創新動能 (AI 願景)</strong></p>
+                <p>這兩家是當今 AI 浪潮的賣鏟人。數據顯示，只要他們在法說會上談論「創新與技術領先」的力道越強，法說會後半年（180天）的超額報酬就高達 <strong>ρ=+0.427 (極度顯著)</strong>！只要確定技術領先，華爾街閉著眼睛買單。</p>
+            </div>
+            
+            <div class="industry-card">
+                <h4>☁️ 【軟體與平台】 (微軟, Google, Meta)</h4>
+                <p><strong>最強指標：言行一致與定價能力</strong></p>
+                <p>這三家的商業模式很穩定，但投資人最怕「畫大餅」。數據顯示，如果他們講話跟上一季自相矛盾（言行一致度低），或者過度強調定價卻沒做到，長線股價就會遭到懲罰。</p>
+            </div>
+
+            <div class="industry-card">
+                <h4>📱 【消費科技】 (蘋果, 亞馬遜, 特斯拉)</h4>
+                <p><strong>最強指標：創新動能 (短期引爆)</strong></p>
+                <p>有別於半導體的長線發酵，消費科技只要端出「創新動能」（例如酷炫的新產品、新服務），股價在法說會後 <strong>3 天內 (alpha_3, ρ=+0.322)</strong> 就會立刻飆漲。這群投資人的反應最為迅速且重視短期利多。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🔮 實戰應用：如何用這 12 個參數預測未來股價？</h2>
+        <p>知道這些秘密後，我們能不能寫出一套「賺錢的量化交易程式」？答案是肯定的，這就得靠<strong>「多變量線性迴歸」</strong>的幫忙。</p>
+        <p>簡單來說，多變量迴歸就是讓電腦幫我們把這 12 個分數「炒成一盤菜」，找出完美的調味料比例。作法如下：</p>
+
+        <div class="step-box">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span class="step-number">1</span>
+                <h3 style="margin: 0;">訓練 AI 找出黃金公式</h3>
+            </div>
+            <p>我們將過去 192 場法說會的「12個情緒分數」和「真實股價漲跌」全部丟給迴歸模型。模型會根據產業特性，給予不同的參數權重（Beta 值，β）。例如針對輝達，模型可能會學到：「創新動能」最重要，權重給 +1.5；「風險揭露」是壞事，權重給 -0.8。</p>
+        </div>
+
+        <div class="step-box">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span class="step-number">2</span>
+                <h3 style="margin: 0;">自動監聽下一場法說會</h3>
+            </div>
+            <p>假設明天蘋果開法說會，會議一結束，華爾街的人還在憑感覺解讀逐字稿時，我們的程式已經瞬間讓 Gemini 閱讀完畢，並產出熱騰騰的 12 個分數。</p>
+        </div>
+
+        <div class="step-box">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span class="step-number">3</span>
+                <h3 style="margin: 0;">套入公式，扣下扳機</h3>
+            </div>
+            <p>程式立刻把蘋果的 12 個分數，套入專屬的黃金公式中：</p>
+            <p style="background: #f1f5f9; padding: 1rem; border-radius: 0.5rem; text-align: center; font-family: monospace; border: 1px dashed #ccc; margin: 10px 0;">
+                預測 Apple 短期漲跌 = (1.2 × 創新動能分數) + (0.5 × 需求強度分數) - (0.6 × 閃躲問題分數)...
+            </p>
+            <p>如果算出來的預測值是 +5%，代表這場法說會暗藏極大的利多，程式便會在隔天開盤的瞬間，<strong>自動發送買進指令給券商 API</strong>。這就是華爾街頂尖量化基金（Quant Fund）每天在做的事情！</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,847 @@
+{
+  "半導體": {
+    "n_samples": 48,
+    "symbols": [
+      "TSM",
+      "NVDA"
+    ],
+    "correlation_matrix": {
+      "R_1": {
+        "overall_sentiment": 0.17127749036746331,
+        "confidence_score": 0.23452985745211843,
+        "forward_guidance_tone": 0.12457587571678141,
+        "risk_disclosure_intensity": -0.17213947946498484,
+        "qa_evasiveness": -0.15869703084737413,
+        "quantitative_specificity": -0.07981913411190333,
+        "capex_enthusiasm": 0.18363056226078897,
+        "demand_strength": 0.19471016483774323,
+        "pricing_power": -0.14225977836304454,
+        "competitive_moat": -0.10671277625407975,
+        "innovation_momentum": 0.16894129528664342,
+        "management_consistency": 0.02897520488806099
+      },
+      "R_3": {
+        "overall_sentiment": 0.0011472792862090159,
+        "confidence_score": 0.004951745493643009,
+        "forward_guidance_tone": 0.0049601247365997775,
+        "risk_disclosure_intensity": -0.04966284071513412,
+        "qa_evasiveness": -0.09558231350326721,
+        "quantitative_specificity": -0.13879971732754529,
+        "capex_enthusiasm": 0.012095751956645806,
+        "demand_strength": -0.021971558206461503,
+        "pricing_power": -0.2089207524510313,
+        "competitive_moat": -0.1885027200070817,
+        "innovation_momentum": -0.026053998614020732,
+        "management_consistency": -0.03347050096545828
+      },
+      "R_5": {
+        "overall_sentiment": 0.024277109506717437,
+        "confidence_score": 0.10035448855224469,
+        "forward_guidance_tone": 0.036918216459734865,
+        "risk_disclosure_intensity": -0.09175221661637091,
+        "qa_evasiveness": -0.08631681869117427,
+        "quantitative_specificity": -0.17735240423839085,
+        "capex_enthusiasm": 0.0811564344355398,
+        "demand_strength": 0.043880823953634,
+        "pricing_power": -0.1994981123164251,
+        "competitive_moat": -0.19160474317414725,
+        "innovation_momentum": -0.011354034324123588,
+        "management_consistency": 0.004431386962059254
+      },
+      "R_10": {
+        "overall_sentiment": 0.10985577756417705,
+        "confidence_score": 0.289593128010715,
+        "forward_guidance_tone": 0.13308100504840947,
+        "risk_disclosure_intensity": -0.11390202837312796,
+        "qa_evasiveness": -0.16857179869475808,
+        "quantitative_specificity": 0.004198896464293715,
+        "capex_enthusiasm": 0.1304799507032716,
+        "demand_strength": 0.11134687588574116,
+        "pricing_power": 0.05759765580691767,
+        "competitive_moat": -0.02794664525805436,
+        "innovation_momentum": 0.2260972373649584,
+        "management_consistency": 0.20688013097344798
+      },
+      "R_20": {
+        "overall_sentiment": 0.032685586237999054,
+        "confidence_score": 0.1415073518942704,
+        "forward_guidance_tone": 0.07642721427858887,
+        "risk_disclosure_intensity": -0.14218816155479003,
+        "qa_evasiveness": 0.019200615751395166,
+        "quantitative_specificity": -0.10866765395284543,
+        "capex_enthusiasm": -0.03683607654350497,
+        "demand_strength": 0.03726248406375535,
+        "pricing_power": 0.1300604125965252,
+        "competitive_moat": 0.030675396397045508,
+        "innovation_momentum": 0.1867669989190402,
+        "management_consistency": 0.0829669438365778
+      },
+      "R_60": {
+        "overall_sentiment": -0.0011630277020621277,
+        "confidence_score": 0.06915070680449625,
+        "forward_guidance_tone": 0.003347937972132814,
+        "risk_disclosure_intensity": -0.053425097544289896,
+        "qa_evasiveness": -0.00962224507923476,
+        "quantitative_specificity": -0.31013834758273684,
+        "capex_enthusiasm": -0.08657141496641123,
+        "demand_strength": 0.02917057884493325,
+        "pricing_power": -0.07568486400212127,
+        "competitive_moat": -0.11014433968537642,
+        "innovation_momentum": 0.2779439696015025,
+        "management_consistency": -0.042145157885120126
+      },
+      "R_180": {
+        "overall_sentiment": -0.09286078867621671,
+        "confidence_score": -0.07750176294783104,
+        "forward_guidance_tone": -0.07451149729811606,
+        "risk_disclosure_intensity": 0.07070391023116615,
+        "qa_evasiveness": -0.06356002139271774,
+        "quantitative_specificity": -0.2472037396489087,
+        "capex_enthusiasm": -0.1995952054784073,
+        "demand_strength": -0.08557582304196654,
+        "pricing_power": -0.10064844534323339,
+        "competitive_moat": -0.027472562951445324,
+        "innovation_momentum": 0.3704110708460765,
+        "management_consistency": -0.0831347349144606
+      },
+      "alpha_1": {
+        "overall_sentiment": 0.13268595091086513,
+        "confidence_score": 0.15873422832828335,
+        "forward_guidance_tone": 0.10339679505901632,
+        "risk_disclosure_intensity": -0.13675131123100678,
+        "qa_evasiveness": -0.06964270667804282,
+        "quantitative_specificity": -0.15370862097868015,
+        "capex_enthusiasm": 0.07097885553130152,
+        "demand_strength": 0.15440956683417834,
+        "pricing_power": -0.11994639070421201,
+        "competitive_moat": -0.144239019180021,
+        "innovation_momentum": 0.06203500186537671,
+        "management_consistency": -0.03331047102851851
+      },
+      "alpha_3": {
+        "overall_sentiment": 0.001751514948676286,
+        "confidence_score": -0.009488887934432103,
+        "forward_guidance_tone": 0.011662223144162202,
+        "risk_disclosure_intensity": -0.04437787607446478,
+        "qa_evasiveness": -0.04440686095511441,
+        "quantitative_specificity": -0.20570605530520553,
+        "capex_enthusiasm": -0.017755984275791004,
+        "demand_strength": -0.004296900548971569,
+        "pricing_power": -0.19245500016346845,
+        "competitive_moat": -0.22450611322948705,
+        "innovation_momentum": -0.07455691987109735,
+        "management_consistency": -0.08296476104253465
+      },
+      "alpha_5": {
+        "overall_sentiment": 0.019199064900447538,
+        "confidence_score": 0.06954805635784592,
+        "forward_guidance_tone": 0.0323981852883878,
+        "risk_disclosure_intensity": -0.06843938397911359,
+        "qa_evasiveness": -0.03817325322861218,
+        "quantitative_specificity": -0.23387185974429914,
+        "capex_enthusiasm": 0.015407041775679937,
+        "demand_strength": 0.040156398008980236,
+        "pricing_power": -0.18346362464283297,
+        "competitive_moat": -0.23009820000828754,
+        "innovation_momentum": -0.08311851682152568,
+        "management_consistency": -0.045813847877925494
+      },
+      "alpha_10": {
+        "overall_sentiment": 0.14527094264372087,
+        "confidence_score": 0.26839830170321544,
+        "forward_guidance_tone": 0.16564487971903,
+        "risk_disclosure_intensity": -0.14014645984122348,
+        "qa_evasiveness": -0.13620238019058042,
+        "quantitative_specificity": -0.10211899367517213,
+        "capex_enthusiasm": 0.10529967602697753,
+        "demand_strength": 0.15073113648004055,
+        "pricing_power": 0.0387562736794226,
+        "competitive_moat": -0.042164768334581215,
+        "innovation_momentum": 0.21051858464392925,
+        "management_consistency": 0.15343910619633713
+      },
+      "alpha_20": {
+        "overall_sentiment": 0.051431888388564495,
+        "confidence_score": 0.15565152188930687,
+        "forward_guidance_tone": 0.10973004642958514,
+        "risk_disclosure_intensity": -0.13376165290178244,
+        "qa_evasiveness": -0.10547387177162604,
+        "quantitative_specificity": -0.33692913133728764,
+        "capex_enthusiasm": -0.05814607903037585,
+        "demand_strength": 0.0834611838240921,
+        "pricing_power": 0.04962344644461091,
+        "competitive_moat": -0.08627185357728365,
+        "innovation_momentum": 0.25379027104512597,
+        "management_consistency": -0.047202648068803185
+      },
+      "alpha_60": {
+        "overall_sentiment": 0.03411159392013599,
+        "confidence_score": 0.1491753190171528,
+        "forward_guidance_tone": 0.08041925079001573,
+        "risk_disclosure_intensity": -0.10164128783164134,
+        "qa_evasiveness": -0.16648342485434595,
+        "quantitative_specificity": -0.33585482834390906,
+        "capex_enthusiasm": -0.09159097093742867,
+        "demand_strength": 0.08092632054878177,
+        "pricing_power": 0.03253220052007226,
+        "competitive_moat": -0.1300289193543523,
+        "innovation_momentum": 0.37342827451521243,
+        "management_consistency": -0.0799173598795281
+      },
+      "alpha_180": {
+        "overall_sentiment": -0.054490428027132096,
+        "confidence_score": -0.04123283322309757,
+        "forward_guidance_tone": -0.010513570990422091,
+        "risk_disclosure_intensity": -0.010122669185612831,
+        "qa_evasiveness": -0.16500286329354852,
+        "quantitative_specificity": -0.3336285716003173,
+        "capex_enthusiasm": -0.15843820998662606,
+        "demand_strength": -0.018484555061121268,
+        "pricing_power": -0.012023170470012973,
+        "competitive_moat": -0.05674715060913617,
+        "innovation_momentum": 0.42739971677592525,
+        "management_consistency": -0.13061000538085332
+      }
+    },
+    "significant_pairs": [
+      {
+        "dimension": "confidence_score",
+        "return_window": "R_10",
+        "pearson_r": 0.289593128010715,
+        "p_value": 0.0483335712393879
+      },
+      {
+        "dimension": "confidence_score",
+        "return_window": "alpha_10",
+        "pearson_r": 0.26839830170321544,
+        "p_value": 0.06813259957276668
+      },
+      {
+        "dimension": "quantitative_specificity",
+        "return_window": "R_60",
+        "pearson_r": -0.31013834758273684,
+        "p_value": 0.03594029626904069
+      },
+      {
+        "dimension": "quantitative_specificity",
+        "return_window": "alpha_20",
+        "pearson_r": -0.33692913133728764,
+        "p_value": 0.02056707498836825
+      },
+      {
+        "dimension": "quantitative_specificity",
+        "return_window": "alpha_60",
+        "pearson_r": -0.33585482834390906,
+        "p_value": 0.02249410392412364
+      },
+      {
+        "dimension": "quantitative_specificity",
+        "return_window": "alpha_180",
+        "pearson_r": -0.3336285716003173,
+        "p_value": 0.02688586323597838
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "R_60",
+        "pearson_r": 0.2779439696015025,
+        "p_value": 0.06144665039026774
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "R_180",
+        "pearson_r": 0.3704110708460765,
+        "p_value": 0.013322192115841888
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "alpha_20",
+        "pearson_r": 0.25379027104512597,
+        "p_value": 0.08518627443923593
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "alpha_60",
+        "pearson_r": 0.37342827451521243,
+        "p_value": 0.01058145374011293
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "alpha_180",
+        "pearson_r": 0.42739971677592525,
+        "p_value": 0.0038075471374870258
+      }
+    ]
+  },
+  "軟體平台": {
+    "n_samples": 72,
+    "symbols": [
+      "MSFT",
+      "GOOGL",
+      "META"
+    ],
+    "correlation_matrix": {
+      "R_1": {
+        "overall_sentiment": -0.021627278419898137,
+        "confidence_score": -0.047111009755300866,
+        "forward_guidance_tone": -0.047752754666262304,
+        "risk_disclosure_intensity": -0.013447379467360505,
+        "qa_evasiveness": -0.030961077071517636,
+        "quantitative_specificity": -0.10448838005596571,
+        "capex_enthusiasm": -0.04785988788487587,
+        "demand_strength": -0.03416722538063875,
+        "pricing_power": -0.005821825848929804,
+        "competitive_moat": -0.0011993971731967777,
+        "innovation_momentum": -0.08455627542971626,
+        "management_consistency": -0.011294343969245418
+      },
+      "R_3": {
+        "overall_sentiment": -0.01235200123283485,
+        "confidence_score": 0.0011847166252863944,
+        "forward_guidance_tone": -0.06692054359579229,
+        "risk_disclosure_intensity": 0.08706539065993418,
+        "qa_evasiveness": -0.02147358637322827,
+        "quantitative_specificity": -0.14858022363078405,
+        "capex_enthusiasm": -0.10941880180530421,
+        "demand_strength": -0.07977960384643658,
+        "pricing_power": -0.10115598736893479,
+        "competitive_moat": 0.007314063182708663,
+        "innovation_momentum": -0.028347744205851545,
+        "management_consistency": 0.07694468988367448
+      },
+      "R_5": {
+        "overall_sentiment": 0.1445332716617443,
+        "confidence_score": 0.14156944350552977,
+        "forward_guidance_tone": 0.02916111727783488,
+        "risk_disclosure_intensity": -0.004845309050801265,
+        "qa_evasiveness": -0.08520532846789566,
+        "quantitative_specificity": -0.08965990039767191,
+        "capex_enthusiasm": 0.03408067963919243,
+        "demand_strength": 0.13975202417682375,
+        "pricing_power": 0.09235875141400922,
+        "competitive_moat": 0.0714671507012444,
+        "innovation_momentum": 0.04563042333857067,
+        "management_consistency": 0.14876320140379717
+      },
+      "R_10": {
+        "overall_sentiment": -0.008056816704761549,
+        "confidence_score": -0.027867762431374107,
+        "forward_guidance_tone": -0.04289947335106771,
+        "risk_disclosure_intensity": 0.05377444714459428,
+        "qa_evasiveness": -0.014131901824741472,
+        "quantitative_specificity": -0.14366495585683386,
+        "capex_enthusiasm": 0.02314490275415551,
+        "demand_strength": -0.0375356478842567,
+        "pricing_power": -0.0011063979850637756,
+        "competitive_moat": -0.04249286501392385,
+        "innovation_momentum": 0.06669033236653674,
+        "management_consistency": -0.06536155648288187
+      },
+      "R_20": {
+        "overall_sentiment": -0.03129620918565429,
+        "confidence_score": -0.007082195185710322,
+        "forward_guidance_tone": -0.09349102446931515,
+        "risk_disclosure_intensity": 0.12933759312887677,
+        "qa_evasiveness": 0.07387863654943869,
+        "quantitative_specificity": -0.3194703362538867,
+        "capex_enthusiasm": -0.065619646977671,
+        "demand_strength": -0.07570968187190871,
+        "pricing_power": -0.12617133419138737,
+        "competitive_moat": 0.0675473038399619,
+        "innovation_momentum": 0.05760096457494812,
+        "management_consistency": -0.0474495821178052
+      },
+      "R_60": {
+        "overall_sentiment": 0.038345581271610016,
+        "confidence_score": 0.019621761202537655,
+        "forward_guidance_tone": 0.06781897680358283,
+        "risk_disclosure_intensity": 0.019591298818938088,
+        "qa_evasiveness": -0.03399313897044297,
+        "quantitative_specificity": -0.08295541946207698,
+        "capex_enthusiasm": -0.07758902833141185,
+        "demand_strength": -0.07139290470844042,
+        "pricing_power": -0.10172327512725075,
+        "competitive_moat": 0.115628935754598,
+        "innovation_momentum": 0.01200459350417768,
+        "management_consistency": -0.06497668934734704
+      },
+      "R_180": {
+        "overall_sentiment": -0.17358971010918833,
+        "confidence_score": -0.1857967536426251,
+        "forward_guidance_tone": -0.03994829634898464,
+        "risk_disclosure_intensity": 0.06586647620742392,
+        "qa_evasiveness": 0.010213010382962476,
+        "quantitative_specificity": -0.15784504476972058,
+        "capex_enthusiasm": -0.17311717551832537,
+        "demand_strength": -0.2188672083996248,
+        "pricing_power": -0.3013343444771286,
+        "competitive_moat": 0.015767607188676938,
+        "innovation_momentum": -0.08222590414493607,
+        "management_consistency": -0.18084941239438745
+      },
+      "alpha_1": {
+        "overall_sentiment": -0.10652741690977069,
+        "confidence_score": -0.10377440377260422,
+        "forward_guidance_tone": -0.15578121622637683,
+        "risk_disclosure_intensity": 0.10504350293043214,
+        "qa_evasiveness": -0.1013828943169421,
+        "quantitative_specificity": -0.0360021675249956,
+        "capex_enthusiasm": -0.1758644089996526,
+        "demand_strength": -0.15450441099888124,
+        "pricing_power": -0.08819612143394634,
+        "competitive_moat": -0.011810815300915475,
+        "innovation_momentum": -0.06030055406553276,
+        "management_consistency": 0.008866415205829474
+      },
+      "alpha_3": {
+        "overall_sentiment": -0.002542581974082095,
+        "confidence_score": 0.04651876462836051,
+        "forward_guidance_tone": -0.08132013754131216,
+        "risk_disclosure_intensity": 0.09479344207547248,
+        "qa_evasiveness": -0.10461031832390733,
+        "quantitative_specificity": -0.05723084990125535,
+        "capex_enthusiasm": -0.16009259391729175,
+        "demand_strength": -0.10821679537512416,
+        "pricing_power": -0.06418029739467176,
+        "competitive_moat": 0.07107146553021443,
+        "innovation_momentum": 0.03464174236698199,
+        "management_consistency": 0.15764392639910593
+      },
+      "alpha_5": {
+        "overall_sentiment": 0.03646387630443608,
+        "confidence_score": 0.06579750677881457,
+        "forward_guidance_tone": -0.07661329754902081,
+        "risk_disclosure_intensity": 0.08159726755671093,
+        "qa_evasiveness": -0.1211561920913711,
+        "quantitative_specificity": -0.055461678534622874,
+        "capex_enthusiasm": -0.0637352184108066,
+        "demand_strength": -0.0041308745368207195,
+        "pricing_power": 0.04121082431598805,
+        "competitive_moat": 0.031924075905345815,
+        "innovation_momentum": 0.010851403290412738,
+        "management_consistency": 0.08506364623534671
+      },
+      "alpha_10": {
+        "overall_sentiment": -0.15123119358221876,
+        "confidence_score": -0.12322987126432862,
+        "forward_guidance_tone": -0.218232181725635,
+        "risk_disclosure_intensity": 0.17808994580063514,
+        "qa_evasiveness": -0.03393170559235486,
+        "quantitative_specificity": -0.13300288201446117,
+        "capex_enthusiasm": -0.04457815049097423,
+        "demand_strength": -0.20432205206784243,
+        "pricing_power": -0.09114814101586977,
+        "competitive_moat": -0.09646349771107512,
+        "innovation_momentum": -0.000545117844629503,
+        "management_consistency": -0.10395196537094205
+      },
+      "alpha_20": {
+        "overall_sentiment": -0.07999257951736372,
+        "confidence_score": -0.03735874072188586,
+        "forward_guidance_tone": -0.1309252477321923,
+        "risk_disclosure_intensity": 0.11445225575812776,
+        "qa_evasiveness": -0.0031023771742298284,
+        "quantitative_specificity": -0.20157600534434436,
+        "capex_enthusiasm": -0.13099854201297106,
+        "demand_strength": -0.16372419675662822,
+        "pricing_power": -0.1299868744408525,
+        "competitive_moat": 0.029642937951485163,
+        "innovation_momentum": 0.0024730958850718576,
+        "management_consistency": -0.06174716099533677
+      },
+      "alpha_60": {
+        "overall_sentiment": -0.07392108668349025,
+        "confidence_score": -0.08043622242841407,
+        "forward_guidance_tone": 0.0042053298952863805,
+        "risk_disclosure_intensity": 0.033787747117082954,
+        "qa_evasiveness": -0.07473378607902131,
+        "quantitative_specificity": 0.07657917751340208,
+        "capex_enthusiasm": -0.14215080759819623,
+        "demand_strength": -0.16757045322982583,
+        "pricing_power": -0.15229327052687297,
+        "competitive_moat": -0.009503192228077856,
+        "innovation_momentum": -0.05274305450219417,
+        "management_consistency": -0.16173873519854168
+      },
+      "alpha_180": {
+        "overall_sentiment": -0.22613335451918753,
+        "confidence_score": -0.2443988645461192,
+        "forward_guidance_tone": -0.06579185394785918,
+        "risk_disclosure_intensity": 0.05532335795259558,
+        "qa_evasiveness": 0.012326412133393666,
+        "quantitative_specificity": -0.09367936261516753,
+        "capex_enthusiasm": -0.1783509343112313,
+        "demand_strength": -0.2603473922945884,
+        "pricing_power": -0.32999274913140614,
+        "competitive_moat": -0.0914798715642352,
+        "innovation_momentum": -0.15856170630546174,
+        "management_consistency": -0.2673326431176451
+      }
+    },
+    "significant_pairs": [
+      {
+        "dimension": "overall_sentiment",
+        "return_window": "alpha_180",
+        "pearson_r": -0.22613335451918753,
+        "p_value": 0.072372992220265
+      },
+      {
+        "dimension": "confidence_score",
+        "return_window": "alpha_180",
+        "pearson_r": -0.2443988645461192,
+        "p_value": 0.05162096153106692
+      },
+      {
+        "dimension": "forward_guidance_tone",
+        "return_window": "alpha_10",
+        "pearson_r": -0.218232181725635,
+        "p_value": 0.06953480248336022
+      },
+      {
+        "dimension": "quantitative_specificity",
+        "return_window": "R_20",
+        "pearson_r": -0.3194703362538867,
+        "p_value": 0.007022162272743623
+      },
+      {
+        "dimension": "quantitative_specificity",
+        "return_window": "alpha_20",
+        "pearson_r": -0.20157600534434436,
+        "p_value": 0.09425563010295027
+      },
+      {
+        "dimension": "demand_strength",
+        "return_window": "R_180",
+        "pearson_r": -0.2188672083996248,
+        "p_value": 0.08228786207083626
+      },
+      {
+        "dimension": "demand_strength",
+        "return_window": "alpha_10",
+        "pearson_r": -0.20432205206784243,
+        "p_value": 0.08976278075741756
+      },
+      {
+        "dimension": "demand_strength",
+        "return_window": "alpha_180",
+        "pearson_r": -0.2603473922945884,
+        "p_value": 0.03773639785638787
+      },
+      {
+        "dimension": "pricing_power",
+        "return_window": "R_180",
+        "pearson_r": -0.3013343444771286,
+        "p_value": 0.01553348564696373
+      },
+      {
+        "dimension": "pricing_power",
+        "return_window": "alpha_180",
+        "pearson_r": -0.32999274913140614,
+        "p_value": 0.007745804147558909
+      },
+      {
+        "dimension": "management_consistency",
+        "return_window": "alpha_180",
+        "pearson_r": -0.2673326431176451,
+        "p_value": 0.03271660096540728
+      }
+    ]
+  },
+  "消費科技": {
+    "n_samples": 72,
+    "symbols": [
+      "AAPL",
+      "AMZN",
+      "TSLA"
+    ],
+    "correlation_matrix": {
+      "R_1": {
+        "overall_sentiment": 0.06846987947035904,
+        "confidence_score": 0.05926625985142083,
+        "forward_guidance_tone": 0.057344879664041074,
+        "risk_disclosure_intensity": -0.003384487567911404,
+        "qa_evasiveness": 0.12499987075643386,
+        "quantitative_specificity": -0.033267090697790436,
+        "capex_enthusiasm": 0.03818206577022615,
+        "demand_strength": -0.05126910703045808,
+        "pricing_power": -0.14051134575329347,
+        "competitive_moat": 0.11229611246912115,
+        "innovation_momentum": 0.1150314504781187,
+        "management_consistency": -0.12677209105829998
+      },
+      "R_3": {
+        "overall_sentiment": 0.06397079510755099,
+        "confidence_score": 0.11256385423043128,
+        "forward_guidance_tone": 0.10352084700347496,
+        "risk_disclosure_intensity": 0.051671866248293105,
+        "qa_evasiveness": 0.16413692281341374,
+        "quantitative_specificity": -0.10191997488684379,
+        "capex_enthusiasm": 0.09850868459753298,
+        "demand_strength": -0.053445138026923245,
+        "pricing_power": -0.15588291653243475,
+        "competitive_moat": 0.24759251276194325,
+        "innovation_momentum": 0.2768818516369106,
+        "management_consistency": 0.03354823967485886
+      },
+      "R_5": {
+        "overall_sentiment": 0.22202139831477746,
+        "confidence_score": 0.2091980248365409,
+        "forward_guidance_tone": 0.19019170457181567,
+        "risk_disclosure_intensity": -0.07848828448677245,
+        "qa_evasiveness": 0.026281204258078464,
+        "quantitative_specificity": 0.02212069055775661,
+        "capex_enthusiasm": 0.23175845491450275,
+        "demand_strength": 0.07992164639571511,
+        "pricing_power": -0.010759028051910355,
+        "competitive_moat": 0.15766079498995905,
+        "innovation_momentum": 0.1909036285810724,
+        "management_consistency": 0.21388388062788644
+      },
+      "R_10": {
+        "overall_sentiment": 0.10831187830164221,
+        "confidence_score": 0.05648998662691597,
+        "forward_guidance_tone": 0.0955767442813155,
+        "risk_disclosure_intensity": -0.0040889126009903826,
+        "qa_evasiveness": 0.10220292975883394,
+        "quantitative_specificity": 0.07579082206550948,
+        "capex_enthusiasm": 0.1469856958625192,
+        "demand_strength": 0.026783223553647623,
+        "pricing_power": -0.08978997975163357,
+        "competitive_moat": 0.09899177545041613,
+        "innovation_momentum": 0.07440522130830524,
+        "management_consistency": 0.15499541333327224
+      },
+      "R_20": {
+        "overall_sentiment": -0.015318455695638007,
+        "confidence_score": -0.038750435809235484,
+        "forward_guidance_tone": 0.007795549044538632,
+        "risk_disclosure_intensity": 0.06833672120467443,
+        "qa_evasiveness": 0.1779608607275506,
+        "quantitative_specificity": -0.050000838206925136,
+        "capex_enthusiasm": 0.10238872366287335,
+        "demand_strength": -0.11320493211173406,
+        "pricing_power": -0.2518966685737906,
+        "competitive_moat": 0.036591939169081045,
+        "innovation_momentum": 0.11918014367501295,
+        "management_consistency": 0.11375210532085833
+      },
+      "R_60": {
+        "overall_sentiment": -0.012385397620197136,
+        "confidence_score": 0.13149844273324413,
+        "forward_guidance_tone": 0.08806225936283238,
+        "risk_disclosure_intensity": 0.04842225467648107,
+        "qa_evasiveness": 0.17312047782605972,
+        "quantitative_specificity": -0.036845993457337904,
+        "capex_enthusiasm": 0.16516217637989322,
+        "demand_strength": -0.10843380159147117,
+        "pricing_power": -0.29506778092508507,
+        "competitive_moat": 0.10989989856664444,
+        "innovation_momentum": 0.20793528846493384,
+        "management_consistency": -0.04844704375427705
+      },
+      "R_180": {
+        "overall_sentiment": 0.015269318323023844,
+        "confidence_score": 0.13144542400466622,
+        "forward_guidance_tone": 0.1513415502663375,
+        "risk_disclosure_intensity": 0.04327502084654983,
+        "qa_evasiveness": 0.016034647806694148,
+        "quantitative_specificity": -0.1927012988190854,
+        "capex_enthusiasm": 0.0987861883807272,
+        "demand_strength": -0.11303750114303124,
+        "pricing_power": -0.19715269256836634,
+        "competitive_moat": 0.1492064613811335,
+        "innovation_momentum": 0.14454165170696126,
+        "management_consistency": 0.0759918584623061
+      },
+      "alpha_1": {
+        "overall_sentiment": 0.03332735279687881,
+        "confidence_score": 0.02561441600504239,
+        "forward_guidance_tone": 0.03511223208884971,
+        "risk_disclosure_intensity": -0.009396498270122428,
+        "qa_evasiveness": 0.12940214245233592,
+        "quantitative_specificity": -0.01109493878184089,
+        "capex_enthusiasm": 0.016153003639100282,
+        "demand_strength": -0.08515426595201134,
+        "pricing_power": -0.172313823610187,
+        "competitive_moat": 0.08510782526676774,
+        "innovation_momentum": 0.116836515448868,
+        "management_consistency": -0.14781024043627797
+      },
+      "alpha_3": {
+        "overall_sentiment": 0.02027696862606157,
+        "confidence_score": 0.08126375807009872,
+        "forward_guidance_tone": 0.0884359222367192,
+        "risk_disclosure_intensity": 0.09141362807363912,
+        "qa_evasiveness": 0.18039121741208716,
+        "quantitative_specificity": -0.1287289425093664,
+        "capex_enthusiasm": 0.11363663583526065,
+        "demand_strength": -0.15592179785345583,
+        "pricing_power": -0.23917219255547467,
+        "competitive_moat": 0.2265692569196116,
+        "innovation_momentum": 0.3217040925932953,
+        "management_consistency": 0.00560614352723942
+      },
+      "alpha_5": {
+        "overall_sentiment": 0.14616448282543276,
+        "confidence_score": 0.1488302922371199,
+        "forward_guidance_tone": 0.14455622947412344,
+        "risk_disclosure_intensity": -0.005320962595180001,
+        "qa_evasiveness": 0.057311434352496735,
+        "quantitative_specificity": 0.013784753885288898,
+        "capex_enthusiasm": 0.1865534791265917,
+        "demand_strength": 0.005582468459047252,
+        "pricing_power": -0.07502247893522133,
+        "competitive_moat": 0.17753450660165454,
+        "innovation_momentum": 0.2118836236030587,
+        "management_consistency": 0.17399700620223507
+      },
+      "alpha_10": {
+        "overall_sentiment": 0.06886908355748454,
+        "confidence_score": 0.03649544021376072,
+        "forward_guidance_tone": 0.06656592189880356,
+        "risk_disclosure_intensity": 0.0396711652927349,
+        "qa_evasiveness": 0.08054123775697786,
+        "quantitative_specificity": 0.049695713570789515,
+        "capex_enthusiasm": 0.1398546430022808,
+        "demand_strength": 0.03371857612725747,
+        "pricing_power": -0.08305761966956744,
+        "competitive_moat": 0.1372539969684106,
+        "innovation_momentum": 0.11448247168056734,
+        "management_consistency": 0.08336417068540307
+      },
+      "alpha_20": {
+        "overall_sentiment": 0.02233007369291172,
+        "confidence_score": -0.00900012307400836,
+        "forward_guidance_tone": 0.03809467708088983,
+        "risk_disclosure_intensity": 0.03891809575013709,
+        "qa_evasiveness": 0.17331458767288002,
+        "quantitative_specificity": -0.011859716451157985,
+        "capex_enthusiasm": 0.10728528853377255,
+        "demand_strength": -0.0773296505163479,
+        "pricing_power": -0.19613755609748562,
+        "competitive_moat": 0.044661569645815226,
+        "innovation_momentum": 0.123679347190007,
+        "management_consistency": 0.12399694332190084
+      },
+      "alpha_60": {
+        "overall_sentiment": 0.0033792746117546762,
+        "confidence_score": 0.1584710812995543,
+        "forward_guidance_tone": 0.09703423364133104,
+        "risk_disclosure_intensity": 0.05583264631311887,
+        "qa_evasiveness": 0.17222751133651765,
+        "quantitative_specificity": 0.0025827616704369068,
+        "capex_enthusiasm": 0.14433730495925937,
+        "demand_strength": -0.06365137781484143,
+        "pricing_power": -0.2320489259158001,
+        "competitive_moat": 0.13217598140945414,
+        "innovation_momentum": 0.20275494526312016,
+        "management_consistency": -0.050671069743102794
+      },
+      "alpha_180": {
+        "overall_sentiment": 0.024441046074838945,
+        "confidence_score": 0.15892020673203586,
+        "forward_guidance_tone": 0.16319993828508,
+        "risk_disclosure_intensity": 0.06201705000422693,
+        "qa_evasiveness": 0.018931737496060832,
+        "quantitative_specificity": -0.15174704967187036,
+        "capex_enthusiasm": 0.08916468418307658,
+        "demand_strength": -0.0774865531679803,
+        "pricing_power": -0.1490627058870824,
+        "competitive_moat": 0.14785460455664345,
+        "innovation_momentum": 0.1458761719816138,
+        "management_consistency": 0.07267579356664303
+      }
+    },
+    "significant_pairs": [
+      {
+        "dimension": "overall_sentiment",
+        "return_window": "R_5",
+        "pearson_r": 0.22202139831477746,
+        "p_value": 0.06276144211173498
+      },
+      {
+        "dimension": "confidence_score",
+        "return_window": "R_5",
+        "pearson_r": 0.2091980248365409,
+        "p_value": 0.079967440385346
+      },
+      {
+        "dimension": "capex_enthusiasm",
+        "return_window": "R_5",
+        "pearson_r": 0.23175845491450275,
+        "p_value": 0.051806824235381445
+      },
+      {
+        "dimension": "pricing_power",
+        "return_window": "R_20",
+        "pearson_r": -0.2518966685737906,
+        "p_value": 0.034078182618780366
+      },
+      {
+        "dimension": "pricing_power",
+        "return_window": "R_60",
+        "pearson_r": -0.29506778092508507,
+        "p_value": 0.013843115691547182
+      },
+      {
+        "dimension": "pricing_power",
+        "return_window": "alpha_3",
+        "pearson_r": -0.23917219255547467,
+        "p_value": 0.044559853993341135
+      },
+      {
+        "dimension": "pricing_power",
+        "return_window": "alpha_60",
+        "pearson_r": -0.2320489259158001,
+        "p_value": 0.055034127571840924
+      },
+      {
+        "dimension": "competitive_moat",
+        "return_window": "R_3",
+        "pearson_r": 0.24759251276194325,
+        "p_value": 0.03736501202569003
+      },
+      {
+        "dimension": "competitive_moat",
+        "return_window": "alpha_3",
+        "pearson_r": 0.2265692569196116,
+        "p_value": 0.05743202548877317
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "R_3",
+        "pearson_r": 0.2768818516369106,
+        "p_value": 0.019411266326691948
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "R_60",
+        "pearson_r": 0.20793528846493384,
+        "p_value": 0.08644061498968265
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "alpha_3",
+        "pearson_r": 0.3217040925932953,
+        "p_value": 0.006223908145656917
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "alpha_5",
+        "pearson_r": 0.2118836236030587,
+        "p_value": 0.07608409413406778
+      },
+      {
+        "dimension": "innovation_momentum",
+        "return_window": "alpha_60",
+        "pearson_r": 0.20275494526312016,
+        "p_value": 0.09475247058742571
+      },
+      {
+        "dimension": "management_consistency",
+        "return_window": "R_5",
+        "pearson_r": 0.21388388062788644,
+        "p_value": 0.07329069885905674
+      }
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>財報情緒密碼：台積電法說會解密報告</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --background-color: #f8fafc;
+            --text-color: #334155;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 0.75rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .highlight {
+            background-color: #eff6ff;
+            border-left: 4px solid var(--primary-color);
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .param-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1.2rem;
+            transition: transform 0.2s;
+        }
+
+        .param-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .param-title {
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: bold;
+            margin-left: auto;
+        }
+
+        .badge-positive { background-color: #dcfce7; color: #1d4ed8; }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #f1f5f9;
+            font-weight: bold;
+            color: var(--secondary-color);
+        }
+
+        .step-box {
+            background-color: #fffbeb;
+            border: 1px solid #fde047;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 2rem;
+            height: 2rem;
+            background-color: #eab308;
+            color: white;
+            border-radius: 50%;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🤖 財報情緒密碼：台積電 (TSM) 法說會解密報告</h1>
+        <p>將「高層的發言」化為「預測股價的數據」</p>
+    </header>
+
+    <div class="card">
+        <h2>🧐 寫給新手的導讀：我們在做什麼？</h2>
+        <p>想像一下，你是一位想投資台積電的股民。每三個月，台積電的 CEO（魏哲家）和 CFO 會舉辦一場「法說會」（Earnings Call），向全世界的分析師報告上一季賺了多少錢，以及<b>更重要的——未來一季會賺多少錢</b>。</p>
+        <p>在這些會議中，管理層講話都非常小心。如果他們說「需求強勁」(Strong demand)，股價通常會漲；如果他們開始談論「庫存調整」(Inventory correction) 或「大環境不確定性」，股價可能就會跌。</p>
+        <p>過去，分析師只能靠「肉眼看逐字稿」或「自己感覺」來判斷高層到底有多樂觀。但現在，我們利用 <strong>AI (Gemini 3.1 Pro)</strong>，把這幾萬字的英文對話，瞬間轉化為 12 個清晰的「情緒分數」，並用統計學來驗證：<b>這 12 個分數，誰能準確預測法說會後的股價漲跌？</b></p>
+    </div>
+
+    <div class="card">
+        <h2>🧠 第一步：Gemini 3.1 Pro 是如何提取 12 個參數的？</h2>
+        <p>法說會逐字稿動輒七、八千字，我們不能只問 AI「他們開不開心？」。我們必須給 AI 一把「尺」。</p>
+        <p>我們將逐字稿餵給超強的語言模型 <strong>Gemini 3.1 Pro</strong>，並給予它明確的「提示詞」(Prompt)，要求它扮演頂級的華爾街財務分析師。我們讓 Gemini 逐字逐句閱讀，並在以下 12 個維度上，給出從 -1（極度悲觀）到 1（極度樂觀），或是 0 到 1 的具體分數：</p>
+        
+        <div class="grid">
+            <div class="param-card">
+                <div class="param-title">1. 整體情緒 (Overall Sentiment)</div>
+                <p>全篇演講聽下來，整體的氛圍是偏向樂觀還是悲觀？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">2. 管理層信心 (Confidence Score)</div>
+                <p>他們是用「我們一定會...」(Will) 還是「我們希望...」(Hope)？語氣有多肯定？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">3. 前瞻指引語氣 (Forward Guidance)</div>
+                <p>談到「未來一季」的業績時，他們的態度如何？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">4. 風險揭露 (Risk Disclosure)</div>
+                <p>花了多少篇幅在警告投資人「未來有風險」、「大環境不好」？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">5. QA閃躲程度 (QA Evasiveness)</div>
+                <p>當分析師問出尖銳問題時，高層是正面回答，還是轉移話題？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">6. 數據具體度 (Quant Specificity)</div>
+                <p>是給出具體的「毛利率預計 53%」，還是只說「毛利率會不錯」？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">7. 資本支出積極度 (Capex Enthusiasm) <span class="badge badge-positive">本次亮點</span></div>
+                <p>對蓋新廠、買設備的態度有多積極？是「擴大投資」還是「保守縮減」？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">8. 需求強度 (Demand Strength)</div>
+                <p>客戶的訂單多不多？有沒有用到「前所未見的強勁」這類字眼？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">9. 定價能力 (Pricing Power)</div>
+                <p>能不能對客戶漲價？是否提到「反映我們的價值」(Earn our value)？</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">10. 競爭優勢 (Competitive Moat)</div>
+                <p>對自家技術領先對手（例如 2 奈米、3 奈米）的自信程度。</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">11. 創新動能 (Innovation Momentum)</div>
+                <p>提到 AI、新技術突破的頻率和熱情。</p>
+            </div>
+            <div class="param-card">
+                <div class="param-title">12. 言行一致 (Management Consistency)</div>
+                <p>這次講的話，跟上一季答應的事情有沒有互相矛盾？</p>
+            </div>
+        </div>
+        <div class="highlight">
+            <strong>💡 簡單來說：</strong>我們把「高深的語言藝術」，變成了 Excel 報表裡「冷冰冰但好計算的數字」。台積電過去 24 個季度的法說會，就這樣變成了 24 組包含 12 個分數的數據。
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📈 第二步：什麼是「預測力」？</h2>
+        <p>有了這 12 個分數後，我們接下來要問：<b>「這些分數真的能預測股價嗎？」</b></p>
+        <p>為此，我們收集了台積電每次法說會後 1 天、3 天、10 天、一直到 60 天的股價變化。但為了公平起見，我們不能只看台積電漲多少，因為如果那天「整個台股都在大漲」，台積電漲就是理所當然的。所以我們計算的是<strong>「超額報酬」(Alpha)</strong> —— 也就是「台積電的漲幅」減去「台灣50 (0050) 的漲幅」。</p>
+        
+        <h3>統計學的魔法：相關係數 (ρ) 與 P 值 (p-value)</h3>
+        <p>我們把 AI 算出的「情緒分數」和真實的「超額報酬」放在一起比對，看它們有沒有「同進同出」的關係，這叫做<strong>相關係數</strong>：</p>
+        <ul>
+            <li><b>正相關 (大於 0)：</b> 分數越高，股價漲越多。（例如：需求強度越高，股價越漲）</li>
+            <li><b>負相關 (小於 0)：</b> 分數越高，股價跌越多。（例如：風險揭露越多，股價越跌）</li>
+            <li><b>靠近 0：</b> 兩者沒什麼關係，純屬巧合。</li>
+        </ul>
+        <p>同時，我們還要看 <strong>P 值 (p-value)</strong>。在統計學裡，P 值小於 0.05（或 0.10），代表這個結果「具有統計顯著性」，也就是說這個現象<strong>「不是運氣好賽到的，是真的有關係」</strong>。</p>
+    </div>
+
+    <div class="card">
+        <h2>🎯 第三步：台積電 (TSM) 的分析結果揭曉！</h2>
+        <p>經過 Python 程式對台積電過去 24 季（2020~2025）資料的運算，我們發現了一個非常有趣且符合半導體業界常理的結果：</p>
+
+        <div class="highlight">
+            <h3 style="margin-top: 0;">🏆 最強指標：資本支出積極度 (Capex Enthusiasm)</h3>
+            <p><strong>數據表現：</strong>與法說會後 1 天的超額報酬呈現顯著正相關（相關係數 ρ = +0.430，P值 = 0.0359）。</p>
+            <p><strong>白話文解釋：</strong>當 Gemini 判定台積電高層在法說會上對「買設備、蓋新廠（資本支出）」表現得越積極、越有信心時，隔天台積電的股價表現就會顯著打敗大盤！</p>
+            <p><strong>為什麼會這樣？</strong>因為台積電是「接單生產」的代工廠。如果沒有看到客戶（如蘋果、輝達）未來強勁的訂單需求，台積電是絕對不會隨便花幾百億美金蓋廠的。因此，「敢花大錢擴產」就是台積電向市場釋出「未來訂單接不完」的最強烈訊號，華爾街非常吃這一套。</p>
+        </div>
+
+        <p>此外，我們還觀察到：</p>
+        <ul>
+            <li><strong>風險揭露 (Risk Disclosure)：</strong> 當管理層越頻繁提到風險，法說會後 1 天的股價通常表現較差（負相關 ρ = -0.348）。投資人討厭不確定性。</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🚀 第四步：下一步怎麼做？（多變數股價預測）</h2>
+        <p>目前為止，我們只是證明了「某單一指標」（例如資本支出積極度）可以預測股價。但真實世界的股市是很複雜的，股價漲跌不會只看單一因素。</p>
+        <p>未來的進階應用，就是<strong>「利用高預測力的『多個』參數，聯手預測未來的股價」</strong>。這在資料科學中稱為「多變量迴歸 (Multiple Regression)」或「機器學習 (Machine Learning)」。</p>
+
+        <div class="step-box">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span class="step-number">1</span>
+                <h3 style="margin: 0;">挑選菁英部隊（特徵選擇）</h3>
+            </div>
+            <p>我們不再看全部 12 個參數，而是挑出剛才證明最有效的幾個：例如「資本支出積極度」、「風險揭露程度」和「定價能力」。</p>
+        </div>
+
+        <div class="step-box">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span class="step-number">2</span>
+                <h3 style="margin: 0;">建立預測方程式（訓練模型）</h3>
+            </div>
+            <p>讓電腦去找出這些參數的最佳組合權重。最後電腦可能會給出一個像這樣的公式：</p>
+            <p style="background: white; padding: 1rem; border-radius: 0.5rem; text-align: center; font-family: monospace; border: 1px dashed #ccc;">
+                預測隔天漲幅 = (0.5 × 資本支出分數) - (0.3 × 風險揭露分數) + (0.2 × 定價能力分數) + 基礎常數
+            </p>
+            <p>電腦會利用過去 24 季的歷史資料，不斷調整公式裡面的 0.5、0.3、0.2 這些乘數，直到預測出來的結果跟歷史真實股價最接近為止。</p>
+        </div>
+
+        <div class="step-box">
+            <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                <span class="step-number">3</span>
+                <h3 style="margin: 0;">實戰預測（預測未來）</h3>
+            </div>
+            <p>下一次台積電開法說會時（假設是下個月），會議一結束，我們立刻把逐字稿丟給 Gemini 3.1 Pro，瞬間得到新的 12 個分數。</p>
+            <p>我們把新的「資本支出」、「風險」分數套入剛剛算好的公式裡。如果公式算出來的結果是大於 0 的高分，我們的量化交易程式就可以在隔天開盤時「自動買進」台積電股票，獲取超額報酬！</p>
+        </div>
+        
+        <p><strong>總結：</strong>透過 Gemini AI，我們將玄乎的「語言情緒」轉化為「可量化的數據兵器」，再利用統計模型排兵布陣，最終打造出一個能聽懂 CEO 弦外之音的股價預測雷達！</p>
+    </div>
+</div>
+
+</body>
+</html>

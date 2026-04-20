@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>財報情緒密碼 — 相關性分析儀表板</title>
+  <meta name="description" content="法說會情緒量化 vs 公佈後報酬的線性回歸分析互動式報告">
+  <meta property="og:title" content="財報情緒密碼 — 相關性分析儀表板">
+  <meta property="og:description" content="12維度Gemini情緒分析 × 多時間窗口報酬率 × 線性回歸">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <style>
+    :root {
+      --bg: #0a0a14;
+      --bg-card: #12121f;
+      --text: #eef0f8;
+      --muted: #8890a8;
+      --accent: #ff4d6a;
+      --accent2: #36d399;
+      --accent3: #6c8aff;
+      --border: #1e1e35;
+      --glow: rgba(255,77,106,0.15);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', 'Noto Sans TC', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      background-image:
+        radial-gradient(circle at 10% 20%, var(--glow), transparent 30%),
+        radial-gradient(circle at 90% 80%, rgba(108,138,255,0.08), transparent 30%);
+    }
+    .wrap { max-width: 1300px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: linear-gradient(135deg, rgba(255,77,106,0.08), rgba(108,138,255,0.08));
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      margin-bottom: 2rem;
+    }
+    .hero h1 { font-size: 2.4rem; font-weight: 900; margin-bottom: 0.5rem; }
+    .hero h1 span { background: linear-gradient(135deg, var(--accent), var(--accent3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p { color: var(--muted); max-width: 700px; margin: 0 auto; }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .stat-card .num { font-size: 2.5rem; font-weight: 800; color: var(--accent); }
+    .stat-card .label { color: var(--muted); font-size: 0.9rem; margin-top: 0.3rem; }
+    .section { margin-bottom: 2rem; }
+    .section h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section h2::before {
+      content: '';
+      display: block;
+      width: 4px;
+      height: 28px;
+      background: linear-gradient(180deg, var(--accent), var(--accent3));
+      border-radius: 2px;
+    }
+    .chart-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 1.5rem;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+    }
+    .chart-box { width: 100%; height: 500px; }
+    .chart-box.short { height: 380px; }
+    .chart-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 1.5rem;
+    }
+    .note {
+      margin-top: 1.5rem;
+      padding: 1rem 1.5rem;
+      background: rgba(255,77,106,0.05);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 12px 12px 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      margin-top: 3rem;
+    }
+    @media (max-width: 900px) {
+      .chart-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>財報<span>情緒密碼</span></h1>
+      <p>法說會逐字稿 × Gemini 12維度情緒量化 × 線性回歸 — 找出文字裡真正能預測股價的密碼</p>
+      <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="m7_comprehensive_report.html" target="_blank" style="display: inline-block; padding: 0.8rem 1.5rem; background: linear-gradient(135deg, var(--accent), var(--accent3)); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; box-shadow: 0 4px 15px rgba(255, 77, 106, 0.3); transition: transform 0.2s;">
+          👉 點此閱讀：七巨頭＋台積電 終極解密報告
+        </a>
+        <a href="tsmc_sentiment_report.html" target="_blank" style="display: inline-block; padding: 0.8rem 1.5rem; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: transform 0.2s;">
+          📄 台積電單獨個案報告
+        </a>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card"><div class="num">192</div><div class="label">分析樣本數</div></div>
+      <div class="stat-card"><div class="num">8</div><div class="label">分析公司數</div></div>
+      <div class="stat-card"><div class="num">12</div><div class="label">情緒量化維度</div></div>
+      <div class="stat-card"><div class="num">9</div><div class="label">顯著相關配對 (p&lt;0.05)</div></div>
+    </div>
+
+    <div class="section">
+      <h2>相關係數熱力圖</h2>
+      <div class="chart-panel">
+        <div id="heatmapChart" class="chart-box"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>維度預測力排名</h2>
+      <div class="chart-grid">
+        <div class="chart-panel">
+          <div id="importanceChart" class="chart-box short"></div>
+        </div>
+        <div class="chart-panel">
+          <h3 style="margin-bottom:1rem;color:var(--muted);font-size:1rem;">解讀提示</h3>
+          <ul style="color:var(--muted);padding-left:1.2rem;line-height:2;">
+            <li>平均 |ρ| 越高，該維度與報酬率的線性關係越強</li>
+            <li>但高相關不代表因果，需觀察 p-value</li>
+            <li>TSM 使用 0050.TW 基準、M7 使用 SPY 基準</li>
+            <li>超額報酬（α）才是真正的預測力指標</li>
+          </ul>
+          <div class="note">
+            💡 建議重點關注「需求強度」「定價能力」「前瞻語氣」三個維度，
+            這些維度在過往研究中通常有較強的預測力。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Little Lobster Quant — 財報情緒密碼分析系統</p>
+      <p style="margin-top:0.3rem;opacity:0.5;">*投資一定有風險，本分析僅供教學研究使用，不構成任何買賣建議。</p>
+    </footer>
+  </div>
+
+  <script>
+    const DATA = {"heatmap": {"x": ["R_1", "R_3", "R_5", "R_10", "R_20", "R_60", "R_180", "alpha_1", "alpha_3", "alpha_5", "alpha_10", "alpha_20", "alpha_60", "alpha_180"], "y": ["整體情緒", "管理層信心", "前瞻語氣", "風險揭露", "QA閃躍", "數據具體度", "資本支出", "需求強度", "定價能力", "競爭優勢", "創新動能", "言行一致"], "data": [[0, 0, 0.063], [1, 0, 0.016], [2, 0, 0.137], [3, 0, 0.048], [4, 0, -0.011], [5, 0, 0.023], [6, 0, -0.03], [7, 0, 0.016], [8, 0, 0.002], [9, 0, 0.076], [10, 0, 0.008], [11, 0, 0.007], [12, 0, 0.007], [13, 0, -0.031], [0, 1, 0.058], [1, 1, 0.043], [2, 1, 0.141], [3, 1, 0.039], [4, 1, 0.001], [5, 1, 0.106], [6, 1, 0.039], [7, 1, 0.016], [8, 1, 0.043], [9, 1, 0.095], [10, 1, 0.016], [11, 1, 0.019], [12, 1, 0.108], [13, 1, 0.046], [0, 2, 0.042], [1, 2, 0.019], [2, 2, 0.084], [3, 2, 0.029], [4, 2, -0.012], [5, 2, 0.089], [6, 2, 0.09], [7, 2, -0.001], [8, 2, 0.011], [9, 2, 0.043], [10, 2, -0.01], [11, 2, 0.013], [12, 2, 0.09], [13, 2, 0.103], [0, 3, -0.043], [1, 3, 0.061], [2, 3, -0.036], [3, 3, 0.021], [4, 3, 0.04], [5, 3, 0.002], [6, 3, 0.015], [7, 3, -0.004], [8, 3, 0.079], [9, 3, 0.021], [10, 3, 0.059], [11, 3, 0.016], [12, 3, 0.007], [13, 3, 0.006], [0, 4, 0.032], [1, 4, 0.095], [2, 4, -0.006], [3, 4, 0.045], [4, 4, 0.118], [5, 4, 0.086], [6, 4, -0.021], [7, 4, 0.041], [8, 4, 0.09], [9, 4, 0.012], [10, 4, 0.032], [11, 4, 0.081], [12, 4, 0.067], [13, 4, -0.035], [0, 5, -0.058], [1, 5, -0.137], [2, 5, -0.054], [3, 5, -0.019], [4, 5, -0.12], [5, 5, -0.086], [6, 5, -0.168], [7, 5, -0.041], [8, 5, -0.137], [9, 5, -0.055], [10, 5, -0.034], [11, 5, -0.094], [12, 5, -0.03], [13, 5, -0.144], [0, 6, 0.039], [1, 6, 0.005], [2, 6, 0.129], [3, 6, 0.095], [4, 6, 0.023], [5, 6, 0.033], [6, 6, -0.056], [7, 6, -0.029], [8, 6, -0.011], [9, 6, 0.065], [10, 6, 0.067], [11, 6, 0.009], [12, 6, 0.014], [13, 6, -0.048], [0, 7, 0.02], [1, 7, -0.05], [2, 7, 0.081], [3, 7, 0.012], [4, 7, -0.063], [5, 7, -0.038], [6, 7, -0.096], [7, 7, -0.039], [8, 7, -0.094], [9, 7, 0.01], [10, 7, -0.014], [11, 7, -0.054], [12, 7, -0.032], [13, 7, -0.077], [0, 8, -0.07], [1, 8, -0.136], [2, 8, -0.013], [3, 8, -0.062], [4, 8, -0.15], [5, 8, -0.149], [6, 8, -0.129], [7, 8, -0.111], [8, 8, -0.16], [9, 8, -0.047], [10, 8, -0.068], [11, 8, -0.118], [12, 8, -0.124], [13, 8, -0.104], [0, 9, 0.031], [1, 9, 0.055], [2, 9, 0.035], [3, 9, -0.009], [4, 9, 0.026], [5, 9, 0.1], [6, 9, 0.097], [7, 9, 0.02], [8, 9, 0.074], [9, 9, 0.039], [10, 9, 0.005], [11, 9, 0.026], [12, 9, 0.07], [13, 9, 0.059], [0, 10, 0.076], [1, 10, 0.118], [2, 10, 0.096], [3, 10, 0.075], [4, 10, 0.114], [5, 10, 0.185], [6, 10, 0.159], [7, 10, 0.067], [8, 10, 0.15], [9, 10, 0.096], [10, 10, 0.089], [11, 10, 0.125], [12, 10, 0.182], [13, 10, 0.152], [0, 11, -0.044], [1, 11, 0.027], [2, 11, 0.131], [3, 11, 0.07], [4, 11, 0.05], [5, 11, -0.034], [6, 11, -0.02], [7, 11, -0.062], [8, 11, 0.033], [9, 11, 0.09], [10, 11, 0.032], [11, 11, 0.037], [12, 11, -0.065], [13, 11, -0.052]]}, "importance": [{"name": "創新動能", "value": 0.1176}, {"name": "定價能力", "value": 0.1013}, {"name": "數據具體度", "value": 0.0917}, {"name": "管理層信心", "value": 0.061}, {"name": "QA閃躍", "value": 0.0575}, {"name": "資本支出", "value": 0.0544}, {"name": "言行一致", "value": 0.0538}, {"name": "前瞻語氣", "value": 0.0521}, {"name": "需求強度", "value": 0.0513}, {"name": "競爭優勢", "value": 0.0505}, {"name": "整體情緒", "value": 0.0467}, {"name": "風險揭露", "value": 0.0311}]};
+
+    // 熱力圖
+    const heatChart = echarts.init(document.getElementById('heatmapChart'));
+    heatChart.setOption({
+      tooltip: {
+        position: 'top',
+        formatter: p => `${DATA.heatmap.y[p.value[1]]} → ${DATA.heatmap.x[p.value[0]]}<br/>ρ = ${p.value[2]}`
+      },
+      grid: { left: 120, right: 60, top: 30, bottom: 80 },
+      xAxis: {
+        type: 'category',
+        data: DATA.heatmap.x,
+        axisLabel: { rotate: 45, color: '#8890a8', fontSize: 11 },
+        splitArea: { show: true }
+      },
+      yAxis: {
+        type: 'category',
+        data: DATA.heatmap.y,
+        axisLabel: { color: '#8890a8', fontSize: 11 },
+        splitArea: { show: true }
+      },
+      visualMap: {
+        min: -1, max: 1,
+        calculable: true,
+        orient: 'horizontal',
+        left: 'center',
+        bottom: 0,
+        inRange: { color: ['#d73027','#fee08b','#1a9850'] },
+        textStyle: { color: '#8890a8' }
+      },
+      series: [{
+        type: 'heatmap',
+        data: DATA.heatmap.data,
+        label: {
+          show: true,
+          formatter: p => p.value[2] != null ? p.value[2].toFixed(2) : '',
+          fontSize: 9,
+          color: '#fff'
+        },
+        emphasis: {
+          itemStyle: { shadowBlur: 10, shadowColor: 'rgba(0,0,0,0.5)' }
+        }
+      }]
+    });
+
+    // 重要性排名
+    const impChart = echarts.init(document.getElementById('importanceChart'));
+    const impNames = DATA.importance.map(d => d.name);
+    const impValues = DATA.importance.map(d => d.value);
+    impChart.setOption({
+      tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+      grid: { left: 100, right: 40, top: 20, bottom: 20 },
+      xAxis: {
+        type: 'value',
+        axisLabel: { color: '#8890a8' },
+        splitLine: { lineStyle: { color: '#1e1e35' } }
+      },
+      yAxis: {
+        type: 'category',
+        data: impNames.reverse(),
+        axisLabel: { color: '#8890a8', fontSize: 11 }
+      },
+      series: [{
+        type: 'bar',
+        data: impValues.reverse(),
+        itemStyle: {
+          color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+            { offset: 0, color: '#6c8aff' },
+            { offset: 1, color: '#ff4d6a' }
+          ]),
+          borderRadius: [0, 6, 6, 0]
+        },
+        label: {
+          show: true,
+          position: 'right',
+          formatter: '{c}',
+          color: '#8890a8',
+          fontSize: 10
+        }
+      }]
+    });
+
+    // 響應式
+    window.addEventListener('resize', () => {
+      heatChart.resize();
+      impChart.resize();
+    });
+  </script>
+</body>
+</html>
