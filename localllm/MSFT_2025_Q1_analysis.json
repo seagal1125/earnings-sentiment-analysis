@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 31.57,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-driven transformation",
+      "Azure took share",
+      "fastest business in our history",
+      "demand continues to be higher than our available capacity",
+      "supply/demand matching"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by the massive momentum in AI and Azure growth. Management shows extreme confidence, specifically regarding the $10B annual revenue run rate for AI. While there are clear supply constraints (external third-party delays) and high CapEx requirements, these are framed as responses to 'explosive demand' rather than structural weaknesses. The quantitative specificity is very high, with detailed segment revenues and growth rates provided. The only slight downward pressure comes from the intentional scaling of AI infrastructure impacting gross margins and the recognition of supply pushouts in Q2."
+  },
+  "timestamp": "2026-04-20 13:12:06"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "META_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 29.96,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI is transforming everything we do",
+      "Llama 4 models",
+      "Ray-Ban Meta AI Glasses have tripled in sales",
+      "increased our planned investment for this year",
+      "achieve full general intelligence"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong AI integration and user growth (3.4B DAUs). Management shows high confidence in their long-term AI strategy ('control of our own destiny'). Quantitative specificity is very high with detailed revenue, margin, and user metrics provided. CapEx enthusiasm is at a maximum as they are aggressively increasing investment ranges ($64B-$72B) to support AI infrastructure. While there are notable risks mentioned (EU regulatory headwinds/DMA and potential e-commerce spend shifts), the core business remains robust. The only slight drag on sentiment comes from the Reality Labs losses and the uncertainty regarding European monetization changes."
+  },
+  "timestamp": "2026-04-20 12:59:54"
+}

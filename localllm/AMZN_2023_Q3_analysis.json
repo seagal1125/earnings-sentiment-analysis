@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.41,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "optimization attenuate",
+      "regionalization",
+      "generative AI opportunity",
+      "cost to serve",
+      "fastest delivery speeds"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by massive operating income growth (343% YoY) and successful fulfillment regionalization. Management shows high confidence, particularly regarding AWS's role in the generative AI era and the stabilization of cost optimization trends. While there are minor mentions of consumer caution regarding discretionary spending, the momentum in AWS deals and advertising is strong. Quantitative specificity is very high with detailed revenue, margin, and CapEx figures provided. The only slight drag is the ongoing uncertainty in the global economy mentioned by the CFO, but the focus remains on long-term structural improvements."
+  },
+  "timestamp": "2026-04-20 12:33:54"
+}

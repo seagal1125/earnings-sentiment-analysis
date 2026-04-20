@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 12.78,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.85,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.9
+    },
+    "key_phrases": [
+      "strong performance from Search, YouTube, and Cloud",
+      "AI-first company",
+      "durably reengineer our cost base",
+      "CapEx at or above the Q1 level",
+      "Gemini 1.5 Pro breakthrough",
+      "infrastructure leadership"
+    ],
+    "reasoning": "The call was exceptionally positive, characterized by strong double-digit growth across all major segments (Search, YouTube, Cloud). Management demonstrated high confidence in their AI roadmap (Gemini) and infrastructure moat (TPUs/Axion). While there were minor mentions of macroeconomic headwinds like FX and 'lapping' effects from previous high-growth periods, the overall tone was aggressive regarding investment (CapEx) and innovation. The CFO provided highly specific financial data, and the management team addressed difficult questions about AI cannibalization and cost structures directly without evasion."
+  },
+  "timestamp": "2026-04-20 14:41:37"
+}

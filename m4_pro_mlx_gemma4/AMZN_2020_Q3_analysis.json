@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 18.54,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand in sales growth",
+      "investing heavily to support sellers",
+      "incremental COVID related costs",
+      "capacity expansion",
+      "Prime member engagement"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by explosive demand and successful expansion of logistics/fulfillment capacity despite significant COVID-related costs ($7.5B YTD). Management shows high confidence in their ability to handle volume, though they acknowledge the uncertainty of the pandemic. The guidance is cautiously optimistic; while they are spending heavily on CapEx (50% increase in square footage), it is framed as a strategic 'pull-forward' to meet demand. The QA session was direct, with CFO Brian Olsavsky providing specific data on costs and capacity. Risk disclosure is present but focused on operational costs rather than existential threats. The company's moat is reinforced by the growing Prime ecosystem and AWS growth."
+  },
+  "stats": {
+    "input_tokens": 7607,
+    "total_output_tokens": 402,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.18332201569542,
+    "time_to_first_token_seconds": 11.485
+  },
+  "timestamp": "2026-04-20 18:29:53"
+}

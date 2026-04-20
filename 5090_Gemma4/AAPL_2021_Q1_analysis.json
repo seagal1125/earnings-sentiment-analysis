@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 11.86,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record of $111.4 billion",
+      "strong double-digit growth across every product category",
+      "groundbreaking M1 chip",
+      "installed base... passed 1.65 billion devices",
+      "supply constraints... particularly on the Pro and the Pro Max"
+    ],
+    "reasoning": "The quarter was exceptionally strong with record-breaking revenue and net income. Management demonstrated high confidence in their ecosystem and the transition to M1 chips. While forward guidance was cautious regarding specific ranges due to COVID-19 uncertainty, the directional outlook for revenue growth remains positive. Quantitative specificity was extremely high, with detailed breakdowns of margins, segment growth, and user bases. The only notable headwinds mentioned were supply constraints on Pro models and tougher year-over me comparisons for certain services."
+  },
+  "timestamp": "2026-04-20 14:28:54"
+}

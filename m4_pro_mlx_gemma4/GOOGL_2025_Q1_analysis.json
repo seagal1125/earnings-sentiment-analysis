@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.57,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI Overviews 1.5 billion users per month",
+      "Gemini 2.5 breakthrough performance",
+      "CapEx investment of $75 billion",
+      "Waymo 5x growth in weekly trips",
+      "Double-digit revenue growth across segments"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by robust double-digit growth in Search and Cloud, and the successful integration of AI (Gemini/AI Overviews) into core products. Management shows high confidence in their 'full-stack' AI approach and technological leadership. While CapEx is aggressively increasing ($75B), it is framed as a necessary investment for future growth rather than a cost burden. The risk disclosure is moderate, primarily focusing on depreciation headwinds and macroeconomic uncertainty, which management addresses with a focus on efficiency. The QA session was direct, with specific quantitative data provided to support growth claims (e.g., user counts and conversion rates). The only slight tension is the balance between massive CapEx spending and margin expansion, but management remains optimistic that AI-driven productivity will offset these costs."
+  },
+  "stats": {
+    "input_tokens": 11435,
+    "total_output_tokens": 449,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.180984480705334,
+    "time_to_first_token_seconds": 17.686
+  },
+  "timestamp": "2026-04-20 18:45:50"
+}

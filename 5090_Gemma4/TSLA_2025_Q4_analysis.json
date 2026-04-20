@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 13.77,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "amazing abundance",
+      "CapEx in excess of $20 billion",
+      "transitioning fully to a subscription-based model for FSD",
+      "Tesla TerraFab",
+      "China will definitely be tough competition"
+    ],
+    "reasoning": "The call was characterized by extreme optimism from Elon Musk regarding AI, robotics (Optimus), and autonomous transport (CyberCab). The company is pivoting heavily toward an 'abundance' mission. While the CFO provided concrete margin improvements (15.4% to 17.9%) and energy growth (26.6%), he also highlighted significant risks including tariff impacts, low-cost competition from China, and supply chain constraints for batteries and chips. The most striking takeaway is the massive increase in CapEx guidance, jumping from a previous $9 billion level to an expected excess of $20 billion for 2026, signaling an incredibly aggressive expansion phase into vertical integration (TerraFab) and new product lines."
+  },
+  "timestamp": "2026-04-20 16:13:43"
+}

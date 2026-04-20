@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 23.48,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Blackwell sales exceeded our expectations",
+      "unprecedented in its speed and scale",
+      "reasoning AI models can require 100x more compute",
+      "AI factories",
+      "the beginning of this new era"
+    ],
+    "reasoning": "The transcript reflects an exceptionally strong financial performance with record-breaking revenue. Management demonstrates extreme confidence in the Blackwell architecture and the shift toward 'reasoning AI' (test-time scaling), which they argue will drive massive new compute demand. While there is a slight dip in gross margins due to the Blackwell ramp, management provides clear guidance on recovery. The demand is described as 'extraordinary' and 'unprecedented.' Risk disclosure is minimal, focusing primarily on export controls in China. The transition from training-centric to inference-centric workloads is presented as a massive growth catalyst, reinforcing their competitive moat through full-stack integration."
+  },
+  "stats": {
+    "input_tokens": 10895,
+    "total_output_tokens": 405,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.46629096501417,
+    "time_to_first_token_seconds": 16.344
+  },
+  "timestamp": "2026-04-20 19:18:36"
+}

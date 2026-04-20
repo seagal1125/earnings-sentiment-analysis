@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 31.64,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "structural increase in underlying semiconductor demand",
+      "capacity to remain tight throughout the year and into 2022",
+      "long-term revenue CAGR... near the high end of our 10% to 15% range",
+      "firming up wafer pricing",
+      "HPC will be our largest revenue driver in the next 5 years"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong structural demand in HPC and Automotive. Management shows extremely high confidence (0.9) with specific long-term growth targets and clear technology roadmaps (N3/N5). While there are margin headwinds from N5 dilution and FX, the guidance for Q3 gross margin improvement is optimistic. Risk disclosure is moderate, focusing on geopolitical tensions and supply chain imbalances rather than fundamental business failure. Quantitative specificity is high, with detailed revenue breakdowns by platform and technology. The only slight drag on sentiment is the mention of potential inventory corrections in the future, though management downplayed the volatility."
+  },
+  "timestamp": "2026-04-20 13:41:21"
+}

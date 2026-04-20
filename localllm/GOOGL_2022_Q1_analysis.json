@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.35,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.6,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI continues to be at the heart",
+      "YouTube Shorts is now averaging over 30 billion daily views",
+      "Cloud revenue grew 44% year-over-year",
+      "tough comp in the second quarter",
+      "investing aggressively in Cloud"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, driven by strong performance in Cloud (44% growth) and YouTube Shorts (4x growth), but tempered by macroeconomic headwinds like the war in Ukraine, FX headwinds (strong USD), and difficult year-over-year comparisons (lapping 2021's high growth). Management shows high confidence in long-term AI and infrastructure investments, evidenced by a significant increase in CapEx. While quantitative data is abundant, forward guidance is cautious due to the lack of 'COVID tailwinds' and the impact of Russia/Ukraine. QA evasion was low, though some answers regarding regulatory impacts (DMA) were intentionally non-committal."
+  },
+  "timestamp": "2026-04-20 12:41:34"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 18.46,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue growth accelerated",
+      "strong customer demand globally",
+      "investing heavily in last-mile",
+      "backlog growth... $52.9 billion",
+      "Prime Day is a great opportunity"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong revenue beats and accelerating AWS growth. Management shows high confidence in their ability to scale infrastructure (last-mile and AWS) to meet surging demand. The company is in an aggressive investment phase (high capex enthusiasm), particularly in logistics and cloud capacity. While there are minor risks mentioned regarding COVID-19 costs, they are being managed effectively. The QA session was direct and data-driven, particularly regarding AWS backlog and international growth. The only slight dampener is the inherent uncertainty of post-pandemic consumer behavior, but current momentum remains explosive."
+  },
+  "stats": {
+    "input_tokens": 7758,
+    "total_output_tokens": 392,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 59.28766102447629,
+    "time_to_first_token_seconds": 11.696
+  },
+  "timestamp": "2026-04-20 18:30:31"
+}

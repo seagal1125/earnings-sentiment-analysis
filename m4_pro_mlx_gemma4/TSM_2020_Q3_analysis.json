@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 31.99,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.75,
+      "demand_strength": 0.85,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand for 5G and HPC",
+      "technology leadership position",
+      "N5 ramp-up margin dilution",
+      "digital transformation acceleration",
+      "aggressive investment in future technologies"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the structural tailwinds of 5G and HPC. Management shows high confidence in their technological leadership (N5, N3, N4) and ability to capture market trends. While there is significant CapEx (reflecting aggressive expansion), it is justified by robust demand. The primary risks discussed are margin dilution from N5 ramp-up and geopolitical/supply chain uncertainties, but these are handled with high confidence. The QA session was direct, though management avoided specific market share numbers and 2nm timelines, which is standard for their policy. The 'pricing power' score is moderate because they explicitly stated they would not use capacity shortages to raise prices, prioritizing customer partnerships. The 'management consistency' is set at 0.5 as there was no prior quarter data provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 15437,
+    "total_output_tokens": 439,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.20168886902074,
+    "time_to_first_token_seconds": 23.953
+  },
+  "timestamp": "2026-04-20 19:30:58"
+}

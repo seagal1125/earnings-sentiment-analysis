@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 24.68,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "Cloud and AI are the essential inputs",
+      "demand is growing a bit faster",
+      "AI capacity constraints beyond June",
+      "software driving that efficiency"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong quarter driven by AI and Cloud integration. Management demonstrates high confidence, particularly regarding the 'platform shift' to AI. While there is a slight mention of capacity constraints (AI demand outstripping supply) and inventory adjustments in the Windows segment, these are framed as growth opportunities rather than systemic risks. The quantitative data is dense and shows significant year-over-year growth across multiple segments (Azure, GitHub, LinkedIn). The relationship between CapEx and future revenue is a central theme, with management justifying aggressive spending as necessary for long-term leadership. The QA session was direct, with management providing specific context on the distinction between AI and non-AI revenue growth."
+  },
+  "stats": {
+    "input_tokens": 11542,
+    "total_output_tokens": 405,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.850426009465835,
+    "time_to_first_token_seconds": 17.476
+  },
+  "timestamp": "2026-04-20 19:08:05"
+}

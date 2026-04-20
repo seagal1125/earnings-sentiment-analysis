@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 23.03,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-first Company",
+      "MUM is a thousand times more powerful than BERT",
+      "Cloud revenue growing 45% year-over-year",
+      "Omni-channel is in full force",
+      "investing aggressively... to support long-term growth"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by robust revenue growth (41% YoY) and significant advancements in AI/ML (MUM, Tensor). Management demonstrates high confidence in their long-term strategic pivot to an 'AI-first' company. Quantitative specificity is high, with detailed segment breakdowns provided by the CFO. While there are mentions of macroeconomic 'unevenness' and privacy-related headwinds (iOS changes), the management team addresses these directly without significant evasion. Capex is high due to technical infrastructure and headcount growth, reflecting an aggressive expansionary stance. The primary tension in the report is between current strong performance and the 'lapping' of pandemic-era growth, which slightly tempers the forward guidance tone."
+  },
+  "stats": {
+    "input_tokens": 10292,
+    "total_output_tokens": 433,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.93602057009713,
+    "time_to_first_token_seconds": 15.401
+  },
+  "timestamp": "2026-04-20 18:40:02"
+}

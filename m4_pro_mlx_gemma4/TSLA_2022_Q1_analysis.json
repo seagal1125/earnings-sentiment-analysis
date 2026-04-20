@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.2,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.75,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "achieved our best-ever vehicle deliveries",
+      "50% or above growth rate remains achievable",
+      "robotaxi... will be a massive driver of Tesla’s growth",
+      "we are not demand-limited. We are production-limited",
+      "optimistic or excited about Tesla’s future than I am right now"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record-breaking deliveries and profitability despite significant macroeconomic headwinds (inflation, supply chain disruptions). Management exhibits extremely high confidence, particularly Elon Musk, regarding future growth drivers like Robotaxi and Optimus. Forward guidance is aggressive, targeting 50-60% growth. While risks like inflation and raw material costs are acknowledged, they are framed as manageable through pricing power (which is clearly present given the long waitlists) and operational efficiency. The QA session was direct, with management providing specific technical and strategic justifications for their decisions (e.g., 400V vs 800V architecture, battery recycling). The only slight drag on the score is the inherent uncertainty of long-term timelines (FSD, Robotaxi) and the volatility of the macro environment."
+  },
+  "stats": {
+    "input_tokens": 12959,
+    "total_output_tokens": 466,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.36793218765716,
+    "time_to_first_token_seconds": 19.853
+  },
+  "timestamp": "2026-04-20 19:22:34"
+}

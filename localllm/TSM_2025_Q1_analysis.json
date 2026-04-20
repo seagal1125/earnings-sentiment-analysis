@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 30.99,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "AI-related demand",
+      "CoWoS capacity doubling",
+      "2-nanometer technology",
+      "margin dilution from overseas fabs",
+      "US$100 billion investment plan in Arizona"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by robust AI demand and strong 2nm/A16 technology roadmap. Management shows high confidence in long-term growth despite short-term margin pressures from overseas expansion (Arizona/Kumamoto) and earthquake impacts. Quantitative specificity is very high with detailed revenue, margin, and CapEx figures provided. While there are clear risks regarding tariffs and cost inflation (margin dilution), the company's pricing power remains a work in progress ('progress so far so good'). The QA session was relatively direct, though management avoided specific timelines for certain expansions due to labor/permit uncertainties."
+  },
+  "timestamp": "2026-04-20 13:50:00"
+}

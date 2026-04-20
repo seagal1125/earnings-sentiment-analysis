@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 22.58,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "unprecedented customer demand",
+      "labor became our primary capacity constraint",
+      "reacceleration of revenue growth in AWS",
+      "inflationary pressures in raw materials and services",
+      "doubling our fulfillment network"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic; while top-line growth (AWS, Advertising, Prime) remains strong, the company is facing significant margin headwinds due to labor shortages and inflation. The CFO provided highly specific quantitative data regarding cost increases ($2B in Q3, approaching $4B in Q4). Forward guidance is tempered by rising operational costs and labor constraints. Management showed high confidence in long-term flywheel effects but was transparent about short-term profitability challenges. Innovation momentum remains high with AWS machine learning and new gaming/video content."
+  },
+  "timestamp": "2026-04-20 12:30:46"
+}

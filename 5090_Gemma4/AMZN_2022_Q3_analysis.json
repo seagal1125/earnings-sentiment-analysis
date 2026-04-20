@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 12.89,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.4,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "macroeconomic uncertainties",
+      "cost optimization",
+      "foreign exchange headwinds",
+      "moderating sales growth",
+      "tightening our belt",
+      "operational efficiency"
+    ],
+    "reasoning": "The earnings call reflects a cautious tone driven by significant macroeconomic headwinds, including inflation, energy costs, and foreign exchange volatility. While top-line revenue growth remains strong (19% YoY) and AWS continues to expand, management explicitly noted a deceleration in growth rates toward the end of the quarter. The company is actively pivoting towards operational efficiency and 'tightening its belt' by reducing certain CapEx and optimizing cost structures. Management was highly transparent and specific with data during the Q&A, directly addressing margin compression and demand slowdowns without evasion."
+  },
+  "timestamp": "2026-04-20 14:35:22"
+}

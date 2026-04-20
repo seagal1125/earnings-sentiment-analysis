@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.93,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "leadership in AI and our unique full stack",
+      "demand that exceeds our available capacity",
+      "invest approximately $75 billion in CapEx in 2025",
+      "Pareto frontier of cost, performance, and latency",
+      "revenue growth in Cloud and YouTube"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong Q4 results and the successful integration of AI across Google's ecosystem. Management shows high confidence, particularly regarding their 'full stack' advantage in AI (hardware to software). A significant portion of the call focuses on aggressive CapEx ($75B planned for 2025) to meet 'demand that exceeds capacity,' indicating high investment enthusiasm. While there are minor headwinds mentioned (FX, leap year, and lapping specific vertical growth), the tone remains optimistic. The QA session was direct, with management providing specific technical and financial justifications for their strategy (e.g., addressing DeepSeek-related concerns via the 'Pareto frontier' argument). The only slight drag on scores is the high capital intensity and the potential for margin pressure from depreciation, which management acknowledged but framed as a necessary investment for growth."
+  },
+  "stats": {
+    "input_tokens": 12207,
+    "total_output_tokens": 462,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.78400227383802,
+    "time_to_first_token_seconds": 18.752
+  },
+  "timestamp": "2026-04-20 18:45:24"
+}

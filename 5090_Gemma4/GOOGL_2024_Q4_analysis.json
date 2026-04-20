@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 13.44,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "unique full stack",
+      "Gemini 2.0",
+      "$75 billion in CapEx",
+      "8x the compute capacity",
+      "agentic era",
+      "AI overviews"
+    ],
+    "reasoning": "The call was exceptionally strong, characterized by high confidence from Sundar Pichai regarding Alphabet's 'full stack' AI advantage and massive innovation momentum (Gemini 2.0, Veo 2). The CFO provided highly specific financial data and explicitly signaled an aggressive expansion in capital expenditure ($75B for 2025) to meet demand that is currently outstripping capacity in Cloud. While there were minor mentions of macro headwinds like FX and the leap year effect, management addressed competitive threats (DeepSeek) and cloud deceleration directly and with high technical specificity, showing very low evasiveness."
+  },
+  "timestamp": "2026-04-20 14:42:17"
+}

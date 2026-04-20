@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.13,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "fourth consecutive profitable quarter",
+      "demand exceeds supply right now",
+      "full self-driving functionality being complete by the end of this year",
+      "manufacturing is the long-term sustainable advantage",
+      "next Gigafactory in Texas"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by the achievement of four consecutive profitable quarters and aggressive expansion plans (Giga Texas/Berlin). Management shows extreme confidence, particularly Elon Musk regarding FSD and manufacturing engineering. Demand is clearly stated to be exceeding supply, though growth is temporarily constrained by production/supply chain issues rather than market interest. The forward guidance is bullish, focusing on new factories and software-driven value (FSD). Risk disclosure is relatively low, mostly centered around supply chain 'firefighting' and regulatory hurdles for insurance/FSD. The only slight drag on sentiment is the discussion regarding pricing (lowering costs to increase affordability) and the operational complexities of scaling new factories."
+  },
+  "stats": {
+    "input_tokens": 12421,
+    "total_output_tokens": 418,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.72586702984519,
+    "time_to_first_token_seconds": 18.67
+  },
+  "timestamp": "2026-04-20 19:19:28"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 25.25,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI is positively impacting every part of the business",
+      "Cloud annual revenue run rate more than $50 billion",
+      "980 trillion monthly tokens processed",
+      "CapEx increased to $85 billion for 2025",
+      "tight demand supply environment going into 2026"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by robust growth in Search, YouTube, and Cloud. Management demonstrates extreme confidence in their AI 'full stack' approach, which is translating into tangible revenue growth (e.g., Cloud growing 32%). The significant increase in CapEx guidance (from $75B to $85B) reflects aggressive expansion to meet 'explosive' AI demand, though it introduces higher depreciation risks. The QA session was direct, with management providing specific metrics to defend their strategy against concerns about search evolution and capital efficiency. While there is a slight tension between high CapEx and immediate ROI, the momentum in user engagement (tokens, active users) suggests a strong competitive moat. Management consistency is marked 0.5 as this is the first report of the fiscal year provided."
+  },
+  "stats": {
+    "input_tokens": 11538,
+    "total_output_tokens": 458,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.216684406019176,
+    "time_to_first_token_seconds": 17.208
+  },
+  "timestamp": "2026-04-20 18:46:15"
+}

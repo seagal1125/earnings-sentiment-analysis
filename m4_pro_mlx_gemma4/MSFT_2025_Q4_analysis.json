@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 25.35,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.1,
+      "qa_evasiveness": 0.05,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.85,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Microsoft Cloud surpassed $168 billion in annual revenue",
+      "Azure surpassed $75 billion in annual revenue, up 34%",
+      "demand remains higher than supply",
+      "we expect to deliver another year of double-digit revenue and operating income growth in FY '26",
+      "we have $368 billion of contracted backlog"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong fiscal year with record-breaking growth in Azure and Microsoft Cloud. Management demonstrates extreme confidence, particularly regarding the AI-driven shift in the tech stack. While CapEx is high ($30B+ projected for Q1), it is framed as a strategic response to massive, contracted backlog rather than speculative spending. The tone is highly optimistic about 'agentic' workflows and the diffusion of AI across all product layers. Risk disclosure is minimal, focused primarily on capacity constraints rather than competitive threats or demand volatility. The QA session was direct, with management providing specific justifications for high capital expenditure and addressing the competitive landscape of AI labs effectively. The only slight downward pressure on scores comes from the inherent volatility in capacity-constrained growth and the impact of AI infrastructure scaling on gross margins."
+  },
+  "stats": {
+    "input_tokens": 11329,
+    "total_output_tokens": 467,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.30354900069964,
+    "time_to_first_token_seconds": 17.138
+  },
+  "timestamp": "2026-04-20 19:08:31"
+}

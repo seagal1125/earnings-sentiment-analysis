@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.45,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "two years' worth of digital transformation in two months",
+      "surge demand and systemic structural changes",
+      "the only cloud that extends to the edge",
+      "capital efficient",
+      "secular shift"
+    ],
+    "reasoning": "The call reflects an exceptionally strong quarter driven by the COVID-19 induced digital transformation. Management expresses high confidence in their ability to capitalize on structural shifts toward remote work and cloud infrastructure. While there are risks mentioned regarding advertising spend (LinkedIn/Search) and economic volatility, the overall sentiment is highly optimistic due to 'surge demand' in Azure and Teams. The company shows high innovation momentum (AI, Edge, GitHub) and strong capital expenditure plans to meet growing demand. The QA session was direct, with management providing specific context on how they monetize the current surge and their long-term strategic positioning. The only slight drag is the volatility in certain segments like SMB and advertising, which prevents a perfect 1.0 score."
+  },
+  "stats": {
+    "input_tokens": 12609,
+    "total_output_tokens": 416,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.64635242894158,
+    "time_to_first_token_seconds": 19.04
+  },
+  "timestamp": "2026-04-20 18:59:16"
+}

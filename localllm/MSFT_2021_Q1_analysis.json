@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 31.12,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong start in fiscal 2021",
+      "commercial cloud... up 31% year-over-year",
+      "Azure revenue grew 48%",
+      "early innings",
+      "digital transformation"
+    ],
+    "reasoning": "The call reflects an extremely strong performance, particularly in the Intelligent Cloud segment (Azure growth of 48%). Management displays high confidence, using definitive language ('we are doubling down', 'early innings') to describe their market position. While there is some mention of headwinds like transactional weakness and tough year-over-year comparables, the overall tone is highly optimistic about long-term digital transformation trends. Quantitative specificity is very high, with detailed revenue, margin, and user growth figures provided for almost every segment. The only slight downward pressure in sentiment comes from the recognition of volatility in bookings due to large contract timing and the impact of accounting changes on gross margins."
+  },
+  "timestamp": "2026-04-20 13:03:53"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 31.52,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.75,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "5G infrastructure deployment",
+      "HPC related product launches",
+      "technology leadership",
+      "raise our full year 2020 CapEx",
+      "supply chain security"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. Despite the headwinds of COVID-19 and US trade regulations (Huawei), management demonstrates high confidence in their technology leadership (N5, N3) and the structural megatrends of 5G and HPC. The upward revision of full-year CapEx to $16-17B signals aggressive expansion to meet future demand. While there is some concern regarding the smartphone market decline and potential inventory corrections, the company's ability to raise guidance suggests strong demand in advanced nodes. QA was direct, though management skillfully pivoted from regulatory risks to technology advantages. The 'management_consistency' is set to 0.5 as there was no prior quarter data provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 15601,
+    "total_output_tokens": 415,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.16941507675077,
+    "time_to_first_token_seconds": 23.903
+  },
+  "timestamp": "2026-04-20 19:30:26"
+}

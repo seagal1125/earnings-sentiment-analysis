@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 13.79,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificty": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "acceleration of growth in Search",
+      "elevated levels of investment in technical infrastructure",
+      "70% of gen AI unicorns are Google Cloud customers",
+      "increased subscription prices for YouTube Music and Premium",
+      "moderation in the rate of consumption growth"
+    ],
+    "reasoning": "The call was highly optimistic, centered on the massive opportunity presented by Generative AI (SGE, Gemini, Duet AI). Management showed high confidence in their ability to re-engineer costs while aggressively investing in AI infrastructure (CapEx). While there were minor mentions of 'moderation' in Cloud consumption due to customer optimization, the overall narrative was one of growth acceleration in Search and strong momentum in YouTube. Quantitative data was abundant, and management directly addressed difficult questions regarding monetization and R&D spend."
+  },
+  "timestamp": "2026-04-20 14:40:56"
+}

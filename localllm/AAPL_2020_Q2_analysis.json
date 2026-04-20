@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 28.09,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.4,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time record for Services",
+      "resilience and adaptability of our global supply chain",
+      "lack of visibility and uncertainty in the near term",
+      "installed base of active devices reached an all-time high",
+      "strong double digits"
+    ],
+    "reasoning": "The overall sentiment is slightly positive despite the massive macro headwind of COVID-19, as management emphasized record Services growth and ecosystem strength. Confidence remains high (0.8) particularly from the CEO regarding long-term durability, though the CFO provided a cautious forward guidance tone (-0.3) due to the withdrawal of formal guidance and FX headwinds. Risk disclosure is significant (0.6) regarding supply chain disruptions and China lockdowns. Quantitative specificity is very high (0.9) with detailed revenue, margin, and subscription numbers. While iPhone demand saw temporary declines, the 'demand strength' score is buoyed by record Services and Wearables growth. Management was direct in QA, showing low evasiveness."
+  },
+  "timestamp": "2026-04-20 12:17:41"
+}

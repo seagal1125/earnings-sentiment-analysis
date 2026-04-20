@@ -1,0 +1,11 @@
+{
+  "file": "GOOGL_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 11.31,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "{\"symbol\": \"GOOGL\", \"fiscal_year\": 2020, \"fiscal_quarter\": 4, \"scores\": {\"overall_sentiment\": 0.8, \"confidence_score\": 0.9, \"forward_guidance_tone\": 0.6, \"risk_disclosure_intensity\": 0.3, \"qa_evasiveness\": 0.1, \"quantitative_specificity\": 0.9, \"capex_enthusiasm\": 0.8, \"demand_strength\": 0.8, \"pricing_power\": 0.5, \"competitive_moat\": 0.8, \"innovation_momentum\": 0.9, \"management_consistency\": 0.5}, \"key_phrases\": [\"rebound from the negative impact of COVID\", \"extraordinary opportunities\", \"sizable increase in CapEx\", \"inflection point\" for AI, \"YouTube advertising revenues up 46%\", \"Cloud revenue growth rate meaningfully above Cloud overall\"], \"reasoning\": \"The earnings call reflects a strong recovery and significant growth in key segments, particularly YouTube advertising (+46%) and Google Cloud (+47%). Management displays high confidence in their ability to capture the shift to digital/cloud services. While they provide a cautious note regarding 'easier year-on-year comparisons' in the second half of 2021 (due to the low base effect of pandemic lockdowns), the tone remains expansionary, specifically regarding CapEx for technical infrastructure and AI innovation. The QA session was highly transparent with specific data points provided by executives.\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 14:38:56"
+}

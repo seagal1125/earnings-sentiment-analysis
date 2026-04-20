@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 21.45,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "labor became our primary capacity constraint",
+      "nearly $4 billion in Q4 costs",
+      "AWS reacceleration of revenue growth",
+      "advertising continues to grow quickly",
+      "double our fulfillment network over the two-year period"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While revenue growth (especially in AWS and Advertising) remains strong, the management is transparent about significant headwinds: labor shortages, wage inflation, and supply chain disruptions which are expected to cost $4 billion in Q4. The confidence score is high due to the clear, data-driven explanations of these costs, though forward guidance is tempered by these operational expenses. The company shows high innovation momentum (AWS/ML) and strong demand, but faces immediate margin pressure from the 'labor-constrained' fulfillment model. The QA session was direct, with management providing specific cost breakdowns to address investor concerns regarding profitability."
+  },
+  "stats": {
+    "input_tokens": 9534,
+    "total_output_tokens": 404,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.99641826380442,
+    "time_to_first_token_seconds": 14.334
+  },
+  "timestamp": "2026-04-20 18:31:12"
+}

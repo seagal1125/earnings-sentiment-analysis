@@ -1,0 +1,33 @@
+{
+  "file": "TSM_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 15.25,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "structural increase in long-term demand",
+      "$100 billion CapEx over 3 years",
+      "firming up our wafer pricing to a reasonable level",
+      "capacity shortage will continue throughout this year and may be extended into 2022"
+    ],
+    "reasoning": "The company is exhibiting extremely high confidence in its long-term growth, evidenced by the massive $100 billion CapEx commitment over three years. While short-term gross margins are under pressure due to node complexity and utilization levels, management is signaling strong pricing power through 'firming up' prices. Demand for advanced nodes (5nm/3nm) is described as structurally increasing, and despite geopolitical risks and supply chain disruptions, the company maintains a very low level of evasiveness in Q&A, directly addressing competition (Intel) and expansion plans (Arizona)."
+  },
+  "timestamp": "2026-04-20 16:14:58"
+}

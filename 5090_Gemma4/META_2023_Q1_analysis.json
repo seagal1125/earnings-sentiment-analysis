@@ -1,0 +1,35 @@
+{
+  "file": "META_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 14.5,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "efficiency work",
+      "AI wave",
+      "Metaverse wave",
+      "Reels engagement",
+      "click-to-message ads",
+      "open ecosystem"
+    ],
+    "reasoning": "The call reflects a period of transition and 'efficiency' for Meta. Sentiment is positive due to strong user growth milestones (3B daily users) and significant AI-driven engagement gains in Reels (24% time spent increase on Instagram). Management shows high confidence in their technical roadmap and the ability to execute via a leaner structure. However, there is clear downward pressure on pricing power, with ad prices dropping 17% due to impression growth and FX headwinds. While innovation momentum is extremely high regarding GenAI and LLaMA, the company faces notable regulatory risks in the EU and macro volatility. The QA session was highly transparent, particularly regarding headcount rumors and data center architecture."
+  },
+  "timestamp": "2026-04-20 14:46:10"
+}

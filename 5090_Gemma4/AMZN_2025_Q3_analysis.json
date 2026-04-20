@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.37,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS reaccelerating to 20.2%",
+      "Trainium2 is fully subscribed",
+      "CapEx expected to increase in 2026",
+      "Agentic commerce",
+      "FTC settlement and severance costs"
+    ],
+    "reasoning": "The company demonstrated strong underlying growth despite significant one-time charges ($4.3B) related to an FTC settlement and severance. AWS shows clear reacceleration (20.2% YoY), and the massive increase in CapEx projections ($125B for 2025, increasing in 2026) signals high management confidence in AI-driven demand. Management provided highly specific quantitative data and directly addressed technical questions regarding chip strategy and capacity constraints without evasion."
+  },
+  "timestamp": "2026-04-20 14:37:57"
+}

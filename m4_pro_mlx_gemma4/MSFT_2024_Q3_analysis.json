@@ -1,0 +1,42 @@
+{
+  "file": "MSFT_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.52,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record third quarter",
+      "AI transformation",
+      "Azure AI customers continues to grow",
+      "capacity constraints on the Azure infrastructure side",
+      "knowledge turns",
+      "leading the AI platform wave"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance driven by the rapid integration of AI across Microsoft's stack. Management demonstrates high confidence, particularly regarding Azure and Copilot adoption. While there is a significant increase in CapEx to support AI infrastructure, it is framed as a proactive response to 'demand exceeding supply' rather than inefficient spending. The sentiment is highly optimistic, though slightly tempered by the reality of capacity constraints and the transitionary nature of some business segments (e.g., declining on-premises revenue). The QA session was direct, with management providing specific context on how AI is driving growth and addressing capacity issues. The 'knowledge turns' concept highlights a strategic shift toward productivity-led value, reinforcing their competitive moat."
+  },
+  "stats": {
+    "input_tokens": 12676,
+    "total_output_tokens": 415,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.59826777453897,
+    "time_to_first_token_seconds": 19.112
+  },
+  "timestamp": "2026-04-20 19:06:19"
+}

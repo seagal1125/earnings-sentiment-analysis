@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 15.17,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "supply constrained",
+      "all-time revenue record",
+      "very bullish",
+      "resilient",
+      "double-digit growth",
+      "unprecedented period of uncertainty"
+    ],
+    "reasoning": "Apple reported a record-breaking fiscal year and quarter despite the significant macro headwinds of COVID-19. Management expressed extreme confidence in their product lineup (especially 5G iPhone) and services ecosystem, evidenced by 'all-time high' installed bases. While they were intentionally vague on specific revenue guidance for the next quarter due to economic uncertainty, their directional commentary was highly positive, predicting double-digit growth across most categories. High demand is clearly indicated by admitted supply constraints in Mac, iPad, and Apple Watch. The only slight negative is the lack of explicit revenue guidance and the refusal to provide specific gross margin breakdowns by product category during QA."
+  },
+  "timestamp": "2026-04-20 14:28:42"
+}

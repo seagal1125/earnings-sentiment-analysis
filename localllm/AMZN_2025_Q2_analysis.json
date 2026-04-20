@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 29.33,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "more demand than we have supplied",
+      "biggest ever Prime Day",
+      "123 billion annualized revenue run rate",
+      "infrastructure supply constraints",
+      "vibe coding"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record-breaking Prime Day results and strong double-digit growth in both Retail and AWS. Management shows extreme confidence, particularly regarding AI's long-term potential ('it's still early'). While there are acknowledged risks regarding tariffs and supply constraints (power/chips), the tone remains optimistic as they focus on controllable inputs like selection and speed. Quantitative specificity is high with detailed revenue, margin, and unit growth figures provided. Capex enthusiasm is very high, explicitly linked to meeting 'unusually large' AI demand. The only slight drag on sentiment is the acknowledged AWS margin decline due to depreciation and compensation, but this was clearly explained."
+  },
+  "timestamp": "2026-04-20 12:37:12"
+}

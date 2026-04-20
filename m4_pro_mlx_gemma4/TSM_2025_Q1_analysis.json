@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.06,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-related demand growth",
+      "CoWoS capacity doubling",
+      "2-nanometer tape-out exceeding expectations",
+      "Arizona expansion and margin dilution",
+      "Foundry 2.0 industry growth"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by 'insatiable' AI demand and robust technology leadership (N2/A16). Management shows high confidence in their ability to capture the AI megatrend, specifically noting that N2 tape-outs are outpacing previous generations. While there is a clear acknowledgment of risks regarding overseas expansion (Arizona/Kumamoto) and potential tariff impacts causing margin dilution, the company's pricing power and competitive moat appear intact. The QA session was direct, though management used standard corporate phrasing to navigate geopolitical and tariff-related questions. The massive CapEx plan reflects aggressive expansion to meet structural demand, particularly in advanced packaging and leading-edge nodes."
+  },
+  "stats": {
+    "input_tokens": 12765,
+    "total_output_tokens": 412,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.52835362718407,
+    "time_to_first_token_seconds": 19.668
+  },
+  "timestamp": "2026-04-20 19:39:52"
+}

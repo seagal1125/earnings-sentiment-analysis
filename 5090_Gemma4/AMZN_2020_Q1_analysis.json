@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 11.83,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.4,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.8,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.1,
+      "demand_strength": 0.8,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "major surge in customer demand",
+      "$4 billion or more in Q2 costs",
+      "AWS growth 30% year-over-year",
+      "incremental revenue... basically coming at cost",
+      "unprecedented demand",
+      "downward pressure on price"
+    ],
+    "reasoning": "The call is defined by the extreme volatility of the early COVID-19 pandemic. While there is a massive surge in demand for essential goods and strong AWS growth (33% YoY), management expresses significant uncertainty regarding future margins due to skyrocketing operational costs ($4B projected for Q2). The sentiment is cautiously neutral; the company is seeing high volume but at the expense of profitability and operational efficiency. Risk disclosure is very high, with management explicitly stating they cannot predict the duration of the crisis or its impact on cost structures."
+  },
+  "timestamp": "2026-04-20 14:33:12"
+}

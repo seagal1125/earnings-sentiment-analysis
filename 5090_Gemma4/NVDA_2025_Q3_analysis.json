@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.46,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Blackwell demand is staggering",
+      "demand greatly exceeds supply",
+      "revenue of $35.1 billion was up 94% year-on-year",
+      "transition from coding to machine learning",
+      "inference time scaling"
+    ],
+    "reasoning": "The company delivered a massive revenue beat with 94% YoY growth, driven by exceptional Data Center demand (H200 and Blackwell). Management showed extremely high confidence in the Blackwell ramp, despite acknowledging supply constraints and temporary gross margin compression into the low-70s. The technical discussion on 'inference time scaling' and 'physical AI' demonstrates strong innovation momentum. Risk disclosure was limited to standard export control mentions and supply chain complexities. QA was direct on technical/financials but diplomatic regarding geopolitical/tariff risks."
+  },
+  "timestamp": "2026-04-20 14:59:12"
+}

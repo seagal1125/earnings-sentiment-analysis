@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 23.77,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "biggest quarter ever",
+      "revenue growth accelerating",
+      "double-digit growth outside of iPhone",
+      "wider than usual revenue range due to uncertainty in China",
+      "active installed base of devices has now surpassed 1.5 billion"
+    ],
+    "reasoning": "The quarter was characterized by record-breaking revenue and earnings, driven by strong iPhone demand and explosive growth in Services and Wearables. Management exhibited high confidence, though the forward guidance for the next quarter was intentionally cautious (wider range) due to the emerging COVID-19 situation in China, which is the primary risk factor discussed. The transition to a services-heavy mix was highlighted as a driver for margin expansion. While the company is investing heavily in R&D and new services (TV+), it remains highly profitable. The QA session was direct, with management providing specific data to support their claims, though they strictly avoided commenting on future product specifications (5G/AR) to maintain professional boundaries."
+  },
+  "stats": {
+    "input_tokens": 11035,
+    "total_output_tokens": 418,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.71573557474542,
+    "time_to_first_token_seconds": 16.266
+  },
+  "timestamp": "2026-04-20 18:17:26"
+}

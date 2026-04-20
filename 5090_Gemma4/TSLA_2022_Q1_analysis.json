@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 13.95,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record profitability",
+      "50% growth rate remains achievable",
+      "production-limited, not demand-limited",
+      "inflation and raw material costs",
+      "robotaxi in 2024"
+    ],
+    "reasoning": "Tesla reported record-breaking financial metrics (19% operating margin) despite significant macroeconomic headwinds including inflation and supply chain disruptions. Management exhibits extremely high confidence in long-term growth targets (50-60%) and technological breakthroughs (FSD, Robotaxi, Optimus), though they provided a realistic warning regarding short-term margin pressure due to new factory ramps in Berlin/Texas and COVID impacts in Shanghai. The call was highly quantitative with specific mentions of margins, cost structures, and production targets."
+  },
+  "timestamp": "2026-04-20 15:01:29"
+}

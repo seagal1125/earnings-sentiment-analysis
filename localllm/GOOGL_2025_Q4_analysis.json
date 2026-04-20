@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 30.62,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Gemini 3 launch",
+      "Cloud revenues growing 48%",
+      "CapEx investments anticipated to be in the range of $175 to $185 billion",
+      "Backlog grew by 55% quarter over quarter",
+      "Universal Commerce Protocol",
+      "supply constrained environment"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by massive growth in Cloud (48%) and Search (17%), alongside the successful launch of Gemini 3. Management shows extreme confidence in their AI roadmap, though they explicitly acknowledge being 'supply constrained' regarding compute capacity. CapEx enthusiasm is at a maximum with a projected $175B-$185B spend for 2026 to meet demand. While there is high quantitative specificity (detailed revenue and user numbers), the risk disclosure is relatively low, focusing mostly on supply chain/capacity constraints rather than competitive threats. The QA session was direct, though management slightly pivoted when discussing potential search cannibalization and YouTube ad revenue dips by attributing them to seasonal election effects."
+  },
+  "timestamp": "2026-04-20 12:48:46"
+}

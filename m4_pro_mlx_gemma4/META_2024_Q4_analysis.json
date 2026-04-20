@@ -1,0 +1,41 @@
+{
+  "file": "META_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.6,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama 4 will be natively multimodal",
+      "AI glasses being the next computing platform",
+      "investing aggressively in initiatives that use these AI advances to increase revenue growth",
+      "scale of Meta AI reaching 1 billion people",
+      "2 gigawatt and potentially bigger AI datacenter"
+    ],
+    "reasoning": "The management exhibits extremely high confidence in their AI roadmap (Llama 4, agentic capabilities) and hardware strategy (AI glasses). While they acknowledge massive capital expenditure ($60B-$65B for 2025), it is framed as a strategic necessity rather than a risk. The sentiment is strongly positive, driven by the vision of AI-driven scale. Revenue growth remains robust (21% YoY), and while they are transparent about the timing of AI monetization (not expected to be a major driver in 2025), they emphasize that current AI investments are fueling core advertising efficiency. The QA session was direct, with management providing specific technical and strategic context without significant evasion."
+  },
+  "stats": {
+    "input_tokens": 12388,
+    "total_output_tokens": 430,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.69651268691804,
+    "time_to_first_token_seconds": 18.956
+  },
+  "timestamp": "2026-04-20 18:56:16"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 24.59,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI factories",
+      "universal accelerator",
+      "transformer-based models",
+      "design win pipeline exceeds $11 billion",
+      "record revenue in both Data Center and Gaming"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by the explosive growth in Data Center and the strategic importance of AI (Transformers/LLMs). While there are clear headwinds in Gaming due to China/Russia lockdowns and crypto-mining fluctuations, management's confidence remains exceptionally high. The transition from a GPU company to an 'AI factory' provider (including CPUs, networking, and software like Omniverse) suggests a massive expansion of their competitive moat. Quantitative data was highly specific, detailing revenue growth and pipeline values. The only significant drags on the score are the acknowledged macro risks in China/Russia and the sequential decline expected in Gaming for Q2, which prevents a perfect score."
+  },
+  "stats": {
+    "input_tokens": 11390,
+    "total_output_tokens": 400,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.06182866237414,
+    "time_to_first_token_seconds": 17.499
+  },
+  "timestamp": "2026-04-20 19:14:02"
+}

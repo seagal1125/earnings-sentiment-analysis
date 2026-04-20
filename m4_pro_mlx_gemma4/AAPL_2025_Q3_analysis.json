@@ -1,0 +1,42 @@
+{
+  "file": "AAPL_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 24.86,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.85,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "revenue record of $94 billion",
+      "AI as one of the most profound technologies",
+      "iPhone 16 family... strong double digits",
+      "tariff-related costs",
+      "investing $500 billion in the U.S.",
+      "Apple Intelligence"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by record-breaking revenue and strong growth in iPhone and Services. Management shows high confidence in their AI strategy (Apple Intelligence) and hardware ecosystem. While there are significant risks mentioned regarding tariffs ($1.1B estimated impact), the company's ability to maintain growth despite these headwinds suggests strong pricing power and demand. The guidance is cautiously optimistic, accounting for a 'pull-forward' effect in the current quarter due to tariff concerns. The QA session was direct, though management slightly sidestepped specific details on the Google search agreement and exact AI investment figures. The shift toward AI-driven CapEx is a central theme, signaling aggressive but strategic expansion."
+  },
+  "stats": {
+    "input_tokens": 11265,
+    "total_output_tokens": 427,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.938659626084856,
+    "time_to_first_token_seconds": 17.214
+  },
+  "timestamp": "2026-04-20 18:28:30"
+}

@@ -1,0 +1,36 @@
+{
+  "file": "META_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 30.74,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama 3",
+      "Meta AI",
+      "AI-powered recommendations",
+      "investment cycle",
+      "capital expenditures increase",
+      "monetization efficiency",
+      "Reality Labs operating loss"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by significant breakthroughs in AI (Llama 3) and strong revenue growth (27% YoY). Management shows extreme confidence in their ability to lead the AI race, explicitly stating they want to be the 'leading AI company in the world.' CapEx enthusiasm is at a maximum, with management raising full-year guidance for capital expenditures ($35B-$40B) to support AI infrastructure. While there are clear risks mentioned (regulatory headwinds, legal costs, and the multi-year investment cycle before monetization), the tone remains optimistic. The QA session was direct, with management providing specific technical details on model architectures (Meta Lattice). The only slight downward pressure comes from the acknowledged increase in Reality Labs losses and the 'volatility' expected during this heavy investment phase."
+  },
+  "timestamp": "2026-04-20 12:57:52"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "META_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 32.26,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "accelerated shift from offline to online commerce",
+      "significant investments in hiring",
+      "headwinds from platform changes, notably on iOS14",
+      "Quest 2 pre-orders have outpaced the original Quest pre-orders by more than 5x",
+      "achieve net-zero carbon emissions"
+    ],
+    "reasoning": "The overall sentiment is positive due to strong Q3 revenue growth (22% YoY) and the acceleration of e-commerce driven by the pandemic. Management shows high confidence in their product roadmap (AR/VR, Reels, Messaging), though the CFO provides a cautious forward guidance tone regarding 2021 headwinds like iOS14 privacy changes and regulatory uncertainty. Quantitative specificity is very high with detailed metrics on DAU/MAU, revenue, and expenses. Risk disclosure is moderate, focusing on macro-economic shifts and platform regulation. Capex enthusiasm is high as they plan significant increases in infrastructure and Reality Labs investment for 2021."
+  },
+  "timestamp": "2026-04-20 12:50:22"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 24.14,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 1.0,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "demand is greater than our supply",
+      "the next phase of Internet will be 3D and AI will be connected to the physical world",
+      "we are in the early innings yet of AI",
+      "supply constrained... we anticipate improving capacity in coming quarters",
+      "software-driven business"
+    ],
+    "reasoning": "The call reflects an exceptionally strong financial performance with record revenues across multiple segments. The primary driver is 'explosive' demand in Data Center and AI, which significantly outstrips supply—a key indicator of market dominance. Management shows high confidence in their full-stack approach (hardware + software) and the transition to AI-driven workloads. While supply constraints are a noted risk, they are framed as a 'good problem to have' (demand-led). The termination of the Arm acquisition is addressed transparently, and the pivot toward software (Omniverse, DRIVE) suggests a strategic shift to higher-margin recurring revenue. The tone is highly optimistic about the long-term AI revolution, though the 'management consistency' score is neutral due to the lack of prior quarter data for comparison."
+  },
+  "stats": {
+    "input_tokens": 10834,
+    "total_output_tokens": 448,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.53598146369611,
+    "time_to_first_token_seconds": 16.273
+  },
+  "timestamp": "2026-04-20 19:13:37"
+}

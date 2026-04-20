@@ -1,0 +1,42 @@
+{
+  "file": "MSFT_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.29,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record third quarter",
+      "Azure revenue growth 46% and 49%",
+      "digital technology will be the key input",
+      "the only deflationary force is software",
+      "strategic commitments",
+      "early days"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance, particularly in the Intelligent Cloud segment (Azure) and LinkedIn. Management displays high confidence, framing macro headwinds (inflation, FX, China shutdowns) as manageable compared to the massive TAM and secular growth in cloud/AI. While there are some headwinds mentioned (FX, Russia, China supply chain, and the transition from Open Licensing), they are treated as transient or strategic shifts. The tone is optimistic but grounded in specific growth metrics (e.g., Azure's 46% growth, LinkedIn's 34% growth). The 'early days' sentiment regarding AI and cloud suggests a strong forward-looking bias. QA was direct, with management providing detailed explanations for guidance volatility and segment-specific fluctuations."
+  },
+  "stats": {
+    "input_tokens": 12982,
+    "total_output_tokens": 430,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.385774366808874,
+    "time_to_first_token_seconds": 19.599
+  },
+  "timestamp": "2026-04-20 19:02:44"
+}

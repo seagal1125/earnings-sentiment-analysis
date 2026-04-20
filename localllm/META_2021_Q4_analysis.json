@@ -1,0 +1,34 @@
+{
+  "file": "META_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 32.73,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.4,
+      "pricing_power": -0.4,
+      "competitive_moat": 0.3,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "short-term tradeoff",
+      "headwinds from Apple's iOS changes",
+      "transition to short-form video",
+      "investing aggressively in AI and metaverse",
+      "$10 billion headwind"
+    ],
+    "reasoning": "The overall sentiment is slightly positive due to strong annual revenue milestones, but tempered by significant near-term headwinds. Management shows high confidence in their long-term vision (Metaverse/AI) but acknowledges a difficult transition period for monetization (Reels). The forward guidance is cautious/negative due to the 'lapping' of strong 2020 comps and ongoing iOS tracking restrictions. Risk disclosure is moderate, specifically regarding competition (TikTok) and regulatory/platform changes. Quantitative specificity is very high with detailed segment revenue, expense, and user growth figures provided by the CFO. Capex enthusiasm is high as they are scaling AI infrastructure, despite the pressure on margins."
+  },
+  "timestamp": "2026-04-20 12:53:05"
+}

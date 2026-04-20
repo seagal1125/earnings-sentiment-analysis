@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 29.3,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "strong smartphone and AI-related demand",
+      "extremely robust AI-related demand",
+      "demand is real... it's just the beginning",
+      "customers' demand far exceeds our ability to supply",
+      "2024 CapEx to be slightly higher than $30 billion"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by 'insane' AI demand and strong performance in 3nm/5nm technologies. Management shows extreme confidence, particularly C.C. Wei, when addressing the sustainability of the AI boom. Quantitative specificity is high with detailed revenue, margin, and CapEx figures provided. While there are risks mentioned (electricity costs, overseas expansion dilution), they are presented as manageable operational factors rather than existential threats. The company's aggressive CapEx plan and the massive supply-demand gap in CoWoS packaging underscore strong demand strength and competitive moat. QA was direct, though management avoided specific 2025 CapEx numbers and long-term CAGR updates."
+  },
+  "timestamp": "2026-04-20 13:48:55"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 28.47,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "RTX is doing great",
+      "AI is the most powerful technology force of our time",
+      "broad-based growth in data centers",
+      "conversational AI inference",
+      "supply is sold out almost everywhere"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the successful launch of the RTX SUPER lineup and the massive potential of conversational AI. While revenue showed a year-on-year decline due to seasonality and specific hyperscaler weakness, management demonstrated extreme confidence in long-term structural growth (AI waves). The CEO's tone regarding 'inference' and 'edge AI' was particularly enthusiastic. Quantitative specificity was high with detailed segment revenues and margin guidance. Risk disclosure was standard for a 10-Q/K disclaimer, though they did acknowledge weakness in a few specific hyperscalers. The competitive moat (CUDA ecosystem) and innovation momentum (RTX Studio, BERT breakthroughs) were central themes."
+  },
+  "timestamp": "2026-04-20 13:14:32"
+}

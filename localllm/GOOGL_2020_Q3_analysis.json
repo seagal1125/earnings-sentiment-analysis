@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 19.71,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "acceleration in digital transformation",
+      "broad based increases in advertiser spending",
+      "investing aggressively in cloud",
+      "achieving breakthroughs in natural language understanding",
+      "strategic investments in hardware"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong revenue growth (14% YoY) and the acceleration of digital transformation due to COVID-19. Management shows high confidence in long-term AI and Cloud trajectories, though they are cautious about regulatory risks (DOJ). The 'innovation_momentum' score is very high due to specific mentions of breakthroughs in NLP and Duplex AI. While 'qa_evasiveness' is low (they answered most questions directly), the 'pricing_power' remains moderate as they focused more on volume/reach rather than price hikes. 'Capex_enthusiasm' is high, specifically regarding Cloud infrastructure and hardware roadmaps."
+  },
+  "timestamp": "2026-04-20 12:39:12"
+}

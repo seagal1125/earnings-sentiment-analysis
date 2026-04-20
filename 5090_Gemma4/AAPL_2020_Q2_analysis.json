@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 14.46,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_0score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.5,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time record for Services",
+      "durability as a business",
+      "lack of visibility and uncertainty",
+      "unmatched capacity to be creative",
+      "supply chain is profoundly durable",
+      "headwinds from foreign exchange"
+    ],
+    "reasoning": "The earnings call was heavily overshadowed by the onset of the COVID-19 pandemic, leading management to explicitly withdraw forward guidance due to 'lack of visibility.' While there were significant headwinds in iPhone revenue and supply chain disruptions in China, the Services segment showed record-breaking growth and high momentum. Management (especially Tim Cook) displayed high confidence in the long-term durability of the ecosystem and competitive moat, despite acknowledging severe near-term macro risks and FX pressures. The call was highly quantitative, providing specific figures for almost every major business segment."
+  },
+  "timestamp": "2026-04-20 14:28:13"
+}

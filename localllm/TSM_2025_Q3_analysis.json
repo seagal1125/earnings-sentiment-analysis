@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 28.82,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "strong demand for our leading-edge process technologies",
+      "AI-related demand continues to be very strong",
+      "token volume... exponential increase",
+      "Foundry 2.0",
+      "narrow the gap between the demand and supply"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by 'insane' AI demand and robust revenue growth in advanced nodes (N3/N5). Management shows extremely high confidence, particularly C.C. Wei, when discussing the AI megatrend and technology leadership. Quantitative specificity is very high with detailed revenue, margin, and CapEx figures provided. While there are risks mentioned regarding overseas fab dilution and geopolitical uncertainties (tariffs), they are presented as manageable. The company's commitment to aggressive CapEx ($40B-$42B) and the expansion of 'Foundry 2.0' (integrating advanced packaging) demonstrates strong innovation momentum and competitive moat. QA was direct, though management avoided specific numerical guidance on CoWoS capacity and future AI revenue percentages, which is standard for TSMC."
+  },
+  "timestamp": "2026-04-20 13:51:02"
+}

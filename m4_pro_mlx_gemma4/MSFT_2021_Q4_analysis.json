@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 25.29,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "commercial cloud surpassed $69 billion in annual revenue",
+      "Azure revenue grew 51%",
+      "digital transformation acceleration",
+      "AI-first and collaboration-first world",
+      "secular growth trends"
+    ],
+    "reasoning": "The call reflects an exceptionally strong fiscal year-end for Microsoft, characterized by massive growth in the Intelligent Cloud segment (Azure) and Productivity/Business Processes. Management displays high confidence, framing current growth not as a pandemic 'pull-forward' but as a secular shift toward digital transformation. Quantitative data is dense, providing clear visibility into segment performance and contract sizes (e.g., $10M+ contracts). While there are minor headwinds mentioned regarding supply chain (Surface/Xbox) and accounting changes for depreciation, the overall tone is one of aggressive expansion and market leadership. The QA session was direct, with management successfully defending their margin outlook and the durability of their growth. Management consistency is marked 0.5 as this is a year-end report with no prior quarter baseline provided in the text."
+  },
+  "stats": {
+    "input_tokens": 11627,
+    "total_output_tokens": 434,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.128553237567886,
+    "time_to_first_token_seconds": 17.637
+  },
+  "timestamp": "2026-04-20 19:01:24"
+}

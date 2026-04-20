@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 30.78,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "achieved free cash flow of nearly $2.8 billion",
+      "industry-leading GAAP operating margins",
+      "long-term volume CAGR of 50%",
+      "massive progress on Full Self-Driving",
+      "cell supply is the only thing"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by record profitability, strong free cash flow, and significant milestones in vehicle production. Management shows extremely high confidence, particularly Elon Musk regarding FSD and future product lines (Cybertruck, Semi). Forward guidance is aggressive with a 50% CAGR target. While there are mentions of risks like semiconductor shortages and supply chain instability, the intensity is low compared to the growth narrative. Quantitative specificity is good, citing specific cash flow figures and production targets. The only notable 'negative' or cautious signal is the dependency on battery cell supply as a bottleneck for future growth."
+  },
+  "timestamp": "2026-04-20 13:27:18"
+}

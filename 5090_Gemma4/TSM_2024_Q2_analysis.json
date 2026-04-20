@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 13.9,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.95,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand for our industry-leading three- and five-nanometer technologies",
+      "AI-related demand continues",
+      "supply is very tight",
+      "strategic, not opportunistic",
+      "Foundry 2.0"
+    ],
+    "reasoning": "The earnings call reflects an extremely strong growth trajectory driven by AI and advanced nodes (N3/N5). Management provided highly specific quantitative guidance for Q3 revenue and gross margins. While CEO C.C. Wei was somewhat evasive regarding the exact timing of supply-demand rebalancing for CoWoS and specific pricing increases, his tone regarding technological leadership (N2, N16) and the structural nature of AI demand was exceptionally confident. Capex remains aggressive with a narrowed, high-end range to support growth."
+  },
+  "timestamp": "2026-04-20 16:18:14"
+}

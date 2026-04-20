@@ -1,0 +1,35 @@
+{
+  "file": "NVDA_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 12.27,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.25,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 1.0,
+      "pricing_power": 0.85,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Data center revenue up 409% year-over-year",
+      "Demand far exceeds supply",
+      "Transition from general to accelerated computing",
+      "AI factories",
+      "Sovereign AI",
+      "Software and services reached $1 billion annualized revenue run rate"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance with record-breaking revenue growth, particularly in the Data Center segment (409% YoY). Management exhibits extremely high confidence, framing the current era as a fundamental shift toward 'accelerated computing' and 'AI factories.' While there are mentions of supply constraints for next-gen products and geopolitical risks regarding China, these are presented as manageable or driven by overwhelming demand. The company's expansion into software and networking (Spectrum-X) demonstrates strong innovation momentum and moat reinforcement. Quantitative data is abundant throughout the presentation."
+  },
+  "timestamp": "2026-04-20 14:58:30"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 13.0,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": -0.3,
+      "demand_strength": 0.5,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.9
+    },
+    "key_phrases": [
+      "AWS net sales up 33%",
+      "inflationary pressures",
+      "normalizing shopping patterns",
+      "slowing operations expansion plans",
+      "Rivian valuation loss",
+      "cost improvement"
+    ],
+    "reasoning": "The overall sentiment is slightly positive but cautious, characterized by strong AWS and advertising growth offset by significant macroeconomic headwinds (inflation, FX, energy costs) and a net loss due to Rivian valuation. Management shows high confidence in their cost-reduction progress and AWS's long-term trajectory, though they are intentionally slowing capital expenditure in fulfillment/transportation to align with normalizing retail demand. The QA session was direct, with management addressing difficult questions regarding margin compression and inflation without significant evasion. Quantitative specificity is very high, with detailed breakdowns of revenue, costs, and investment allocations provided."
+  },
+  "timestamp": "2026-04-20 14:35:09"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.54,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Gemini era",
+      "CapEx will be notably larger than in 2023",
+      "durably reengineer our cost base",
+      "subscriptions reached $15 billion in annual revenue",
+      "Cloud crossed $9 billion in revenues"
+    ],
+    "reasoning": "The call was highly optimistic, centered on the 'Gemini era' and AI integration across Search, Cloud, and YouTube. Management showed high confidence, specifically regarding the ability to leverage GenAI for growth. CapEx enthusiasm is at maximum because they explicitly stated 2024 investment will be notably larger to support AI infrastructure. Quantitative specificity was very high with numerous revenue and growth figures provided. While there were mentions of cost reengineering and severance, these were presented as strategic efficiency moves rather than uncontrolled risks. The QA session was direct, with management addressing competition and cost structures without significant evasion."
+  },
+  "timestamp": "2026-04-20 14:41:24"
+}

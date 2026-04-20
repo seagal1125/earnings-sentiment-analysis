@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 32.13,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.5,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "between two major growth waves",
+      "end-to-end artificial intelligence",
+      "revolutionary manufacturing system",
+      "production-constrained situation, not a demand-constrained situation",
+      "high-risk, high-payoff program"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company achieved record deliveries and production in 2023, management explicitly warned that 2024 growth rates would be lower as they transition between 'two growth waves.' Confidence is high regarding technological breakthroughs (FSD V12, Optimus, 48V architecture) but more tempered regarding near-term margin predictability due to interest rates. Innovation momentum is the strongest driver, with significant focus on AI and next-gen manufacturing. Risk disclosure is moderate, primarily focusing on interest rate impacts and the difficulty of scaling new technologies. Quantitative specificity was good regarding energy storage growth and CapEx projections ($10B+), though specific automotive margin guidance for 2024 was intentionally avoided."
+  },
+  "timestamp": "2026-04-20 13:33:26"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "META_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 33.15,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "metaverse",
+      "next computing platform",
+      "creator economy",
+      "privacy-enhancing technologies",
+      "AI and machine learning",
+      "deceleration on a two-year basis"
+    ],
+    "reasoning": "The overall sentiment is highly positive due to massive revenue growth (56% YoY) and strong performance in key verticals like e-commerce. Management shows high confidence in their long-term 'metaverse' vision and AI capabilities, though the forward guidance tone is slightly tempered by warnings of decelerating growth rates as they lap pandemic-era highs and face iOS privacy headwinds (ATT). Quantitative specificity is very high with detailed breakdowns of revenue, users, and expenses. Risk disclosure is moderate, focusing primarily on regulatory changes and platform updates. The company shows aggressive capex enthusiasm related to infrastructure and the metaverse. Management consistency is rated 0.5 as no prior quarter data was provided for comparison."
+  },
+  "timestamp": "2026-04-20 12:52:00"
+}

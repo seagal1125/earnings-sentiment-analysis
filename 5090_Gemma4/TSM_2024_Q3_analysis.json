@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 15.93,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 1.0,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI demand is real",
+      "demand right now is insane",
+      "Foundry 2.0",
+      "CoWoS capacity far exceeds our ability to supply",
+      "revenue contribution from server AI processors to more than triple"
+    ],
+    "reasoning": "The earnings call was exceptionally positive, characterized by 'insane' AI demand and strong revenue/margin growth. Management demonstrated high confidence in the long-term structural demand for AI, specifically noting that CoWoS capacity is currently a bottleneck due to overwhelming demand. While there were specific disclosures regarding margin dilution from overseas expansion (2-3%) and rising electricity costs, these were presented as manageable operational factors rather than existential threats. The level of quantitative detail provided by the CFO was very high, and the CEO's responses to questions about AI sustainability and competitive moat were assertive and direct."
+  },
+  "timestamp": "2026-04-20 16:18:30"
+}

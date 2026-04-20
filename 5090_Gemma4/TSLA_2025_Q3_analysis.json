@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.46,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.85,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.85,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "critical inflection point",
+      "real-world AI",
+      "sustainable abundance",
+      "AI five chip will be 40 times better than the AI four chip",
+      "infinite money glitch",
+      "expanding production as fast as we reasonably can"
+    ],
+    "reasoning": "The call was exceptionally bullish, driven by Elon Musk's vision of 'real-world AI' and 'sustainable abundance.' Management demonstrated high confidence in technological breakthroughs (AI 5 chip, Optimus, Robotaxi) and provided specific quantitative data regarding regional delivery growth and free cash flow ($4B). While there were mentions of significant risks like $400M tariff impacts and regulatory hurdles for FSD, the overall tone was one of aggressive expansion. Capex is expected to increase substantially in 20206 to support AI initiatives. The CFO explicitly noted that previous promises regarding Model Y were delivered, showing high management consistency."
+  },
+  "timestamp": "2026-04-20 16:13:29"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.7,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.4,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-first company",
+      "reengineer the company's cost base",
+      "path to profitability",
+      "macroeconomic climate has become more challenging",
+      "achieving efficiency through AI"
+    ],
+    "reasoning": "The overall sentiment is slightly positive but tempered by significant macroeconomic headwinds and declining ad revenues. Management shows high confidence in their long-term AI leadership (innovation_momentum: 0.9) and technical moat, but the financial performance was impacted by FX and advertiser pullbacks. The 'reengineering of cost base' (layoffs and efficiency drives) is a central theme, indicating a shift from aggressive growth to disciplined profitability. While quantitative data was abundant (specificity: 0.8), the forward guidance on revenue remains cautious due to the macro environment, though CapEx is being redirected toward technical infrastructure for AI."
+  },
+  "timestamp": "2026-04-20 12:42:56"
+}

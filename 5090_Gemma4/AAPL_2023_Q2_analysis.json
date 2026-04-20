@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 11.09,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.5,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.5,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time record for Services",
+      "iPhone revenue of $51.3 billion",
+      "installed base... reached an all-time high",
+      "foreign exchange headwinds",
+      "India is an incredibly exciting market",
+      "component prices decline"
+    ],
+    "reasoning": "The overall sentiment is slightly positive despite a 3% YoY revenue decline, driven by record-breaking performance in Services and emerging markets (India, etc.). Management shows high confidence in their ecosystem (2 billion+ active devices) and long-term strategy. While they were somewhat evasive on specific Generative AI roadmaps and manufacturing shifts, they provided highly specific quantitative data regarding margins, revenue segments, and user bases. The forward guidance is cautious/neutral, expecting similar performance to the previous quarter with ongoing FX headwinds. Demand is bifurcated: explosive in Services/Emerging Markets but facing macro-driven softness in Mac/iPad."
+  },
+  "timestamp": "2026-04-20 14:30:50"
+}

@@ -1,0 +1,36 @@
+{
+  "file": "META_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 13.24,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": -0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.8,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.4,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "transition to short-form video",
+      "signal loss resulting from Apple's iOS changes",
+      "macroeconomic trends",
+      "AI infrastructure",
+      "Discovery Engine",
+      "monetization of Reels",
+      "deceleration in growth"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to significant acknowledged headwinds (Apple's privacy changes, Ukraine war, and macro slowdown), though management maintains high confidence in their long-term AI and Metaverse strategy. The forward guidance is cautious, explicitly warning about potential declines in MAUs for Q2. Risk disclosure is very high as they transparently address regulatory and competitive threats. Quantitative specificity is excellent with detailed revenue, expense, and user metrics provided. While pricing power is under pressure (ad price per ad decreased 8%), innovation momentum remains extremely high due to massive AI and Reality Labs investments."
+  },
+  "timestamp": "2026-04-20 14:45:14"
+}

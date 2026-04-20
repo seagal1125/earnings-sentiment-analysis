@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 29.21,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "revenue record of $94 billion",
+      "double-digit growth across iPhone, Mac and Services",
+      "Apple Intelligence",
+      "significant driver is... increasing our investment significantly in AI",
+      "tariff-related costs"
+    ],
+    "reasoning": "The overall sentiment is highly positive due to record-breaking revenue ($94B) and double-digit growth in key segments. Management shows high confidence, particularly regarding the iPhone 16 family and Services. The forward guidance tone is slightly tempered by a projected deceleration in revenue growth (mid-to-high single digits) due to tariff impacts and difficult year-over_year comparisons. Risk disclosure is moderate, specifically focusing on $1.1B in estimated tariff costs. Quantitative specificity is very high with detailed segment revenues and margins provided. CapEx enthusiasm is strong, explicitly linked to AI infrastructure expansion. Innovation momentum is a standout theme with heavy emphasis on Apple Intelligence and M4 chips. QA evasiveness was low, though Tim Cook used standard 'I don't want to speculate' for legal/court-related queries."
+  },
+  "timestamp": "2026-04-20 12:27:46"
+}

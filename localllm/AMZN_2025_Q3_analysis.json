@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.2,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS reaccelerating to 20.2%",
+      "Trainium2 is fully subscribed",
+      "Agentic commerce",
+      "Expanding capacity to double by 2027",
+      "Full year cash CapEx approximately $125 billion"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by AWS reacceleration and significant AI momentum (AgentCore, Trainium2). Management shows extreme confidence in their infrastructure scaling and custom silicon strategy. Quantitative specificity is very high, with detailed revenue, margin, and capacity figures provided. CapEx enthusiasm is at maximum due to the $125B full-year guidance and aggressive expansion of power/data center footprint. While there were one-time legal and severance charges impacting operating income, management successfully contextualized these. The only slight drag on sentiment was the disclosure of FTC settlement costs, but this was offset by strong growth in Advertising and Stores segments."
+  },
+  "timestamp": "2026-04-20 12:37:39"
+}

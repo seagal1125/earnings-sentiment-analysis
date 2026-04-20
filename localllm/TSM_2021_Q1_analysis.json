@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 33.88,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "structural increase in long-term demand",
+      "$100 billion CapEx in the next 3 years",
+      "supply shortage will continue throughout this year and may be extended into 2022",
+      "technology leadership",
+      "HPC-related demand"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by massive capital expenditure plans ($100B over 3 years) and structural demand growth in HPC and 5G. Management shows high confidence in their technology moat (N5/N3) despite geopolitical risks. While they are cautious about gross margin compression due to mix and cost increases, the 'demand strength' is exceptionally high. Quantitative specificity is high with clear CapEx and revenue CAGR targets. The only slight negativity comes from the acknowledged capacity shortages and potential margin dilution from advanced nodes."
+  },
+  "timestamp": "2026-04-20 13:40:49"
+}

@@ -1,0 +1,33 @@
+{
+  "file": "TSLA_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 15.38,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.75,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.85,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strongest orders year-to-date than ever in our history",
+      "orders at almost twice the rate of production",
+      "manufacturing technology will be our most important long-term strength",
+      "we'll probably have a pretty difficult recession this year, probably"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic; while management celebrates record-breaking 2022 performance and massive demand (orders at 2x production), there is significant macro-economic concern regarding interest rates and a potential recession. Confidence from the CEO is extremely high regarding long-term AI/Autonomy value, though the CFO provides more grounded warnings about margin compression due to price cuts and inflation. Innovation momentum is exceptionally strong with FSD, Dojo, and 4680 ramp. Risk disclosure is moderate, focusing on macro headwinds and supply chain volatility. The management shows characteristic evasiveness in Q&A when faced with specific competitive or future product timeline questions."
+  },
+  "timestamp": "2026-04-20 15:02:16"
+}

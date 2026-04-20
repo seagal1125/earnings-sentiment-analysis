@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.25,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.1,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Apple Intelligence marks the beginning of a new chapter",
+      "iPhone 16, powered by A18... the most advanced iPhone we've ever made",
+      "Services achieved an all-time revenue record of $25 billion",
+      "18.1 adoption is twice as fast as the 17.1 adoption",
+      "We are very early in the cycle"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by record-breaking revenue in several segments and the strategic launch of Apple Intelligence. Management shows high confidence, particularly Tim Cook, regarding the AI-driven upgrade cycle. While revenue growth is healthy (6% YoY), the forward guidance is cautious (low-to-mid single digits), which analysts noted as a point of inquiry. The 'qa_evasiveness' is low, though management skillfully avoided specific questions regarding China demand volatility and legal/tariff risks. Innovation momentum is the strongest driver, with Apple Intelligence positioned as a key catalyst for future growth. The 'management_consistency' is set to 0.5 as this is a transition quarter with the CFO change."
+  },
+  "stats": {
+    "input_tokens": 11540,
+    "total_output_tokens": 451,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.388326204082034,
+    "time_to_first_token_seconds": 17.955
+  },
+  "timestamp": "2026-04-20 18:27:14"
+}

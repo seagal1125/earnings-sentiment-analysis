@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.67,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue records",
+      "Apple Intelligence",
+      "installed base of 2.35 billion active devices",
+      "services revenue record of $26.3 billion",
+      "foreign exchange headwinds"
+    ],
+    "reasoning": "The company reported an exceptionally strong Q1 with all-time revenue and EPS records, driven by high demand for iPhone 16 (boosted by Apple Intelligence) and significant growth in Services. Management showed high confidence, particularly regarding the expansion of Apple Intelligence and emerging markets like India. While forward guidance is slightly tempered by expected FX headwinds (2.5% impact) and a 'low to mid-single-digit' revenue growth projection for March, the underlying momentum remains robust. The QA session was direct, though Tim Cook briefly deflected a question regarding potential tariffs ('don't have anything more to add'). Quantitative specificity was very high with detailed segment breakdowns provided by both CEO and CFO."
+  },
+  "timestamp": "2026-04-20 12:26:47"
+}

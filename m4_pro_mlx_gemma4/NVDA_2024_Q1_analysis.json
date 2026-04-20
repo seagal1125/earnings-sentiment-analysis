@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.08,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.1,
+      "qa_evasiveness": 0.05,
+      "quantitative_specificity": 0.85,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Generative AI is driving exponential growth in compute requirements",
+      "The world's $1 trillion data center is nearly populated entirely by CPUs today",
+      "We have procured substantially higher supply for the second half of the year",
+      "iPhone moment",
+      "lowest TCO approach to train and deploy AI"
+    ],
+    "reasoning": "The earnings call reflects an extraordinary period of growth driven by the 'iPhone moment' of Generative AI. Management displays extreme confidence, particularly Jensen Huang, regarding the transition from CPU-centric to accelerated computing. Demand is described as 'exponential' and 'surging,' with visibility extending several quarters out. The company is aggressively scaling supply to meet this demand. While there are minor mentions of inventory corrections in gaming and automotive, the data center segment's momentum completely overshadows these. The tone is highly optimistic, with a clear strategic focus on full-stack leadership (software + hardware + networking) to maintain a competitive moat against ASICs and competitors. Quantitative guidance for Q2 was exceptionally strong, signaling a massive step-function increase in revenue."
+  },
+  "stats": {
+    "input_tokens": 12362,
+    "total_output_tokens": 444,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.684741067293736,
+    "time_to_first_token_seconds": 19.155
+  },
+  "timestamp": "2026-04-20 19:15:42"
+}

@@ -1,0 +1,11 @@
+{
+  "file": "TSM_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.47,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "---\n{\"symbol\": \"TSM\", \"fiscal_year\": 2023, \"fiscal_quarter\": 4, \"scores\": {\"overall_sentiment\": 0.4, \"confidence_score\": 0.85, \"forward_guidance_tone\": 0.7, \"risk_disclosure_intensity\": 0.4, \"qa_evasiveness\": 0.3, \"quantitative_specificity\": 0.95, \"capex_enthusiasm\": 0.6, \"demand_strength\": 0.9, \"pricing_power\": 0.8, \"competitive_moat\": 0.9, \"innovation_momentum\": 0.95, \"management_consistency\": 0.5}, \"key_phrases\": [\"AI-related demand\", \"3-nanometer technology ramp\", \"low-to-mid 20% revenue growth\", \"advanced packaging CoWoS\", \"global manufacturing footprint expansion\"], \"reasoning\": \"The call reflects a transition period where short-term margin pressure (due to N3 ramp and capacity conversion) is being offset by extremely strong long-term structural demand for AI and advanced nodes. Management shows high confidence in technology leadership despite competitor claims, though they were evasive regarding specific customer names and technical product variants during Q&A. The financial data provided was exceptionally detailed.\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 16:17:46"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "NVDA_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 27.52,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI factories",
+      "transition from general to accelerated computing",
+      "supply constrained",
+      "sovereign AI",
+      "inference revenue contribution of 40%",
+      "software run rate $1 billion"
+    ],
+    "reasoning": "The earnings call was exceptionally positive, characterized by record-breaking revenue growth (265% YoY) and a clear vision of a structural shift in computing. Management demonstrated high confidence, specifically regarding the 'AI factory' concept and the expansion into sovereign AI and software. While there is a noted risk regarding China export controls, the company is actively mitigating this with alternative products. The demand for next-generation products (Blackwell/H200) is expected to exceed supply, indicating massive demand strength. Quantitative specificity was high, with detailed revenue breakdowns across segments (Data Center, Gaming, etc.)."
+  },
+  "timestamp": "2026-04-20 13:23:18"
+}

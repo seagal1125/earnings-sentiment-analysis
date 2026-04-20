@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 28.65,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "Cloud and AI are the essential inputs",
+      "demand is growing a bit faster",
+      "short power",
+      "software driving this efficiency"
+    ],
+    "reasoning": "The call reflects an exceptionally strong performance with record revenue in Cloud ($42B) and significant growth in AI-related metrics (tokens processed up 5X). Management shows extremely high confidence, specifically regarding the compounding benefits of software efficiency. While there is a notable risk disclosure regarding 'power constraints' and capacity shortages, it is framed as a result of overwhelming demand rather than operational failure. The quantitative specificity is very high, with numerous YoY growth percentages provided for almost every segment. The only slight downward pressure noted was in Windows OEM due to inventory levels and the impact of scaling AI infrastructure on gross margins, but overall sentiment remains highly optimistic."
+  },
+  "timestamp": "2026-04-20 13:13:05"
+}

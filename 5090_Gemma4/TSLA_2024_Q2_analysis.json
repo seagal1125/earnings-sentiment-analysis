@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 14.56,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.75,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "autonomy is the biggest differentiator",
+      "demand constrained rather than production constrained",
+      "energy storage deployments reached an all-time high",
+      "massive demand driver",
+      "achieve a step change improvement"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, driven by massive long-term enthusiasm for AI, Autonomy (FSD), and Optimus, alongside record energy storage growth. However, short-term headwinds in the EV market—specifically pricing pressure/discounts and interest rate impacts on revenue per unit—temper the outlook. Management shows extremely high confidence in their technological moat and aggressive CapEx plans (> $10B) for AI infrastructure (50k H100s). While there is some evasiveness regarding specific product timelines and FSD licensing details, the technical momentum in 4680 cells and FSD v12.5 is clearly communicated with high quantitative specificity."
+  },
+  "timestamp": "2026-04-20 15:03:38"
+}

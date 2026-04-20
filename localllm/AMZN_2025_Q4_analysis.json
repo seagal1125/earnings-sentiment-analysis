@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 31.28,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS growth continued to accelerate to 24%",
+      "annualized revenue run rate of $142 billion",
+      "invest about $200 billion in capital expenditures",
+      "backlog is $244 billion",
+      "Trainium two is 30 to 40% more price performance"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by accelerating AWS growth (24%) and massive expansion in AI infrastructure. Management shows extremely high confidence, specifically regarding the ability to monetize massive CapEx through custom silicon (Graviton/Trainium) and AI agents. Quantitative specificity is very high, with numerous run-rate figures and percentage growth metrics provided. While there are significant special charges mentioned by the CFO (tax disputes, severance), the core business drivers (AWS, Advertising, Retail efficiency) remain robust. The only slight downward pressure on sentiment comes from the heavy CapEx requirement ($200B) and the acknowledged supply constraints in AI chips, though management frames this as a demand-driven opportunity rather than a structural risk."
+  },
+  "timestamp": "2026-04-20 12:38:10"
+}

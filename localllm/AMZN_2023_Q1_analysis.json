@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.5,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": -0.2,
+      "demand_strength": 0.5,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "cost optimizing versus cost cutting",
+      "regionalized model",
+      "generative AI",
+      "machine learning chips",
+      "repurposed capital"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While management acknowledges macroeconomic headwinds and 'cautious spending' (especially in AWS optimization), they demonstrate high confidence in long-term structural improvements like the US fulfillment regionalization and the massive potential of Generative AI. CapEx is expected to decrease slightly due to reduced retail footprint investment, but is being strategically reallocated to AWS/AI infrastructure. The management was direct in QA, particularly regarding the distinction between cost-cutting and optimization, and provided specific details on their custom chip strategy (Trainium/Inferentia). Risk disclosure is moderate, focusing on inflation and economic uncertainty."
+  },
+  "timestamp": "2026-04-20 12:33:01"
+}

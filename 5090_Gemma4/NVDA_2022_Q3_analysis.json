@@ -1,0 +1,35 @@
+{
+  "file": "NVDA_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 11.72,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 1.0,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "outstanding quarter",
+      "demand outstripped supply",
+      "secured guaranteed supply",
+      "full-stack company",
+      "Omniverse... largest graphics opportunity",
+      "revenue of $7.1 billion and year-on-year growth of 50%"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance with record revenues across multiple segments (Gaming, Data Center, Pro Vis). Management demonstrates extremely high confidence, particularly regarding supply chain security ('secured guaranteed supply') and the massive potential of the Omniverse/AI ecosystem. Quantitative specificity is very high, with detailed revenue and growth percentages provided for each segment. While there are notable regulatory risks mentioned regarding the Arm acquisition, the overall tone is dominated by explosive demand and technological leadership in AI and full-stack computing."
+  },
+  "timestamp": "2026-04-20 14:56:28"
+}

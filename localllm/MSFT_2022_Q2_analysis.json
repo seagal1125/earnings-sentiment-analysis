@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 30.2,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "generational shift",
+      "PC renaissance",
+      "digital fabric",
+      "strong demand signals",
+      "cloud-first operating system"
+    ],
+    "reasoning": "The company reported a record quarter with strong double-digit growth across all segments. Management (CEO Satya Nadella and CFO Amy Hood) exhibited extremely high confidence, citing structural shifts toward digitization as a permanent tailwind. Quantitative specificity was very high, with detailed revenue, margin, and user growth figures provided for Azure, LinkedIn, Teams, and Windows. While there were minor mentions of FX headwinds and supply chain uncertainty in gaming/hardware, the overall tone was overwhelmingly optimistic about long-term demand (AI, Metaverse, Cloud). The only reason management_consistency is 0.5 is due to the lack of prior quarter comparison data in the transcript."
+  },
+  "timestamp": "2026-04-20 13:06:21"
+}

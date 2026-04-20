@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.31,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.85,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI factories",
+      "demand is well ahead of supply",
+      "Blackwell is in full production",
+      "Sovereign AI",
+      "one-year rhythm"
+    ],
+    "reasoning": "The earnings call was exceptionally strong, characterized by record-breaking revenue growth (262% YoY) and massive demand for the Hopper platform. Management demonstrated extreme confidence, particularly Jensen Huang, regarding the Blackwell architecture and the transition to 'AI factories.' While there is a noted risk regarding China export controls and supply constraints, the overwhelming narrative is one of explosive, multi-year demand that outstrips supply. The company's shift toward a system-level provider (networking + software + GPU) reinforces its competitive moat. Quantitative specificity was high with detailed revenue breakdowns and specific customer examples (Tesla, Meta, etc.)."
+  },
+  "timestamp": "2026-04-20 13:23:47"
+}

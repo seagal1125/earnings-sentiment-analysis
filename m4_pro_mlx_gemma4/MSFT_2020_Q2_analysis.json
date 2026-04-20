@@ -1,0 +1,43 @@
+{
+  "file": "MSFT_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 24.3,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.1,
+      "qa_evasiveness": 0.0,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "double-digit top and bottom line growth",
+      "strength of our commercial cloud",
+      "increasing rate of digitization",
+      "Azure revenue grew 62% and 64%",
+      "commercial bookings growth was ahead of expectations",
+      "hybrid computing",
+      "AI adoption"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance, particularly driven by the Intelligent Cloud segment and Azure's growth. Management displays high confidence in their strategic shift toward cloud, edge, and AI-driven productivity. The sentiment is highly optimistic due to double-digit growth across key segments (Productivity, Cloud, and LinkedIn). While there are minor risks mentioned regarding the China market and hardware execution (Surface/Gaming), they are heavily outweighed by the momentum in high-margin software and cloud services. The QA session was direct, with management providing specific data to support their strategic claims. The 'management_consistency' is set to 0.5 as no prior quarter data was provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 11324,
+    "total_output_tokens": 427,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.07394167761664,
+    "time_to_first_token_seconds": 16.763
+  },
+  "timestamp": "2026-04-20 18:58:49"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.63,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.75,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "structural increase in long-term semiconductor demand",
+      "capacity to remain tight throughout 2022",
+      "high-end EUV tools",
+      "multiyear megatrend of 5G and HPC",
+      "long-term gross margin of 53% and higher"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by robust demand in HPC and Automotive sectors despite macroeconomic uncertainties. Management shows high confidence in their technology leadership (N3/N2) and capacity planning, viewing CapEx not as a risk but as a strategic necessity to capture structural growth. While they acknowledge risks like inflation and supply chain disruptions, the tone remains proactive rather than defensive. The QA session was direct, with management providing specific technical and strategic roadmaps (e.g., N2 timing, tool supply mitigation). The only slight drag on the score is the inherent risk of high CapEx in a volatile macro environment and the complexity of N3 profitability, but these are framed as manageable through technology leadership."
+  },
+  "stats": {
+    "input_tokens": 13246,
+    "total_output_tokens": 432,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.27842967018584,
+    "time_to_first_token_seconds": 20.859
+  },
+  "timestamp": "2026-04-20 19:33:58"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 21.96,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": -0.1,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.5,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.2,
+      "pricing_power": 0.0,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "abrupt decline in March",
+      "shift to digital",
+      "optimizing headcount",
+      "efficiency efforts",
+      "long-term opportunity"
+    ],
+    "reasoning": "The call reflects a period of high uncertainty due to the onset of COVID-19. While management acknowledges an 'abrupt decline' in advertising revenue in March, they maintain a long-term optimistic stance centered on digital transformation and AI. The sentiment is slightly negative due to immediate macro headwinds but buffered by strong Cloud performance and YouTube direct response resilience. CFO Ruth Porat was notably cautious (evasive) regarding specific Q2 trends and credit provisions, while CEO Sundar Pichai focused on structural shifts and innovation momentum. Management demonstrated high consistency with previously stated efficiency goals and share repurchase plans."
+  },
+  "timestamp": "2026-04-20 12:38:32"
+}

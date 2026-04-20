@@ -1,0 +1,41 @@
+{
+  "file": "META_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.42,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.5,
+      "pricing_power": -0.3,
+      "competitive_moat": 0.6,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "small businesses are the biggest part of our business",
+      "normalization as shelter-in-place measures have eased",
+      "headwinds related to ad targeting and measurement",
+      "messaging commerce",
+      "accelerated participation in the digital economy"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company showed strong revenue growth ($18.7B) and user engagement driven by the pandemic, management provided a sober outlook for Q3 due to 'normalization' of user activity and macroeconomic uncertainty. A significant headwind is identified regarding mobile OS changes (Apple iOS 14) and privacy regulations, which explains the negative pricing power score. Confidence is high regarding long-term product vision (AI, AR/VR, Messaging), but the forward guidance is tempered by the transition from pandemic-driven surges to a more stable economic environment. The company's pivot toward e-commerce and small business tools is the central strategic pillar."
+  },
+  "stats": {
+    "input_tokens": 12706,
+    "total_output_tokens": 413,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.55520905910629,
+    "time_to_first_token_seconds": 19.063
+  },
+  "timestamp": "2026-04-20 18:48:00"
+}

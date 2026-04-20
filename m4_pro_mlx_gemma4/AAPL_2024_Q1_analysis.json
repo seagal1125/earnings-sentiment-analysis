@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.1,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue records",
+      "2.2 billion active devices",
+      "era of spatial computing",
+      "double-digit growth in emerging markets",
+      "generative AI opportunity"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by record-breaking revenue in several regions and the successful launch of the iPhone 15 series. Management shows high confidence, particularly regarding the installed base and Services growth. While there were headwinds like the 'extra week' comparison and China's contraction, the tone remains optimistic. The introduction of Vision Pro and mentions of AI provide a strong innovation narrative. QA was direct, though management slightly pivoted on sensitive topics like China and specific AI details to avoid over-promising. The 'management consistency' is set to 0.5 as there is no prior quarter data provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 11002,
+    "total_output_tokens": 392,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.095194570650115,
+    "time_to_first_token_seconds": 17.824
+  },
+  "timestamp": "2026-04-20 18:25:58"
+}

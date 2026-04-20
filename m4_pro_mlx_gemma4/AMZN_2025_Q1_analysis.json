@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.07,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.75,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI business has a multibillion dollar annual revenue run rate",
+      "AWS annualized revenue run rate of more than $117 billion",
+      "backlog is $189 billion for Q1",
+      "new inbound architecture... improving delivery speeds and lowering our cost to serve",
+      "we're not dabbling here [in AI]"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by robust AWS growth and the massive potential of AI integration across all business segments. Management shows high confidence, particularly regarding the 'agentic' future of Alexa and the scalability of AWS. The quantitative data is highly specific, including clear revenue run rates and backlog figures. While there are minor risks mentioned regarding tariffs and macroeconomic uncertainty, they are framed as manageable through Amazon's scale and selection. The 'lumpy' nature of AWS revenue is explained logically, and the transition to AI-driven agents (Alexa+) represents a significant innovation momentum. The only slight drag on the score is the inherent uncertainty of global trade (tariffs) and the seasonal variability in guidance."
+  },
+  "stats": {
+    "input_tokens": 11154,
+    "total_output_tokens": 444,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.41631496411777,
+    "time_to_first_token_seconds": 17.177
+  },
+  "timestamp": "2026-04-20 18:36:31"
+}

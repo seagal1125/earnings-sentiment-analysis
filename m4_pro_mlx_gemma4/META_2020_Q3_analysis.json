@@ -1,0 +1,41 @@
+{
+  "file": "META_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.27,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "accelerated shift from offline to online commerce",
+      "significant headwinds in 2021 (iOS 14)",
+      "investment in Facebook Reality Labs",
+      "interoperability across apps",
+      "election integrity"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, driven by strong Q3 revenue growth and the pandemic-accelerated digital shift. Management shows high confidence in their product roadmap (AR/VR, Messaging) but provides a nuanced forward guidance that acknowledges significant headwinds in 2021, specifically regarding Apple's iOS 14 privacy changes and regulatory shifts. Quantitative data is highly specific, providing clear metrics on user growth and financial performance. While demand remains strong due to the shift to e-commerce, pricing power is slightly dampened by a mix shift toward lower-monetization formats (Stories/messaging). The company is in an aggressive investment phase (high capex enthusiasm) for long-term innovation, which explains the projected margin compression in 2021."
+  },
+  "stats": {
+    "input_tokens": 13028,
+    "total_output_tokens": 427,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.42090122630811,
+    "time_to_first_token_seconds": 19.661
+  },
+  "timestamp": "2026-04-20 18:48:27"
+}

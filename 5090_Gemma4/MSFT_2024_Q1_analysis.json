@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 12.43,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Microsoft Cloud revenue surpassed $31.8 billion",
+      "AI inflection point",
+      "Azure took share",
+      "Copilot-led business process transformation",
+      "capital expenditures to support cloud demand"
+    ],
+    "reasoning": "The earnings call demonstrates extremely strong performance driven by the AI transition, with significant growth in Azure (29% CC) and Microsoft Cloud (24%). Management shows high confidence in their 'full stack' AI strategy. While they acknowledge headwinds such as customer workload optimization and FX impacts, the sheer density of positive quantitative data and the aggressive CapEx deployment for AI infrastructure signal a period of intense innovation and market share capture. The QA session was direct, with management providing specific reasons for Azure growth stability and addressing concerns about investment efficiency."
+  },
+  "timestamp": "2026-04-20 14:52:01"
+}

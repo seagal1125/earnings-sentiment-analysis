@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 29.19,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "robotaxi",
+      "autonomy is the story",
+      "intelligence density",
+      "hyper-exponential rate",
+      "optimus 3",
+      "sub-$0.30 per mile potential"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by massive breakthroughs in autonomy (Robotaxi launch) and robotics (Optimus). Management shows high confidence in long-term technological leadership ('intelligence density'). However, there are significant near-term headwinds including the repeal of EV tax credits, tariff impacts ($300M increase), and regulatory hurdles in Europe/China. The forward guidance is a mix of 'rough quarters' ahead due to policy changes but extreme optimism for 2025/2026. Quantitative specificity was moderate, with some specific figures on tariffs and FSD adoption (25% increase) but much of the future value remains qualitative. QA evasiveness was low to moderate; management avoided discussing xAI synergy directly but answered most technical and operational questions clearly."
+  },
+  "timestamp": "2026-04-20 13:36:48"
+}

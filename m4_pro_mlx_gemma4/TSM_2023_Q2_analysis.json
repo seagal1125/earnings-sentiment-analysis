@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 31.51,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": -0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.3,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "cyclical downturn",
+      "inventory adjustment",
+      "N3 ramp-up dilution",
+      "AI-related demand is directionally positive",
+      "long-term gross margin of 53% and higher"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to the cyclical downturn in the semiconductor industry and downward revisions in revenue guidance (down 10% for FY23). However, management maintains high confidence in their long-term moat and technological leadership (N3/N2). The forward guidance is cautious, specifically regarding margin dilution from N3 ramp-up and macroeconomic headwinds. Quantitative specificity is high, with detailed discussions on CapEx, margins, and technology nodes. The AI-driven demand is a significant bright spot but currently insufficient to offset the broader cyclical decline. Management was direct in QA, though they avoided specific numbers on capacity expansion and exact 2024 outlooks."
+  },
+  "stats": {
+    "input_tokens": 15712,
+    "total_output_tokens": 409,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.15943507745162,
+    "time_to_first_token_seconds": 23.992
+  },
+  "timestamp": "2026-04-20 19:36:34"
+}

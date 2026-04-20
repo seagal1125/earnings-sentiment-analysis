@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 22.61,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.5,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "cost optimizing versus cost cutting",
+      "regionalized fulfillment network",
+      "generative AI and large language models",
+      "optimization in AWS",
+      "recovering cost structure"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company faces macroeconomic headwinds and 'cost optimization' trends in AWS (which led to a dip in April growth), management demonstrates high confidence in their structural changes (regionalization) and long-term strategic pivots. The transition from a national to a regional fulfillment network is a key driver for margin recovery. Innovation momentum is exceptionally high due to the focus on Generative AI and custom silicon (Trainium/Inferentia). The QA session was direct, with management providing specific context on AWS headwinds and capital reallocation. Risk disclosure is moderate, primarily focused on macroeconomic uncertainty rather than internal failures. Management consistency is rated at 0.5 as they are in a transition phase of restructuring costs and roles."
+  },
+  "stats": {
+    "input_tokens": 9861,
+    "total_output_tokens": 412,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.48446677136367,
+    "time_to_first_token_seconds": 15.152
+  },
+  "timestamp": "2026-04-20 18:33:16"
+}

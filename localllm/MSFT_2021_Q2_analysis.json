@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 27.96,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "dawn of a second wave of digital transformation",
+      "Azure revenue grew 50%",
+      "expansion of our partnership with SAP",
+      "more than 11 million monthly active users [Power Platform]",
+      "stronger Azure consumption"
+    ],
+    "reasoning": "The call was exceptionally positive, characterized by record-breaking performance across multiple segments (Cloud, LinkedIn, Gaming). Management demonstrated high confidence, using definitive language ('we are building', 'we are investing') and providing highly specific financial metrics. While there were mentions of supply constraints in gaming and the impact of accounting changes on margins, the overall tone was one of aggressive expansion and structural market leadership. The QA session was direct, with Amy Hood providing clear explanations for margin fluctuations and Azure consumption patterns without evasion."
+  },
+  "timestamp": "2026-04-20 13:04:21"
+}

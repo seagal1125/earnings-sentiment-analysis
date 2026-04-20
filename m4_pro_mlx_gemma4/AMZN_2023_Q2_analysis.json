@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 22.11,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "regionalization is working",
+      "cost to serve improvement",
+      "generative AI is in the very early stages",
+      "stabilization of AWS revenue growth",
+      "double digits on an $88 billion revenue run rate"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by successful cost-reduction efforts in the fulfillment network (regionalization) and a stabilizing AWS growth rate. Management shows high confidence, particularly regarding the long-term potential of Generative AI and the efficiency gains in retail. While AWS growth slowed due to customer cost-optimization, management framed this as a transition toward new workloads. The quantitative specificity is high, with detailed metrics on delivery efficiency and margin improvements. Risk disclosure was minimal, focused primarily on macroeconomic uncertainty. The company is in a heavy investment phase (CapEx) to support AI and infrastructure, which management views as an opportunity rather than a burden."
+  },
+  "stats": {
+    "input_tokens": 9725,
+    "total_output_tokens": 405,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.51470368686751,
+    "time_to_first_token_seconds": 14.778
+  },
+  "timestamp": "2026-04-20 18:33:38"
+}

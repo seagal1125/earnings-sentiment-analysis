@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.47,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record in India",
+      "Services revenue set an all-time record of $22.3 billion",
+      "gross margin set a September quarter record at 45.2%",
+      "iPhone revenue came in at $43.8 billion, 3% higher than a year ago",
+      "we expect our December quarter, total company revenue to be similar to last year"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by record-breaking performance in Services and iPhone revenue despite slight declines in Mac and iPad due to difficult year-over-year comparisons. Management demonstrates high confidence, particularly regarding the ecosystem's strength and the expansion into emerging markets like India. The quantitative specificity is exceptionally high, with detailed revenue, margin, and growth figures provided for almost every segment. While there is some caution regarding macroeconomic headwinds and foreign exchange impacts, the forward guidance remains stable, expecting similar year-over-year performance for the upcoming quarter. The QA session was largely direct, though Tim Cook maintained typical Apple secrecy regarding specific Generative AI monetization details."
+  },
+  "timestamp": "2026-04-20 14:31:18"
+}

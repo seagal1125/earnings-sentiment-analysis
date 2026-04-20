@@ -1,0 +1,34 @@
+{
+  "file": "META_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 28.4,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "major AI acceleration",
+      "personal superintelligence",
+      "record-breaking holiday demand",
+      "AI-driven performance gains",
+      "capacity constrained"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by strong Q4 revenue growth (25% YoY) and the massive expansion of AI initiatives. Management shows extreme confidence in their long-term AI vision ('personal superintelligence'), though CEO Zuckerberg was somewhat evasive regarding specific near-term product timelines and ROI details for new models. The company is aggressively expanding CapEx ($115B-$135B guidance) to support infrastructure, which is a clear signal of high capex enthusiasm. While there are noted risks regarding regulatory headwinds in the EU and US (youth safety/privacy), the focus remains heavily on growth drivers like AI-driven ad performance and the expansion of Meta AI. Quantitative specificity was high with detailed segment revenue and expense guidance provided by the CFO."
+  },
+  "timestamp": "2026-04-20 13:01:25"
+}

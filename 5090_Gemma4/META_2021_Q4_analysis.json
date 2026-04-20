@@ -1,0 +1,35 @@
+{
+  "file": "META_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.0,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.8,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.4,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.5,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Apple's iOS changes",
+      "transition towards short-form video like Reels",
+      "$10 billion headwind from iOS",
+      "competition from TikTok",
+      "investing aggressively in AI and Machine Learning",
+      "Reality Labs operating loss of $3.3 billion"
+    ],
+    "reasoning": "The sentiment is slightly positive due to strong year-over-year revenue growth (20%), but heavily tempered by significant 'headwinds' mentioned by all executives, specifically regarding Apple's iOS privacy changes and the transition to Reels which impacts monetization density. Management shows high confidence in their long-term pivot to the Metaverse and AI, evidenced by aggressive CapEx and R&D spending, yet they are very transparent about short-term risks (high risk disclosure). The CFO provided extremely specific financial data and quantified the iOS impact at $10 billion, indicating low evasiveness. Forward guidance is cautious/negative due to expected pressure on impressions and pricing in Q1 2022."
+  },
+  "timestamp": "2026-04-20 14:45:01"
+}

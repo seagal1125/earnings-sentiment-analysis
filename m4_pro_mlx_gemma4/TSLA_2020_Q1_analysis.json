@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 26.08,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "positive GAAP net income",
+      "Model Y was profitable already in its first quarter of production",
+      "pedal to the metal on new products",
+      "orders of magnitude more than everyone else combined",
+      "maximize the area under the curve of customer happiness"
+    ],
+    "reasoning": "The call reflects a highly optimistic management team successfully navigating the unique challenges of Q1 2020 (COVID-19 shutdowns). Key drivers for the high scores include the successful and profitable ramp of Model Y, which serves as a massive proof of concept for their manufacturing efficiency. Innovation momentum is extremely high due to FSD progress and battery technology discussions. While there are risks regarding the Fremont shutdown and regulatory environments, management's confidence in their technological moat (data collection for FSD) and global expansion plans is dominant. The pricing power score is moderate because they mentioned price cuts in China to meet subsidy requirements, but this is offset by strong demand and high-margin product mixes. Management consistency is set to 0.5 as there is no prior quarter data provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 11851,
+    "total_output_tokens": 443,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.995346658920646,
+    "time_to_first_token_seconds": 18.228
+  },
+  "timestamp": "2026-04-20 19:19:02"
+}

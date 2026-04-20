@@ -1,0 +1,41 @@
+{
+  "file": "META_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 28.7,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.4,
+      "pricing_power": -0.3,
+      "competitive_moat": 0.4,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "transition on our own services towards short-form video",
+      "competition... apps like TikTok are growing very quickly",
+      "Apple's iOS changes... impact on businesses of all sizes",
+      "investing aggressively in 2022",
+      "Reels is now our fastest-growing content format"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic but tempered by significant headwinds. While the company shows strong revenue growth and massive investment in future technologies (AI, Metaverse, Reels), management is transparent about the 'short-term tradeoff' of transitioning to short-form video, which is causing pressure on ad impressions and pricing. The forward guidance is notably negative due to the 'lapping' of favorable comparisons and the ongoing impact of Apple's iOS changes (estimated at a $10 billion headwind). Management shows high confidence in their long-term strategic pivot but acknowledges immediate competitive threats from TikTok and technical challenges in ad measurement. The high quantitative specificity reflects a detailed breakdown of financial segments and the specific impact of macro/platform changes."
+  },
+  "stats": {
+    "input_tokens": 13598,
+    "total_output_tokens": 434,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.17133994205376,
+    "time_to_first_token_seconds": 20.929
+  },
+  "timestamp": "2026-04-20 18:50:51"
+}

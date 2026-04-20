@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.1,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "making the age of AI real",
+      "Azure again took share",
+      "AI inflection point",
+      "leading the AI platform wave",
+      "consistent execution"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the successful integration of AI across the tech stack and strong Azure growth. Management demonstrates extreme confidence in their 'full-stack' AI approach, which they believe provides a unique competitive moat. Quantitative data is dense, providing clear evidence of growth in Cloud and Copilot adoption. While there is a slight note of caution regarding 'optimization trends' (customers optimizing spend) and the capital expenditure required for AI infrastructure, the tone remains aggressive regarding market leadership. The guidance is cautiously optimistic, acknowledging that while growth might stabilize in some areas due to the massive installed base, the AI tailwind is a significant driver for future expansion. Management consistency is marked 0.5 as this is the first quarter of FY24, but they successfully addressed potential concerns regarding margin compression from high CapEx by highlighting operational leverage."
+  },
+  "stats": {
+    "input_tokens": 12477,
+    "total_output_tokens": 431,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.74290584106503,
+    "time_to_first_token_seconds": 19.439
+  },
+  "timestamp": "2026-04-20 19:05:25"
+}

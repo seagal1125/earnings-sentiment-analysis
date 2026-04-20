@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.14,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.1,
+      "qa_evasiveness": 0.05,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.85,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "investing to lead in the new AI wave",
+      "Azure OpenAI Service... up 10x quarter-over-quarter",
+      "generational shift in the largest software category, search",
+      "material sequential increase on a dollar basis [CapEx]",
+      "relative performance and share gains"
+    ],
+    "reasoning": "The call reflects an extremely optimistic outlook driven by the 'AI wave.' Management demonstrates high confidence, particularly regarding Azure and Copilot integration. While there is mention of macroeconomic headwinds (PC market) and optimization-driven slowdowns in cloud, these are framed as 'relative performance' opportunities. CapEx is set to increase significantly to support AI infrastructure, signaling aggressive expansion. The QA session was direct, with management providing specific context on the OpenAI partnership and AI-driven workload shifts. The only slight drag on sentiment is the acknowledged impact of channel inventory in the PC segment and the cost of scaling AI infrastructure on margins."
+  },
+  "stats": {
+    "input_tokens": 12418,
+    "total_output_tokens": 414,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.79624757477312,
+    "time_to_first_token_seconds": 18.786
+  },
+  "timestamp": "2026-04-20 19:04:30"
+}

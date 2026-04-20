@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 13.9,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.4,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.5,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Robotaxi launch in Austin in June",
+      "Optimus production scale-up",
+      "Vertical integration as a moat",
+      "Tariff impacts on energy business",
+      "Unboxed manufacturing process"
+    ],
+    "reasoning": "The call presents a stark dichotomy between Elon Musk's extreme long-term optimism regarding Autonomy (FSD/Robotaxi) and Robotics (Optimus), and the CFO's more grounded disclosure of near-term operational headwinds. While management shows high confidence in their technological moat and aggressive CapEx ($10B+), they explicitly acknowledged declining auto margins, delivery declines in Q1 due to factory transitions, and significant geopolitical risks regarding tariffs on energy products and battery components. The sentiment is positive on innovation but cautious on immediate financial performance."
+  },
+  "timestamp": "2026-04-20 15:04:20"
+}

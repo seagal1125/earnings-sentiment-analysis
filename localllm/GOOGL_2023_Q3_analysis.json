@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.93,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong growth in Search and YouTube",
+      "momentum in Cloud",
+      "meaningful investments in support of our AI efforts",
+      "durably re-engineering our cost base",
+      "elevated levels of investment in 2024"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong performance in Search, YouTube, and Cloud. Management shows high confidence in their AI roadmap (Gemini, SGE) and technical infrastructure. Quantitative specificity is very high with detailed revenue and margin figures provided. CapEx enthusiasm is extremely high as they explicitly forecast increased investment in 2024 to support AI. While there are risks mentioned (tax deferrals, hardware headwinds), the tone remains optimistic. The QA session was direct, though management occasionally pivoted from specific ROI questions to broader strategic benefits. Management consistency is rated 0.5 as no prior quarter data was provided for comparison."
+  },
+  "timestamp": "2026-04-20 12:44:20"
+}

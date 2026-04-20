@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 25.66,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "set new March quarter records",
+      "supply-demand balance",
+      "5G capability",
+      "unmatched loyalty of our customers",
+      "supply constraints will have a revenue impact"
+    ],
+    "reasoning": "The quarter was characterized by record-breaking revenue and earnings, driven by strong iPhone 12 demand and the M1 chip transition in Mac/iPad. Management expressed high confidence in the ecosystem's strength and the 5G upgrade cycle. While demand is 'explosive,' management provided a cautious forward guidance due to supply constraints (specifically $3B-$4B impact) and seasonal fluctuations, which slightly tempers the overall sentiment. The QA session was direct, with management providing specific data on growth and mix while being transparent about supply-side challenges. The company's ability to maintain high margins despite macroeconomic uncertainty and logistics costs signals strong pricing power and a robust competitive moat."
+  },
+  "stats": {
+    "input_tokens": 11369,
+    "total_output_tokens": 403,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.463755035657016,
+    "time_to_first_token_seconds": 18.244
+  },
+  "timestamp": "2026-04-20 18:19:38"
+}

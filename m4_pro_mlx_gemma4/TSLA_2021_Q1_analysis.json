@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.89,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record production, deliveries and surpassed $1 billion in non-GAAP net income",
+      "demand is the best we have ever seen",
+      "Model Y will be the best-selling car or vehicle of any kind in the world",
+      "we are building factories as quickly as we can",
+      "long-term growth of 50% annually"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by record-breaking financial results and massive demand. Management shows high confidence in their technological moat (AI/FSD) and future scaling (new factories). While there are significant supply chain risks and R&D costs mentioned, they are framed as manageable hurdles to growth. The 'qa_evasiveness' is low as they answer technical questions directly, though Musk avoids specific product timelines for the $25k car. The 'demand_strength' is exceptionally high, with management noting demand exceeds production capacity. The score for 'management_consistency' is set to 0.5 as no prior quarter data was provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 11727,
+    "total_output_tokens": 438,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.9928934295572,
+    "time_to_first_token_seconds": 18.124
+  },
+  "timestamp": "2026-04-20 19:20:48"
+}

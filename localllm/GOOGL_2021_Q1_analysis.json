@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 19.65,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong growth in Google Services revenues",
+      "phenomenal growth driven by Direct Response",
+      "invest aggressively to support the extraordinary opportunities",
+      "achieved 34% increase in consolidated revenues",
+      "AI/machine learning as a foundational differentiator"
+    ],
+    "reasoning": "The company reported exceptionally strong Q1 2025 results with 34% revenue growth, driven by Search and YouTube. Management expressed high confidence in long-term AI and Cloud opportunities, though they maintained a cautious tone regarding the durability of pandemic-driven consumer behavior shifts. Quantitative specificity was very high with detailed segment breakdowns. While CapEx for technical infrastructure remains aggressive, there is a slight slowdown in office facility investment due to hybrid work trends. The QA session was direct, with management providing specific product examples (e.g., BERT, YouTube shoppable capabilities) to demonstrate innovation momentum."
+  },
+  "timestamp": "2026-04-20 12:39:53"
+}

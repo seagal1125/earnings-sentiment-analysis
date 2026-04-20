@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.82,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong growth in Search and YouTube",
+      "momentum in Cloud",
+      "opportunities enabled by AI",
+      "durably re-engineering our cost base",
+      "elevated levels of investment"
+    ],
+    "reasoning": "The earnings call was overwhelmingly positive, characterized by high confidence in the transformative potential of Generative AI (Gemini/SGE) across the entire ecosystem. Management demonstrated strong quantitative specificity with detailed segment revenues and growth percentages. While there were mentions of 'headwinds' in hardware and 'optimization efforts' in Cloud, these were framed within a broader strategy of aggressive CapEx expansion for AI infrastructure. The QA session was direct, with management addressing difficult questions regarding Cloud deceleration and the impact of AI on Search monetization without significant evasion."
+  },
+  "timestamp": "2026-04-20 14:41:10"
+}

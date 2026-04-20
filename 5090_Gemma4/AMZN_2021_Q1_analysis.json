@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 12.71,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue growth accelerated",
+      "Total revenue of $108.5 billion came in above the guidance range",
+      "$52.9 billion backlog",
+      "CapEx... increased to 80%",
+      "Prime Video streaming hours were up over 70%"
+    ],
+    "reasoning": "Amazon delivered a significant beat on both top-line revenue ($108.5B vs $100B-$106B guidance) and operating income ($8.9B vs $3B-$6.5B guidance). AWS shows exceptional momentum with a $52.9B backlog and accelerating growth. The company is aggressively investing in its logistics infrastructure (CapEx up 80% in trailing 12 months) to control the last-mile delivery process. While COVID-19 related costs remain a factor, management provided highly specific quantitative data during both prepared remarks and Q&A, demonstrating high transparency and confidence in their long-term scaling strategy."
+  },
+  "timestamp": "2026-04-20 14:34:02"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 23.78,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.3,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.6,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "economic uncertainty",
+      "cost optimization",
+      "streamline our costs",
+      "optimization efforts will continue to be a headwind",
+      "customer focus is in our DNA",
+      "reducing our cost to serve"
+    ],
+    "reasoning": "The overall sentiment is slightly positive but tempered by significant macroeconomic headwinds. While revenue grew 12%, the company faced massive one-time charges ($2.7B) related to layoffs and impairments. Management shows high confidence in long-term strategy (AWS, Prime, International) but provides a cautious forward guidance for AWS due to enterprise cost-optimization trends. The CFO was very specific with numbers regarding revenue and costs, though the CEO's answers on AWS growth deceleration were somewhat defensive/evasive by focusing on long-term elasticity rather than immediate quarterly slowdown. Capex enthusiasm is neutral as they are actively 'mothballing' some facilities to optimize the network built during the pandemic."
+  },
+  "timestamp": "2026-04-20 12:32:36"
+}

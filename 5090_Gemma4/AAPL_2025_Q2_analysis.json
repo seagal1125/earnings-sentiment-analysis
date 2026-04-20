@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 11.78,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record in Services",
+      "$900 million tariff-related cost impact",
+      "Apple Intelligence integration",
+      "$500 billion US investment plan",
+      "low to mid-single-digit revenue growth guidance"
+    ],
+    "reasoning": "The company reported strong top and bottom-line growth, with Services hitting an all-time high. However, the sentiment is tempered by significant uncertainty regarding tariffs (estimated $900M cost hit) and macroeconomic volatility. Management showed high confidence in product innovation (AI/Apple Intelligence) and supply chain diversification but was notably cautious and evasive when asked to predict tariff impacts or China's long-term trajectory beyond the current quarter. Quantitative specificity was very high, with detailed revenue breakdowns by product line provided."
+  },
+  "timestamp": "2026-04-20 14:32:33"
+}

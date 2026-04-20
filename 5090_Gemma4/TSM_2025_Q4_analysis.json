@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 18.78,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "insatiable demand for energy-efficient computing",
+      "25% CAGR in U.S. dollar terms",
+      "CapEx budget to be between USD 52 billion and USD 56 billion",
+      "AI is real, not only real, it's starting to grow into our daily life",
+      "margin dilution from the ramp-up of overseas fabs"
+    ],
+    "reasoning": "The earnings call reflects an extremely strong growth trajectory driven by 'insatiable' AI demand. Management provided highly specific quantitative guidance, including a massive CapEx increase for 2026 and a long-term revenue CAGR target of 25%. While they transparently disclosed risks regarding overseas expansion costs (margin dilution) and geopolitical/tariff uncertainties, the overall tone was one of high confidence in technological leadership (N2, A16) and market dominance. The Q&A session showed low evasiveness, with the CEO directly addressing concerns about an AI bubble and competition from Intel."
+  },
+  "timestamp": "2026-04-20 16:19:54"
+}

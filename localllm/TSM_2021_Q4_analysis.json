@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 38.62,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "structural increase in underlying semiconductor demand",
+      "5G and HPC-related applications",
+      "semiconductor content enrichment",
+      "strategic, not opportunistic pricing",
+      "long-term revenue CAGR of 15% to 20%"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by strong 2021 results and a robust 2022 outlook. Management shows extreme confidence in their technology leadership (N3/N5) and long-term growth (CAGR 15-20%). CapEx enthusiasm is at maximum as they are increasing the budget from $30B to $40B-$44B. Quantitative specificity is very high with detailed revenue, margin, and platform breakdowns. While management was somewhat evasive on specific segment percentages and future CapEx beyond 2022, they were direct about technology roadmaps. Risk disclosure is relatively low, focusing mainly on manufacturing complexity and macro volatility rather than existential threats."
+  },
+  "timestamp": "2026-04-20 13:42:35"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 24.85,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "more demand than we have supplied",
+      "it's still early",
+      "unusually large opportunity",
+      "revenue run rate of $123 billion",
+      "strategic inventory placement"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by robust revenue growth and the massive potential of AWS/GenAI. Management shows high confidence, particularly regarding the 'unusually large opportunity' in AI, though they remain cautious about macroeconomic risks like tariffs. The company is in an aggressive investment phase (high CapEx) to meet demand that currently outstrips capacity. Quantitative data is highly specific, providing clear metrics on growth and operational efficiency. The QA session was direct, with management addressing competitive concerns (AWS market share) and supply constraints transparently. The primary tension in the report is between current high growth/investment and the uncertainty of global trade policies (tariffs)."
+  },
+  "stats": {
+    "input_tokens": 11677,
+    "total_output_tokens": 404,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.01922677304011,
+    "time_to_first_token_seconds": 17.602
+  },
+  "timestamp": "2026-04-20 18:36:56"
+}

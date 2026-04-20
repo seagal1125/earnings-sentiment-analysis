@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.34,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.95,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS growth accelerated to 24%",
+      "$244 billion backlog",
+      "$200 billion capital expenditures",
+      "custom silicon (Graviton, Trainium)",
+      "AI-driven retail innovation (Rufus)"
+    ],
+    "reasoning": "The earnings call is exceptionally bullish, characterized by the acceleration of AWS growth and a massive $244B revenue backlog. Management is pursuing an aggressive expansionary strategy with a planned $200B CapEx, primarily to meet 'unprecedented' AI demand. While there were significant one-time special charges ($2.4B) related to tax disputes and impairments, the core drivers—custom silicon, advertising growth (22%), and AI integration in retail—show high innovation momentum and a strengthening competitive moat. The Q&A session was highly transparent with specific quantitative data provided by both CEO and CFO."
+  },
+  "timestamp": "2026-04-20 14:38:11"
+}

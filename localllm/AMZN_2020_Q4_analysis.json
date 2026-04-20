@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 21.97,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong customer demand",
+      "AWS continues to innovate at a rapid clip",
+      "expansion of our fulfillment and logistics network",
+      "transition to the role of Executive Chair",
+      "$51 billion annualized run-rate business"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by massive revenue beats ($125.6B vs guidance up to $121B) and strong AWS growth. Management shows high confidence in their succession plan (Bezos to Jassy). While there are significant COVID-related costs ($11.5B for the year), they view these as manageable or offset by volume. Capex enthusiasm is very high due to 50% YoY footprint growth and continued logistics expansion. The only notable drags are potential 'tougher comp dynamics' in 2021 and rising shipping/logistics costs, which management addressed with transparency rather than evasion."
+  },
+  "timestamp": "2026-04-20 12:29:42"
+}

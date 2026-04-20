@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 18.44,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "extraordinary opportunities",
+      "invest aggressively",
+      "phenomenal growth in YouTube",
+      "rising tide in the first quarter",
+      "scale over time"
+    ],
+    "reasoning": "The earnings call reflects a very strong financial performance driven by the pandemic-induced digital shift. Management shows high confidence, particularly regarding Google Cloud and YouTube's growth. While they acknowledge the uncertainty of 'durable consumer behavior' (risk), the tone remains overwhelmingly optimistic. Quantitative data is highly specific, detailing revenue growth across all segments (Search, YouTube, Cloud). CapEx is directed heavily toward technical infrastructure and AI/ML, signaling aggressive expansion. The only slight hesitation in the score comes from the 'lapping' effect of 2020, which makes year-over-year comparisons complex, and the inherent uncertainty of post-pandemic economic recovery."
+  },
+  "stats": {
+    "input_tokens": 7685,
+    "total_output_tokens": 396,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 59.33214737949768,
+    "time_to_first_token_seconds": 11.607
+  },
+  "timestamp": "2026-04-20 18:39:19"
+}

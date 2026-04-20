@@ -1,0 +1,41 @@
+{
+  "file": "META_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 26.86,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "invest significantly more over the coming years",
+      "multiyear investment cycle",
+      "Llama 3 is now the most intelligent AI assistant",
+      "scaling CapEx and energy expenses for AI",
+      "strategic bets vs core AI work"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong revenue growth (27% YoY) and significant momentum in AI integration. Management shows high confidence, particularly Mark Zuckerberg, regarding the long-term value of AI and the metaverse, despite acknowledging a multi-year investment cycle that may impact short-term profitability. The guidance is cautiously optimistic: while revenue growth remains strong, CapEx is being aggressively increased (up to $40B) to support AI infrastructure. Risk disclosure is moderate, primarily focusing on regulatory headwinds and the cost of scaling new technologies. The QA session was direct, with management providing specific details on model architecture (Llama 3) and business messaging opportunities. The primary tension in the call is the 'investment vs. monetization' trade-off, which management frames as a necessary phase of their product playbook."
+  },
+  "stats": {
+    "input_tokens": 12080,
+    "total_output_tokens": 443,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.89023545022082,
+    "time_to_first_token_seconds": 19.022
+  },
+  "timestamp": "2026-04-20 18:54:58"
+}

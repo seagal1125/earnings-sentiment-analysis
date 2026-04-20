@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 14.03,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.5,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "2 billion active devices",
+      "all-time revenue records in Services",
+      "foreign exchange headwinds",
+      "supply chain back to normal",
+      "AI is a major focus",
+      "installed base growth"
+    ],
+    "reasoning": "Apple reported a 5% YoY revenue decline driven by significant FX headwinds and past supply constraints, but the underlying business shows strength through record Services revenue and iPad growth. Management exhibits extremely high confidence in their ecosystem (2 billion devices) and long-term innovation (AI/Silicon), despite cautious forward guidance regarding Mac and iPad declines due to macroeconomic pressures."
+  },
+  "timestamp": "2026-04-20 14:30:39"
+}

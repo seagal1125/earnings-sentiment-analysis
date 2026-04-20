@@ -1,0 +1,41 @@
+{
+  "file": "META_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 26.45,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI is transforming everything we do",
+      "increased our planned investment for this year",
+      "Ray-Ban Meta AI Glasses have tripled in sales",
+      "Llama 4 models... most intelligent, best multimodal",
+      "business messaging should be the next pillar"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by successful AI integration and growing user engagement (3.4B daily actives). Management shows high confidence in their long-term AI strategy, specifically regarding Llama models and AI glasses. While CapEx is being aggressively increased (raised from $60-65B to $64-72B), it is framed as a strategic necessity for AI leadership rather than mere inefficiency. The risk disclosure is moderate, primarily focusing on EU regulatory headwinds (DMA) and macroeconomic uncertainty. Quantitative data was highly specific, providing clear growth metrics for Reels, Threads, and WhatsApp. The only slight drag on the score is the Reality Labs losses and the uncertainty regarding regulatory impacts in Europe, but these are balanced by strong core advertising revenue growth."
+  },
+  "stats": {
+    "input_tokens": 12077,
+    "total_output_tokens": 438,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.964664118757945,
+    "time_to_first_token_seconds": 18.705
+  },
+  "timestamp": "2026-04-20 18:56:43"
+}

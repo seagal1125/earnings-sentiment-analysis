@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 11.96,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue records",
+      "Apple Intelligence",
+      "iPhone upgraders at an all-time high",
+      "services revenue record of $26.3 billion",
+      "FX headwinds",
+      "China revenue down 11%"
+    ],
+    "reasoning": "The company reported a highly successful quarter with all-time records in revenue and EPS, driven by strong performance in Services, Mac, and iPad. Management showed high confidence, specifically highlighting the impact of Apple Intelligence on iPhone demand and the growth in emerging markets like India. While there are notable headwinds mentioned—specifically a 11% decline in China revenue due to channel inventory and expected foreign exchange headwinds for the next quarter—the overall tone remains very optimistic. The transcript is exceptionally dense with specific financial metrics, indicating high transparency. The only instance of evasiveness was a standard 'monitoring' response regarding potential tariff impacts."
+  },
+  "timestamp": "2026-04-20 14:32:21"
+}

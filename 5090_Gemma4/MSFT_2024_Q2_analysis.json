@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 10.6,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "applying AI at scale",
+      "Azure AI advantage",
+      "increase capital expenditures materially",
+      "GitHub Copilot subscribers up 30%",
+      "AI-first position"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance, characterized by record revenue and double-digit growth across key segments like Cloud and GitHub. Management demonstrates high confidence in their 'AI-first' strategy, specifically highlighting the transition from AI experimentation to large-scale application (Azure OpenAI, Copilot). While there is a clear signal of aggressive capital expenditure expansion to support AI infrastructure, the revenue momentum and ability to drive ARPU through E5 and Copilot suggest strong pricing power. The QA session was highly transparent, with management providing detailed technical and financial explanations regarding inferencing workloads and margin management."
+  },
+  "timestamp": "2026-04-20 14:52:11"
+}

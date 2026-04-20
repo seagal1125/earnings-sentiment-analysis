@@ -1,0 +1,42 @@
+{
+  "file": "NVDA_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.84,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.5,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Turing architecture ramp",
+      "hyperscale spending pause",
+      "inference revenue growth",
+      "Mellanox acquisition",
+      "RTX ray tracing standard",
+      "edge AI computing"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company faced a significant year-on-year revenue decline (primarily due to gaming and a pause in hyperscale data center spending), management successfully pivoted the narrative toward long-term growth drivers: AI, RTX/Ray Tracing, and the strategic Mellanox acquisition. Confidence is high regarding technological leadership (moat) but tempered by low visibility in the data center segment. The transition from 'accelerators' to 'accelerated computing' is a key strategic theme. Quantitative data was specific, though the guidance was returned to a quarterly basis due to uncertainty, which slightly lowered the forward-looking tone. The 'pause' in data center spending is treated as a temporary digestion phase rather than a structural decline."
+  },
+  "stats": {
+    "input_tokens": 11910,
+    "total_output_tokens": 421,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.00018895717617,
+    "time_to_first_token_seconds": 18.385
+  },
+  "timestamp": "2026-04-20 19:08:56"
+}

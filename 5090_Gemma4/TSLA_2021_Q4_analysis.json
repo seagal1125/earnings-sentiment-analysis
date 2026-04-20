@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 12.85,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "90% growth last year",
+      "Full Self-Driving will become the most important source of profitability",
+      "supply chain will continue to be the fundamental limiter",
+      "achieve Full Self-Driving this year",
+      "not introducing new vehicle models this year",
+      "Optimus... potential to be more significant than the vehicle business"
+    ],
+    "reasoning": "The call reflects a highly successful 2021 with massive volume growth (90%) and record profitability. Management is extremely bullish on long-term technological moats like FSD, Dojo, and Optimus. However, there is a clear, realistic warning regarding supply chain constraints (chips) and inflation acting as headwinds for 2022. While Elon Musk was somewhat evasive on the $25k car and specific timelines for certain products, he provided high quantitative specificity regarding past performance and future growth targets (>50%)."
+  },
+  "timestamp": "2026-04-20 15:01:15"
+}

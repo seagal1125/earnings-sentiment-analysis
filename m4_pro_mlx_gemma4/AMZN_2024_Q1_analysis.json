@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 26.29,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue growth accelerated to 17.2%",
+      "multi-billion-dollar revenue run rate already [in Gen AI]",
+      "meaningfully increase year-over-year capital expenditures in 2024",
+      "the lion's share of cost optimization is behind us",
+      "we are in a position to do both [investment and profitability]"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong AWS re-acceleration and the massive potential of Generative AI. Management shows extreme confidence, particularly Andy Jassy, in their ability to simultaneously invest heavily (high CapEx) and expand margins. The growth in AWS is a central pillar, with specific mention of multi-billion dollar AI revenue run rates. While there are risks regarding CapEx intensity and macroeconomic caution in Europe, the company's ability to deliver record operating income suggests strong operational leverage. The QA session was direct, with management providing clear strategic justifications for their investment cycles. Quantitative data regarding revenue growth and margin improvements was abundant, supporting the bullish outlook."
+  },
+  "stats": {
+    "input_tokens": 11488,
+    "total_output_tokens": 437,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.076695449099894,
+    "time_to_first_token_seconds": 18.194
+  },
+  "timestamp": "2026-04-20 18:34:54"
+}

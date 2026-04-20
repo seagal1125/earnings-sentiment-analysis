@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.83,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Apple Intelligence",
+      "tariff-related costs",
+      "record June quarter revenue",
+      "mid-to-high single-digit growth",
+      "AI-related investments"
+    ],
+    "reasoning": "The company reported record-breaking revenue and EPS, driven by strong double-digit growth in iPhone, Mac, and Services. Sentiment is highly positive regarding product performance and AI momentum. However, forward guidance shows a slight deceleration in revenue growth (mid-to-high single digits vs 10% in Q3) and increasing tariff-related cost pressures ($1.1B estimated for next quarter). Management showed high confidence in technology and ecosystem but was cautious/evasive regarding specific legal outcomes (Google/Epic) and future tariff rates. CapEx is explicitly increasing to support AI infrastructure."
+  },
+  "timestamp": "2026-04-20 14:32:47"
+}

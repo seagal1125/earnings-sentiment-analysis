@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 32.36,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record",
+      "significant supply constraints",
+      "active installed base of 1.8 billion devices",
+      "Apple silicon is blowing them away",
+      "785 million paid subscriptions"
+    ],
+    "reasoning": "The quarter was characterized by record-breaking revenue and strong demand across almost all categories, offset primarily by significant supply constraints (particularly in iPad). Management exhibited high confidence, particularly regarding the transition to Apple Silicon and the growth of the Services segment. While forward guidance was cautious due to macroeconomic uncertainty and FX headwinds, the underlying demand strength remains robust. The QA session was direct, with management providing specific data to defend their position on mix and supply issues. The 'management_consistency' is set to 0.5 as there was no prior quarter data provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 10799,
+    "total_output_tokens": 384,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.3029369257735,
+    "time_to_first_token_seconds": 17.127
+  },
+  "timestamp": "2026-04-20 18:21:30"
+}

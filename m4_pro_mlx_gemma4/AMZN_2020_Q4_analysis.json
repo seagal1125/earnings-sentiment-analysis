@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 19.12,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "$51 billion annualized run-rate business",
+      "strong customer demand",
+      "succession planning",
+      "expansion of fulfillment and logistics network",
+      "AWS innovation"
+    ],
+    "reasoning": "The call reflects a period of massive growth driven by pandemic-induced demand, resulting in high revenue and AWS expansion. Management shows high confidence despite the complexity of scaling operations and managing COVID-related costs ($11.5B for the year). The tone is optimistic regarding long-term infrastructure investments (CapEx) and AWS momentum, though there is cautiousness regarding the 'normalization' of demand in 2021. The transition from Bezos to Jassy is handled with high confidence, framing it as a planned succession rather than a disruption. Quantitative data was abundant, particularly regarding AWS run-rate and logistics expansion."
+  },
+  "stats": {
+    "input_tokens": 8926,
+    "total_output_tokens": 336,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.60311453120601,
+    "time_to_first_token_seconds": 13.243
+  },
+  "timestamp": "2026-04-20 18:30:12"
+}

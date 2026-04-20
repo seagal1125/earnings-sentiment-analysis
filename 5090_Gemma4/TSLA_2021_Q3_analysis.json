@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.54,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "annualized production run rate of over 1 million cars",
+      "auto gross margins reached 30.5%",
+      "backlogs are continuing to grow",
+      "supply chain challenges... continue to provide cost headwinds",
+      "Dojo comes in as we mentioned on AI Day"
+    ],
+    "reasoning": "The company reported record-breaking financial metrics, including a 30.5% GAAP auto gross margin and significant delivery growth. Management shows high confidence in long-term growth targets (50% annual rate) and aggressive expansion (Austin/Berlin factories, Supercharger network). However, the forward guidance tone is tempered by 'unknown unknowns' regarding factory ramps and significant macro risks including commodity price volatility (nickel/aluminum), labor shortages, and supply chain constraints. While they avoided specific timelines for FSD Level 5 and the $25k model, they provided high quantitative specificity regarding current production and margin performance."
+  },
+  "timestamp": "2026-04-20 15:01:02"
+}

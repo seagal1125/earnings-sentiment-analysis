@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 12.94,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Apple Intelligence",
+      "all-time revenue record in services",
+      "iPhone 15 outperforms iPhone 14",
+      "constant currency growth",
+      "foreign exchange headwinds",
+      "iPad revenue up 24%"
+    ],
+    "reasoning": "The call was overwhelmingly positive, driven by record-breaking Services revenue and the unveiling of 'Apple Intelligence' as a major future catalyst. While iPhone and Wearables saw slight year-over-year declines in USD terms, management emphasized constant currency growth and strong installed base expansion. The company provided highly specific financial data (quantitative specificity is high). Risk disclosure was moderate, focusing primarily on FX headwinds and regulatory/competitive environments in China and the EU. Management showed high confidence in their AI roadmap, though they were slightly evasive regarding specific commercial terms for AI partnerships and carrier-side promotions."
+  },
+  "timestamp": "2026-04-20 14:31:55"
+}

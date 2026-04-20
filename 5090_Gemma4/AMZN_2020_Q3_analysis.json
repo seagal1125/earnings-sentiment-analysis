@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 12.41,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "$3.5 billion in sales over Prime Day",
+      "60% increase compared to last year",
+      "$7.5 billion in incremental COVID related costs",
+      "50% square footage growth",
+      "AWS Graviton2 processors"
+    ],
+    "reasoning": "The company shows extremely strong demand and aggressive capital expansion (CapEx), driven by the pandemic-induced shift to online shopping and AWS growth. However, the overall sentiment is tempered by significant 'headwinds' in profitability due to massive incremental COVID-related costs ($7.5B YTD) and the uncertainty of Q4 logistics/labor costs. Management is highly transparent with specific figures but remains cautious about the volatility of the upcoming holiday season and macro uncertainties."
+  },
+  "timestamp": "2026-04-20 14:33:37"
+}

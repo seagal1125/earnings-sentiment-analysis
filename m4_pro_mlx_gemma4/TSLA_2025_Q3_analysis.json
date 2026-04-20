@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 25.17,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "critical inflection point",
+      "highest intelligence density",
+      "sustainable abundance",
+      "infinite money glitch",
+      "unsupervised full self-driving"
+    ],
+    "reasoning": "The transcript reflects an extremely high level of optimism centered on the transition from a car company to an AI/robotics powerhouse (Optimus and Robotaxi). Management displays immense confidence, particularly Elon Musk, regarding the technical breakthroughs in FSD (v14) and the upcoming AI 5 chip. While there is significant capital expenditure planned for 2026 to scale production, the tone suggests this is an investment in a 'shock wave' level of growth. Risk disclosure is minimal, mostly focused on regulatory hurdles and engineering complexity rather than market competition or economic downturns. The 'pricing power' score is slightly lower due to the mention of cost-optimization and potential volume-over-margin strategies, but overall, the sentiment is driven by a vision of 'sustainable abundance' and technological dominance."
+  },
+  "stats": {
+    "input_tokens": 11741,
+    "total_output_tokens": 420,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.76623802668852,
+    "time_to_first_token_seconds": 17.672
+  },
+  "timestamp": "2026-04-20 19:28:58"
+}

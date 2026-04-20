@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 29.79,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "positive GAAP net income",
+      "Model Y profitable in its first quarter",
+      "pedal to the metal on new products",
+      "FSD as a subscription service",
+      "demand for stationary storage... more than we can supply"
+    ],
+    "reasoning": "The call reflects high optimism regarding product profitability (Model Y) and technological advantages (FSD data advantage). Management shows extreme confidence in long-term growth despite short-term COVID-19 disruptions. While there is significant risk disclosure regarding the Fremont factory shutdown and regulatory uncertainties, the tone remains aggressive on expansion ('pedal to the metal'). The CFO provided specific liquidity figures ($8.1B), though Elon Musk's responses to certain technical or timeline questions were occasionally more visionary/vague than purely data-driven. Pricing power is a mixed signal as they announced a price cut in China to remain competitive with subsidies, but margins remain strong."
+  },
+  "timestamp": "2026-04-20 13:25:43"
+}

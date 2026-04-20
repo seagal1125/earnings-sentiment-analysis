@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 15.89,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.5,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand for advanced technologies",
+      "technology leadership position",
+      "N5 will be a large and long lasting node",
+      "not prepared to comment on 2-nanometer",
+      "we are not using this kind of opportunity to raise our price"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong revenue growth (16.9% in USD) and robust demand in 5G and HPC segments. Management shows high confidence in their technology roadmap (N5, N4, N3). Quantitative specificity is very high with detailed breakdowns of revenue by platform and technology. However, there is notable evasiveness in the Q&A regarding sensitive topics like Huawei/SMIC restrictions, 2nm timelines, and specific market share percentages. Pricing power appears constrained or intentionally suppressed in mature nodes as management explicitly stated they would not raise prices despite shortages. CapEx remains aggressive to support long-term demand."
+  },
+  "timestamp": "2026-04-20 16:14:29"
+}

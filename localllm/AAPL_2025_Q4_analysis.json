@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 28.94,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record",
+      "best ever for the company",
+      "supply constraints on several iPhone 16 and iPhone 17 models",
+      "Apple Intelligence",
+      "M5 chip",
+      "double-digit growth"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record-breaking revenue in Services and iPhone, and a very strong outlook for the December quarter (projected 10-12% growth). Management shows high confidence, specifically regarding the 'best ever' holiday season. Quantitative specificity is excellent with detailed segment revenues and margins provided. While there are notable supply constraints mentioned (a risk), the tone remains optimistic as these are attributed to 'strong demand' rather than lack of interest. The only significant negative/neutral signals are the mention of tariff-related costs and the difficulty in comparing against last year's high Mac launches. QA evasion was low, though Tim Cook intentionally dodged specific advertising revenue splits and iPhone mix details for competitive reasons."
+  },
+  "timestamp": "2026-04-20 12:28:14"
+}

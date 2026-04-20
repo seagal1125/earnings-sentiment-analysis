@@ -1,0 +1,42 @@
+{
+  "file": "META_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.2,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": -0.3,
+      "demand_strength": 0.4,
+      "pricing_power": -0.5,
+      "competitive_moat": 0.6,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "impact on our business has been significant",
+      "economic fallout will last longer than people are currently anticipating",
+      "we do plan to moderate some areas of our expense growth",
+      "average price per ad decreased 16%",
+      "we expect to realize operational savings",
+      "untapped opportunity on WhatsApp"
+    ],
+    "reasoning": "The sentiment is slightly negative due to the unprecedented macro uncertainty of COVID-19, specifically regarding the sudden drop in ad revenue in late March and the guidance-less outlook. However, management maintains high confidence in their long-term product strategy (WhatsApp commerce, VR/AR) and the ability to leverage increased user engagement. Quantitative data is highly specific, detailing exact revenue drops, user growth, and expense adjustments. The primary tension lies between strong engagement/usage (demand strength) and the significant decline in ad pricing/revenue due to economic fallout. Management is balancing aggressive product investment (innovation) with cost-cutting in business functions to protect long-term margins."
+  },
+  "stats": {
+    "input_tokens": 12759,
+    "total_output_tokens": 425,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.456013987788545,
+    "time_to_first_token_seconds": 19.623
+  },
+  "timestamp": "2026-04-20 18:47:34"
+}

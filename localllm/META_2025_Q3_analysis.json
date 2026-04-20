@@ -1,0 +1,34 @@
+{
+  "file": "META_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 30.98,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "frontload building capacity",
+      "industry-leading amount of compute",
+      "annual run rate... passed $60 billion",
+      "notably larger in 2026 than 2025",
+      "compute starved state"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by strong user growth (3.5B DAUs) and significant AI-driven revenue milestones ($60B ARR for automated ads). Management shows extreme confidence in their 'frontloading' strategy for AI infrastructure, explicitly stating they are willing to over-invest to avoid being compute-starved. While CapEx is set to grow aggressively in 202 and 2026 (high capex_enthusiasm), there is a clear disclosure of risks regarding regulatory headwinds in the EU/US and the potential for higher expenses. The CFO provided highly specific financial data, though the 'management_consistency' is marked at 0.5 as no prior guidance was provided for comparison. The QA session was direct, with management addressing complex questions about ROI and budget uncertainty without significant evasion."
+  },
+  "timestamp": "2026-04-20 13:00:56"
+}

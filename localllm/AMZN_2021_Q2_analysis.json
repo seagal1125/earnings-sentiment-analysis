@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 21.17,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.5,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record-breaking Prime Day",
+      "multi-year investment cycle",
+      "wage pressure has become evident",
+      "AWS revenue growth accelerated",
+      "transition period for many of our customers"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic; while the company highlights record achievements like Prime Day and AWS growth, management explicitly warns about a deceleration in revenue growth rates due to 'difficult year-over-year comps' and the easing of pandemic-driven demand. Confidence remains high regarding long-term structural trends (flywheel effect), but forward guidance for Q3 is conservative (10-16% growth) compared to previous highs. Quantitative specificity is very high, with detailed mentions of revenue figures, percentage shifts in 3P mix, and CapEx increases. Risks are noted primarily around labor costs (wage pressure) and the volatility of post-pandemic consumer behavior."
+  },
+  "timestamp": "2026-04-20 12:30:23"
+}

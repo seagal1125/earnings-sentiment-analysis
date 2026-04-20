@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 11.82,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Gemini 3 launch",
+      "Cloud revenue growing 48%",
+      "CapEx $175 to $185 billion",
+      "Agentic commerce",
+      "Universal Commerce Protocol",
+      "Waymo investment round"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong quarter with massive growth in Cloud (48%) and Search (17%). Management displays high confidence, backed by extremely specific quantitative data regarding user numbers (750M MAUs) and future CapEx projections. While they acknowledge supply chain and depreciation risks, the tone is overwhelmingly focused on AI-driven expansion and 'agentic' innovation. The massive increase in projected CapEx for 2026 signals aggressive investment in infrastructure to meet unprecedented demand."
+  },
+  "timestamp": "2026-04-20 14:43:08"
+}

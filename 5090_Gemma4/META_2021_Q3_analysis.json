@@ -1,0 +1,35 @@
+{
+  "file": "META_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 14.0,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.8,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.4,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.4,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Apple's iOS 14 changes",
+      "revenue headwinds",
+      "Metaverse investment",
+      "deceleration in growth",
+      "Reels engagement",
+      "AI and machine learning capabilities"
+    ],
+    "reasoning": "The company shows strong top-line revenue growth (35% YoY) and high quantitative specificity, but the sentiment is heavily tempered by significant external headwinds from Apple's privacy changes (ATT) and macroeconomic uncertainty. While management displays extreme enthusiasm for capital expenditure and long-term innovation (Metaverse/AI), they are explicitly forecasting a deceleration in revenue growth and a massive $10 billion impact on operating profit due to Reality Labs investments. The tone is defensive regarding social controversies but transparent about operational risks."
+  },
+  "timestamp": "2026-04-20 14:44:47"
+}

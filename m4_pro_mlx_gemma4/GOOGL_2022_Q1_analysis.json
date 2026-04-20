@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 24.17,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "YouTube Shorts averaging over 30 billion daily views",
+      "Cloud revenue grew 44% year-over-year",
+      "invest approximately $9.5 billion in our U.S. offices and data centers",
+      "tough comp as we lap the recovery we had in the second quarter of 2021",
+      "AI continues to be at the heart of our core search"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company shows explosive growth in Cloud and YouTube Shorts, management is transparent about 'tough comps' (year-over-year comparisons) due to the 2021 post-COVID surge and macroeconomic headwinds like FX (strong USD) and the war in Ukraine. Confidence is high, particularly regarding AI integration and long-term infrastructure investment (CapEx). The quantitative specificity is very high, with detailed revenue breakdowns and user metrics. Risk disclosure is moderate, focusing on macroeconomic volatility and regulatory environments (DMA). The QA session was direct, with management addressing difficult topics like the impact of the war and YouTube's competition (TikTok) without significant evasion."
+  },
+  "stats": {
+    "input_tokens": 10623,
+    "total_output_tokens": 451,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.12646562911304,
+    "time_to_first_token_seconds": 16.106
+  },
+  "timestamp": "2026-04-20 18:40:52"
+}

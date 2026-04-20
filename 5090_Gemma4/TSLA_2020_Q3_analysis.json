@@ -1,0 +1,37 @@
+{
+  "file": "TSLA_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.83,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record production deliveries",
+      "record revenue",
+      "record net income",
+      "record free cash flow of $1.4 billion",
+      "batteries that cost half as much",
+      "more demand than supply through 2021",
+      "revised up our expectations for capital spending by $2 billion to $2.5 billion",
+      "automotive gross margin... increased materially from 18.7% to 23.7%"
+    ],
+    "reasoning": "The call was exceptionally positive, characterized by 'record' financial metrics across all key areas (revenue, net income, FCF). Management demonstrated high confidence in their manufacturing-led moat and vertical integration strategy. Forward guidance is aggressive, with a significant upward revision in CapEx to fund expansion in Berlin, Austin, and Shanghai. While Elon Musk used some visionary/vague language regarding future product features (FSD transfer fees), the CFO provided highly specific quantitative data regarding margins and cash flow. The primary risks discussed were operational (manufacturing complexity and S-curve ramp-up) rather than macroeconomic."
+  },
+  "timestamp": "2026-04-20 15:00:04"
+}

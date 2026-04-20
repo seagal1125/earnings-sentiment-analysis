@@ -1,0 +1,35 @@
+{
+  "file": "NVDA_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.94,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.85,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.95,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "exceptionally strong",
+      "supply constrained",
+      "RTX upgrade cycle to kick into high gear",
+      "democratizing AI",
+      "three-chip strategy",
+      "massive next generation AI models"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong quarter with massive year-on-year growth (84%). Management displays extremely high confidence, particularly Jensen Huang, regarding the long-term structural tailwinds in AI and Data Center. While there is a notable supply constraint risk mentioned due to high demand and crypto mining, the company has proactively addressed this with CMP products. The guidance for Q2 is positive, expecting sequential growth across all platforms. Quantitative specificity is high with detailed revenue breakdowns by segment (Gaming, Pro Vis, Auto, Data Center). The only slight uncertainty lies in management consistency as no prior quarter's specific guidance was provided for direct comparison, but the tone remains overwhelmingly bullish on future demand and technological leadership."
+  },
+  "timestamp": "2026-04-20 13:18:03"
+}

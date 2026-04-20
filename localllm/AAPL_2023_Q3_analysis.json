@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 28.02,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.5,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record in Services",
+      "strong results in emerging markets",
+      "unprecedented innovations",
+      "Apple Vision Pro",
+      "difficult compare",
+      "macroeconomic headwinds"
+    ],
+    "reasoning": "Overall sentiment is moderately positive, buoyed by record Services revenue and strong performance in emerging markets (India/China), despite slight declines in hardware (iPhone/Mac/iPad) due to difficult year-over-year comparisons. Management shows high confidence in the ecosystem and innovation (Vision Pro, AI integration), though forward guidance is cautious/neutral due to FX headwinds and expected double-digit declines in Mac/iPad revenue. Quantitative specificity is very high with detailed segment revenues and margins provided. Risk disclosure is moderate, focusing on macro uncertainty and FX. QA was direct, though Tim Cook used typical 'Apple MO' to avoid specific AI or carrier promotion details."
+  },
+  "timestamp": "2026-04-20 12:23:53"
+}

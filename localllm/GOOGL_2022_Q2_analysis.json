@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 27.73,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.5,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "uncertain global economic outlook",
+      "slowing our hiring",
+      "sharpening our focus",
+      "momentum in Cloud",
+      "tough comps",
+      "pullbacks in spend by some advertisers"
+    ],
+    "reasoning": "The overall sentiment is slightly positive due to strong performance in Search and Cloud, but tempered by macroeconomic uncertainty and 'tough comps' from the previous year. Management shows high confidence in long-term AI and Cloud strategy ('we will continue to invest'), though they are being more disciplined with headcount (slowing hiring). The forward guidance tone is cautious/negative due to expected FX headwinds and advertiser pullbacks. Quantitative specificity is high, with detailed revenue and user metrics provided. Risk disclosure is moderate, focusing on macro uncertainty and FX. QA evasion is low-to-moderate; while they didn't provide specific numbers for some growth trends (leaving it to 'modeling'), they were direct about the reasons for deceleration (lapping strong 2021). Innovation momentum is a clear highlight with heavy emphasis on AI/ML advancements."
+  },
+  "timestamp": "2026-04-20 12:42:02"
+}

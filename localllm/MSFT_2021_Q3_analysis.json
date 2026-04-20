@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 30.24,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "digital adoption curves aren't slowing down",
+      "accelerating digital transformation",
+      "more strategic deals",
+      "expanding TAM",
+      "zero trust architecture"
+    ],
+    "reasoning": "The call was exceptionally positive, characterized by record-breaking growth in Azure (50% YoY) and Dynamics 365 (45% YoY). Management demonstrated high confidence, using definitive language ('we are leading', 'we will continue to lead') rather than speculative terms. Quantitative specificity was very high, with detailed breakdowns of revenue, user counts, and percentage growth across multiple segments. While there were mentions of supply chain constraints in the gaming/surface sectors and a decline in some transactional business, these were framed as temporary or offset by larger trends. The forward guidance was optimistic, focusing on expanding TAM through AI and industry-specific clouds. QA session was direct, with executives providing deep technical and strategic context without evasion."
+  },
+  "timestamp": "2026-04-20 13:04:52"
+}

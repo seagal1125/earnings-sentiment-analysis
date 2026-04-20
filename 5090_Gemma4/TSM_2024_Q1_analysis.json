@@ -1,0 +1,11 @@
+{
+  "file": "TSM_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 13.98,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "---\n{\"symbol\": \"TSM\", \"fiscal_year\": 2024, \"fiscal_quarter\": 1, \"scores\": {\"overall_sentiment\": 0.5, \"confidence_score\": 0.85, \"forward_guidance_tone\": 0.6, \"risk_disclosure_intensity\": 0.4, \"qa_evasiveness\": 0.2, \"quantitative_specificity\": 0.9, \"capex_enthusiasm\": 0.8, \"demand_strength\": 0.7, \"pricing_power\": 0.7, \"competitive_moat\": 0.95, \"innovation_momentum\": 0.9, \"management_consistency\": 0.5}, \"key_phrases\": [\"insatiable AI-related demand\", \"revenue contribution from several AI processors to more than double this year\", \"customers to share some of the higher cost with us\", \"N2 technology development is progressing well... on track or ahead of plan\", \"27.6% year-over-year increase at the midpoint\"], \"reasoning\": \"The overall sentiment is positive, driven by massive AI demand and strong revenue growth guidance (27.6% YoY), which offsets the drag from smartphone seasonality and earthquake-related wafer scraps. Management shows high confidence in their technological leadership (N3/N2) and ability to pass on costs (electricity/overseas expansion) to customers. While there are clear risks disclosed regarding electricity price hikes and margin dilution due to N3 complexity, the quantitative specificity is very high with detailed revenue and CapEx breakdowns. The Q&A session was direct, with C.C. Wei providing clear segment-specific outlooks (AI vs. Auto/Smartphone).\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 16:18:00"
+}

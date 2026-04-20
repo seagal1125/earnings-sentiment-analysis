@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 14.91,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.5,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.75,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record-breaking Prime Day",
+      "revenue growth rate has narrowed",
+      "Capex and equipment finance leases increased 74%",
+      "AWS... $59 billion annualized run-rate",
+      "wage pressure has become evident",
+      "difficult year-over-year revenue comps to continue"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic; while core segments like AWS and Advertising show massive growth, the company explicitly noted a deceleration in overall revenue growth due to easier comparisons from the pandemic peak and the easing of lockdowns. Management shows high confidence in their long-term 'flywheel' strategy and aggressive capital expenditure (74% increase) to expand fulfillment capacity. Forward guidance is slightly bearish/cautious as they expect the trend of narrowing year-over-year growth to persist in the coming quarters. The transcript is highly quantitative, providing specific figures for sales, AWS run-rates, and advertising growth. Risks are noted primarily around inflation (wage pressure) and FX volatility."
+  },
+  "timestamp": "2026-04-20 14:34:17"
+}

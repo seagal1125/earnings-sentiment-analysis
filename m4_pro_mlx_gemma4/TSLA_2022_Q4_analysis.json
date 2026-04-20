@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.71,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "orders at almost twice the rate of production",
+      "manufacturing technology will be our most important long-term strength",
+      "orders far exceed production",
+      "the value of [FSD] grows as the autonomous capability grows",
+      "most exciting product of any company on Earth"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by record-breaking 2022 results and extremely high demand (orders exceeding production). Management shows high confidence, particularly Elon Musk regarding AI and manufacturing dominance. While there are clear risks mentioned (interest rates, recession, lithium costs), they are framed as manageable headwinds. The forward guidance is cautiously optimistic; while they acknowledge potential margin compression due to price cuts and ramp costs, they emphasize long-term growth through innovation (FSD, 4680, Optimus). QA evasiveness is low, though Musk occasionally uses deflection to maintain excitement for upcoming events (Investor Day). The core of the bullish case rests on 'manufacturing as a moat' and the massive potential upside of AI/FSD."
+  },
+  "stats": {
+    "input_tokens": 12380,
+    "total_output_tokens": 437,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.716456647388064,
+    "time_to_first_token_seconds": 18.929
+  },
+  "timestamp": "2026-04-20 19:23:53"
+}

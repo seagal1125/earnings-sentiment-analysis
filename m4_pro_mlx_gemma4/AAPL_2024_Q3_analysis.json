@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 24.27,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Apple Intelligence",
+      "all-time revenue record in services",
+      "installed base of active devices reach an all-time high",
+      "compelling upgrade cycle",
+      "staggered launch"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by record-breaking services revenue and the strategic excitement surrounding 'Apple Intelligence'. Management shows high confidence in their ecosystem's ability to drive a new upgrade cycle. While iPhone revenue saw a slight YoY dip, the constant currency growth and record-high installed base suggest strong underlying demand. The risk disclosure is low, primarily focusing on FX headwinds and China macro/competition. QA was direct, though management was somewhat vague regarding the specific timing of AI-driven demand and regulatory impacts in China/EU. Innovation momentum is the strongest driver, with significant focus on AI integration as a catalyst for future growth."
+  },
+  "stats": {
+    "input_tokens": 11155,
+    "total_output_tokens": 398,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.65139947700066,
+    "time_to_first_token_seconds": 17.094
+  },
+  "timestamp": "2026-04-20 18:26:48"
+}

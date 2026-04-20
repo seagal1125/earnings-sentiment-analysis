@@ -1,0 +1,41 @@
+{
+  "file": "META_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.28,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.6,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong quarter",
+      "investing heavily in building out the best experiences",
+      "revenue growth will continue to be primarily driven by price",
+      "iOS 14.5 update... we expect to begin having an impact",
+      "Quest 2 is doing better than we expected"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong Q1 revenue growth (48% YoY) and robust advertiser demand. Management shows high confidence in their long-term vision (AR/VR, Commerce), though they acknowledge significant headwinds from iOS 14.5 and regulatory changes. The forward guidance is cautiously optimistic; while they expect growth to decelerate in H2 due to lapping pandemic-driven surges, the underlying business remains strong. Quantitative specificity is high with detailed financial and user metrics. The risk disclosure is moderate, primarily focusing on privacy changes and macroeconomic factors (COVID in India/Brazil). The management team is highly aligned, though they are navigating a transition from pandemic-era growth to a more normalized environment."
+  },
+  "stats": {
+    "input_tokens": 13271,
+    "total_output_tokens": 432,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.21695694684062,
+    "time_to_first_token_seconds": 20.552
+  },
+  "timestamp": "2026-04-20 18:49:25"
+}

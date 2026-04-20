@@ -1,0 +1,33 @@
+{
+  "file": "NVDA_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 11.84,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.8,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "RTX SUPER... sold out almost everywhere",
+      "pricing in the spot market is drifting higher than MSRP",
+      "AI is the single most powerful technology force of our time",
+      "broad-based growth in data centers"
+    ],
+    "reasoning": "The management exhibits extremely high confidence, particularly CEO Jensen Huang, focusing on the long-term transformative potential of AI and the successful launch of the RTX SUPER lineup. While year-on-year revenue declined due to cyclicality in gaming and specific hyperscaler weakness, sequential growth is strong across most segments. The company demonstrates significant pricing power (spot prices above MSRP) and a massive competitive moat through its CUDA ecosystem and software stack. QA was direct, with management providing detailed technical and financial justifications for margin expansion and data center trends."
+  },
+  "timestamp": "2026-04-20 14:54:07"
+}

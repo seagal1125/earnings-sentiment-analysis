@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.41,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "operating income up 383% year-over-year",
+      "cost-to-serve down by more than $0.45 per unit",
+      "AWS revenue acceleration",
+      "GenAI driving tens of billions in future revenue",
+      "CapEx to increase in 2024"
+    ],
+    "reasoning": "The company reported exceptional financial results, specifically a massive 383% surge in operating income and significant free cash flow improvement. Management demonstrated high confidence, providing specific metrics regarding logistics efficiency (regionalization) and AWS growth. The tone is highly optimistic about the future of Generative AI, with clear signals of increased CapEx to support infrastructure expansion. While standard macro risks were mentioned, they did not overshadow the strong operational momentum in both Retail and AWS segments."
+  },
+  "timestamp": "2026-04-20 14:36:24"
+}

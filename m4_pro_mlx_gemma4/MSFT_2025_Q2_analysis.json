@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.89,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI business has now surpassed an annual revenue run rate of $13 billion",
+      "Microsoft Cloud revenue was $40.9 billion and grew 21%",
+      "Azure AI services... grew 157% year-over-year",
+      "We would rather win the new than just protect the past",
+      "scale motion... challenges in what we call the scale motion"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by explosive AI-related growth (Azure AI up 157%) and the successful transition of Copilot from POC to enterprise deployment. Management shows extreme confidence in their 'fleet' strategy and the ability to capture AI scaling laws. While there was a slight dip in non-AI Azure growth due to 'scale motion' execution challenges (as noted by the CFO), this was framed as a strategic rebalancing rather than a fundamental weakness. CapEx is aggressively high but justified by massive RPO ($298B) and capacity constraints. The only slight drag is the 'scale motion' issue in the non-AI segment and the impact of FX, but these are treated as manageable headwinds. The innovation momentum is at a maximum due to the integration of agentic workflows and first-party silicon."
+  },
+  "stats": {
+    "input_tokens": 12256,
+    "total_output_tokens": 478,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.740608477891044,
+    "time_to_first_token_seconds": 18.423
+  },
+  "timestamp": "2026-04-20 19:07:41"
+}

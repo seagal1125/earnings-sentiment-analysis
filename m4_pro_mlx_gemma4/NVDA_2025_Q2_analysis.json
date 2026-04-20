@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 25.57,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Demand for Blackwell platforms is well above supply",
+      "Sovereign AI revenue will reach low-double-digit billions this year",
+      "The enterprise AI wave has started",
+      "Blackwell production ramp is scheduled to begin in the fourth quarter",
+      "Computing inflation"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong financial position with explosive demand for AI infrastructure. Management demonstrates extreme confidence, particularly regarding the transition from Hopper to Blackwell architecture. Key drivers include the shift from general-purpose to accelerated computing and the massive scale of next-generation models. While there is a minor risk disclosure regarding Blackwell production yields and China export controls, the overall tone is one of market leadership. The company's ability to guide multi-billion dollar revenue for new product lines (Blackwell, Spectrum-X) and the expansion into software/SaaS revenue indicates a robust growth trajectory. The QA session was direct, with Jensen Huang providing deep technical and strategic justifications for the current investment cycle."
+  },
+  "stats": {
+    "input_tokens": 12024,
+    "total_output_tokens": 426,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.9097168230521,
+    "time_to_first_token_seconds": 18.004
+  },
+  "timestamp": "2026-04-20 19:17:48"
+}

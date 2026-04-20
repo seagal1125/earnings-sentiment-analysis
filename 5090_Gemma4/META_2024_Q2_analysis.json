@@ -1,0 +1,34 @@
+{
+  "file": "META_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 12.3,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama 3.1 as an inflection point",
+      "significant CapEx growth in 2025",
+      "AI-driven advertising efficiency",
+      "open source AI ecosystem",
+      "WhatsApp US growth"
+    ],
+    "reasoning": "The earnings call reflects a highly optimistic outlook driven by AI integration across the Family of Apps and Reality Labs. Management demonstrates extreme confidence in their long-term AI roadmap (Llama 3.1/4) and is explicitly signaling aggressive capital expenditure expansion for 2025 to support compute needs. Financial metrics are robust, with 22% YoY revenue growth and strong ad performance (impressions and price per ad both up 10%). While there is a clear warning regarding increased infrastructure costs and regulatory headwinds, the management's response to analyst questions regarding ROI on CapEx was structured and transparent, focusing on 'fungibility' of compute resources. The primary driver of sentiment is the belief that open-source AI will create a massive ecosystem moat."
+  },
+  "timestamp": "2026-04-20 14:47:21"
+}

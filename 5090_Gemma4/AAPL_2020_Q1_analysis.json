@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 17.98,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 1.0,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "biggest quarter ever",
+      "all-time records in both revenue and earnings",
+      "uncertainty related to the recently unfolding public health situation in China",
+      "wider than usual revenue range",
+      "supply constraints for Apple Watch Series 3 and AirPods Pro"
+    ],
+    "reasoning": "The quarter was record-breaking with exceptional growth in iPhone, Services, and Wearables. Management showed extremely high confidence in their ecosystem and installed base. However, the forward guidance tone is tempered by the emerging COVID-19 uncertainty in China, leading to a wider revenue guidance range. Quantitative specificity is very high throughout the call. While Tim Cook used standard 'no comment' tactics regarding future products (5G), the overall transparency on financial drivers was strong."
+  },
+  "timestamp": "2026-04-20 14:27:59"
+}

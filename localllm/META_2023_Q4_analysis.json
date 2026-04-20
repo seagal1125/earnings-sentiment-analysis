@@ -1,0 +1,35 @@
+{
+  "file": "META_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 30.82,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "year of efficiency",
+      "world-class AI effort",
+      "building full general intelligence",
+      "aggressive investment in compute infrastructure",
+      "Llama 3",
+      "monetization efficiency"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong Q4 revenue growth (25% YoY) and the successful execution of the 'year of efficiency'. Management shows extreme confidence in their AI roadmap and long-term vision for the metaverse. CapEx enthusiasm is very high, with a significant increase in guidance to support AI infrastructure (up to $37B). While there are risks mentioned regarding regulatory headwinds (FTC) and increased operating losses in Reality Labs, the company's ability to provide specific, data-rich financial updates and direct answers during QA demonstrates high transparency. The shift toward 'general intelligence' as a core product theme indicates strong innovation momentum."
+  },
+  "timestamp": "2026-04-20 12:57:22"
+}

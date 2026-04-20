@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.46,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "resilient",
+      "all-time revenue record",
+      "supply constrained",
+      "5G is a once in a decade opportunity",
+      "strong double digit growth"
+    ],
+    "reasoning": "The overall sentiment is highly positive despite the macro challenges of COVID-19, with management highlighting record revenues and services growth. Confidence is high, particularly regarding the 5G transition and the strength of the installed base. While they refused to provide specific revenue guidance due to uncertainty (a slight negative for predictability), the directional guidance for double-digit growth in most categories is bullish. Risk disclosure is moderate, focused on supply chain constraints and COVID-19 impacts rather than competitive threats. Quantitative specificity is very high, with detailed breakdowns of revenue by product line and geographic segments. The only significant headwind mentioned is supply constraints (supply-side limitation rather than demand-side weakness)."
+  },
+  "timestamp": "2026-04-20 12:18:38"
+}

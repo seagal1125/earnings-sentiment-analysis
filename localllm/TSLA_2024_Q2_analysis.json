@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 29.74,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.5,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "autonomy is the biggest differentiator",
+      "energy storage deployments reached an all-time high",
+      "demand constrained rather than production constrained",
+      "achieve a valuation several times that number",
+      "we are doubling down on Dojo"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by Elon Musk's aggressive vision for autonomy (Robotaxi/Optimus) and the record growth in the energy business. Management shows high confidence in long-term value despite short-term EV price competition. While there is significant 'noise' regarding tariffs and subsidies (IRA), management dismisses these as secondary to AI capabilities. The QA session showed some evasiveness regarding specific product timelines and FSD licensing details, but provided strong technical updates on 4680 battery cells. Capex enthusiasm is very high due to the massive GPU cluster expansion. The main downward pressure on scores comes from pricing power (due to discounts/financing) and the lack of specific quantitative guidance for upcoming vehicle models."
+  },
+  "timestamp": "2026-04-20 13:34:31"
+}

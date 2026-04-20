@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 19.67,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.5,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "transition period",
+      "difficult year-over-year revenue comps",
+      "multi-year investment cycle",
+      "wage pressure has become evident",
+      "AWS revenue growth accelerated"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company shows strong multi-year growth and successful expansion (especially in AWS and Advertising), management is transparent about the 'transition period' as pandemic-era growth moderates. The forward guidance tone is slightly negative due to difficult year-over-year comparisons and the impact of reopening economies. Confidence remains high, particularly regarding long-term strategic investments (CapEx) and the AWS moat. Quantitative specificity is very high, with detailed breakdowns of growth rates and unit mixes. Risk disclosure is moderate, focusing on labor costs (wage pressure) and the volatility of post-pandemic demand. The QA session was direct, with management providing specific context for margin fluctuations and capacity constraints."
+  },
+  "stats": {
+    "input_tokens": 8598,
+    "total_output_tokens": 408,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.455275989119635,
+    "time_to_first_token_seconds": 12.54
+  },
+  "timestamp": "2026-04-20 18:30:50"
+}

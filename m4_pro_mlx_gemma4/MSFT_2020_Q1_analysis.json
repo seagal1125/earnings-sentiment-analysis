@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 24.55,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.1,
+      "qa_evasiveness": 0.05,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong start in fiscal 2020",
+      "secular, long-term growth opportunities",
+      "democratize AI",
+      "double-digit top and bottom line growth",
+      "hybrid value proposition"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance with high confidence from both CEO Satya Nadella and CFO Amy Hood. The sentiment is driven by robust growth in the Commercial Cloud (Azure) and successful expansion into AI and developer tools (GitHub). Management demonstrates high confidence in their 'hybrid' strategy and long-term secular growth. Quantitative data is dense, providing clear visibility into segment performance. Risk disclosure is minimal, focusing primarily on FX and seasonal variability (gaming). The QA session was direct, with management providing detailed strategic justifications for their investments and partnerships. While the gaming segment showed some weakness (negative impact on revenue), it was framed as a cyclical/generational transition rather than a structural failure. The 'management_consistency' is set to 0.5 as no prior quarter data was provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 11074,
+    "total_output_tokens": 438,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.4684779539562,
+    "time_to_first_token_seconds": 16.875
+  },
+  "timestamp": "2026-04-20 18:58:25"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 32.92,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": -0.2,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "end market demand softness",
+      "inventory adjustment",
+      "N3 revenue contribution",
+      "strategic and consistent pricing",
+      "geographical manufacturing flexibility"
+    ],
+    "reasoning": "The overall sentiment is slightly positive due to strong 2022 results and technological leadership, but it is tempered by a cautious near-term outlook (negative forward guidance) due to inventory corrections and macroeconomic headwinds. Management shows high confidence in their technological moat (N3/N2) and long-term profitability (53% gross margin target), despite the cyclical downturn. The revenue guidance for Q1 2023 is notably weak (sequential decline), which drives the negative forward guidance score. Quantitative specificity is very high, with detailed breakdowns of revenue by platform and technology. The QA session was direct, though management carefully managed questions regarding the cost of overseas expansion (Arizona) and cyclicality. The company is in a transition phase: managing a cyclical trough while aggressively investing in next-generation nodes (N3/N2) and global footprint expansion."
+  },
+  "stats": {
+    "input_tokens": 15912,
+    "total_output_tokens": 434,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.9462915601023,
+    "time_to_first_token_seconds": 24.927
+  },
+  "timestamp": "2026-04-20 19:35:32"
+}

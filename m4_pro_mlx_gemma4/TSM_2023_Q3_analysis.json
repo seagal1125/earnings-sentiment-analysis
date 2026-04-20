@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 29.34,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.6,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.7
+    },
+    "key_phrases": [
+      "strong ramp of our industry-leading 3-nanometer technology",
+      "AI-related demand continues to be strong",
+      "early sign of demand stabilization in the PC and smartphone end market",
+      "we are observing a strong level of customer interest and engagement at our N2",
+      "our 2-nanometer technology development is progressing well and on track"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company faces cyclical headwinds and inventory adjustments in certain segments (Automotive, IoT), the strong ramp of 3nm technology and surging AI-related demand provide a significant tailwind. Management shows high confidence in their technological leadership (N3, N2) and competitive moat, effectively addressing concerns about competitors like Intel. The guidance for Q4 shows sequential growth driven by N3, though gross margin is expected to dip due to ramp costs. Quantitative data was highly specific throughout the call, and the QA session was direct with minimal evasion, particularly regarding competition and capacity. The capital expenditure strategy is described as disciplined but focused on capturing future growth, reflecting a balanced approach between investment and prudent management."
+  },
+  "stats": {
+    "input_tokens": 13771,
+    "total_output_tokens": 452,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.038297146876864,
+    "time_to_first_token_seconds": 21.183
+  },
+  "timestamp": "2026-04-20 19:37:03"
+}

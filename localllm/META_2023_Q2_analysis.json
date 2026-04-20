@@ -1,0 +1,35 @@
+{
+  "file": "META_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 33.89,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.7,
+      "pricing_power": -0.2,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "year of efficiency",
+      "AI-powered tools",
+      "Llama 2",
+      "Threads trajectory",
+      "Metaverse vision",
+      "capital expenditures to grow in 2024"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong engagement trends and the successful execution of the 'year of efficiency'. Management shows high confidence in their AI roadmap (Llama 2) and product launches (Quest 3, Threads). While there is significant quantitative specificity regarding revenue and user growth, pricing power remains under pressure due to increased ad impressions. CapEx enthusiasm is high for AI infrastructure, despite a slight reduction in the 2023 forecast due to project shifts. Risk disclosure is moderate, focusing on regulatory headwinds and the uncertainty of AI scaling. Management was direct in QA, though they were cautious about providing specific long-term quantitative guidance for Reality Labs and 2024 CapEx."
+  },
+  "timestamp": "2026-04-20 12:56:18"
+}

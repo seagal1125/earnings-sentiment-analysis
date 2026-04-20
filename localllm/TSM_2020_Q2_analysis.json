@@ -1,0 +1,35 @@
+{
+  "file": "TSM_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 37.33,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.7
+    },
+    "key_phrases": [
+      "technology leadership",
+      "5G infrastructure deployment",
+      "HPC related product launches",
+      "N5 ramp up",
+      "US regulations impact",
+      "CapEx increase to US$16-17 billion"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong demand in 5G and HPC segments which offsets weaknesses in other platforms. Management shows high confidence in their technology leadership (N5/N3) and ability to grow revenue above 20% despite US trade regulations. CapEx enthusiasm is very high as they raised the full-year budget to $16-17B to meet demand. While there are risks regarding US export controls (Huawei) and COVID-19 uncertainty, management's responses in Q&A were generally direct, though they did use standard 'we do not comment on specific customers' for sensitive topics. Quantitative specificity is high with detailed revenue by technology and platform provided."
+  },
+  "timestamp": "2026-04-20 13:39:02"
+}

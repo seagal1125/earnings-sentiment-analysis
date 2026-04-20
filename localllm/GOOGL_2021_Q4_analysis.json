@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 28.05,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI investments are key",
+      "Cloud revenue grew 45%",
+      "YouTube Shorts continues to drive significant engagement",
+      "meaningful increase in CapEx",
+      "pathway to profitability"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong double-digit growth in Search, YouTube, and Cloud. Management shows high confidence, particularly regarding AI integration (MUM, Pathways) and Cloud expansion. Quantitative specificity is very high with detailed revenue, margin, and growth percentages provided. CapEx enthusiasm is high as the company plans to increase investment in technical infrastructure and office facilities. While there are minor risks mentioned (Omicron, supply chain, regulatory/antitrust bills), they do not overshadow the growth narrative. The only slight uncertainty lies in pricing power due to the transition from FLoC to Topics API and the impact of privacy changes."
+  },
+  "timestamp": "2026-04-20 12:41:06"
+}

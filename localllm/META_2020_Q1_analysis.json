@@ -1,0 +1,35 @@
+{
+  "file": "META_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 32.29,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": -0.3,
+      "demand_strength": 0.4,
+      "pricing_power": -0.5,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "significant impact on our business",
+      "economic fallout will last longer than people are currently anticipating",
+      "ad impressions increased 39%",
+      "average price per ad decreased 16%",
+      "moderating some areas of our expense growth",
+      "decline in average price per ad was largely attributable to the reduction in advertiser demand"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to the significant macroeconomic uncertainty caused by COVID-19 and the explicit warning from the CEO regarding a prolonged economic fallout. While user engagement (DAU/MAU) and ad impressions showed strong growth, pricing power was clearly weakened as average price per ad dropped by 16% due to reduced demand in key verticals like travel and auto. Management demonstrated high confidence in their long-term product roadmap (AR/VR, WhatsApp commerce) and technical moat, but provided cautious forward guidance, notably refusing to provide specific Q2 revenue guidance. Risk disclosure was high, focusing on pandemic-related economic contraction and regulatory headwinds (GDPR/CCPA). Capex enthusiasm was slightly reduced as construction efforts were deferred due to shelter-in-place orders."
+  },
+  "timestamp": "2026-04-20 12:49:18"
+}

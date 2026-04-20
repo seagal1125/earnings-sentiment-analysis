@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 24.26,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "robust AI-related demand",
+      "mid-40s CAGR for AI accelerators",
+      "exponentially increase in tokens",
+      "narrow the gap between demand and supply",
+      "Foundry 2.0"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by 'insane' AI demand and strong leading-edge technology leadership. Management shows extreme confidence in their ability to capture the AI megatrend, specifically mentioning that token growth is exponential. While there are minor risks mentioned (overseas fab dilution and geopolitical uncertainty), they are treated as manageable. The guidance for 2025 revenue (mid-30s% growth) and CapEx ($40B-$42B) reflects aggressive but disciplined expansion. The QA session was direct, with management providing specific qualitative and quantitative context regarding capacity planning and the shift toward system-level performance (Foundry 2.0). The only slight drag on scores is the inherent uncertainty of long-term forecasting and the dilution risks from overseas expansion."
+  },
+  "stats": {
+    "input_tokens": 11052,
+    "total_output_tokens": 433,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.398878094162725,
+    "time_to_first_token_seconds": 16.608
+  },
+  "timestamp": "2026-04-20 19:40:44"
+}

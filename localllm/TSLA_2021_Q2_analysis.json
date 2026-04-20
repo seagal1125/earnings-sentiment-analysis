@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 30.09,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record production, deliveries and surpassed over a $1billion in GAAP net income",
+      "global chip shortage situation remains quite serious",
+      "FSD subscription will be a significant factor probably next year",
+      "achieving the output that we did achieve, was only due to an immense effort",
+      "automotive gross margin... has increased nearly 10 percentage points",
+      "Megapack is basically sold out through the end of next year"
+    ],
+    "reasoning": "The overall sentiment is positive due to record-breaking financial milestones and production achievements. Management shows high confidence in long-term technology (FSD, 4680 cells) despite acknowledging significant short-term headwinds from the global chip shortage and supply chain instability. Forward guidance is cautiously optimistic, focusing on scaling capacity in Berlin and Austin. While there is some evasiveness regarding specific FSD take-rates and Cybertruck timelines, the technical specificity regarding battery chemistry (iron vs. nickel) and manufacturing processes is high. Risk disclosure is moderate, primarily centered around supply chain bottlenecks rather than demand destruction."
+  },
+  "timestamp": "2026-04-20 13:28:17"
+}

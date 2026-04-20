@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 11.93,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "between two major growth waves",
+      "next-generation low-cost vehicle",
+      "manufacturing technology is the most important competitive characteristic",
+      "demand is off the hook",
+      "capital expenditure in excess of $10 billion"
+    ],
+    "reasoning": "The overall sentiment is highly positive regarding historical achievements (record deliveries, Model Y success) and technological progress (FSD v12, Optimus), though tempered by the explicit warning that 2024 growth will be lower as the company transitions between 'two growth waves'. Management shows high confidence in their manufacturing moat and AI capabilities. Quantitative specificity is very high with detailed figures on revenue, cash flow, and energy storage. While they are transparent about risks like interest rates and Chinese competition, they are not overly alarmist. The focus on massive CapEx (> $10B) indicates aggressive expansion/investment."
+  },
+  "timestamp": "2026-04-20 15:03:09"
+}

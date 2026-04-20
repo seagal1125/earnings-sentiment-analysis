@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 19.92,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand in sales growth",
+      "investing heavily to support sellers",
+      "incremental COVID related costs",
+      "AWS customer usage remained strong",
+      "pull forward a bit from 2021"
+    ],
+    "reasoning": "The overall sentiment is positive due to robust revenue growth and high demand across major categories, driven by the pandemic-induced shift to online shopping. Management shows high confidence in their operational ability to meet demand, though they are transparent about significant cost headwinds ($4B expected in Q4) related to COVID safety and fulfillment expansion. CapEx enthusiasm is extremely high as they are aggressively expanding their logistics footprint (50% square footage growth). While demand is 'explosive', the forward guidance tone is cautious/neutral due to the uncertainty of pandemic duration and potential 'pull-forward' effects from 2021. Risk disclosure is moderate, focusing on COVID costs and labor productivity. QA was direct with specific quantitative details provided by the CFO."
+  },
+  "timestamp": "2026-04-20 12:29:20"
+}

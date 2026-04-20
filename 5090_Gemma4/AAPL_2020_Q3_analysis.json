@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.47,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "June quarter record revenue of $59.7 billion",
+      "transition to Apple silicon",
+      "services revenue record of $13.2 billion",
+      "iPhone returned to growth",
+      "uncertainty around COVID-19"
+    ],
+    "reasoning": "Apple reported a very strong Q3 2020 with double-digit revenue growth and record services revenue, despite the macro uncertainty caused by COVID-19. Management showed high confidence in product demand (especially iPad, Mac, and iPhone SE) and the ecosystem's strength, though they explicitly withheld formal guidance for the next quarter due to pandemic-related volatility. The transition to Apple Silicon represents a significant innovation milestone. While risk disclosure regarding COVID-19 and FX headwinds was present, the overall tone remained highly optimistic about long-term structural growth."
+  },
+  "timestamp": "2026-04-20 14:28:27"
+}

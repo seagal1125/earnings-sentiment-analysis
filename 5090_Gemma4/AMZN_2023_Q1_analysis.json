@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 11.23,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.1,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.4,
+      "pricing_power": 0.1,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "revenue up 9% year-over-year",
+      "advertising services revenue up 23%",
+      "AWS net sales $21.4 billion",
+      "cost optimization in AWS",
+      "Large Language Models and generative AI",
+      "eliminate 9,000 roles"
+    ],
+    "reasoning": "The overall sentiment is slightly positive due to strong revenue growth and advertising performance, despite macroeconomic headwinds. Management shows high confidence in long-term AI/GenAI opportunities (innovation momentum is very high), though the CFO provides a cautious outlook on AWS growth rates for April (500 bps lower). Risk disclosure is significant regarding inflation and recessionary fears. The transcript is highly quantitative with specific revenue and margin figures. CapEx is being strategically reallocated from fulfillment to AI infrastructure, showing a shift rather than pure expansion or contraction."
+  },
+  "timestamp": "2026-04-20 14:35:46"
+}

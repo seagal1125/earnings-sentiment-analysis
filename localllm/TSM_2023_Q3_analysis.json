@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 33.24,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.6,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.7
+    },
+    "key_phrases": [
+      "strong ramp of our industry-leading 3-nanometer technology",
+      "AI-related demand continues to be strong",
+      "early sign of demand stabilization in the PC and smartphone end market",
+      "N2 technology development is progressing well and on track",
+      "capacity limitation to support them"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While management acknowledges near-term macroeconomic uncertainties and inventory adjustments in certain segments (Automotive, 7nm), they highlight strong momentum in AI-related demand and the successful ramp of 3nm technology. Confidence is high regarding technological leadership (N2/N3) and ability to handle competition (Intel). Quantitative specificity is very high with detailed revenue, margin, and CapEx figures provided. Risk disclosure is moderate, focused on macro conditions and cost increases for overseas fabs. The QA session was direct, though management avoided specific 2024 CapEx dollar amounts and specific node-level revenue breakdowns."
+  },
+  "timestamp": "2026-04-20 13:46:44"
+}

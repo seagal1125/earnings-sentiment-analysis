@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 27.11,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.6,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record in India",
+      "services revenue set an all-time record",
+      "challenging market conditions (Mac/iPad)",
+      "supply demand balance by the end of the quarter",
+      "installed base of over 2 billion active devices"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While iPhone and Services showed record-breaking strength, the significant declines in Mac and iPad revenue (due to supply chain normalization and difficult year-over-year comparisons) weighed on the results. Management showed high confidence in their ecosystem and future innovation (Vision Pro, M3 chips), particularly regarding the ability to navigate macroeconomic headwinds. The QA session was direct, with management providing specific reasons for product-line fluctuations (e.g., the 'extra week' impact and supply disruptions). The growth in Services provides a strong recurring revenue moat, offsetting the cyclicality of hardware. Forward guidance is stable, with expectations for Mac to accelerate in the coming quarter."
+  },
+  "stats": {
+    "input_tokens": 12060,
+    "total_output_tokens": 420,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 54.76215711331329,
+    "time_to_first_token_seconds": 19.291
+  },
+  "timestamp": "2026-04-20 18:25:33"
+}

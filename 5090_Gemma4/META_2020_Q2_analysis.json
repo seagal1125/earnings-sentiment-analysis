@@ -1,0 +1,34 @@
+{
+  "file": "META_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 13.63,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": -0.2,
+      "demand_strength": 0.8,
+      "pricing_power": -0.6,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "average price per ad decreased 21%",
+      "ad revenue growth was stronger in May and June relative to April",
+      "headwinds related to ad targeting and measurement",
+      "WhatsApp Business now has 50 million people using it",
+      "capital expenditures were $3.4 billion, a decline of 11% compared to last year"
+    ],
+    "reasoning": "The quarter showed strong user engagement and revenue growth driven by the pandemic-induced shift to e-commerce (high demand_strength). However, there is significant pricing pressure as evidenced by the 21% drop in average price per ad (low pricing_power). Management's forward guidance is cautious due to macroeconomic uncertainty and upcoming regulatory/platform headwinds like Apple's iOS changes (negative forward_guidance_tone). While they addressed the advertiser boycott directly without evasion, the disclosure of risks regarding regulation and macro trends was notable. Innovation in AR/VR and WhatsApp Business remains a core strength."
+  },
+  "timestamp": "2026-04-20 14:43:37"
+}

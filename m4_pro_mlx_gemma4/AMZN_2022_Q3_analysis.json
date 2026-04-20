@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 17.81,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": -0.1,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": -0.2,
+      "demand_strength": 0.3,
+      "pricing_power": 0.1,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.6,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "macroeconomic environment remains challenging",
+      "tighten our belt",
+      "moderating sales growth",
+      "cost optimization",
+      "revenue growth in dollars than it is on our income"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to significant macroeconomic headwinds (inflation, energy costs, recessionary fears) and a visible slowdown in growth rates toward the end of Q3. Management shows moderate confidence but is notably cautious, shifting focus from aggressive expansion to 'cost optimization' and 'operational efficiency.' The guidance is tempered by FX headwinds and slowing consumer demand. While AWS remains a strong growth engine (innovation momentum), the deceleration in its growth rate and customer cost-cutting efforts weigh on the outlook. Quantitative specificity is high, with detailed breakdowns of FX impacts and capital expenditure shifts. The company is in a transition phase: reducing fulfillment CapEx while increasing tech infrastructure investment."
+  },
+  "stats": {
+    "input_tokens": 7275,
+    "total_output_tokens": 400,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.986630698585486,
+    "time_to_first_token_seconds": 10.878
+  },
+  "timestamp": "2026-04-20 18:32:31"
+}

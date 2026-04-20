@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 10.24,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Azure revenue grew 48%",
+      "commercial cloud revenue up 31%",
+      "partnership with OpenAI brings... GPT-3 to Azure",
+      "transactional weakness in Windows/Office",
+      "full modern tech stack"
+    ],
+    "reasoning": "The call reflects extremely strong performance, particularly in the Intelligent Cloud segment (Azure growth of 48%). Management displays high confidence and transparency, directly addressing headwinds like transactional weakness and tough year-over-year comparables. The tone is highly optimistic regarding AI integration (OpenAI/GPT-3) and the expansion of the digital transformation market. Quantitative specificity is exceptionally high, with numerous precise metrics provided for almost every business segment."
+  },
+  "timestamp": "2026-04-20 14:49:42"
+}

@@ -1,0 +1,36 @@
+{
+  "file": "TSLA_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 14.38,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.3,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "energy storage deployments reached an all time high",
+      "more than doubling our training compute sequentially",
+      "accelerate the launch of new models ahead",
+      "no longer training constrained",
+      "negative free cash flow of $2.5 billion",
+      "reduce our head count by over 10%",
+      "AI inference efficiency is vastly better than any other company"
+    ],
+    "reasoning": "The call presents a dichotomy: significant short-term financial and operational headwinds (negative FCF, declining auto margins, EV adoption pressure) contrasted with extreme long-term optimism regarding AI, Robotics, and Energy. Management shows high confidence in their technological moat (FSD V12, inference efficiency) and is aggressively scaling AI infrastructure (H100 expansion). While demand for vehicles faces macro/seasonal pressure necessitating price cuts (low pricing power), the energy business is seeing record growth. The shift from an 'auto company' to an 'AI/Robotics company' is the central strategic pivot."
+  },
+  "timestamp": "2026-04-20 15:03:23"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.28,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter powered by our continued strength of our commercial cloud",
+      "digital adoption curves aren't slowing down. In fact, they're accelerating",
+      "Azure revenue grew 50% and 46% in constant currency",
+      "strategic deals... the foundation for these long-term strategic contracts is the Microsoft Cloud holistically",
+      "investing boldly to capture the significant list of opportunities ahead of us"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance driven by cloud acceleration (Azure) and digital transformation. Management exhibits high confidence, particularly Satya Nadella, regarding the long-term shift to cloud and AI. Quantitative data is dense, showing massive growth in Azure, LinkedIn, and Teams. While there are minor risks mentioned (supply chain, FX, and the transition from COVID-era surges), they are overshadowed by explosive demand. The guidance is optimistic, focusing on 'investing boldly' to capture expanding TAMs. Management was direct in the Q&A, providing specific strategic context for their growth drivers."
+  },
+  "stats": {
+    "input_tokens": 12232,
+    "total_output_tokens": 436,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.79562546400823,
+    "time_to_first_token_seconds": 18.544
+  },
+  "timestamp": "2026-04-20 19:00:59"
+}

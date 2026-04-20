@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.52,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "cost-to-serve was down by more than $0.45 per unit",
+      "AWS added more than $1.1 billion an incremental quarter-over-quarter revenue",
+      "generative AI... will ultimately drive tens of billions of dollars of revenue",
+      "regionalization efforts have also brought transportation distances down",
+      "we anticipate CapEx to increase year-over-year"
+    ],
+    "reasoning": "The call reflects an exceptionally strong quarter with significant margin expansion driven by operational efficiencies (cost-to-serve reduction) and AWS growth. Management shows high confidence, particularly regarding the integration of Generative AI across all business segments (AWS, Retail, Advertising). The transition from cost-optimization to growth-investment is evident in the CapEx commentary. While there are minor risks mentioned (geopolitical, economic uncertainty), they are overshadowed by the massive scale of revenue and the successful execution of the regionalization strategy. The tone is optimistic but grounded in specific operational improvements."
+  },
+  "stats": {
+    "input_tokens": 12023,
+    "total_output_tokens": 422,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.243181762471536,
+    "time_to_first_token_seconds": 18.712
+  },
+  "timestamp": "2026-04-20 18:34:28"
+}

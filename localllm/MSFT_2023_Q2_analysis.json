@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 30.48,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.1,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.4,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "optimizing that spend",
+      "next major wave of computing is being born",
+      "Azure AI services revenue increased more than 100%",
+      "customers are exercising caution",
+      "deceleration in H2"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While Satya Nadella highlights massive innovation momentum in AI and strong growth in Azure AI, the CFO (Amy Hood) provided a sobering outlook regarding macroeconomic headwinds, specifically noting that customers are 'optimizing' (reducing) spend and that Azure growth is expected to decelerate by 4-5 points in Q3. The company shows high quantitative specificity with detailed segment breakdowns. Risk disclosure is moderate, focusing on macro uncertainty and PC market declines. Management remains confident in their long-term AI leadership ('platform shift') despite near-term 'optimization' cycles."
+  },
+  "timestamp": "2026-04-20 13:08:26"
+}

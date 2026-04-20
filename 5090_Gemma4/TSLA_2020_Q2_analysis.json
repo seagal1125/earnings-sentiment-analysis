@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 11.98,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "demand exceeds supply",
+      "machine that makes the machine",
+      "fourth consecutive profitable quarter",
+      "transition to 4D autonomy",
+      "Giga Texas"
+    ],
+    "reasoning": "The management team exhibits extremely high confidence and optimism, particularly regarding long-term technological leaps (FSD, manufacturing engineering) and expansion (Giga Texas/Berlin). While they acknowledge short-term operational hurdles like factory shutdowns and supply chain 'firefighting,' they frame these as solvable engineering challenges rather than structural risks. Demand is explicitly stated to be exceeding supply. The only notable downward pressure is on pricing power due to cost-reduction strategies and competitive solar pricing, but this is offset by massive innovation momentum in AI and manufacturing automation."
+  },
+  "timestamp": "2026-04-20 14:59:50"
+}

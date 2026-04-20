@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.45,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI Overviews 1.5 billion users",
+      "Gemini 2.5 Pro",
+      "CapEx $75 billion",
+      "Cloud revenue grew 28%",
+      "depreciation growth will accelerate"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong double-digit growth in Search and Cloud, and significant AI milestones (Gemini 2.5). Management shows high confidence, particularly Sundar Pichai, regarding AI integration. The CapEx enthusiasm is at maximum due to the $75B commitment for infrastructure. While there are clear risks mentioned (accelerating depreciation and macro uncertainty), they are presented as manageable headwinds. Quantitative specificity is very high with detailed revenue, user, and margin figures provided. QA was direct, though management avoided specific CTR/conversion metrics in favor of broader trends."
+  },
+  "timestamp": "2026-04-20 12:47:18"
+}

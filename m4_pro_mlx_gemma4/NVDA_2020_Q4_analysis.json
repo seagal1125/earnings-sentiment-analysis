@@ -1,0 +1,42 @@
+{
+  "file": "NVDA_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 24.08,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-driven growth",
+      "Inference momentum",
+      "End of Dennard scaling",
+      "Software-defined data center",
+      "RTX upgrade cycle",
+      "Coronavirus impact ($100M reduction)"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by record data center revenue and the massive potential of AI (specifically inference and recommendation systems). Management shows high confidence in their technological moat (CUDA, RTX) and the shift toward accelerated computing. While there is a notable $100M revenue reduction in guidance due to the emerging coronavirus threat, the underlying demand for AI and gaming remains robust. The QA session was direct, with Jensen Huang providing visionary yet specific strategic context. The only significant drag on the score is the cautiousness regarding the pandemic and the seasonal volatility in gaming."
+  },
+  "stats": {
+    "input_tokens": 11350,
+    "total_output_tokens": 390,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.320810769845956,
+    "time_to_first_token_seconds": 17.199
+  },
+  "timestamp": "2026-04-20 19:10:08"
+}

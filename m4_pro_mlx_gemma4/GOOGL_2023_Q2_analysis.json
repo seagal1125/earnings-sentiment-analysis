@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 24.19,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-first company",
+      "Search Generative Experience (SGE)",
+      "durably reengineering our cost base",
+      "momentum across the company",
+      "AI-optimized infrastructure"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong growth in Search and Cloud, and the successful integration of AI into core products. Management shows high confidence (especially Sundar) regarding their technological leadership and the transition to an AI-first era. While there is a mention of 'moderation in consumption growth' (a slight headwind), the tone remains optimistic about long-term value. The company is aggressively investing in AI infrastructure (high capex enthusiasm) while simultaneously executing cost-cutting measures to reengineer the cost base. The QA session was direct, with management providing specific details on SGE and cloud growth. The innovation momentum is the strongest driver of the score, as AI is presented not just as a feature but as a fundamental evolution of their business model."
+  },
+  "stats": {
+    "input_tokens": 11270,
+    "total_output_tokens": 423,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.3103356875421,
+    "time_to_first_token_seconds": 16.77
+  },
+  "timestamp": "2026-04-20 18:42:52"
+}

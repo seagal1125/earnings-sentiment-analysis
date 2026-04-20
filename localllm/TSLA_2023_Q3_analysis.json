@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 28.97,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.1,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.6,
+      "pricing_power": -0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "end-to-end AI",
+      "mass game changer",
+      "production is hard",
+      "cost attack",
+      "baby AGI",
+      "high interest rate environment"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, driven by massive enthusiasm for AI (FSD v12, Optimus) and energy storage growth, but tempered by significant macroeconomic concerns. Elon Musk displays high confidence in technology but extreme caution regarding the Cybertruck ramp-up and global economic uncertainty (interest rates/wars). The CFO provides specific cost data ($37,500 per vehicle) and cash flow figures, though forward guidance is vague due to 'moving pieces' in 2024. Risk disclosure is notable, particularly regarding Cybertruck profitability and the impact of high interest rates on vehicle affordability. Management was somewhat evasive on specific product timelines (Model 3 Highland, next-gen platform) and future growth rates, often pivoting back to cost reduction and AI capabilities."
+  },
+  "timestamp": "2026-04-20 13:32:54"
+}

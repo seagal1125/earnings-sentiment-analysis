@@ -1,0 +1,11 @@
+{
+  "file": "TSM_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 19.29,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "{\"symbol\": \"TSM\", \"fiscal_year\": 2025, \"fiscal_quarter\": 2, \"scores\": {\"overall_sentiment\": 0.7, \"confidence_score\": 0.9, \"forward_guidance_tone\": 0.8, \"risk_disclosure_intensity\": 0.4, \"qa_evasiveness\": 0.3, \"quantitative_specificity: 0.95, \"capex_enthusiasm\": 0.1, \"demand_strength\": 0.95, \"pricing_power\": 0.6, \"competitive_moat\": 0.9, \"innovation_momentum\": 0.95, \"management_consistency\": 0.5}, \"key_phrases\": [\"strong demand for our industry-leading 3-nanometer and 5-nanometer technologies\", \"earning our value\", \"narrow the gap between the demand and the capacity\", \"AI demand continuing to be strong\", \"unfavorable foreign exchange rate\"], \"reasoning\": \"The company reported a significant revenue beat in USD terms, driven by robust AI and HPC demand. While there are structural headwinds such as FX volatility and margin dilution from overseas fab ramp-ups (Arizona/Kumamoto), management remains highly confident in their long-term gross margin targets (53%+) and technological leadership (N2, A16, A14 roadmap). The guidance for Q3 shows strong sequential revenue growth. QA evasiveness was low but present when discussing specific 2026 revenue contributions and China market impacts. CapEx remains steady rather than aggressively increasing the spending rate, focusing on efficiency despite massive demand.\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 16:19:20"
+}

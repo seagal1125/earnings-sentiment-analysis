@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 33.85,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-related demand to double in 2025",
+      "long-term revenue growth approach a 20% CAGR",
+      "capital budget between $38 billion and $42 billion",
+      "advanced technologies accounted for 74% of wafer revenue",
+      "overseas fab margin dilution of 2% to 3%"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by the massive growth in AI-related demand (projected to double in 2025) and a strong long-term CAGR forecast of 20%. Management shows extremely high confidence, particularly regarding technology leadership (N2, A16) and capacity expansion. Quantitative specificity is very high, with detailed breakdowns of revenue by technology, platform, and CapEx allocation. While there are clear risks disclosed—specifically margin dilution from overseas fabs (US/Japan) and higher electricity costs—the management's response to these risks was direct. The only slight negative is the 'evasiveness' in QA regarding specific US strategy details and exact timing for non-AI CoWoS adoption, though they provided enough context to satisfy most analysts. CapEx enthusiasm is at a maximum with a significant budget increase planned for 2025."
+  },
+  "timestamp": "2026-04-20 13:49:29"
+}

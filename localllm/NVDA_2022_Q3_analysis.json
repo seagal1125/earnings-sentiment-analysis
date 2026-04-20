@@ -1,0 +1,35 @@
+{
+  "file": "NVDA_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 28.3,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.85,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "outstanding quarter",
+      "demand was strong across the board",
+      "software creates market",
+      "chips are enablers",
+      "secured our future",
+      "million X speed ups"
+    ],
+    "reasoning": "The overall sentiment is extremely positive, driven by record revenues in Data Center and Gaming. Management (CEO Jensen Huang) shows exceptional confidence, particularly regarding the long-term potential of Omniverse and AI software stacks. Quantitative specificity is high with detailed revenue breakdowns per segment. While there are risks mentioned regarding the Arm acquisition regulatory hurdles and crypto mining visibility, the tone remains dominant and expansionary. The company is aggressively securing long-term supply agreements (prepayments mentioned), indicating high capex enthusiasm to support growth. The only reason for a 0.5 consistency score is the lack of prior quarter data provided in the transcript to verify promises."
+  },
+  "timestamp": "2026-04-20 13:19:02"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 14.42,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.3,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.9
+    },
+    "key_phrases": [
+      "challenging macro climate",
+      "sharpening our focus",
+      "momentum in Cloud",
+      "pullback in advertiser spend",
+      "investing responsibly for the long term",
+      "moderating operating expense growth"
+    ],
+    "reasoning": "The overall sentiment is slightly negative to neutral, weighed down by significant macroeconomic headwinds, currency fluctuations (FX), and a visible pullback in advertising spend within certain verticals (finance, crypto). However, management demonstrates high confidence in their long-term AI strategy and technological moat. While the core Ads business is experiencing deceleration, Google Cloud shows strong momentum. The company is executing a clear plan for operational efficiency by moderating headcount growth, which aligns with previous commitments. Innovation momentum remains extremely high due to heavy investments in AI (Search, Gemini-era precursors) and infrastructure, even as they manage costs."
+  },
+  "timestamp": "2026-04-20 14:40:16"
+}

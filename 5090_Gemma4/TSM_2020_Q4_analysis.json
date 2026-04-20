@@ -1,0 +1,11 @@
+{
+  "file": "TSM_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.13,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "---\n{\"symbol\": \"TSM\", \"fiscal_year\": 2020, \"fiscal_quarter\": 4, \"scores\": {\"overall_sentiment\": 0.8, \"confidence_score\": 0.9, \"forward_guidance_tone\": 0.7, \"risk_disclosure_intensity\": 0.3, \"qa_evasiveness\": 0.6, \"quantitative_specificity\": 0.9, \"capex_enthusiasm\": 1.0, \"demand_strength\": 0.9, \"pricing_power\": 0.7, \"competitive_moat\": 0.9, \"innovation_momentum\": 0.9, \"management_consistency\": 0.5}, \"key_phrases\": [\"strong demand for our 5 nanometer technology\", \"CapEx guidance... $25 billion to $28 billion\", \"target CAGR is between 10% to 15%\", \"50% gross margin is reasonable and achievable\", \"we don't specifically comment on very specific area\"], \"reasoning\": \"The call reflects extremely strong performance in the 5nm node and a highly aggressive capital expenditure plan ($25B-$28B) to capture future growth in HPC and 3nm. Management shows high confidence in long-term revenue CAGR (upgraded from 5-10% to 10-15%) and structural profitability (50% margin). While the company is very specific with financial and capacity numbers, they exhibit typical industry evasiveness regarding specific customer names (e.g., Intel, Apple) and precise market share in the x86 segment.\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 16:14:43"
+}

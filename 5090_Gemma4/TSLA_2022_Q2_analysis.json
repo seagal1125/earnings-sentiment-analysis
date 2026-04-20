@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 17.32,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.75,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.85,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "supply chain hell",
+      "production problem, not a demand problem",
+      "record-breaking second half",
+      "manufacturing as competitive advantage",
+      "4680 dry electrode process",
+      "excess demand"
+    ],
+    "reasoning": "The call presents a dichotomy between significant operational headwinds (Shanghai COVID shutdowns, inflation, and margin compression) and extreme long-term optimism regarding production capacity and technological breakthroughs. Management is highly transparent about macro risks and cost increases (high risk disclosure), yet remains very confident in their ability to scale manufacturing and FSD technology. Demand is explicitly stated as being decoupled from supply constraints, with 'excess demand' noted. The presence of specific metrics regarding robot reduction, battery cell counts, and production targets provides high quantitative specificity."
+  },
+  "timestamp": "2026-04-20 15:01:46"
+}

@@ -1,0 +1,33 @@
+{
+  "file": "MSFT_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 30.76,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI business annual revenue run rate surpassed $13 billion",
+      "Azure AI services grew 157% year-over-year",
+      "Commercial bookings increased 67%",
+      "more than 2x price performance gain for every hardware generation"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by massive growth in AI revenue run rate ($13B) and Azure AI services (157% YoY). Management shows high confidence, specifically Satya Nadella regarding the 'fleet physics' and long-term scaling laws. While there were some execution challenges noted in non-AI Azure services due to sales motion adjustments, the company is aggressively expanding CapEx to meet demand. Quantitative specificity is very high with numerous precise growth percentages and dollar amounts provided. The only slight drag on sentiment comes from FX headwinds and the mentioned 'execution challenges' in certain scale motions, but these were addressed directly by the CFO without evasion."
+  },
+  "timestamp": "2026-04-20 13:12:37"
+}

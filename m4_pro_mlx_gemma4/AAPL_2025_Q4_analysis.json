@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 25.56,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "December quarter's revenue to be the best ever",
+      "supply constraints on several iPhone 16 and iPhone 17 models",
+      "invest $600 billion over the next 4 years",
+      "Apple Intelligence... making every experience even more personal",
+      "return to growth in Q1 [in China]"
+    ],
+    "reasoning": "The call reflects an exceptionally strong fiscal year with record-breaking revenue and EPS. Management expresses high confidence in the upcoming holiday season, specifically projecting the best-ever December quarter for both total revenue and iPhone. While supply constraints on new models (iPhone 17) were noted as a headwind, they are framed as 'demand-driven' rather than structural issues. The tone regarding AI (Apple Intelligence) and the M5 chip transition is highly optimistic, signaling a major innovation cycle. The only slight friction points were the 'difficult compares' for Mac and the supply constraints in China, but management successfully pivoted these into growth opportunities. The QA session was direct, though Tim Cook occasionally used strategic ambiguity regarding specific segment splits (e.g., advertising) to avoid revealing competitive data."
+  },
+  "stats": {
+    "input_tokens": 11309,
+    "total_output_tokens": 454,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.6522168008441,
+    "time_to_first_token_seconds": 17.392
+  },
+  "timestamp": "2026-04-20 18:28:55"
+}

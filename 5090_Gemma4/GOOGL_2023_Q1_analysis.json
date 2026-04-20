@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 15.64,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.5,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.9
+    },
+    "key_phrases": [
+      "AI opportunity",
+      "Cloud profitability",
+      "workforce and office space reductions",
+      "technical infrastructure investment",
+      "stabilization in YouTube ads",
+      "macro economic headwinds"
+    ],
+    "reasoning": "The call reflects a company in a significant transition phase, pivoting heavily towards Generative AI. While Search remains resilient and Cloud has reached profitability, there are clear macro-economic headwinds causing customers to optimize costs (specifically in GCP consumption) and some decline in certain ad verticals like Finance. Management is demonstrating high consistency by executing on previously announced cost-cutting measures (workforce reductions) while simultaneously signaling aggressive CapEx expansion for AI infrastructure. The sentiment is cautiously optimistic: strong on technological innovation and long-term opportunity, but tempered by short-term economic uncertainty and the costs of restructuring."
+  },
+  "timestamp": "2026-04-20 14:40:42"
+}

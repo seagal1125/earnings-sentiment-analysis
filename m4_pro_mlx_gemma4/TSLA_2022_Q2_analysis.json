@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.39,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record-breaking second half of the year",
+      "production problem, not a demand problem",
+      "A architecture",
+      "we will solve full self-driving and it still seems to be this year",
+      "the best Chinese EV manufacturer is Tesla"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, driven by strong production records and high demand despite macroeconomic headwinds (inflation/supply chain). Management shows extremely high confidence in their technological moat (FSD, manufacturing efficiency) and future growth. The 'demand problem vs production problem' distinction is a key takeaway, suggesting strong underlying demand. While there are risks regarding inflation and factory ramp-up costs (Berlin/Austin), the tone remains aggressive on innovation. The score for management consistency is neutral (0.5) due to the lack of prior quarter data, but they successfully addressed current challenges like the Shanghai shutdown. The QA session was direct, though Elon Musk occasionally used visionary language to pivot from technical specifics."
+  },
+  "stats": {
+    "input_tokens": 12559,
+    "total_output_tokens": 421,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.55620522369045,
+    "time_to_first_token_seconds": 18.858
+  },
+  "timestamp": "2026-04-20 19:23:00"
+}

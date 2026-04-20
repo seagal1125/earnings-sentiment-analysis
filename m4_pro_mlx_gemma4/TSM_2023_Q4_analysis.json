@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 30.36,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "low-to-mid 20% revenue growth in 2024",
+      "AI-related demand is a key enabler",
+      "3nm technology ramp-up",
+      "technology leadership and capacity provider",
+      "53% long-term gross margin achievable"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by the massive growth potential in AI and HPC which offsets the cyclical downturn in smartphones. Management shows extremely high confidence in their technological moat, specifically regarding N3 and N2 nodes. While they acknowledge the challenges of 2023 (inventory adjustment, lower utilization), the forward guidance is optimistic with a projected revenue growth of low-to-mid 20% in USD terms. The QA session was handled directly, though management was tactful when discussing competitors (IDMs). CapEx remains high to support future growth, but the rate of increase is leveling off as they transition from investment phase to harvest phase. The primary risks mentioned are geopolitical (overseas expansion) and margin dilution from N3 ramp, but these are framed as strategic necessities."
+  },
+  "stats": {
+    "input_tokens": 14309,
+    "total_output_tokens": 446,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.768153082514736,
+    "time_to_first_token_seconds": 22.257
+  },
+  "timestamp": "2026-04-20 19:37:34"
+}

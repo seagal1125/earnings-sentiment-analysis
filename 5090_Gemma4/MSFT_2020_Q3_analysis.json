@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 14.18,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "2 years' worth of digital transformation in two months",
+      "strong demand for our premium offerings",
+      "material sequential increase in our capital expenditures",
+      "full stack advantage",
+      "surging usage and remote business process adjustments"
+    ],
+    "reasoning": "The call is exceptionally strong regarding the structural tailwinds provided by COVID-19, which management frames as an accelerator for their core cloud and productivity businesses. While there are clear, transparently disclosed headwinds in advertising (LinkedIn/Search) and supply chain constraints, the sheer density of positive growth metrics and specific user numbers (e.g., 75M Teams daily users, 258M Office 365 seats) demonstrates high confidence. Management's response to analyst questions was direct and data-driven, particularly regarding capacity and monetization. The guidance is cautious due to short-term volatility but remains structurally optimistic about long-term cloud adoption."
+  },
+  "timestamp": "2026-04-20 14:49:15"
+}

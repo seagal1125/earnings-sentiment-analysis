@@ -1,0 +1,33 @@
+{
+  "file": "MSFT_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 16.45,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "digital tech intensity is key to business resilience",
+      "Azure revenue grew 47% and 50% in constant currency",
+      "weakness in small and medium business purchasing",
+      "record engagement and monetization in gaming"
+    ],
+    "reasoning": "Microsoft delivered record fiscal year results, heavily driven by the expansion of its Cloud and Gaming segments. While management explicitly acknowledged headwinds in the SMB sector and advertising spend due to macro conditions, they framed the global shift toward remote work as a massive secular tailwind for their technology stack. The call was highly quantitative, providing specific growth percentages across all major segments, and management demonstrated high confidence in their AI leadership (OpenAI/GPT3) and integrated platform strategy."
+  },
+  "timestamp": "2026-04-20 14:49:32"
+}

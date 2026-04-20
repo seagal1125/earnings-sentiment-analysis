@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 17.13,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.1,
+      "demand_strength": 0.3,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.6,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "early signs of stabilization",
+      "fragile global economic environment",
+      "secular interest in our digital transformation",
+      "gradual improvement in revenues",
+      "investing for the long term"
+    ],
+    "reasoning": "The sentiment is slightly positive but heavily tempered by the macroeconomic headwinds of the COVID-19 pandemic. Management shows high confidence in long-term structural trends (Cloud, AI, YouTube) despite a flat year-over-year revenue performance. The 'stabilization' mentioned in late Q2 provides a cautious optimistic tone for the future. Risk disclosure is moderate, focusing on economic fragility rather than internal failures. QA was direct, with management addressing specific concerns about e-commerce and regulatory scrutiny without significant evasion. Quantitative data was used to show the recovery trajectory (e.g., search trends moving from mid-teens decline to flat). The company is balancing cost efficiency (slowing headcount growth) with strategic investment in high-growth areas like Cloud and AI."
+  },
+  "stats": {
+    "input_tokens": 6657,
+    "total_output_tokens": 422,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.86123490637341,
+    "time_to_first_token_seconds": 9.804
+  },
+  "timestamp": "2026-04-20 18:38:23"
+}

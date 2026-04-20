@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 33.84,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.4,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.5,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "most valuable company in the world by far",
+      "prosperity of autonomy to take effect around the middle of next year",
+      "thousands of Optimus robots working in Tesla factories by the end of this year",
+      "generalized solution for autonomy",
+      "sustainable abundance for all"
+    ],
+    "reasoning": "The sentiment is strongly positive, driven by Elon Musk's vision of autonomy (Robotaxi) and Optimus as the primary value drivers. Management shows high confidence in their technological lead, particularly regarding AI and vertical integration. While there are clear risks mentioned (tariffs, political involvement, and production transitions), they are framed as manageable hurdles rather than existential threats. The forward guidance is aggressive, pivoting the company's identity from an automaker to an AI/robotics powerhouse. Quantitative specificity is moderate, as much of the discussion focuses on qualitative technological breakthroughs rather than granular financial forecasting. The 'unboxed' manufacturing process and the transition to autonomous fleets are presented as the key to future exponential growth."
+  },
+  "stats": {
+    "input_tokens": 16517,
+    "total_output_tokens": 425,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.70607665149594,
+    "time_to_first_token_seconds": 25.98
+  },
+  "timestamp": "2026-04-20 19:28:08"
+}

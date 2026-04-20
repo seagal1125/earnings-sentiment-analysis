@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 25.36,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "extremely robust AI-related demand",
+      "demand is real... it's just the beginning",
+      "revenue contribution from server AI processors to more than triple this year",
+      "higher level of capital expenditures is always correlated with higher growth opportunities",
+      "customers' demand far exceeds our ability to supply"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by 'insane' AI demand and strong leadership in advanced nodes (N3/N5). Management shows extreme confidence, particularly CEO C.C. Wei, in the sustainability of the AI cycle. Forward guidance is optimistic with a 35% YoY midpoint growth forecast for Q4. Risk disclosure is low, mostly limited to operational costs like electricity and overseas expansion dilution. QA was direct, though management avoided specific 2025 CapEx numbers and long-term CAGR updates. Quantitative data was dense regarding revenue splits and margin impacts. CapEx is aggressive to capture growth, and demand strength is the primary driver of the call. Pricing power is implied through their 'selling value' strategy and high-end node dominance."
+  },
+  "stats": {
+    "input_tokens": 11530,
+    "total_output_tokens": 446,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.2052885435317,
+    "time_to_first_token_seconds": 17.466
+  },
+  "timestamp": "2026-04-20 19:38:57"
+}

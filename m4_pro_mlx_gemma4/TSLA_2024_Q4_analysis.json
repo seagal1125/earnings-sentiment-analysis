@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.68,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "unsupervised Full Self Driving in Austin in June",
+      "Optimus will have the potential to be north of $10 trillion in revenue",
+      "most valuable company in the world by far",
+      "exponential progress",
+      "designing the train and the station in real time"
+    ],
+    "reasoning": "The sentiment is strongly positive, driven primarily by Elon Musk's visionary rhetoric regarding autonomy (FSD) and Optimus, which he positions as the primary value drivers for Tesla. The confidence score is exceptionally high due to Musk's absolute certainty in his technological roadmap, though it borders on hyperbolic. Forward guidance is aggressive, predicting 'ballistic' growth in 2026-2028. Risk disclosure is relatively low, with management framing challenges (like regulatory hurdles or hardware upgrades) as mere inconveniences rather than existential threats. Quantitative specificity is moderate; while specific targets like '10,000 Optimus robots' are mentioned, much of the value proposition relies on qualitative 'exponential' claims. The competitive moat is presented as absolute, with Musk claiming Tesla's AI lead is so vast that competitors are barely visible. Management consistency is marked 0.5 as there is no prior data, but the tone reflects a pivot from traditional automotive metrics to an AI/Robotics-first valuation model."
+  },
+  "stats": {
+    "input_tokens": 13406,
+    "total_output_tokens": 494,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.17880775107241,
+    "time_to_first_token_seconds": 20.815
+  },
+  "timestamp": "2026-04-20 19:27:34"
+}

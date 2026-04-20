@@ -1,0 +1,35 @@
+{
+  "file": "META_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 32.62,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong quarter",
+      "investing heavily",
+      "achieving Quest's high quality in a wireless form factor",
+      "digital transformation",
+      "headwinds from iOS14",
+      "deceleration of growth"
+    ],
+    "reasoning": "The overall sentiment is highly positive due to massive revenue growth (48% YoY) and strong ad demand, particularly in commerce. Management shows high confidence in long-term pivots toward AR/VR and commerce, though they explicitly warn of sequential deceleration in growth for the second half of 202 and significant headwinds from Apple's iOS 14 privacy changes. The CFO provided extremely high quantitative specificity with detailed regional and product-level metrics. While there is a clear risk disclosure regarding regulatory and platform changes (iOS), the management team was direct and transparent during the Q&A, addressing difficult topics like algorithmic amplification and competition without significant evasion."
+  },
+  "timestamp": "2026-04-20 12:51:27"
+}

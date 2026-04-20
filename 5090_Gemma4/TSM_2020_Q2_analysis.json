@@ -1,0 +1,35 @@
+{
+  "file": "TSM_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 15.19,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.5,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "technology leadership",
+      "5G infrastructure deployment",
+      "HPC related product launches",
+      "US export control regulations",
+      "CapEx raised to US$16-17 billion",
+      "N5 ramp up"
+    ],
+    "reasoning": "TSMC management demonstrated high confidence in their technological moat (N5, N3) and aggressive expansion, evidenced by raising full-year CapEx guidance. While they acknowledged significant macro risks including COVID-19 and US trade regulations (Huawei), the upward revision of revenue growth guidance to >20% suggests strong demand in 5G and HPC segments. The management was somewhat evasive regarding specific customer impacts and segment breakdowns during Q&A, but provided high quantitative specificity regarding margins and technology nodes."
+  },
+  "timestamp": "2026-04-20 16:14:13"
+}

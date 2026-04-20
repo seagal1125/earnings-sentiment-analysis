@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.2,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.4,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "The age of AI is upon us",
+      "optimize that spend",
+      "early innings when it comes to long-term cloud opportunity",
+      "non-linear improvements in capability of foundation models",
+      "customers are exercising caution"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company shows massive innovation momentum and a strong competitive moat through AI (Azure OpenAI, GitHub Copilot), the financial results reflect a transition period. Management is transparent about 'optimization' headwinds—customers cutting costs to reallocate budget—which led to a slight deceleration in Azure growth and lower-than-expected commercial bookings. The confidence score remains high due to the strategic clarity of the AI platform shift, but forward guidance is tempered by macroeconomic caution and the impact of recent acquisitions/charges. The quantitative specificity is very high, providing detailed segment-level data. The tension between 'secular growth' (AI) and 'cyclical headwinds' (macro/optimization) is the central theme."
+  },
+  "stats": {
+    "input_tokens": 12415,
+    "total_output_tokens": 422,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.74711864470496,
+    "time_to_first_token_seconds": 18.695
+  },
+  "timestamp": "2026-04-20 19:04:04"
+}

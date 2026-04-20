@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 11.19,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "revenue up 14% year-on-year",
+      "improvement in advertiser spend across all geographies",
+      "acceleration in digital transformation",
+      "investing deeply in AI",
+      "high level of investment in Cloud",
+      "DOJ scrutiny is not new"
+    ],
+    "reasoning": "The company showed strong top-line growth (14% YoY) and a recovery in advertiser spending despite the pandemic. Management expressed high confidence in their AI roadmap and Cloud expansion, with specific emphasis on long-term investment in CapEx and engineering. While regulatory risks (DOJ) were acknowledged, they were framed as manageable. The QA session was direct, particularly regarding Cloud profitability and hardware strategy, though some specific margin details for Cloud were deferred to future calls."
+  },
+  "timestamp": "2026-04-20 14:38:45"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 39.83,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.5,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.5,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "large-scale autonomous cars",
+      "thousands of Optimus robots",
+      "most valuable company in the world",
+      "unsupervised autonomy",
+      "localized supply chains",
+      "sustainable abundance"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by Elon Musk's vision for autonomy (Robotaxi) and Optimus robotics, despite acknowledging near-term 'bumps'. Management shows high confidence in long-term value creation ('most valuable company in the world'). Forward guidance is strong regarding product timelines (June launch for Austin Robotaxi). Risk disclosure is moderate, focusing on tariffs and supply chain dependencies rather than fundamental business failure. Quantitative specificity is mixed; while some CapEx figures (>10B) and production targets are mentioned, much of the discussion remains visionary. Demand strength is presented as stable but facing macro headwinds, while pricing power appears pressured by the need for 'affordable models' and tariff impacts. Innovation momentum is the strongest pillar, with significant focus on AI, FSD, and humanoid robots."
+  },
+  "timestamp": "2026-04-20 13:36:19"
+}

@@ -1,0 +1,33 @@
+{
+  "file": "AMZN_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 13.44,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS AI business... growing triple-digit year-over . . . percentages",
+      "We're not dabbling here [in AI]",
+      "Backlog is $189 billion for Q1... up about 20% year-over-year",
+      "Investing very aggressively in AI"
+    ],
+    "reasoning": "The company shows extremely strong performance in AWS and Advertising, with high-impact innovation momentum in Generative AI (Trainium 2, Amazon Nova). Management demonstrated high confidence and quantitative specificity, providing detailed revenue and backlog figures. While there are notable risks regarding tariffs and FX headwinds, the management's response to potential trade disruptions was proactive (pre-buying inventory) rather than evasive. Capex is aggressively directed toward AI infrastructure."
+  },
+  "timestamp": "2026-04-20 14:37:30"
+}

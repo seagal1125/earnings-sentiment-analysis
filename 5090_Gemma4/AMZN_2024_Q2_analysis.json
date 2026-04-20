@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 12.04,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue growth accelerated",
+      "multi-billion dollar revenue run rate in AI",
+      "customers continue to trade down on price",
+      "custom silicon for better price performance",
+      "lowering our cost to serve"
+    ],
+    "reasoning": "The overall sentiment is highly positive due to massive operating income growth (+91% YoY) and AWS acceleration. Management shows extreme confidence in their AI strategy (Bedrock, Trainium/Inferent::0.9) and technical moat. However, forward guidance tone is tempered by macro consumer trends (trading down to lower ASPs). Quantitative specificity is very high with detailed segment margins and revenue figures provided. Risk disclosure is moderate, focusing on FX headwinds and consumer spending patterns. QA was direct, with management providing specific backlog numbers ($156.6B) when asked."
+  },
+  "timestamp": "2026-04-20 14:36:49"
+}

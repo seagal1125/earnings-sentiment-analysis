@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 11.79,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.0,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.95,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "digital adoption curves... are accelerating",
+      "Azure revenue grew 50%",
+      "Dynamics 365 breakthrough quarter",
+      "AI-driven innovation",
+      "strategic partnerships"
+    ],
+    "reasoning": "The call reflects an exceptionally strong quarter with double-digit growth across most segments, particularly in Cloud (Azure) and Business Applications (Dynamics 365). Management demonstrated high confidence and provided extremely specific quantitative data. While there are mentions of supply chain constraints and the impact of high prior-year comparables on future growth rates, the overall tone is one of aggressive expansion and technological leadership in AI and the Metaverse. The QA session was direct and substantive, with no signs of evasion."
+  },
+  "timestamp": "2026-04-20 14:50:04"
+}

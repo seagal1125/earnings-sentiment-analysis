@@ -1,0 +1,42 @@
+{
+  "file": "TSLA_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 24.32,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "amazing abundance",
+      "autonomous future",
+      "massive investments in AI chips",
+      "replace the SX line with Optimus factory",
+      "intelligence density of AI",
+      "TerraFab"
+    ],
+    "reasoning": "The call is characterized by an extremely high-conviction, visionary tone from Elon Musk, shifting the company's identity from an EV manufacturer to an AI/Robotics powerhouse. The sentiment is highly optimistic regarding long-term value (Optimus, Robotaxi) but acknowledges a massive capital expenditure phase ($20B+). Management shows high confidence in their technological lead ('intelligence density') but also transparency regarding the 'S-curve' of new product ramps. Risk disclosure is relatively low in terms of existential threats, though geopolitical and supply chain risks (chips/memory) are noted as drivers for their aggressive CapEx strategy. The decision to end Model S/X production to make room for Optimus is a radical strategic pivot that defines the call's unique profile."
+  },
+  "stats": {
+    "input_tokens": 11095,
+    "total_output_tokens": 424,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.28405888223643,
+    "time_to_first_token_seconds": 16.82
+  },
+  "timestamp": "2026-04-20 19:29:22"
+}

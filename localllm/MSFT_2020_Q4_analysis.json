@@ -1,0 +1,33 @@
+{
+  "file": "MSFT_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.93,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "digital tech intensity is key to business resilience",
+      "Azure revenue grew 47% and 50% in constant currency",
+      "record engagement and monetization in gaming",
+      "expanding our opportunity and investing across the full modern technology stack"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record cloud revenues and the acceleration of digital transformation due to the pandemic. Management shows high confidence, particularly Satya Nadella, focusing on long-term structural advantages despite macroeconomic volatility. While there are specific risks mentioned (SMB weakness, decline in search revenue, and FX headwinds), they are balanced by massive growth in Azure and Gaming. The call is exceptionally data-rich with specific percentage growths and user counts provided. The only slight downward pressure comes from the acknowledged slowdown in small/medium business purchasing and advertising spend, but the long-term guidance remains expansionary."
+  },
+  "timestamp": "2026-04-20 13:03:22"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 25.7,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.7
+    },
+    "key_phrases": [
+      "historic results",
+      "installed base of active devices to new all-time records",
+      "doubling our 2016 services revenue six months ahead of schedule",
+      "transition to Apple silicon",
+      "supply constraints on both products"
+    ],
+    "reasoning": "The quarter was characterized by record-breaking revenue and strong growth in Mac, iPad, and Services, despite the headwinds of COVID-19. Management showed high confidence in their ecosystem strength (installed base) and innovation (Apple Silicon). While the pandemic caused supply constraints and retail closures, demand showed significant recovery in May and June. The sentiment is positive but tempered by the uncertainty of the global pandemic and supply chain issues. Quantitative data was highly specific, particularly regarding revenue segments and subscription numbers. The transition to in-house silicon represents a significant innovation momentum point."
+  },
+  "stats": {
+    "input_tokens": 10885,
+    "total_output_tokens": 390,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.507032691299145,
+    "time_to_first_token_seconds": 18.514
+  },
+  "timestamp": "2026-04-20 18:18:17"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "META_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 30.98,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama 4",
+      "AI infrastructure investment",
+      "massive CapEx growth",
+      "Meta AI scale",
+      "personalized AI assistant",
+      "custom silicon MTIA"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by Mark Zuckerberg's vision for Llama 4 and the transformative potential of AI agents. Management shows extremely high confidence in their long-term trajectory, despite acknowledging that significant monetization from Meta AI may fall outside of 2025. The CapEx enthusiasm is at a maximum (1.0) due to the explicit guidance of $60B-$65B for 2025 to support AI infrastructure. Quantitative specificity is high with detailed revenue, expense, and user growth figures provided by the CFO. While there are risks regarding regulatory landscapes and competition (e.g., DeepSeek), the management's response was direct rather than evasive. Management consistency is set to 0.5 as no prior quarter data was provided for comparison."
+  },
+  "timestamp": "2026-04-20 12:59:24"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.21,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "digital technology as a percentage of world's GDP will continue to increase",
+      "Azure revenue increased more than 100% for four quarters in a row",
+      "AI-powered capabilities",
+      "optimize their spend",
+      "the AI comment clearly has arrived"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company faces significant headwinds in the consumer PC market and advertising spend (leading to lower margins and guidance), the core cloud and AI business shows explosive growth and high confidence. Management successfully balances 'optimization' (cost-cutting for customers) with long-term strategic investment in AI and Cloud. The high quantitative specificity reflects a detailed breakdown of segment performance, while the low QA evasiveness shows management directly addressing concerns about Azure volatility and margin compression. The primary tension is between the cyclical decline in Windows/Surface and the secular growth of Azure/AI."
+  },
+  "stats": {
+    "input_tokens": 12991,
+    "total_output_tokens": 403,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.37241697553722,
+    "time_to_first_token_seconds": 19.995
+  },
+  "timestamp": "2026-04-20 19:03:38"
+}

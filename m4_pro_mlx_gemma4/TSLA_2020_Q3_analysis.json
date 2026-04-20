@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.0,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "best quarter in history",
+      "manufacturing is our long-term competitive strength",
+      "batteries that cost half as much",
+      "we're moving full speed ahead with as much volume as we can reasonably move forward with",
+      "the autonomy thing is a startup"
+    ],
+    "reasoning": "The call reflects an extremely high level of optimism, driven by record-breaking financial results and a clear vision for future manufacturing dominance. Management (particularly Musk) displays high confidence in vertical integration and battery technology as a moat. While there is mention of pricing challenges (affordability vs. margin), the tone remains aggressive regarding expansion (CapEx). The 'S-curve' explanation for manufacturing ramp-up provides a logical framework for the heavy investment. Risk disclosure is minimal, focused mostly on manufacturing complexity rather than market threats. The QA session was direct, with management providing specific technical and strategic justifications for their roadmap."
+  },
+  "stats": {
+    "input_tokens": 13009,
+    "total_output_tokens": 408,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.21825695774762,
+    "time_to_first_token_seconds": 19.646
+  },
+  "timestamp": "2026-04-20 19:19:55"
+}

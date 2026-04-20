@@ -1,0 +1,35 @@
+{
+  "file": "NVDA_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 15.44,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 1.0,
+      "pricing_power": 0.85,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "demand is incredible",
+      "supply constrained",
+      "Arm acquisition",
+      "A100 adoption",
+      "third phase of AI"
+    ],
+    "reasoning": "NVIDIA reported a record-breaking Q4 with massive YoY growth in both Gaming (67%) and Data Center (97%). Management's tone was extremely optimistic, focusing on the 'smartphone moment' for AI and the strategic importance of the Arm acquisition. While supply constraints were explicitly mentioned as a result of demand outstripping supply, the company provided highly specific quantitative data and addressed difficult topics like crypto-mining impacts and regulatory hurdles with high transparency and directness."
+  },
+  "timestamp": "2026-04-20 14:55:44"
+}

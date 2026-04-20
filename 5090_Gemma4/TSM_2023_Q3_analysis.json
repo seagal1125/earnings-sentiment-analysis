@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 17.88,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.6,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong ramp of our industry-leading 3-nanometer technology",
+      "AI-related demand continues to be strong",
+      "customers' ongoing inventory adjustment",
+      "N2 technology development is progressing well",
+      "capital intensity is expected to decline"
+    ],
+    "reasoning": "TSMC demonstrates strong performance in advanced nodes (3nm/5nm) and high confidence in future technological leadership (N2), driven by robust AI demand. While the overall sentiment is positive due to revenue growth and tech ramps, it is tempered by ongoing inventory adjustments in consumer markets and macroeconomic uncertainties. Management provided highly specific financial data and directly addressed competitive threats from IDMs with high assertiveness."
+  },
+  "timestamp": "2026-04-20 16:17:31"
+}

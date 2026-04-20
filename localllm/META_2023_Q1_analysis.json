@@ -1,0 +1,36 @@
+{
+  "file": "META_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 31.5,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.5,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "efficiency work",
+      "AI wave",
+      "Metaverse wave",
+      "monetization efficiency",
+      "click-to-message ads",
+      "open ecosystem",
+      "capital expenditures"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong engagement metrics (3B daily users) and significant progress in AI integration. Management shows high confidence in their 'efficiency' pivot and the long-term potential of Generative AI. While revenue growth is modest (3% YoY), the quantitative specificity is very high with detailed segment breakdowns. Risks are disclosed primarily around regulatory issues (EU data transfers) and macroeconomic volatility, but not with extreme intensity. A notable point of pressure is pricing power, as the CFO explicitly mentioned a 17% decrease in average price per ad due to impression growth and FX headwinds. CapEx enthusiasm remains high to support AI infrastructure, though management is focused on maintaining financial discipline."
+  },
+  "timestamp": "2026-04-20 12:55:45"
+}

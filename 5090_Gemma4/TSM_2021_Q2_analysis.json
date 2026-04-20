@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 14.43,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "grow above 20% in 2021",
+      "supply remains tight throughout this year and into 2022",
+      "firming up our wafer pricing",
+      "structural increase in underlying semiconductor demand",
+      "N5 dilution"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by TSMC's confidence in outperforming foundry growth (targeting >20% in USD terms) and the structural demand in HPC and Automotive. Management demonstrated high confidence and provided very specific quantitative data regarding revenue contribution by technology and platform. While they acknowledged risks such as geopolitical tensions and N5 margin dilution, they framed these within a strategy of global footprint expansion and pricing adjustments to maintain long-term 50% gross margin targets. The QA session was direct, with management providing concrete figures on Arizona CapEx and addressing the 'coopetition' with IDM customers without significant evasion."
+  },
+  "timestamp": "2026-04-20 16:15:13"
+}

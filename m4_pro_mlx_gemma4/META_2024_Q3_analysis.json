@@ -1,0 +1,41 @@
+{
+  "file": "META_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 25.85,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama is quickly becoming a standard across the industry",
+      "significant capital expenditure growth in 2025",
+      "AI-driven feed and video recommendations led to an 8% increase in time spent",
+      "more than 3.2 billion people using at least one of our apps each day",
+      "Llama 4 is now well into its development"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by robust user growth (3.2B DAU) and the successful integration of AI into core products, which is showing tangible ROI in engagement metrics. Management displays high confidence, particularly Mark Zuckerberg, regarding the technological leadership of Llama and the future of smart glasses. While CapEx is increasing significantly (reflecting aggressive infrastructure investment for AI), it is framed as a strategic necessity rather than a cost burden. The guidance is optimistic but cautious regarding the 'lumpiness' of CapEx and regulatory headwinds. QA was direct, with management providing specific data on user growth and ad performance to support their narrative. The primary tension in the report is between current high profitability and the massive, ongoing capital requirements for AI infrastructure."
+  },
+  "stats": {
+    "input_tokens": 11728,
+    "total_output_tokens": 458,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.63730830246549,
+    "time_to_first_token_seconds": 17.724
+  },
+  "timestamp": "2026-04-20 18:55:50"
+}

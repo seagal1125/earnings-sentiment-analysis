@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 19.55,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue growth accelerated",
+      "strong customer demand globally",
+      "CapEx increased to 80%",
+      "backlog growth is $52.9 billion",
+      "Prime Video streaming hours were up over 70%"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by significant revenue beats in both AWS and international segments, and strong momentum in advertising and Prime digital benefits. Management shows high confidence with specific quantitative data (e.g., AWS backlog, CapEx percentages). While there are risks related to COVID-19 costs and logistics complexity, the tone regarding future growth (Prime Day, NFL deal) is aggressive. The only slight downward pressure comes from the heavy capital expenditure required for last-mile delivery expansion, though management frames this as a strategic moat-building investment."
+  },
+  "timestamp": "2026-04-20 12:30:02"
+}

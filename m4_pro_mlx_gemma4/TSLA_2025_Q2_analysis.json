@@ -1,0 +1,42 @@
+{
+  "file": "TSLA_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 24.71,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "autonomy is the story",
+      "intelligence density",
+      "hyper-exponential rate",
+      "most valuable company in the world",
+      "regulatory challenges",
+      "transition from pre-autonomy to post-autonomy"
+    ],
+    "reasoning": "The transcript reflects a company in a massive technological transition. Management (particularly Musk) displays extreme confidence in 'real-world AI' and autonomy as the primary value driver, which offsets near-term headwinds like tariff impacts and the expiration of US EV tax credits. The sentiment is highly optimistic regarding long-term growth (Robotaxi, Optimus), though the CFO provides necessary grounding regarding regulatory and macroeconomic risks. The 'intelligence density' concept is used to assert a competitive moat against big tech. While there are mentions of 'rough quarters' ahead due to the transition, the forward guidance is aggressively optimistic. The score for management consistency is set at 0.5 as there is no prior quarter data to compare against, but the tone suggests a pivot toward an AI/Robotics-first business model."
+  },
+  "stats": {
+    "input_tokens": 11250,
+    "total_output_tokens": 438,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.26744447718663,
+    "time_to_first_token_seconds": 16.971
+  },
+  "timestamp": "2026-04-20 19:28:33"
+}

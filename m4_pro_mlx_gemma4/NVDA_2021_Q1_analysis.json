@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 35.58,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "data center scale computing",
+      "Ampere architecture",
+      "Mellanox acquisition synergy",
+      "AI and cloud computing forces",
+      "RTX is a home run"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the successful integration of Mellanox and the massive demand for the Ampere architecture (A100). Management shows extreme confidence in the structural shift toward accelerated computing and AI. While there are risks mentioned regarding COVID-19 (specifically in the automotive sector), they are framed as temporary headwinds against long-term structural tailwinds. The data center segment shows explosive growth, and the transition to new architectures is described as 'smooth' and 'common sense.' The QA session was direct, with management providing specific guidance on gaming and margin transitions. The only slight drag on the score is the 40% sequential decline in automotive revenue, though this is treated as a transient macroeconomic factor rather than a fundamental business failure."
+  },
+  "stats": {
+    "input_tokens": 17782,
+    "total_output_tokens": 418,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.15277470262758,
+    "time_to_first_token_seconds": 27.782
+  },
+  "timestamp": "2026-04-20 19:10:44"
+}

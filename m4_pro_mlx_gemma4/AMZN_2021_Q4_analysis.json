@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 21.41,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS added more revenue year-over-year than any quarter in its history",
+      "two-year annual compounded growth rate was 25%",
+      "we will increase the price of Prime in the United States in Q1",
+      "the sun is coming out and getting better here over the next number of quarters",
+      "nearly doubling our operations capacity in the past two years"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company reported massive growth (especially in AWS and 3P seller mix), management was transparent about significant headwinds including inflation, labor shortages (Omicron impact), and the transition from pandemic-era hyper-growth to a more normalized operational state. The confidence score is high due to the scale of AWS and the successful implementation of price increases (Prime). Quantitative specificity was very high, with detailed breakdowns of CapEx and revenue run rates. The risk disclosure was moderate, focusing on labor costs and operational efficiency rather than existential threats. Management showed strong consistency in addressing the 'investment cycle' vs 'efficiency' debate, framing heavy CapEx as a strategic necessity that is now beginning to moderate into an efficiency phase."
+  },
+  "stats": {
+    "input_tokens": 8968,
+    "total_output_tokens": 456,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.355809452492096,
+    "time_to_first_token_seconds": 13.313
+  },
+  "timestamp": "2026-04-20 18:31:33"
+}

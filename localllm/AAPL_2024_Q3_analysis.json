@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 28.27,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Apple Intelligence",
+      "all-time revenue record in services",
+      "installed base hit an all-time high",
+      "staggered launch",
+      "hybrid approach to CapEx"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by record revenues in Services and strong iPad growth. Management shows high confidence, particularly regarding the 'Apple Intelligence' rollout as a catalyst for future upgrades. While iPhone revenue saw a slight YoY decline, management successfully reframed this through constant currency growth and record installed base metrics. The forward guidance is cautiously optimistic, projecting similar growth rates but noting FX headwinds. Risk disclosure was moderate, focusing on macroeconomics and regulatory challenges (DMA). Quantitative specificity was very high with detailed segment revenues and margin figures provided. Innovation momentum is the standout theme due to AI integration. Management consistency is rated 0.5 as no prior quarter comparison data was provided in the text."
+  },
+  "timestamp": "2026-04-20 12:25:49"
+}

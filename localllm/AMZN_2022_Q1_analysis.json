@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 21.51,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": -0.4,
+      "demand_strength": 0.5,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "inflationary pressures",
+      "excess capacity",
+      "fixed cost deleverage",
+      "AWS growth",
+      "productivity improvements",
+      "rightsizing our cost structure"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to significant cost headwinds ($6 billion in incremental costs) driven by inflation and labor overcapacity. However, management maintains confidence in long-term demand strength (Prime members) and AWS innovation. The forward guidance is cautious, noting that cost pressures will persist into Q2. Risk disclosure is high, specifically regarding macroeconomics, Ukraine war impacts, and inflation. Quantitative specificity is high with detailed breakdowns of costs and AWS metrics. Capex enthusiasm is low as they are intentionally reducing fulfillment builds to match normalized demand."
+  },
+  "timestamp": "2026-04-20 12:31:30"
+}

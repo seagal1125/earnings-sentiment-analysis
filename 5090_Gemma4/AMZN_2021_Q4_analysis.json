@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 12.3,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue grew 40% year-over-year",
+      "inflationary pressures and loss productivity",
+      "Prime membership price increase",
+      "3P sellers provided 56% of all unit sales",
+      "sun is coming out"
+    ],
+    "reasoning": "The company shows strong top-line growth, particularly in AWS (40% YoY) and third-party seller integration. Management demonstrated high transparency regarding significant cost headwinds ($4B+) from inflation and labor shortages due to Omicron. While near-term operating margins are pressured by decreased leverage and rising wages, the announcement of a Prime price increase signals strong pricing power. The QA session was highly specific with detailed CapEx breakdowns, showing low evasion."
+  },
+  "timestamp": "2026-04-20 14:34:43"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 17.34,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "acceleration in digital transformation",
+      "investing deeply in AI",
+      "broad based increases in advertiser spending",
+      "strategic benefits of hardware",
+      "multiyear path for cloud investment"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong revenue growth (14% YoY) and the acceleration of digital transformation due to COVID-19. Management shows high confidence in their AI-driven product roadmap and the long-term potential of Google Cloud. While there is significant investment (CapEx) in data centers and R&D, it is framed as strategic growth rather than defensive spending. The QA session was direct, with management addressing regulatory risks (DOJ) and competitive pressures (Apple/e-commerce) without significant evasion. The primary tension lies in the 'multiyear path' of Cloud profitability and the impact of regulatory scrutiny, but the core business (Search/YouTube) remains a strong cash engine."
+  },
+  "stats": {
+    "input_tokens": 6952,
+    "total_output_tokens": 412,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 59.29775944154294,
+    "time_to_first_token_seconds": 10.237
+  },
+  "timestamp": "2026-04-20 18:38:41"
+}

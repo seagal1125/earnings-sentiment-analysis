@@ -1,0 +1,34 @@
+{
+  "file": "META_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 32.91,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.5,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong end of the year",
+      "33% year-over-year increase",
+      "significant ad targeting headwinds",
+      "next computing platform",
+      "Apple as one of our biggest competitors"
+    ],
+    "reasoning": "The overall sentiment is positive due to strong Q4 revenue growth (33%) and robust holiday performance, driven by the shift to online commerce. Management shows high confidence in their long-term vision for VR/AR and community building. However, forward guidance is tempered by significant upcoming headwinds, specifically Apple's iOS 14 privacy changes and the expected 'tougher comps' in the second half of 202 and a potential reversal in consumer spending from products back to services. Risk disclosure is moderate, focusing on regulatory uncertainty (FTC) and platform competition (Apple). Quantitative specificity is very high with detailed revenue, user, and expense breakdowns provided by the CFO."
+  },
+  "timestamp": "2026-04-20 12:50:55"
+}

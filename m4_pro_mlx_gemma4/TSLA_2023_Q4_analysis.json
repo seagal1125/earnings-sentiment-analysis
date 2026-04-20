@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 27.39,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "between two major growth waves",
+      "revolutionary manufacturing system",
+      "most valuable company in the world",
+      "end-to-end artificial intelligence",
+      "production-constrained situation, not a demand-constrained situation"
+    ],
+    "reasoning": "The sentiment is strongly positive, driven by record deliveries and the excitement surrounding next-gen platforms (low-cost vehicle), FSD V12, and Optimus. Management shows high confidence in their technological moat (AI/robotics) and manufacturing efficiency, though they temper expectations regarding the 'growth wave' transition. Forward guidance is cautiously optimistic; while volume growth in 2024 might be lower due to the transition, the long-term outlook is aggressive. Risk disclosure is low, mostly centered on interest rates and execution risks. The 'between two growth waves' comment explains the potential for near-term volatility. Pricing power is noted as a challenge due to interest rates and affordability, but offset by cost-reduction efforts. The score for management consistency is 0.5 as there was no prior guidance provided in the text to compare against."
+  },
+  "stats": {
+    "input_tokens": 12799,
+    "total_output_tokens": 449,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.51439347109035,
+    "time_to_first_token_seconds": 19.361
+  },
+  "timestamp": "2026-04-20 19:25:39"
+}

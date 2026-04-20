@@ -1,0 +1,34 @@
+{
+  "file": "META_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 11.51,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "aggressively frontload building capacity",
+      "generational paradigm shift",
+      "highest talent density in the industry",
+      "compute starved state",
+      "$60 billion annual run rate for AI-powered ad tools"
+    ],
+    "reasoning": "The call reflects an extremely bullish outlook on AI integration and infrastructure expansion. Management is intentionally over-investing in compute (CapEx enthusiasm: 1.0) to capture a 'generational paradigm shift.' Financials show robust growth (Revenue up 26% YoY), driven by high engagement in Reels and Threads. While there are clear warnings regarding regulatory headwinds and the massive scale of upcoming expenses, the CEO's confidence in their ability to scale AI to billions of users is exceptionally high. The density of specific financial metrics and run-rate figures provides very high quantitative specificity."
+  },
+  "timestamp": "2026-04-20 14:48:24"
+}

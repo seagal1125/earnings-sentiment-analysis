@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 24.5,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "demand was strong across the board",
+      "omni-verse success will be defined by developer engagement",
+      "software creates market",
+      "every single server will be GPU accelerated some day",
+      "securing our future through long-term supply agreements"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong financial performance with record revenues across multiple segments. Management demonstrates high confidence, particularly regarding the transition to an AI-driven full-stack company. The 'Omniverse' and 'AI Avatar' discussions highlight a massive future TAM (Total Addressable Market) that shifts the company from a hardware vendor to a platform provider. While there are minor risks mentioned regarding supply chain and regulatory hurdles (Arm acquisition), the overwhelming tone is one of explosive demand and technological leadership. The distinction between 'chips as enablers' and 'software as market creators' is a key strategic pivot. The only slight drag on the score is the inherent uncertainty of the Arm acquisition and the massive capital commitments required to secure supply, though these are framed as growth-enabling rather than risky."
+  },
+  "stats": {
+    "input_tokens": 11167,
+    "total_output_tokens": 440,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.37279079715807,
+    "time_to_first_token_seconds": 16.76
+  },
+  "timestamp": "2026-04-20 19:13:13"
+}

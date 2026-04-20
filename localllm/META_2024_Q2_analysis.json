@@ -1,0 +1,34 @@
+{
+  "file": "META_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 31.24,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama 3.1 is an inflection point",
+      "AI-driven engagement growth",
+      "significant CapEx growth in 2025",
+      "Ray-Ban Meta glasses are a bigger hit than expected",
+      "monetization of Gen AI will take time"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong revenue growth (22%) and significant progress in AI integration across the Family of Apps. Management shows extreme confidence in their long-term AI roadmap, specifically regarding Llama models and Meta AI. While CapEx is set to increase significantly (aggressive expansion), they emphasize 'fungibility' and ROI-based approaches to mitigate risk. The only slight downward pressure comes from the recognition that Gen AI monetization is a multi-year horizon and the mention of slowing growth in certain regions due to lapping strong China-based advertiser demand. Quantitative specificity was high with detailed segment and expense breakdowns."
+  },
+  "timestamp": "2026-04-20 12:58:24"
+}

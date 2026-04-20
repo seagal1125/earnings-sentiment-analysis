@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 14.14,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.25,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.95,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "double-digit top and bottom line growth",
+      "Azure revenue grew 62%",
+      "differentiated tech stack",
+      "commercial cloud revenue $12.5 billion",
+      "carbon negative by 2030",
+      "hybrid computing"
+    ],
+    "reasoning": "The call reflects an exceptionally strong quarter characterized by massive growth in Azure (62% CC) and commercial cloud segments. Management demonstrated high confidence with specific, data-heavy disclosures regarding revenue, margins, and user engagement. While there were minor mentions of risks (China public health situation, chip supply, and gaming console cycle transitions), the overall tone was highly optimistic about long-term secular trends in digitization and AI. The Q&A session was direct, with CFO Amy Hood providing precise explanations for margin fluctuations and sales mix shifts."
+  },
+  "timestamp": "2026-04-20 14:49:01"
+}

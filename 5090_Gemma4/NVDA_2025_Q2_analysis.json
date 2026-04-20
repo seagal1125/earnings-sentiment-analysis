@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 12.78,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 1.0,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Demand for Blackwell platforms is well above supply",
+      "Two simultaneous platform transitions",
+      "Computing inflation",
+      "Sovereign AI",
+      "Blackwell is a step-function leap over Hopper"
+    ],
+    "reasoning": "The company reported massive year-on-year revenue growth (122%) and beat outlooks. Management demonstrated extreme confidence in the 'two platform transitions' (accelerated computing and generative AI). While there was a minor mention of Blackwell production yield adjustments, the demand for both Hopper and Blackwell remains described as 'incredible' and 'well above supply.' The QA session was highly transparent regarding technical changes and ROI concerns. Quantitative data was abundant throughout the call."
+  },
+  "timestamp": "2026-04-20 14:58:58"
+}

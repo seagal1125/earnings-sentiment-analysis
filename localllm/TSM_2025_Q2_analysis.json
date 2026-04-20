@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 33.65,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand for our industry-leading 3-nanometer and 5-nanometer technologies",
+      "explosive growth in token volume",
+      "narrow the gap between the demand and the capacity",
+      "earning our value",
+      "AI demand is very strong"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by robust AI and HPC demand, though tempered by significant FX headwinds and margin dilution from overseas fabs. Management shows high confidence in long-term profitability (53% gross margin target) and technology leadership (N2, A16, A14). Quantitative specificity is very high with detailed revenue, margin, and technology mix data. While the company faces structural cost increases from US/Japan/Germany expansions, they emphasize 'earning value' through pricing and capacity management. Risk disclosure is moderate, focusing mainly on FX and tariffs. QA was direct, though management occasionally used strategic phrasing (e.g., 'narrowing the gap' instead of 'balance') to manage expectations regarding supply constraints."
+  },
+  "timestamp": "2026-04-20 13:50:33"
+}

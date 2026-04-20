@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.12,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "commercial cloud surpassed $69 billion in annual revenue",
+      "Azure revenue grew 51%",
+      "Dynamics 365 revenue accelerated... up 49%",
+      "every organization will need more ubiquitous and decentralized computing",
+      "AI-first and collaboration-first world"
+    ],
+    "reasoning": "The call reflects an exceptionally strong fiscal year close with massive growth in key segments like Azure (51%) and Dynamics 365 (49%). Management displays extremely high confidence, using definitive language ('we are leading', 'we're just getting started') and providing highly specific financial metrics. While there are minor mentions of supply chain constraints in the Surface/OEM business and accounting changes affecting margins, the overall tone is aggressively optimistic about the secular shift to cloud and AI. The QA session was direct, with Amy Hood providing detailed explanations on margin drivers and Azure seasonality without evasion."
+  },
+  "timestamp": "2026-04-20 13:05:21"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.71,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "industry-leading GAAP operating margins",
+      "50% long-term volume CAGR",
+      "Full Self-Driving (FSD) utility increase",
+      "cell production constraint",
+      "8,000 ton casting press"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record profitability and aggressive growth plans. Management (particularly Musk) shows extreme confidence in FSD technology as a massive value driver and outlines clear expansion plans (Giga Berlin, Texas). While there are mentions of supply chain risks (semiconductors) and production ramp challenges, these are treated as manageable hurdles rather than systemic threats. The company is in a heavy investment phase (high capex enthusiasm) to secure long-term dominance. The QA session was direct, with management providing specific technical and strategic justifications for their roadmap. A slight deduction in pricing power is noted due to the mention of model transitions and potential future cost-cutting, but this is offset by strong demand signals."
+  },
+  "stats": {
+    "input_tokens": 12485,
+    "total_output_tokens": 421,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.5356552911094,
+    "time_to_first_token_seconds": 19.165
+  },
+  "timestamp": "2026-04-20 19:20:22"
+}

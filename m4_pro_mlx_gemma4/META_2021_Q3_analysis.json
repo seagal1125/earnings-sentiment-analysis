@@ -1,0 +1,41 @@
+{
+  "file": "META_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.95,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.3,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.5,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Apple's iOS 14 changes",
+      "Facebook Reality Labs separate reporting",
+      "Reels is a primary driver of engagement",
+      "investment in AI and machine learning",
+      "multiyear journey to the metaverse"
+    ],
+    "reasoning": "The sentiment is cautiously optimistic but tempered by significant headwinds from Apple's privacy changes (ATT). Management shows high confidence in their long-term vision (Metaverse/AI) but provides a cautious forward guidance due to macroeconomic uncertainty and the transition period of product shifts (Reels/Younger demographics). The decision to split Reality Labs into a separate reporting segment indicates high transparency regarding massive capital expenditures. Quantitative data is dense, particularly regarding user growth and expense projections. The primary tension in the call is between current revenue headwinds (targeting/measurement issues) and aggressive future-proofing through AI and VR investments."
+  },
+  "stats": {
+    "input_tokens": 13084,
+    "total_output_tokens": 394,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.487734566873236,
+    "time_to_first_token_seconds": 19.905
+  },
+  "timestamp": "2026-04-20 18:50:23"
+}

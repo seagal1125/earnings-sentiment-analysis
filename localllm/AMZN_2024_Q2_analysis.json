@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 27.37,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue growth accelerated",
+      "multi-billion dollar revenue run rate in AI",
+      "cost to serve improvement",
+      "custom silicon Trainium and Inferentia",
+      "backlog up 19% year-over-year"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by significant operating income growth (up 91%) and the acceleration of AWS revenue growth. Management shows extremely high confidence, particularly regarding AI's long-term impact and their custom silicon strategy. While there are macro headwinds mentioned (consumers trading down to lower ASP items), the company is aggressively investing in AI infrastructure and Project Kuiper, indicating high capex enthusiasm. The QA session was direct, with management providing specific figures like the $156.6 billion backlog. The only slight drag on sentiment comes from the mention of lower average selling prices (ASPs) in North America due to consumer behavior."
+  },
+  "timestamp": "2026-04-20 12:35:19"
+}

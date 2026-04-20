@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.11,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.1,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.5,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue records",
+      "foreign exchange headwinds",
+      "supply shortages for iPhone 14 Pro",
+      "2 billion active devices",
+      "services revenue record",
+      "challenging macroeconomic environment"
+    ],
+    "reasoning": "The overall sentiment is slightly positive despite a 5% YoY revenue decline, as management successfully highlighted record-breaking performance in Services and specific geographic markets (India/Brazil) to offset macro headwinds. Confidence remains high, particularly regarding the installed base and long-term ecosystem strength. However, forward guidance is cautious, with no explicit revenue guidance provided and expectations of double-digit declines in Mac and iPad due to tough comparisons. Quantitative specificity is very high, with detailed margin, revenue, and FX impact figures provided by the CFO. Risk disclosure focuses on FX, macroeconomics, and past supply chain disruptions. QA evasion was low, though Tim Cook used standard 'hard to estimate' responses for specific demand deferral questions."
+  },
+  "timestamp": "2026-04-20 12:22:57"
+}

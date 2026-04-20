@@ -1,0 +1,42 @@
+{
+  "file": "AAPL_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 24.32,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.6,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record June quarter",
+      "supply constraints",
+      "foreign exchange headwinds",
+      "installed base of active devices reached an all-time high",
+      "revenue growth will accelerate during the September quarter",
+      "investing through the downturn"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. Despite significant macroeconomic headwinds (FX, inflation) and supply chain constraints (especially in Mac/iPad), Apple reported record revenues. Management shows high confidence in their ecosystem and installed base growth, which acts as a buffer. The forward guidance is slightly tempered by FX and macro uncertainty but remains positive regarding revenue acceleration in the next quarter. The QA session was direct, with management providing specific data to counter macro concerns (e.g., iPhone demand vs. FX impact). The competitive moat and innovation momentum are highlighted through the strength of Apple Silicon and the growing Services segment. Management's stance on 'investing through the downturn' suggests a stable but deliberate growth strategy."
+  },
+  "stats": {
+    "input_tokens": 10932,
+    "total_output_tokens": 418,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.7372494919357,
+    "time_to_first_token_seconds": 16.677
+  },
+  "timestamp": "2026-04-20 18:23:23"
+}

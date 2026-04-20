@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 27.96,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-related demand to double in 2025",
+      "long-term revenue growth to approach a 20% CAGR",
+      "overseas fab dilution impact of 2% to 3%",
+      "advanced technologies accounted for 74% of wafer revenue",
+      "N2 and A16 technology leadership"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by explosive AI-related demand and TSMC's dominant position in advanced nodes (N3, N5). Management shows extreme confidence in their technology roadmap (N2, A16) and long-term growth (20% CAGR). While there are clear risks regarding overseas expansion costs (Arizona/Kumamoto) and potential margin dilution, these are presented as manageable 'investment for growth' rather than structural threats. The QA session was direct, though management occasionally used high-level strategic language to deflect specific competitive or geopolitical questions. Quantitative data was abundant, providing clear visibility into revenue mix and CapEx allocation."
+  },
+  "stats": {
+    "input_tokens": 13235,
+    "total_output_tokens": 430,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.308603715686615,
+    "time_to_first_token_seconds": 20.217
+  },
+  "timestamp": "2026-04-20 19:39:25"
+}

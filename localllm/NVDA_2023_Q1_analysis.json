@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 29.01,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record revenue in both Data Center and Gaming",
+      "AI factories",
+      "supply constrained",
+      "H100 is hitting the market at the perfect time",
+      "design win pipeline now exceeds $11 billion"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by record-breaking Data Center revenue and the massive potential of AI workloads (Transformers, LLMs). Management shows extremely high confidence in their technological roadmap (Hopper, Grace, Blackwell/Orin). While there are clear macro headwinds mentioned (Russia/Ukraine war, China COVID lockdowns) which lead to a projected sequential decline in Gaming revenue for Q2, the long-term demand strength remains robust. The company is heavily investing in supply chain commitments (prepayments and purchase obligations) to meet 'explosive' demand. Quantitative specificity is high with detailed revenue breakdowns and margin figures. QA was direct, with management addressing specific concerns about China/Russia impacts and the shift toward vertical integration without evasion."
+  },
+  "timestamp": "2026-04-20 13:19:58"
+}

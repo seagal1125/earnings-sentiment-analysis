@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 14.35,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.7,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "orders are in excess of production",
+      "stormy weather for about 12 months",
+      "achieving full autonomy... we'll do it this year",
+      "Dojo potential is very significant",
+      "automotive gross margin was impacted by pricing"
+    ],
+    "reasoning": "The sentiment is cautiously optimistic; while management acknowledges a 'stormy' macroeconomic period and margin compression due to price cuts, they express extreme confidence in long-term value through autonomy (FSD) and energy storage. Confidence is high regarding technological milestones (4680 cells, Dojo), though the forward guidance tone is tempered by interest rate concerns. QA evasiveness was noted specifically regarding pricing strategy and specific margin targets, but technical/operational questions were answered with high quantitative specificity."
+  },
+  "timestamp": "2026-04-20 15:02:30"
+}

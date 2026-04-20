@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.81,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "double digit revenue growth across our product and services categories",
+      "early innings of 5G",
+      "installed base of active devices to a new all-time record",
+      "very strong double digit growth during the September quarter",
+      "supply constraints... will be greater than what we experienced during the June quarter"
+    ],
+    "reasoning": "The company reported record-breaking financial results with massive growth in iPhone, Mac, and Services. Management expressed high confidence in the ecosystem's strength and the 'early innings' of 5G as a long-term driver. While they provided cautious forward guidance due to supply constraints and FX headwinds, the tone remained overwhelmingly positive. The QA session was direct, with management providing specific data on geographic growth (especially China) and product-specific performance. The only significant headwinds mentioned were supply chain constraints and the transition from COVID-era service surges, but these were framed as manageable compared to the massive demand."
+  },
+  "stats": {
+    "input_tokens": 11788,
+    "total_output_tokens": 413,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.04608431922356,
+    "time_to_first_token_seconds": 19.146
+  },
+  "timestamp": "2026-04-20 18:20:05"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 24.91,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.5,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.7
+    },
+    "key_phrases": [
+      "AI opportunity is comparable to the transition from desktop to mobile",
+      "Cloud delivered profitability this quarter",
+      "Reengineering our cost base",
+      "Slower growth of consumption as customers optimized GCP costs",
+      "Significant multiyear efforts to create savings"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. Management highlights a massive inflection point in AI, which drives high innovation momentum and confidence. However, the sentiment is tempered by macroeconomic headwinds (slower cloud consumption due to customer cost optimization) and the transitionary costs of workforce reductions. The company is clearly in an investment phase (high capex enthusiasm for AI infrastructure) while simultaneously executing a cost-cutting strategy to maintain margins. The QA session was direct, with management providing specific data on revenue growth and cost-saving measures, though they remained somewhat guarded regarding the exact impact of LLMs on search query volume and cost-per-query."
+  },
+  "stats": {
+    "input_tokens": 11513,
+    "total_output_tokens": 406,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.212990588107054,
+    "time_to_first_token_seconds": 17.771
+  },
+  "timestamp": "2026-04-20 18:42:28"
+}

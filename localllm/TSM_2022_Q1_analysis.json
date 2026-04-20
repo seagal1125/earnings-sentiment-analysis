@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 33.04,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "structural increase in long-term semiconductor demand",
+      "capacity to remain tight throughout 2022",
+      "N3 technology... on track for volume production",
+      "long-term gross margin of 53% and higher is achievable",
+      "HPC and automotive-related demand"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by robust revenue growth (12.1% QoQ) and strong demand in HPC and Automotive sectors. Management shows high confidence in their technology leadership (N3/N2) and long-term profitability targets despite macro uncertainties. Quantitative specificity is very high with detailed breakdowns of revenue by platform and technology. While there are risks mentioned regarding inflation, tool supply chain constraints, and geopolitical tensions, management's response to these risks was direct rather than evasive. The only slight downward pressure on sentiment comes from the acknowledgment of rising manufacturing costs and potential softness in consumer electronics (smartphone/PC) segments."
+  },
+  "timestamp": "2026-04-20 13:43:08"
+}

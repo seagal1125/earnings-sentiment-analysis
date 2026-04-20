@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.01,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Investments in AI will be key",
+      "Cloud revenue grew 45% year-over-year",
+      "The future of retail is omnichannel",
+      "We plan to continue to invest aggressively in Cloud",
+      "significant growth in both infrastructure and platform services"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong Q4 results and massive growth in Google Cloud (45% YoY). Management demonstrates high confidence, particularly regarding AI integration across all products. The forward guidance is optimistic but tempered by macroeconomic uncertainty (Omicron/inflation). Risk disclosure is low, mostly limited to standard regulatory and macro mentions. Quantitative specificity is high, with detailed segment breakdowns provided by the CFO. The primary driver of future growth is clearly identified as AI and Cloud infrastructure, with significant CapEx planned to support this expansion. The QA session was direct, with management providing detailed strategic context rather than evading difficult questions about headcount or regulatory risks."
+  },
+  "stats": {
+    "input_tokens": 12157,
+    "total_output_tokens": 416,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.4224651063165,
+    "time_to_first_token_seconds": 18.47
+  },
+  "timestamp": "2026-04-20 18:40:28"
+}

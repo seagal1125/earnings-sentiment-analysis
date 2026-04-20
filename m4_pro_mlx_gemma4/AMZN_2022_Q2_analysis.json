@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 20.16,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": -0.2,
+      "demand_strength": 0.4,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.6
+    },
+    "key_phrases": [
+      "slowed our 2022 and 2023 operations expansion plans",
+      "inflationary pressures remained at elevated levels",
+      "AWS continues to grow at a fast pace",
+      "third-party sellers represented 57% of all units sold",
+      "net loss of $2 billion... includes a pretax valuation loss of $3.9 billion from Rivian"
+    ],
+    "reasoning": "The sentiment is cautiously optimistic. While revenue growth remains strong (especially in AWS and 3P selection), the company is navigating a significant transition from pandemic-era hyper-growth to a normalized, more cost-conscious environment. Management is actively managing 'fixed cost leverage' by slowing down capital expansion in the fulfillment network to align with demand. The net loss was heavily skewed by the Rivian valuation, which management clarified to prevent panic. AWS remains a massive growth engine and a source of confidence, while the retail side is focused on efficiency and cost reduction. The guidance for Q3 shows a slight dip in operating income due to planned investments (content and AWS infrastructure), but the underlying business fundamentals appear stable."
+  },
+  "stats": {
+    "input_tokens": 8355,
+    "total_output_tokens": 450,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.60675051111191,
+    "time_to_first_token_seconds": 12.324
+  },
+  "timestamp": "2026-04-20 18:32:13"
+}

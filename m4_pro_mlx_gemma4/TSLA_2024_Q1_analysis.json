@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 30.8,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.4,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "accelerate the launch of new models",
+      "not training constrained",
+      "distributed inference",
+      "the future is extremely bright",
+      "we'll have higher sales this year than last year"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, leaning heavily on future AI and autonomy rather than current automotive headwinds. Management shows high confidence in the transition to an AI-centric business model (FSD, Optimus, Robotaxi), which offsets the immediate pressure of declining EV adoption rates and seasonal revenue dips. The 'forward guidance' is driven by the promise of new, more affordable models and the scaling of AI compute. While current demand and pricing power show signs of pressure (due to price cuts), the 'innovation momentum' is exceptionally high. The QA session was direct, though Elon Musk frequently pivots from current financial metrics to long-term technological visions. The negative free cash flow was explained by heavy CapEx in AI, which management frames as a necessary investment for future dominance. Management consistency is marked 0.5 as there was no prior quarter data provided to compare against."
+  },
+  "stats": {
+    "input_tokens": 14569,
+    "total_output_tokens": 446,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.20991243347235,
+    "time_to_first_token_seconds": 22.645
+  },
+  "timestamp": "2026-04-20 19:26:09"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "META_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 29.14,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama 3.2",
+      "Meta AI 500 million monthly active users",
+      "significant capital expenditure growth in 2025",
+      "11% increase in average price per ad",
+      "Llama 4 development"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong revenue growth (19%) and the rapid adoption of Meta AI. Management shows extreme confidence in their AI roadmap (Llama 4) and infrastructure scaling, despite acknowledging massive CapEx increases. Quantitative specificity is high with detailed segment and margin data provided. While there is a clear signal of pricing power via increased ad prices, the company also disclosed significant upcoming infrastructure expenses and potential regulatory headwinds. The QA session was direct, though management avoided specific 2025 headcount guidance by citing ongoing budgeting processes."
+  },
+  "timestamp": "2026-04-20 12:58:53"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 37.59,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.1,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.4,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "5G megatrend",
+      "HPC-related demand",
+      "N5 volume production",
+      "supply chain dislocation",
+      "US equipment license restrictions"
+    ],
+    "reasoning": "The overall sentiment is slightly positive despite the significant macro uncertainty caused by COVID-19, as management emphasizes long-term structural growth from 5G and HPC. Confidence remains high regarding technology leadership (N5/N3), though forward guidance for the second half of 2020 is cautious due to potential gross margin dilution and end-market softness in consumer electronics. Risk disclosure is moderate, focusing on COVID-19 disruptions and US trade regulations. Quantitative specificity is very high with detailed revenue, margin, and technology node breakdown. CapEx enthusiasm is extremely high as they are reaffirming a massive $15B-$16B budget despite revenue revisions. QA evasiveness is low to moderate; while management avoided specific numbers for some 5nm/3nm metrics or US fab costs, they were direct about inventory trends and dividend policies."
+  },
+  "timestamp": "2026-04-20 13:38:24"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.89,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "historic results",
+      "double-digits growth",
+      "Apple silicon transition",
+      "installed base reached all-time highs",
+      "supply constraints"
+    ],
+    "reasoning": "The overall sentiment is positive despite the macro uncertainty of COVID-19, driven by record revenues in Services and strong performance in Mac/iPad. Management shows high confidence (0.8) particularly regarding the ecosystem strength, though they were cautious about providing specific revenue guidance due to the pandemic. Quantitative specificity is very high with detailed breakdowns of margins, FX impacts, and segment growth. Risk disclosure is moderate, focusing on COVID-19 disruptions and supply chain timing. Innovation momentum is a highlight due to the transition to Apple Silicon. The only slight drag on sentiment is the deceleration in Wearables and the impact of FX headwinds."
+  },
+  "timestamp": "2026-04-20 12:18:09"
+}

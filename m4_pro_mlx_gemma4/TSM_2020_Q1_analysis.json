@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 32.39,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.4,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "5G and HPC megatrends",
+      "N5 ramp-up on track",
+      "COVID-19 uncertainty",
+      "aggressive investment for future growth",
+      "revenue flattish to slightly decline in 2020"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the management acknowledges significant macro headwinds from COVID-19 and a downward revision in smartphone demand (leading to a flattish revenue outlook), they maintain high confidence in their technological leadership and long-term growth drivers (5G/HPC). The revenue guidance was lowered compared to January, but CapEx remains aggressive ($15-16B), signaling strong belief in future demand. The QA session showed high transparency regarding the impact of COVID-19 on end-market demand and inventory, though management was careful to avoid specific numbers regarding 5G penetration or capacity. The core of the call revolves around transitioning from N7 to N5 and the strategic importance of advanced nodes to offset consumer electronics weakness."
+  },
+  "stats": {
+    "input_tokens": 15751,
+    "total_output_tokens": 430,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.06072893869161,
+    "time_to_first_token_seconds": 24.482
+  },
+  "timestamp": "2026-04-20 19:29:55"
+}

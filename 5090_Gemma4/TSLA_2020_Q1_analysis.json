@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 12.96,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.85,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "positive GAAP net income",
+      "Model Y profitability in first quarter",
+      "data advantage orders of magnitude more than everyone else",
+      "pedal to the metal on new products",
+      "highest-ever backlog",
+      "demand for stationary storage outstripping supply"
+    ],
+    "reasoning": "The sentiment is strongly positive regarding product execution (Model Y profitability, FSD data advantage) and long-term growth targets (40% CAGR), despite the significant macro uncertainty caused by COVID-19 shutdowns in Fremont. Management shows high confidence in technological moats (FSD, manufacturing innovation) and aggressive expansion ('pedal to the metal'), though the CFO provides a more grounded view on liquidity and the impact of production halts. Pricing power is under slight pressure due to China subsidy changes, necessitating price reductions, but this is offset by significant cost-reduction efforts."
+  },
+  "timestamp": "2026-04-20 14:59:38"
+}

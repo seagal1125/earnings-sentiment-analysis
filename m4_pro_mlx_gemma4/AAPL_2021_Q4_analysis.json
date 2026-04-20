@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 35.19,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "demand was very robust",
+      "supply constraints had around a $6 billion revenue dollar impact",
+      "all-time record for Mac and quarterly records for iPhone",
+      "we are seeing high demands for our products",
+      "the amount of supply constraints... will be larger during the December quarter"
+    ],
+    "reasoning": "The overall sentiment is strongly positive due to record-breaking revenue and robust demand across all product categories, despite significant supply chain headwinds. Management shows high confidence in their operational ability to handle constraints and the strength of their ecosystem. The forward guidance is cautiously optimistic; while they acknowledge that supply constraints will worsen in the December quarter (exceeding $6 billion), they emphasize that demand remains 'robust' and is the primary driver. The risk disclosure is moderate, focusing on chip shortages and COVID-related disruptions. QA was direct, with management providing specific financial context while being careful not to over-promise on exact supply recovery. The high demand strength and innovation momentum (M1 chips, new product cycles) offset the temporary margin pressures caused by supply chain costs and product mix shifts."
+  },
+  "stats": {
+    "input_tokens": 11681,
+    "total_output_tokens": 445,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.591931487004516,
+    "time_to_first_token_seconds": 0.321
+  },
+  "timestamp": "2026-04-20 18:21:06"
+}

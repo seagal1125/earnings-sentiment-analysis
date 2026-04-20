@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 23.8,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue growth accelerated again",
+      "multi-billion dollar revenue run rate in AI",
+      "cost to serve improvements",
+      "custom silicon investment",
+      "90% of global IT spend is still on-premises"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong AWS growth and the massive potential of Generative AI. Management shows high confidence in their long-term strategy, particularly regarding custom silicon and the shift from on-premises to cloud. While retail margins faced some pressure due to lower ASPs and consumer trading down, the operational efficiency (cost to serve) improvements are significant. The AI business is already at a multi-billion dollar run rate, indicating strong innovation momentum. QA was direct and data-driven, with specific mention of the $156.6 billion backlog. The only slight drag on sentiment is the macro-economic reality of consumer spending patterns in the retail segment."
+  },
+  "stats": {
+    "input_tokens": 10727,
+    "total_output_tokens": 411,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.906084056835475,
+    "time_to_first_token_seconds": 16.413
+  },
+  "timestamp": "2026-04-20 18:35:18"
+}

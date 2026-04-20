@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 22.72,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.4,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": -0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.5,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "major surge in customer demand",
+      "gut-wrenching and unprecedented",
+      "$4 billion or more in Q2 costs",
+      "essential products",
+      "digital transformation"
+    ],
+    "reasoning": "The overall sentiment is slightly positive due to massive demand spikes for essentials, but heavily tempered by extreme operational uncertainty and rising costs. Management shows low confidence regarding the duration of COVID-related expenses (predicting $4B in Q2) and logistics disruptions. Risk disclosure is high, focusing on pandemic volatility and supply chain issues. Quantitative specificity is strong with clear figures on hiring (175k), AWS growth (33%), and cost increases ($600M to $4B). Demand strength is exceptionally high for essentials but faces 'at cost' margin pressure. The company shows high innovation momentum through AWS and Alexa usage during lockdowns, though pricing power in advertising faced slight downward pressure."
+  },
+  "timestamp": "2026-04-20 12:28:37"
+}

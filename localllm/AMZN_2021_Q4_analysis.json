@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 22.63,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue increased 40% year-over-year",
+      "$71 billion annualized run rate",
+      "inflationary pressures and loss productivity",
+      "increase the price of Prime in the United States",
+      "doubling our operations capacity"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While AWS shows explosive growth (40% YoY) and innovation momentum is high with 115 new services, the company faces significant headwinds from inflation, labor market tightness, and Omicron-related disruptions, which are expected to impact Q1 margins. Management demonstrated high quantitative specificity regarding CapEx allocation and AWS run rates. Pricing power is evidenced by the announced Prime membership price increase in the US. Risk disclosure was moderate, focusing on operational costs and macro volatility. The QA session was direct, with management providing detailed breakdowns of CapEx and advertising revenue changes."
+  },
+  "timestamp": "2026-04-20 12:31:08"
+}

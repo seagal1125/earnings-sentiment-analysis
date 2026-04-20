@@ -1,0 +1,42 @@
+{
+  "file": "GOOGL_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 27.02,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Gemini 3 launch was a major milestone",
+      "Cloud revenue growing 48%",
+      "2026 CapEx investments anticipated to be in the range of $175 to $185 billion",
+      "AI mode queries per user double since launch",
+      "Universal Commerce Protocol",
+      "expansionary moment"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong quarter driven by AI integration across the full stack. Management demonstrates high confidence, particularly regarding the transition from foundational models to agentic commerce and product integration (Gemini 3). Revenue growth in Search and Cloud is robust, with specific mention of massive backlog growth ($240B) and user engagement increases. While CapEx is aggressively high ($175-185B for 2026), management justifies this through the 'extraordinary demand' and the need to scale infrastructure. Risk disclosure is minimal, focusing mostly on supply chain constraints and depreciation impacts. The QA session was direct, with management providing specific metrics to counter market skepticism regarding AI cannibalization and SaaS economics. The only slight drag on the score is the massive CapEx requirement which represents a significant capital intensity, though it is framed as an investment in growth rather than a cost burden."
+  },
+  "stats": {
+    "input_tokens": 12050,
+    "total_output_tokens": 481,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.856214069189114,
+    "time_to_first_token_seconds": 18.534
+  },
+  "timestamp": "2026-04-20 18:47:06"
+}

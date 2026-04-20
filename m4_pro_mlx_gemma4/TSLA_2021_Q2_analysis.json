@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 25.45,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record production, deliveries and surpassed over a $1billion in GAAP net income",
+      "the global chip shortage situation remains quite serious",
+      "we are in a strong demand position",
+      "the value of a fully electric autonomous fleet is generally gigantic",
+      "we are making great progress on Full Self-Driving"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by record financial milestones and massive demand. Management shows high confidence in their ability to scale manufacturing despite significant supply chain headwinds (chips and battery cells). While risks like the chip shortage and manufacturing complexity are clearly disclosed, they are framed as engineering challenges rather than existential threats. The forward guidance is optimistic regarding volume growth and FSD, though slightly tempered by the reality of supply constraints. The company demonstrates high innovation momentum (4680 cells, FSD) and strong demand-side strength. Evasiveness is low; while Musk avoids specific FSD take-rate numbers, he provides technical and strategic context. The primary tension in the call is between 'unmet demand' and 'supply chain constraints,' which management views as a solvable engineering problem."
+  },
+  "stats": {
+    "input_tokens": 11665,
+    "total_output_tokens": 452,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.07436425555001,
+    "time_to_first_token_seconds": 17.444
+  },
+  "timestamp": "2026-04-20 19:21:13"
+}

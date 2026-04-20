@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.1,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "demand remained exceptionally strong, outpacing supply",
+      "RTX is a once-in-a-generation reset",
+      "accelerating demand in Data Center",
+      "the size of the IT industry... has expanded from them before",
+      "80% have yet to upgrade to RTX"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by record revenues and explosive demand across Gaming, Data Center, and Pro Visualization. Management shows extreme confidence in their technological leadership (RTX, Omniverse, AI) and the massive untapped market potential (the 80% of gamers yet to upgrade). While supply constraints are a significant headwind, they are framed as a 'good problem' caused by demand exceeding supply. The transition from hardware-centric to software/platform-centric (Omniverse, AI Enterprise) is presented as a major growth lever. The only slight drag on the score is the risk of crypto-related volatility and regulatory hurdles regarding the Arm acquisition, though these are treated as manageable. The quantitative data provided is robust, showing clear growth trajectories."
+  },
+  "stats": {
+    "input_tokens": 12164,
+    "total_output_tokens": 441,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.77716444078767,
+    "time_to_first_token_seconds": 18.253
+  },
+  "timestamp": "2026-04-20 19:12:49"
+}

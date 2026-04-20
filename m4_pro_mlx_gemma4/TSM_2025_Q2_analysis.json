@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 28.11,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "robust AI and HPC-related demand",
+      "narrow the gap between demand and capacity",
+      "earning our value",
+      "N2, N2P, A16... fuel the next generation",
+      "53% gross margin and higher remains well achievable"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by explosive AI and HPC demand which offsets concerns regarding overseas fab margin dilution and FX headwinds. Management shows extremely high confidence in their technological leadership (N2, A16) and ability to 'earn value' through pricing. While there is significant CapEx planned for global expansion, it is framed as a response to 'insatiable' demand rather than speculative growth. The QA session was direct, with management providing specific technical roadmaps and addressing margin concerns head-on. The only significant drags on the score are the acknowledged structural costs of overseas expansion and the inherent uncertainty of geopolitical/tariff risks, though these are treated as manageable factors."
+  },
+  "stats": {
+    "input_tokens": 13592,
+    "total_output_tokens": 420,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.15555027856807,
+    "time_to_first_token_seconds": 20.527
+  },
+  "timestamp": "2026-04-20 19:40:20"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 10.47,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "highest quarterly worldwide operating income ever",
+      "optimization is meaningfully attenuating",
+      "AWS revenue grew 12% year-over-year",
+      "regionalization... made more impact than we optimistically expected",
+      "generative AI... will be tens of billions of dollars of revenue"
+    ],
+    "reasoning": "The earnings call was highly positive, highlighted by record operating income and significant margin expansion in both North America and AWS. Management demonstrated high confidence in their long-term strategy, particularly regarding the transition from cost optimization to growth driven by Generative AI (Bedrock, Trainium). While they acknowledged macro headwinds like customer price sensitivity and 'trading down,' the momentum in AWS deal signings and the success of the US fulfillment regionalization provided a strong bullish signal. Quantitative data was abundant, and the QA session was direct, with management addressing difficult questions about international profitability and AWS margin sustainability without evasion."
+  },
+  "timestamp": "2026-04-20 14:36:09"
+}

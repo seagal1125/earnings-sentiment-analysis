@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 10.7,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Azure revenue increased 59%",
+      "Commercial Cloud revenue grew 36%",
+      "AI-powered business cloud",
+      "strategic partnerships with SAP, Oracle, and VMware",
+      "GitHub grew to more than 40 million developers",
+      "strong start to the fiscal year"
+    ],
+    "reasoning": "The call reflects an exceptionally strong quarter with double-digit growth across most key segments, particularly Azure (59% growth) and Commercial Cloud (36%). Management demonstrated high confidence and provided highly specific quantitative data. The focus on AI integration across the entire tech stack and strategic ecosystem partnerships (SAP/Oracle) signals strong innovation momentum and a widening competitive moat. While there were mentions of moderating growth in certain per-user businesses and gaming, the overall tone remains very optimistic with clear evidence of demand strength."
+  },
+  "timestamp": "2026-04-20 14:48:47"
+}

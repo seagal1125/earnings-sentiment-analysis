@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 25.5,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record in Services",
+      "900 million tariff impact estimate",
+      "Apple Intelligence integration",
+      "installed base of active devices reached an all-time high",
+      "$500 billion U.S. investment plan"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, driven by record-breaking Services revenue and strong installed base growth. Management shows high confidence in their product ecosystem and AI roadmap (Apple Intelligence), though they are transparent about significant headwinds from tariffs ($900M estimate) and geopolitical risks in China. The guidance is conservative (low to mid-single digit growth), reflecting the uncertainty of trade policies and macroeconomic conditions. Quantitative specificity is high, with detailed breakdowns of revenue by segment and specific tariff cost estimates. The QA session shows management is direct regarding supply chain shifts (India/Vietnam) but somewhat evasive or non-committal regarding long-term tariff impacts and specific regulatory risks (DOJ/EU). Innovation momentum is a key driver, with heavy focus on AI-integrated hardware."
+  },
+  "stats": {
+    "input_tokens": 11620,
+    "total_output_tokens": 435,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.60908490927796,
+    "time_to_first_token_seconds": 17.656
+  },
+  "timestamp": "2026-04-20 18:28:05"
+}

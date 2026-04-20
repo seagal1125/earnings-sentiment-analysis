@@ -1,0 +1,33 @@
+{
+  "file": "AMZN_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 13.23,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS revenue growth accelerated to 17.2%",
+      "multi-billion-dollar revenue run rate for Gen AI",
+      "meaningfully increase year-over-year capital expenditures",
+      "cost optimization is behind us"
+    ],
+    "reasoning": "Amazon delivered a very strong Q1 with massive operating income growth (221% YoY) and AWS acceleration (from 13.2% to 17.2%). Management shows extreme confidence in the Gen AI era, viewing increased CapEx as a strategic necessity rather than a burden. While they noted some macroeconomic caution and FX headwinds, the focus on innovation (Amazon Q, Bedrock, custom silicon) and operational efficiency (regionalization) provides a highly positive outlook."
+  },
+  "timestamp": "2026-04-20 14:36:37"
+}

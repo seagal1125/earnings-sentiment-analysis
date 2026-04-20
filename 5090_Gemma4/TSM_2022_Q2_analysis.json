@@ -1,0 +1,11 @@
+{
+  "file": "TSM_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 13.09,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "---\n{\"symbol\": \"TSM\", \"fiscal_year\": 2022, \"fiscal_quarter\": 2, \"scores\": {\"overall_sentiment\": 0.4, \"confidence_score\": 0.7, \"forward_guidance_tone\": 0.5, \"risk_disclosure_intensity\": 0.4, \"qa_evasiveness\": 0.3, \"quantitative_specificity\": 0.9, \"capex_enthusiasm\": 0.6, \"demand_strength\": 0.7, \"pricing_power\": 0.6, \"competitive_moat\": 0.9, \"innovation_momentum\": 0.9, \"management_consistency\": 0.5}, \"key_phrases\": [\"inventory adjustment\", \"structural growth trajectory\", \"technology leadership\", \"inflationary costs\", \"HPC engine\", \"value selling\"], \"reasoning\": \"The overall sentiment is cautiously optimistic. While management acknowledges near-term headwinds such as inventory correction in consumer electronics (smartphone/PC) and rising inflationary costs (raw materials/utilities), they maintain high confidence in long-term structural demand driven by HPC, IoT, and Automotive. The company shows extremely high quantitative specificity and a strong technological moat with the N3 and N2 roadmaps. However, there is noticeable evasiveness regarding specific pricing details and the exact impact of tool delivery delays on CapEx timing. The guidance for Q3 revenue remains strong, though gross margin is expected to face slight pressure from costs.\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 16:16:10"
+}

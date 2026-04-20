@@ -1,0 +1,33 @@
+{
+  "file": "MSFT_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 20.72,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.95,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI business is on track to surpass an annual revenue run rate of $10 billion next quarter",
+      "Demand continues to be higher than our available capacity",
+      "Azure growth included roughly 12 points from AI services",
+      "CapEx... to support our cloud and AI offerings"
+    ],
+    "reasoning": "The earnings call demonstrates exceptional performance in Cloud and AI, with Azure growth significantly driven by AI services. Management shows high confidence despite acknowledging short-term supply constraints (third-party delivery delays) that may cause a slight deceleration in Q2 growth. The company is aggressively expanding CapEx to meet massive demand signals. The Q&A session was highly transparent regarding the OpenAI partnership and capital allocation strategies, with very high quantitative specificity throughout the presentation."
+  },
+  "timestamp": "2026-04-20 14:53:03"
+}

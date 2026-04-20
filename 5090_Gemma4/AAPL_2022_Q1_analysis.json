@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 14.32,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.85,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record",
+      "supply constraints",
+      "M1-powered",
+      "785 million paid subscriptions",
+      "decelerate from the December quarter"
+    ],
+    "reasoning": "Apple reported a record-breaking quarter with significant growth in iPhone, Mac, and Services. While demand remains exceptionally strong (high demand_strength), the company is facing notable headwinds from supply chain constraints on legacy nodes and foreign exchange impacts, leading to a more cautious forward guidance tone. Management provided highly specific financial data but exhibited typical evasiveness regarding product roadmaps and specific subscriber counts for Apple TV+. The transition to Apple Silicon continues to drive competitive advantage and innovation momentum."
+  },
+  "timestamp": "2026-04-20 14:29:47"
+}

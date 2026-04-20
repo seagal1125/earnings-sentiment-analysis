@@ -1,0 +1,41 @@
+{
+  "file": "META_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 31.02,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "the metaverse is the successor to the mobile Internet",
+      "investing $1 billion in creators",
+      "revenue growth decelerated to 72% from 74%",
+      "privacy-enhancing technologies",
+      "AI is one of the areas that has routinely outperformed our expectations"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong revenue growth (56% YoY) and the strategic pivot toward the Metaverse. Management shows high confidence in their long-term vision, though they acknowledge a transition period. Forward guidance is cautiously optimistic; while growth remains strong, they explicitly warn of deceleration due to lapping pandemic-era highs and regulatory headwinds (iOS updates). The risk disclosure is moderate, primarily focusing on privacy changes and macroeconomic shifts. Quantitative specificity is high, with detailed financial metrics provided by the CFO. The 'innovation momentum' score is very high due to the heavy emphasis on AI, VR/AR (Quest), and the Metaverse. The 'management consistency' is set to 0.5 as no prior quarter data was provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 13820,
+    "total_output_tokens": 440,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.46614310938801,
+    "time_to_first_token_seconds": 23.038
+  },
+  "timestamp": "2026-04-20 18:49:56"
+}

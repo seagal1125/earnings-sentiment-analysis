@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 24.58,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-first Company",
+      "MUM is a thousand times more powerful than BERT",
+      "Cloud revenue growing 45% year-over-year",
+      "uncertainty is the new normal",
+      "omni-channel is in full force",
+      "privacy-preserving technology"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong double-digit revenue growth across Search, YouTube, and Cloud. Management shows high confidence, particularly regarding AI integration (MUM, Tensor) and Cloud momentum. Quantitative specificity is high with detailed revenue and margin figures provided by the CFO. While there are mentions of macroeconomic uncertainty and 'unevenness' in global recovery, the company's focus on long-term innovation and infrastructure investment (CAPEX) remains aggressive. The QA session was direct, though management used standard strategic framing to address headwinds like iOS privacy changes and supply chain issues."
+  },
+  "timestamp": "2026-04-20 12:40:38"
+}

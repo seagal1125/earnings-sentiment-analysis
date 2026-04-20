@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 29.34,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record",
+      "strong double-digit growth across every product category",
+      "unprecedented innovation",
+      "groundbreaking M1 chip",
+      "supply constraints on Pro models",
+      "headroom for market share expansion"
+    ],
+    "reasoning": "The company reported an exceptional quarter with all-time revenue records ($111.4B) and significant growth in almost all segments (iPhone, iPad, Mac, Services). Management displayed extremely high confidence, backed by specific quantitative data regarding margins and unit growth. While there were mentions of supply constraints for Pro models and uncertainty due to COVID-19, the overall tone was highly optimistic about future market expansion (e.g., India) and the transition to M1 chips. The QA session was direct, with Luca Maestri providing detailed margin and FX insights, though Tim Cook used standard 'framework' responses when asked about specific future product roadmaps."
+  },
+  "timestamp": "2026-04-20 12:19:07"
+}

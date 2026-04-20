@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 30.14,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "structural increase in underlying semiconductor demand",
+      "$100 billion CapEx over the next 3 years",
+      "5G and HPC-related applications are expected to fuel strong demand",
+      "we will continue to focus on delivering technology leadership",
+      "capacity shortage will continue throughout this year and may be extended into 2022"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by the massive $100 billion CapEx plan and structural demand from 5G/HPC megatrends. Management shows high confidence in their technological leadership and ability to navigate the capacity shortage. While there are risks regarding geopolitical tensions and cost increases (dilutive effect of N5), the demand strength is presented as overwhelming. The QA session was direct, with management providing specific details on CapEx and capacity planning, though they remained cautious about exact pricing and future revenue numbers. The high CapEx reflects an aggressive expansionary stance to capture long-term growth."
+  },
+  "stats": {
+    "input_tokens": 14221,
+    "total_output_tokens": 422,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.56087908218901,
+    "time_to_first_token_seconds": 22.458
+  },
+  "timestamp": "2026-04-20 19:32:00"
+}

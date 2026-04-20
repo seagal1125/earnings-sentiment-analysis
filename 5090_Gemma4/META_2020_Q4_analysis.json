@@ -1,0 +1,35 @@
+{
+  "file": "META_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.88,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.5,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "33% year-over-year increase",
+      "iOS 14 changes",
+      "next computing platform",
+      "tougher comps in the back half of the year",
+      "Quest 2 holiday sales",
+      "shift to online commerce"
+    ],
+    "reasoning": "The company reported exceptionally strong Q4 results with 33% revenue growth and significant user increases, driven by the pandemic-induced shift to digital commerce. However, the forward guidance is cautious due to explicitly identified headwinds from Apple's iOS 14 privacy changes and the expected 'tougher comps' in H2 2021 as consumer spending shifts back from products to services. Management shows high confidence in their long-term innovation (VR/AR) but remains transparent about regulatory and competitive risks."
+  },
+  "timestamp": "2026-04-20 14:44:04"
+}

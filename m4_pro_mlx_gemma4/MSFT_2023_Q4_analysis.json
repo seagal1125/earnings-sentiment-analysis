@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 28.28,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Microsoft Cloud surpassed $110 billion in annual revenue",
+      "Azure all-up accounting for more than 50% of the total for the first time",
+      "investing to lead in the new AI platform shift",
+      "accelerate investment in our cloud infrastructure",
+      "Copilot is a third pillar"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the successful integration of AI across the Microsoft tech stack and strong cloud growth (Azure). Management shows extreme confidence in their leadership position, particularly regarding the 'AI platform shift.' While there is significant CapEx planned to support AI infrastructure, it is framed as a response to massive demand rather than speculative spending. The guidance suggests that while AI revenue growth will be gradual as it scales, the long-term TAM expansion is significant. The only slight dampening factors are the 'catch-up optimization' in cloud workloads and the impact of accounting changes on margins, but these are treated as manageable headwinds. The QA session was direct and provided specific insights into the 'Copilot stack' and data strategy, showing low evasiveness."
+  },
+  "stats": {
+    "input_tokens": 13245,
+    "total_output_tokens": 447,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.09484807950367,
+    "time_to_first_token_seconds": 20.251
+  },
+  "timestamp": "2026-04-20 19:04:58"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 14.07,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.95,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "first ever $100 billion quarter",
+      "Cloud backlog grew 46% quarter-over-quarter to $155 billion",
+      "CapEx... expected to be in the range of $91 billion to $93 billion in 2025",
+      "Gemini app now has over 650 million monthly active users",
+      "CPCs were up 7% year-on-year"
+    ],
+    "reasoning": "The call was exceptionally positive, highlighted by the milestone of the first $100B quarter and massive growth in Cloud backlog. Management demonstrated high confidence in their 'full stack' AI strategy. Quantitative specificity was extremely high with numerous precise metrics provided for Search, Cloud, and YouTube. While CapEx is being aggressively increased (raising 2025 guidance), management framed this as a response to 'tremendous demand.' Risk disclosure was relatively low, focused mainly on depreciation and the EC fine. QA evasion was minimal, though Sundar was slightly non-committal regarding specific timelines for Waymo/Gemini integration."
+  },
+  "timestamp": "2026-04-20 14:42:56"
+}

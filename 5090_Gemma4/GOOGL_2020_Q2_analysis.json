@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 10.49,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.3,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "early signs of stabilization",
+      "macroeconomic environment caused by the pandemic created headwinds",
+      "YouTube Premium had more than 20 million paid subscribers, up more than 60% versus the prior year",
+      "slowed the pace on the office facilities front",
+      "secular interest in our digital transformation"
+    ],
+    "reasoning": "The sentiment is slightly positive but heavily tempered by the macroeconomic uncertainty of the COVID-19 era. Management shows high confidence in long-term secular trends (Cloud, AI) despite short-term revenue declines in Search and Network. Quantitative specificity is high with clear mentions of revenue figures, subscriber growth, and FX impacts. Risk disclosure is significant regarding the pandemic's impact on travel/ads and regulatory scrutiny. Capex enthusiasm is neutral as they are reallocating from office facilities to Cloud/AI infrastructure."
+  },
+  "timestamp": "2026-04-20 14:38:33"
+}

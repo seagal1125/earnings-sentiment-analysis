@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.31,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.5,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.7,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "end-to-end AI",
+      "Cybertruck production challenges",
+      "high interest rate environment",
+      "cost per vehicle decreased to $37,500",
+      "energy business becoming highest margin",
+      "mass game changer"
+    ],
+    "reasoning": "The call presents a stark dichotomy: extreme technological optimism regarding AI (FSD v12, Optimus, H100 cluster) and competitive moat, contrasted with significant macroeconomic anxiety. Elon Musk expressed high levels of concern regarding high interest rates impacting vehicle affordability and the immense difficulty of Cybertruck production ramps. While innovation momentum is very high, forward guidance is tempered by 'uncertainty' and a cautious approach to factory expansion (Mexico) due to the macro environment. Pricing power appears pressured by the need to maintain monthly payment parity in a high-interest era."
+  },
+  "timestamp": "2026-04-20 15:02:57"
+}

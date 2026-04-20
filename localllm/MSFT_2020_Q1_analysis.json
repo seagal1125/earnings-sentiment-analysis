@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 28.58,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong start in fiscal 2020",
+      "Azure revenue increased 59%",
+      "AI-powered business cloud",
+      "secular, long-term growth opportunities",
+      "hybrid computing fabric"
+    ],
+    "reasoning": "The call reflects an extremely strong quarter with double-digit growth across most segments, particularly Azure (59% growth) and Commercial Cloud. Management displays high confidence, using definitive language ('we are making it faster and easier', 'unparalleled integration'). The focus on AI as a fundamental driver and the expansion of partnerships (SAP, Oracle, VMware) signals strong innovation momentum and competitive moat. While there is some mention of headwinds like FX impact and gaming declines, the overall tone is highly optimistic. Quantitative specificity is high with detailed revenue, margin, and user growth figures provided by the CFO. The only reason for not scoring 1.0 in all areas is the inherent uncertainty in forward-looking guidance regarding macro environments and the lack of prior quarter data to assess consistency."
+  },
+  "timestamp": "2026-04-20 13:01:53"
+}

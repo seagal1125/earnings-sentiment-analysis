@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.94,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS growth continued to accelerate to 24%",
+      "Trainium two is 30 to 40% more price performance than comparable GPUs",
+      "Bedrock is now a multibillion-dollar annualized run rate business",
+      "backlog is $244 billion",
+      "invest about $200 billion in capital expenditures"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by explosive AWS growth (24%) and the massive scale of AI-related revenue run rates. Management demonstrates extreme confidence in their custom silicon strategy (Trainium/Graviton) and the ability to monetize capacity as fast as it is built. The capital expenditure plan is aggressive ($200B), but justified by a massive $244B backlog and 'unprecedented' demand. Risk disclosure is minimal, focusing on standard macroeconomic variables. The QA session was direct, with management providing specific data to defend their ROI and capacity expansion strategies. Innovation momentum is at a maximum due to the focus on AI agents, custom chips, and LEO satellites."
+  },
+  "stats": {
+    "input_tokens": 12330,
+    "total_output_tokens": 442,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.61713000235634,
+    "time_to_first_token_seconds": 18.964
+  },
+  "timestamp": "2026-04-20 18:37:47"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 30.23,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand for our industry-leading 3-nanometer and 5-nanometer technologies",
+      "AI-related demand is very, very strong",
+      "revenue contribution from several AI processors to more than double this year",
+      "strategic importance of expanding global manufacturing footprint",
+      "N2 technology development is progressing well"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company faces headwinds from smartphone seasonality, higher electricity costs in Taiwan, and earthquake-related scrap, these are offset by explosive AI-driven demand. Management shows high confidence in their technological leadership (N3/N2) and ability to capture value. The guidance for Q2 shows a sequential revenue increase, though gross margin is expected to be pressured by cost inflation and N3 ramp-up. The QA session was direct, with management providing specific details on capacity allocation and the transition from N5 to N3. The massive CapEx budget reflects aggressive expansion to meet long-term structural demand, particularly in AI and advanced nodes."
+  },
+  "stats": {
+    "input_tokens": 14097,
+    "total_output_tokens": 432,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.68259503351236,
+    "time_to_first_token_seconds": 22.379
+  },
+  "timestamp": "2026-04-20 19:38:04"
+}

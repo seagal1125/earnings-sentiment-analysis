@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 29.31,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record revenue and earnings",
+      "supply constraints will have a revenue impact of $3 billion to $4 billion",
+      "strong double digits year-over-year",
+      "M1 chip momentum",
+      "supply-demand balance"
+    ],
+    "reasoning": "The company reported an exceptional quarter with record-breaking revenue ($89.6B) and massive YoY growth (54%). Management showed extremely high confidence, backed by specific quantitative data across all segments (iPhone, Mac, iPad, Services). While the overall sentiment is highly optimistic due to current performance, the forward guidance tone is slightly tempered by acknowledged supply constraints in semiconductors affecting iPad and Mac, and a predicted sequential revenue decline. The CEO and CFO were direct in answering most questions, though Tim Cook occasionally used 'sidestepping' techniques for specific product-level guidance or regulatory details. Innovation momentum is high due to the M1 chip transition and 5G expansion."
+  },
+  "timestamp": "2026-04-20 12:19:37"
+}

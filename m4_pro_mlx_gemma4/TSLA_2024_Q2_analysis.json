@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 25.8,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.5,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "The big differentiator for Tesla is autonomy",
+      "We are demand constrained rather than production constrained",
+      "The value of Tesla overwhelmingly is autonomy",
+      "Optimus production Version 1 starting early next year",
+      "We're on track to deliver a more affordable model in the first half of next year"
+    ],
+    "reasoning": "The sentiment is cautiously optimistic, driven heavily by the pivot from a pure EV manufacturer to an AI/Robotics company. Elon Musk displays extremely high confidence in autonomy (FSD) and Optimus, which offsets the near-term headwinds in automotive margins and pricing pressure. The forward guidance is aggressive regarding technological breakthroughs (AI5, Optimus) but somewhat vague on specific vehicle volume targets. Risk disclosure is relatively low as management frames challenges (tariffs, competition) as manageable or secondary to the AI mission. The 'pricing power' score is low due to mentioned financing incentives and competitive pressure, while 'innovation momentum' is very high due to the focus on end-to-end AI and humanoid robots. Management consistency is set at 0.5 as there is no prior quarter data provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 11741,
+    "total_output_tokens": 455,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.0154366326234,
+    "time_to_first_token_seconds": 17.735
+  },
+  "timestamp": "2026-04-20 19:26:35"
+}

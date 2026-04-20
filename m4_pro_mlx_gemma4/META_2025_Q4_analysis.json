@@ -1,0 +1,41 @@
+{
+  "file": "META_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 25.2,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "major AI acceleration",
+      "personal superintelligence",
+      "investment in infrastructure to train leading models",
+      "revenue growth driven by AI-driven performance gains",
+      "expanding the capabilities of WhatsApp"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the massive strategic pivot toward 'personal superintelligence' and AI-driven product improvements. Management shows extreme confidence in their long-term vision, particularly regarding AI agents and wearable hardware (glasses). While the company is undergoing massive capital expenditure (CapEx) for infrastructure, they justify it through significant productivity gains and revenue growth. The guidance for 2026 is optimistic, though it acknowledges the 'unfulfilling' nature of current results as they transition through a rebuilding phase. Risk disclosure is moderate, primarily focusing on regulatory headwinds in the EU and US. The QA session was direct, though Mark Zuckerberg occasionally used high-level visionary language to address specific technical or ROI questions. The massive CapEx (up to $135B) reflects an aggressive expansionary stance, which is balanced by strong free cash flow and existing revenue growth."
+  },
+  "stats": {
+    "input_tokens": 11371,
+    "total_output_tokens": 448,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.266395888695946,
+    "time_to_first_token_seconds": 17.321
+  },
+  "timestamp": "2026-04-20 18:58:00"
+}

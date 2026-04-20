@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 12.6,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "demand was very robust",
+      "$6 billion revenue dollar impact",
+      "chip shortages and COVID-related manufacturing disruptions",
+      "all-time record for Mac",
+      "services business performed better than we expected",
+      "supply constraints will be larger during the December quarter"
+    ],
+    "reasoning": "Apple reported record-breaking revenue and growth across almost all product categories, driven by extremely strong consumer demand and the success of the M1 chip transition. However, the sentiment is tempered by significant supply chain headwinds (silicon shortages and COVID disruptions) which caused a $6 billion revenue loss in Q4 and are expected to intensify in Q1. Management shows high confidence in product innovation and ecosystem strength but remains cautious regarding forward revenue guidance due to global macroeconomic and supply uncertainties."
+  },
+  "timestamp": "2026-04-20 14:29:33"
+}

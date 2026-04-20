@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 25.08,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.75,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Gemini era",
+      "durably reengineer our cost base",
+      "notably larger than 2023 [CapEx]",
+      "AI-powered solutions",
+      "strong momentum and product innovation"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by the successful integration of GenAI (Gemini) across Search, Cloud, and YouTube. Management shows high confidence in their ability to pivot toward an AI-first future while simultaneously executing a cost-reengineering strategy (reducing headcount and optimizing real estate). The quantitative specificity is high, with clear revenue growth figures provided for all segments. A key highlight is the aggressive CapEx guidance for 2024, signaling heavy investment in AI infrastructure. While there are minor risks regarding competitive pressure on Search and the cost of these investments, management's responses in the Q&A were direct and focused on technological leadership. The 'management_consistency' is set to 0.5 as there was no prior quarter data provided for comparison, though the execution of cost-cutting aligns with previous strategic shifts."
+  },
+  "stats": {
+    "input_tokens": 11419,
+    "total_output_tokens": 445,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.13255059270914,
+    "time_to_first_token_seconds": 17.249
+  },
+  "timestamp": "2026-04-20 18:43:40"
+}

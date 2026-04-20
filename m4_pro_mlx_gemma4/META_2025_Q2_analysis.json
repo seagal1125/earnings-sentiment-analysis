@@ -1,0 +1,41 @@
+{
+  "file": "META_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.08,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "personal superintelligence",
+      "gigawatt-plus cluster",
+      "AI-powered recommendation model",
+      "accelerating sales of Ray-Ban Meta glasses",
+      "massive bet on infrastructure"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by Meta's aggressive pivot toward 'superintelligence' and the successful integration of AI into core advertising products (resulting in 3-5% conversion lifts). Management shows extreme confidence, particularly Mark Zuckerberg, regarding the long-term ROI of massive CapEx. The guidance is optimistic but transparent about rising costs (depreciation and talent) in 2026. Risk disclosure is relatively low, focusing primarily on EU regulatory headwinds. The company demonstrates high innovation momentum with the development of Llama 4 and new AI hardware (glasses). Quantitative data is dense, providing specific growth metrics for engagement and revenue. The only slight drag on the score is the massive capital expenditure requirement, which represents a significant financial bet."
+  },
+  "stats": {
+    "input_tokens": 12367,
+    "total_output_tokens": 418,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.7868956497752,
+    "time_to_first_token_seconds": 18.662
+  },
+  "timestamp": "2026-04-20 18:57:09"
+}

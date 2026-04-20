@@ -1,0 +1,11 @@
+{
+  "file": "META_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 12.88,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "---\n{\"symbol\": \"META\", \"fiscal_year\": 2023, \"fiscal_quarter\": 4, \"scores\": {\"overall_sentiment\": 0.8, \"confidence_score\": 0.9, \"forward_guidance_tone\": 0.7, \"risk_disclosure_intensity\": 0.3, \"qa_evasiveness\": 0.1, \"quantitative_specificity\": 0.9, \"capex_enthusiasm\": 1.0, \"demand_strength\": 0.8, \"pricing_power\": 0.5, \"competitive_moat\": 0.8, \"innovation_momentum\": 1.0, \"management_consistency\": 1.0}, \"key_phrases\": [\"Year of efficiency\", \"playing to win\", \"600,000 H100 equivalents\", \"Llama 3\", \"aggressive investment in AI infrastructure\", \"transitioning away from reporting Facebook-specific metrics\"], \"reasoning\": \"The call reflects a highly successful transition from the 'Year of Efficiency' (achieved via 22% headcount reduction) to an aggressive growth phase centered on AI. Mark Zuckerberg displays extreme confidence in Meta's ability to lead in AI through massive compute investments (600k H100 equivalents). The CFO provided exceptionally high quantitative specificity regarding revenue, margins, and segment performance. While CapEx guidance was raised significantly (up to $37B), management justified this as a strategic necessity for AI leadership. Risks were mentioned (FTC/regulatory) but did not overshadow the strong top-line growth (25% YoY revenue increase).\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 14:46:49"
+}

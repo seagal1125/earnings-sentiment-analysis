@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.87,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "double digit revenue growth",
+      "new June quarter revenue record",
+      "supply constraints during the September quarter",
+      "M1 chips exceptional speed",
+      "very strong double digit year-over-year revenue growth"
+    ],
+    "reasoning": "Apple reported an exceptionally strong Q3 with record revenues across almost all segments, particularly iPhone (50% YoY) and Services (33% YoY). Management's confidence is high, backed by heavy quantitative data. While the forward guidance for the next quarter is slightly more cautious due to supply chain constraints (specifically legacy nodes) and FX headwinds, they still project 'very strong double digit growth.' There was minor evasiveness regarding the Nvidia/Arm acquisition and the specific duration of supply shortages, but the overall narrative focuses on the strength of the M1 transition and ecosystem expansion."
+  },
+  "timestamp": "2026-04-20 14:29:20"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "META_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 31.08,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.5,
+      "pricing_power": -0.4,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "small businesses are the biggest part of our business",
+      "acceleration of e-commerce",
+      "headwinds related to ad targeting and measurement",
+      "normalization of engagement trends",
+      "messaging commerce"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, buoyed by strong Q2 revenue growth (10% YoY) and the acceleration of digital transformation due to COVID-19. However, forward guidance is tempered by significant macroeconomic uncertainty, the expiration of stimulus programs, and upcoming technical headwinds like Apple's iOS 14 privacy changes. Management shows high confidence in their long-term AI and AR/VR roadmap but acknowledges immediate pricing pressure (average price per ad decreased 21%). The QA session was direct, with management providing specific details on advertiser shifts and regional performance, though they remained vague on the exact financial impact of Apple's privacy changes."
+  },
+  "timestamp": "2026-04-20 12:49:49"
+}

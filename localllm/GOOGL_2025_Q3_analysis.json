@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.88,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "first ever $100 billion quarter",
+      "double-digit growth across every major part of our business",
+      "Cloud backlog grew 46% quarter-over-quarter",
+      "more deals over $1 billion... than we did in the previous 2 years combined",
+      "investing aggressively"
+    ],
+    "reasoning": "The company delivered a milestone $100B quarter with massive growth in Cloud (34%) and Search. Management displayed extreme confidence, backed by highly specific quantitative data (token counts, user numbers, revenue percentages). CapEx is being aggressively increased ($91B-$93B estimate) to meet 'tremendous demand' for AI infrastructure. While there are risks mentioned regarding depreciation and EC fines, the overall tone is overwhelmingly optimistic about the generative AI era and the company's full-stack advantage."
+  },
+  "timestamp": "2026-04-20 12:48:15"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 24.74,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.1,
+      "demand_strength": 0.8,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record March quarter revenue of $97.3 billion",
+      "supply constraints in the range of $4 billion to $8 billion",
+      "installed base of active devices reach an all-time high",
+      "services revenue rose to $19.8 billion",
+      "unpredictable nature of the pandemic"
+    ],
+    "reasoning": "The company reported record-breaking revenue and strong demand across major product categories, particularly iPhone and Services. However, the tone is tempered by significant headwinds: supply chain disruptions (COVID in China and silicon shortages) which management quantified as a $4B-$8B impact, and macroeconomic pressures like inflation and FX headwinds. Management shows high confidence in their product ecosystem (moat) but provides cautious forward guidance due to these external constraints. The QA session revealed some evasiveness regarding specific geographic demand granularity and future product details, but they were transparent about the scale of supply-side issues. Overall, it is a 'strong performance meeting significant headwinds' scenario."
+  },
+  "stats": {
+    "input_tokens": 11269,
+    "total_output_tokens": 424,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.75297871600465,
+    "time_to_first_token_seconds": 16.951
+  },
+  "timestamp": "2026-04-20 18:22:59"
+}

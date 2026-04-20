@@ -1,0 +1,11 @@
+{
+  "file": "AAPL_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.66,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "---\n{\"symbol\": \"AAPL\", \"fiscal_year\": 2023, \"fiscal_quarter\": 3, \"scores\": {\"overall_sentiment\": 0.2, \"confidence_score\": 0.85, \"forward_guidance_tone\": 0.0, \"risk_disclosure_intensity\": 0.3, \"qa_evasiveness\": 0.2, \"quantitative_specificity\": 0.95, \"capex_enthusiasm\": 0.3, \"demand_strength\": 0.6, \"pricing_power\": 0.8, \"competitive_margin\": 0.9, \"innovation_momentum\": 0.85, \"management_consistency\": 0.5}, \"key_phrases\": [\"all-time revenue record in Services\", \"installed base reached an all-time high\", \"record level for the June quarter [gross margin]\", \"iPhone and Services year-over-year performance to accelerate\", \"difficult compare versus last year\"], \"reasoning\": \"The overall sentiment is slightly positive, balanced by hardware declines (iPhone, Mac, iPad) against record-breaking Services growth and gross margins. Management shows high confidence, particularly CFO Luca Maestri, who provided highly specific quantitative guidance. While forward guidance for the next quarter is mixed (expecting double-digit declines in Mac/iPad due to difficult comps but acceleration in iPhone/Services), the strength of the ecosystem and installed base remains a core moat. Tim Cook was slightly evasive regarding specific AI strategies and Vision Pro revenue forecasting, preferring a 'wait and see' approach, but the innovation momentum is clearly high with the Vision Pro launch.\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 14:31:04"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.15,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "growth of nearly 90% last year",
+      "achieve Full Self-Driving this year",
+      "supply chain will continue to be the fundamental limiter",
+      "optimizing for cost per mile",
+      "software-based profits"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by record profitability and massive volume growth in 2021. Management shows extreme confidence in FSD (Full Self-Driving) and the potential of the Optimus robot, though they remain cautious about supply chain constraints (specifically chips) acting as a limiter for 2022. While there is high innovation momentum (4680 cells, Dojo, Optimus), there is also significant risk disclosure regarding inflation, commodity prices, and factory ramp-up costs in Berlin/Texas. The CEO's responses to specific product questions (like the $25k car) were somewhat evasive or redirected toward FSD value, but the CFO provided strong quantitative evidence of margin expansion and cost reduction."
+  },
+  "timestamp": "2026-04-20 13:29:17"
+}

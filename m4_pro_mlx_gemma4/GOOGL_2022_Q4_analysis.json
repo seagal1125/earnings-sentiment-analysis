@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 23.91,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.3,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-first future",
+      "reengineer the company's cost base",
+      "path to profitability",
+      "challenging macroeconomic climate",
+      "investment in technical infrastructure"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company faced significant headwinds in advertising spend and FX (leading to a slight revenue dip), management's focus on the 'AI inflection point' provides a strong growth narrative. Confidence is high regarding technological leadership but tempered by the need for cost reengineering (layoffs and efficiency drives). The 'innovation_momentum' is exceptionally high due to the heavy emphasis on Generative AI (LaMDA, PaLM) and its integration into Search/Cloud. Quantitative specificity is high, with detailed breakdowns of revenue, costs, and headcount changes. The 'qa_evasiveness' is low as management addressed difficult questions regarding cost-cutting and AI investment costs directly, though they remained vague on specific 2023/24 savings figures to avoid over-promising."
+  },
+  "stats": {
+    "input_tokens": 10661,
+    "total_output_tokens": 429,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.517717568942125,
+    "time_to_first_token_seconds": 16.408
+  },
+  "timestamp": "2026-04-20 18:42:03"
+}

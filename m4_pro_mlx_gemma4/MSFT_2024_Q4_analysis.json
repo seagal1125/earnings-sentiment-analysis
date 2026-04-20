@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 26.63,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI platform shift",
+      "Azure growth included 8 points from AI services",
+      "demand remained higher than our available capacity",
+      "Copilot is becoming a daily habit",
+      "capital-intensive transition"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the successful integration of AI across Microsoft's product portfolio (Azure, Copilot, GitHub). Management demonstrates extreme confidence in the long-term ROI of their massive CapEx spend, framing it as a necessary response to 'demand exceeding capacity.' While there is significant capital expenditure (high capex_enthusiasm), it is justified by explosive demand signals. The company shows strong pricing power and competitive moat through its AI leadership. A slight reduction in score for risk disclosure is due to the transparency regarding capacity constraints and European market softness, but overall, the tone remains aggressive and growth-oriented. Management consistency is set to 0.5 as no prior quarter data was provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 12596,
+    "total_output_tokens": 417,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.66111613968742,
+    "time_to_first_token_seconds": 19.199
+  },
+  "timestamp": "2026-04-20 19:06:46"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.17,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.9,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI factories",
+      "demand outstrips our supply",
+      "one-year rhythm",
+      "sovereign AI",
+      "lowest TCO"
+    ],
+    "reasoning": "The earnings call reflects an extraordinary period of growth for NVIDIA. Management exhibits extreme confidence, particularly regarding the transition from Hopper to Blackwell and the massive demand for AI infrastructure. Key drivers include 'AI factories,' sovereign AI, and the shift from general-purpose to accelerated computing. Demand is described as 'outstripping supply' well into next year, indicating massive pricing power and market dominance. While there is a slight mention of China-related risks and competitive pressures from CSPs, these are overshadowed by the momentum of new product cycles (Blackwell, H200) and the expansion into networking (Spectrum-X). The management's tone is visionary, framing the current era as a fundamental industrial revolution. Quantitative data provided by the CFO was robust, supporting the qualitative claims of explosive growth."
+  },
+  "stats": {
+    "input_tokens": 11420,
+    "total_output_tokens": 423,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.15654410617197,
+    "time_to_first_token_seconds": 17.661
+  },
+  "timestamp": "2026-04-20 19:17:22"
+}

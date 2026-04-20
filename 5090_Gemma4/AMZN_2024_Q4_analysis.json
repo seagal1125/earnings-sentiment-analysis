@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.55,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "$187.8 billion in revenue",
+      "operating income was $21.2 billion, up 61% year over year",
+      "once-in-a-lifetime type of business opportunities like AI",
+      "lowering our cost to serve",
+      "generative AI-infused",
+      "capital investments were $26.3 billion in the fourth quarter"
+    ],
+    "reasoning": "Amazon reported exceptional operating income growth (61% YoY) and strong revenue performance despite significant FX headwinds. Management's tone is highly optimistic, particularly regarding the 'once-in-a-lifetime' opportunity presented by Generative AI, which is driving aggressive CapEx expansion ($26.3B in Q4). While they transparently disclosed risks such as supply chain constraints (chips/power) and accounting changes affecting future margins, the focus remains heavily on innovation (Trainium 2, Bedrock, Rufus) and cost optimization through robotics. The QA session was direct, with management addressing supply constraints and logistics shifts without evasion."
+  },
+  "timestamp": "2026-04-20 14:37:17"
+}

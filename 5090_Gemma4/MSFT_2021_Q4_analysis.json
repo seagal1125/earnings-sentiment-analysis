@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 11.88,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "commercial cloud surpassed $69 billion",
+      "Azure revenue grew 51%",
+      "AI-first and collaboration-first world",
+      "supply chain constraints in Surface",
+      "expansion of the enterprise metaverse",
+      "GitHub Copilot"
+    ],
+    "reasoning": "The earnings call demonstrates exceptional performance with significant double-digit growth across all major segments, particularly Azure (51%) and Dynamics 365 (49%). Management displayed extremely high confidence, backed by highly specific quantitative data and clear forward guidance for Q1. While there were mentions of supply chain constraints in the Surface/OEM business and accounting headwinds regarding depreciation, the overall tone was overwhelmingly bullish, heavily centered on AI innovation and the expansion of the cloud ecosystem."
+  },
+  "timestamp": "2026-04-20 14:50:16"
+}

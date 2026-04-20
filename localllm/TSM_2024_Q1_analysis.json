@@ -1,0 +1,33 @@
+{
+  "file": "TSM_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 34.55,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand for 3-nanometer and 5-nanometer",
+      "AI-related demand supports our already strong conviction",
+      "revenue contribution from several AI processors to more than double this year",
+      "long-term gross margin of 53% and higher is achievable"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While management highlighted headwinds such as smartphone seasonality, earthquake impacts on margins, and rising electricity costs in Taiwan, these were heavily offset by the 'insatiable' demand for AI and HPC. The confidence score is high due to clear execution plans for N2 and global expansion (Arizona, Japan, Germany). Quantitative specificity is very high with detailed revenue, margin, and CapEx guidance. Risk disclosure was moderate, focusing on earthquake recovery and cost inflation. Pricing power remains a point of negotiation ('selling our value'), but the competitive moat in advanced nodes (N3/N2) is presented as extremely strong. Management consistency is rated 0.5 as no prior quarter data was provided for comparison."
+  },
+  "timestamp": "2026-04-20 13:47:53"
+}

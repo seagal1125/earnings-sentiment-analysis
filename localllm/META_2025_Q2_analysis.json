@@ -1,0 +1,35 @@
+{
+  "file": "META_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 31.48,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "superintelligence",
+      "multi-gigawatt clusters",
+      "Llama 4.1 and 4.2",
+      "AI-powered recommendation model",
+      "Prometheus cluster",
+      "Hyperion"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by Mark Zuckerberg's vision of 'superintelligence' and the tangible performance gains from AI in advertising (5% conversion lift on Instagram). Management shows extreme confidence in their technical roadmap and talent acquisition. The CapEx enthusiasm is at a maximum, with explicit plans for massive infrastructure expansion (Prometheus and Hyperion clusters) and a projected 2026 expense growth rate that will exceed 2025. While there are significant risks disclosed regarding EU regulatory headwinds (DMA/LPA) and the massive scale of required capital, the company's ability to provide highly specific financial guidance and quantitative metrics on ad performance and user engagement demonstrates high transparency. The QA session was direct, with Susan Li providing detailed breakdowns of expense drivers despite the complexity of 2026 budgeting."
+  },
+  "timestamp": "2026-04-20 13:00:25"
+}

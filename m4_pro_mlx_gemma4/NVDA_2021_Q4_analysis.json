@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 25.26,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 1.0,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "demand is incredible",
+      "smartphone moment for every industry",
+      "we are in the early innings of a significant opportunity",
+      "demand is greater than supply",
+      "the transition to deep learning... the accuracy is much, much higher"
+    ],
+    "reasoning": "The report reflects an exceptionally strong financial performance with record revenues in Gaming and Data Center. Management displays extreme confidence, particularly regarding the 'smartphone moment' of AI and the massive upgrade cycle for Ampere architecture. Demand is clearly outstripping supply ('demand is greater than supply'), which drives the high demand_strength score. While there are risks mentioned regarding crypto-mining volatility and regulatory hurdles for the Arm acquisition, they are treated as manageable. The transition from traditional computing to accelerated/AI computing is framed as a structural shift, providing high innovation momentum. The only slight drag on scores is the potential volatility from crypto-mining (though mitigated by new CMP products) and the inherent uncertainty of large-scale M&A."
+  },
+  "stats": {
+    "input_tokens": 11669,
+    "total_output_tokens": 424,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.13912631222254,
+    "time_to_first_token_seconds": 17.749
+  },
+  "timestamp": "2026-04-20 19:11:58"
+}

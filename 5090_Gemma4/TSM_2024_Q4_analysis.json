@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 15.17,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.75,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.95,
+      "pricing_power": 0.85,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI accelerator revenue to double in 2025",
+      "CapEx budget $38 billion to $42 billion for 2025",
+      "long-term revenue growth approach a 20% CAGR",
+      "2% to 3% margin dilution from overseas fabs",
+      "premium pricing for US wafers"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by explosive AI demand and clear long-term growth targets (20% CAGR). Management shows high confidence with specific technology roadmaps (N2, A16) and aggressive CapEx expansion ($38B-$42B). While there is a transparent disclosure of margin risks due to overseas expansion and inflation, the company demonstrates strong pricing power (US premium) and an unshakeable competitive moat. QA was direct on technical/business matters, though slightly evasive on US political/regulatory specifics, which is standard for the company."
+  },
+  "timestamp": "2026-04-20 16:18:45"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 13.73,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record production, deliveries and surpassed $1 billion in non-GAAP net_income",
+      "demand is the best we have ever seen",
+      "Model Y will be the best-selling car or vehicle of any kind in the world",
+      "long-term growth of 50% annually",
+      "Dojo is a supercomputer optimized for neural net training",
+      "supply chain challenges... chip shortage"
+    ],
+    "reasoning": "The call was exceptionally positive, characterized by record-breaking financial and operational metrics. Management expressed extreme confidence in their AI/Robotics future (Dojo) and long-term growth targets (50% annually). While they acknowledged significant supply chain headwinds and a $200M P&L impact from the Model S/X transition, these were framed as temporary execution challenges rather than structural threats. Demand for vehicles remains at an all-time high, and innovation momentum in FSD and 4680 cells is very strong."
+  },
+  "timestamp": "2026-04-20 15:00:31"
+}

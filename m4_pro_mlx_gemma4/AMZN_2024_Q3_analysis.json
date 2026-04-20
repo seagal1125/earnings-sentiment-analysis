@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 23.89,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS growing at a triple-digit year-over-year percentage",
+      "AI business is a multibillion-dollar revenue run rate business",
+      "We expect to spend approximately $75 billion in CapEx in 2024",
+      "The fastest speeds ever for Prime members globally",
+      "Generative AI-powered creative tools"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong AWS growth and the massive opportunity in Generative AI. Management shows extreme confidence (especially CEO Andy Jassy) regarding long-term AI infrastructure investments, despite high CapEx. While retail margins show improvement through cost-to-serve optimizations (robotics/regionalization), there is a slight tension between high growth and lower ASPs in the retail segment. The QA session was direct, with management providing specific details on AWS margins and logistics challenges. The primary driver of the high score is the 'once in a lifetime' opportunity described regarding AI, which justifies the aggressive capital expenditure. The low pricing power score reflects the consumer-conscious environment and shift toward lower ASP items, though this is offset by volume growth."
+  },
+  "stats": {
+    "input_tokens": 10560,
+    "total_output_tokens": 452,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.691654785462845,
+    "time_to_first_token_seconds": 15.896
+  },
+  "timestamp": "2026-04-20 18:35:42"
+}

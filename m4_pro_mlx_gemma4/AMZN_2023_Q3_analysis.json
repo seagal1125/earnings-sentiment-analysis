@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 22.91,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.6,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "regionalization change",
+      "generative AI investment",
+      "cost to serve reduction",
+      "AWS revenue run rate $92 billion",
+      "optimization attenuation"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by significant margin improvements in North America and AWS, alongside successful fulfillment network re-architecture. Management shows high confidence, particularly regarding the transition from cost-optimization to new workload deployment in AWS. The 'innovation_momentum' is exceptionally high due to the deep integration of Generative AI across all business segments (Bedrock, Trainium/Inferentia, etc.). While demand is growing, there's a slight cautiousness regarding consumer spending on discretionary items. The 'qa_evasiveness' is low as management provided detailed, data-driven answers regarding AWS margins and international profitability. The 'management_consistency' is set to 0.5 as no prior quarter data was provided for comparison, but the execution of the regionalization strategy suggests high reliability."
+  },
+  "stats": {
+    "input_tokens": 11233,
+    "total_output_tokens": 424,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.541163880831895,
+    "time_to_first_token_seconds": 17.196
+  },
+  "timestamp": "2026-04-20 18:34:01"
+}

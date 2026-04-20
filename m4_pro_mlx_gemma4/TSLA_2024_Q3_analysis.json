@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 29.6,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.65,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "20% to 30% vehicle growth next year",
+      "Cybercab reaching volume production in ’26",
+      "most advanced humanoid robot by long shot",
+      "Tesla will become the most valuable company in the world",
+      "miles between critical interventions... 1000x improvement"
+    ],
+    "reasoning": "The sentiment is strongly positive, driven by Elon Musk's vision of an autonomous future (Cybercab, Optimus) and high confidence in AI technological breakthroughs. While automotive margins face pressure from incentives (pricing power is lower), the company pivots heavily toward AI and robotics as its primary value driver. The guidance for 20%–30% growth is optimistic but framed with caveats. Risk disclosure is minimal, focusing on regulatory hurdles rather than fundamental business threats. The QA session shows high confidence but some evasiveness regarding specific timelines for lower-cost models and hardware compatibility (HW3 vs HW4), which is typical for Tesla's visionary-led management. The 'management consistency' score is set to 0.5 as no prior quarter data was provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 14046,
+    "total_output_tokens": 452,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.850325627741626,
+    "time_to_first_token_seconds": 21.411
+  },
+  "timestamp": "2026-04-20 19:27:05"
+}

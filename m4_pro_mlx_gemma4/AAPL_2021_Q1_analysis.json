@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 35.48,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record of $111.4 billion",
+      "strong double-digit growth across every product category",
+      "installed base of active devices passed 1.65 billion",
+      "M1 chip groundbreaking innovation",
+      "services record of $15.8 billion"
+    ],
+    "reasoning": "The fiscal quarter was characterized by record-breaking financial performance across all segments, driven by strong demand for the iPhone 12 and the transition to M1 chips. Management exhibited high confidence, particularly regarding the growing installed base and services revenue. While they provided cautious forward guidance due to COVID-19 uncertainty and seasonal comparisons, the tone remained optimistic. The QA session was direct, with management providing specific details on mix, supply constraints, and market expansion (especially in China and India). The only slight drag on sentiment was the acknowledgment of supply constraints and the 'tougher year-over-year comparison' for services in the upcoming quarter."
+  },
+  "stats": {
+    "input_tokens": 11411,
+    "total_output_tokens": 417,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.1011317747477,
+    "time_to_first_token_seconds": 17.709
+  },
+  "timestamp": "2026-04-20 18:19:12"
+}

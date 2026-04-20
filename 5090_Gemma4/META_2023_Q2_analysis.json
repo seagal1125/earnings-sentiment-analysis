@@ -1,0 +1,34 @@
+{
+  "file": "META_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 11.95,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.8,
+      "pricing_power": -0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Reels annual revenue run-rate exceeding $10 billion",
+      "average price per ad decreased 16%",
+      "Reality Labs operating loss was $3.7 billion",
+      "Llama 2 open-source partnership with Microsoft",
+      "year of efficiency"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong engagement trends and the successful execution of the 'year of efficiency.' Management shows high confidence in their AI roadmap (Llama 2) and product innovation (Threads, Quest 3). However, there is notable pressure on pricing power as ad prices dropped 16% due to impression growth. While revenue guidance for Q3 is optimistic, the company faces significant long-term risks regarding Reality Labs losses and rising infrastructure costs. The transcript is highly quantitative, providing specific metrics on users, revenue, and expenses. CapEx enthusiasm is mixed: a short-term reduction in 2023 due to efficiency, but an aggressive planned ramp-up for AI in 2024."
+  },
+  "timestamp": "2026-04-20 14:46:22"
+}

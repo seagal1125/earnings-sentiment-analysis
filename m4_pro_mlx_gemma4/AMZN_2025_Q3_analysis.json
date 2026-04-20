@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 23.6,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS reaccelerating to 20.2% year-over-year",
+      "Agentic AI and AgentCore infrastructure",
+      "Trainium2 is fully subscribed",
+      "Expanding capacity to double by 2027",
+      "Full funnel advertising approach"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the reacceleration of AWS and significant breakthroughs in AI (Agentic AI/AgentCore). Management shows extreme confidence, particularly regarding the ability to monetize massive capacity investments. The quantitative data is dense (revenue growth, chip counts, power capacity), providing high specificity. While there were significant one-time charges (FTC settlement and severance), management successfully framed these as non-recurring, maintaining a strong growth narrative. The focus on custom silicon (Trainium) and AI agents suggests a powerful competitive moat and high innovation momentum. The only slight drag on the score is the risk of massive CapEx requirements, though this is framed as an 'unusual opportunity' rather than a burden."
+  },
+  "stats": {
+    "input_tokens": 10631,
+    "total_output_tokens": 430,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.35750155136835,
+    "time_to_first_token_seconds": 15.94
+  },
+  "timestamp": "2026-04-20 18:37:20"
+}

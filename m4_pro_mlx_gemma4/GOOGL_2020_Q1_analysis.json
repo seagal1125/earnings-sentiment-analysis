@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 19.77,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.1,
+      "demand_strength": -0.2,
+      "pricing_power": 0.1,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "abrupt decline in March",
+      "digital transformation",
+      "slowing the pace of hiring",
+      "optimizing within each area",
+      "early signs of users returning to more commercial behavior"
+    ],
+    "reasoning": "The sentiment is slightly negative due to the unprecedented impact of COVID-19, specifically the 'abrupt decline' in advertising revenue during March. However, management maintains a high confidence score by pivoting the narrative toward long-term digital transformation and AI. The forward guidance is cautious/uncertain, as management repeatedly warns against extrapolating a few weeks of data to a full quarter. Quantitative specificity is moderate, providing clear breakdown of the March dip versus Jan/Feb strength. The competitive moat and innovation momentum remain high as they frame the crisis as an accelerator for cloud and digital shifts. Management's decision to slow hiring shows a pragmatic approach to cost optimization without sacrificing long-term investment."
+  },
+  "stats": {
+    "input_tokens": 7926,
+    "total_output_tokens": 406,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.21183460416361,
+    "time_to_first_token_seconds": 12.635
+  },
+  "timestamp": "2026-04-20 18:38:06"
+}

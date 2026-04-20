@@ -1,0 +1,35 @@
+{
+  "file": "META_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 32.62,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.2,
+      "pricing_power": -0.4,
+      "competitive_moat": 0.5,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "transition to short-form video",
+      "signal loss resulting from Apple's iOS changes",
+      "macroeconomic trends",
+      "AI infrastructure",
+      "monetization of Reels",
+      "privacy-enhancing technologies"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to significant headwinds mentioned by management, including Apple's privacy changes (ATT), the war in Ukraine, and macroeconomic softness. However, management maintains a confident long-term stance, particularly regarding AI and the Metaverse. The CFO provided high quantitative specificity with detailed revenue and expense breakdowns. Risk disclosure was high, explicitly addressing signal loss and geopolitical impacts. While there was some evasiveness regarding the exact timing of Reels monetization and the specific impact of TikTok, the management team focused heavily on their 'Discovery Engine' and AI innovation as a way to build a long-term competitive moat. Capex remains high due to infrastructure investments, though they are adjusting hiring/expense growth in response to revenue headwinds."
+  },
+  "timestamp": "2026-04-20 12:53:37"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "META_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 32.32,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI will be our biggest investment area in 2024",
+      "Reels is now net neutral to overall company ad revenue",
+      "highest operating margin in two years",
+      "achieving a multi-billion dollar annual run-rate for Click-to-WhatsApp ads",
+      "increased depreciation expenses in 2024"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by robust revenue growth (23% YoY) and significant progress in AI integration. Management shows high confidence in their long-term AI and Metaverse roadmap, though they are transparent about the 'volatility' of the macro environment and geopolitical risks. Quantitative specificity is very high with detailed segment and regional data provided. While demand for ads remains strong (especially from China), pricing power is under pressure due to increased ad impressions and lower average price per ad. Capex enthusiasm is high as they prepare for massive AI infrastructure expansion, despite some recent shifts in data center architecture. Management consistency is rated 0.5 as no prior quarter's specific guidance was provided for direct comparison."
+  },
+  "timestamp": "2026-04-20 12:56:51"
+}

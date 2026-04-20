@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2024_Q4.txt",
+  "status": "success",
+  "duration_seconds": 24.34,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS annualized revenue run rate of $115 billion",
+      "generative AI-infused",
+      "cost to serve on a per-unit basis",
+      "once-in-a-lifetime type of business opportunities",
+      "accelerate robotics and automation"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record-setting revenue and operating income. Management shows extreme confidence in the long-term value of AI, particularly within AWS (the 'bottom layer' of the stack) and retail automation. While there are significant capital expenditures ($26.3B in Q4), management frames this as a strategic necessity to capture the AI opportunity rather than mere maintenance. The guidance is cautiously optimistic, accounting for FX headwinds and leap-year adjustments. Risk disclosure is low, primarily focused on macroeconomic factors and supply chain constraints (power/chips) which are framed as temporary growth inhibitors rather than structural threats. The QA session was direct, with management providing specific use cases for AI (e.g., Rufus, customer service chatbots) to justify their technological momentum."
+  },
+  "stats": {
+    "input_tokens": 10877,
+    "total_output_tokens": 441,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.000681342327916,
+    "time_to_first_token_seconds": 16.439
+  },
+  "timestamp": "2026-04-20 18:36:06"
+}

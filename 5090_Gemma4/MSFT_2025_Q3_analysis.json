@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 11.4,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "AI capacity constraints beyond June",
+      "Azure growth driven by non-AI services",
+      "cost per token has more than halved",
+      "short power and space"
+    ],
+    "reasoning": "The earnings call was exceptionally positive, characterized by record revenue and significant growth in Cloud and AI segments. Management demonstrated high confidence, specifically regarding the long-term scaling laws of AI, despite acknowledging immediate supply/capacity constraints for power and data center space. The transcript is highly quantitative, providing specific growth percentages and user counts across all major business units. While there were mentions of risks (inventory levels in Windows OEM and capacity constraints), they were framed within a context of strong demand rather than fundamental business weakness. The QA session was direct, with the CFO explicitly correcting analyst assumptions regarding the drivers of Azure's outperformance."
+  },
+  "timestamp": "2026-04-20 14:53:28"
+}

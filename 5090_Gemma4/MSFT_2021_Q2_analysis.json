@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 10.47,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.0,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record quarter",
+      "dawn of a second wave of digital transformation",
+      "Azure revenue grew 50%",
+      "double-digit top and bottom line growth",
+      "supply... significantly exceeded supply"
+    ],
+    "reasoning": "The earnings call was exceptionally positive, characterized by record-breaking revenue and significant growth in key segments like Azure (50% growth) and Gaming. Management demonstrated extremely high confidence, using precise quantitative data to back up claims of market leadership. While they noted some risks such as FX volatility and supply constraints for Xbox hardware, the overall tone regarding digital transformation and AI/Cloud momentum was highly aggressive and optimistic. The QA session was direct, with executives providing detailed explanations for segment-specific trends without evasion."
+  },
+  "timestamp": "2026-04-20 14:49:52"
+}

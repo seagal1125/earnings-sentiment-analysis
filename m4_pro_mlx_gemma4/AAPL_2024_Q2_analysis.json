@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 25.7,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.15,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.5,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Generative AI opportunity",
+      "all-time revenue record in services",
+      "one-time impact of $5 billion",
+      "low-single-digits growth guidance",
+      "net cash-neutral goal"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While iPhone revenue saw a double-digit decline, management successfully contextualized this as a result of a $5 billion one-time inventory replenishment impact from the previous year, making the underlying performance appear flat. Services continue to be a massive growth engine with record revenues. Management shows high confidence in their AI strategy and the 'installed base' as a moat, though they were somewhat evasive regarding specific AI monetization details and China-specific headwinds. The guidance for the next quarter is conservative (low-single-digit growth), but the company's massive cash position and share buyback program provide a strong financial cushion. The tension between declining hardware revenue in certain segments and growing services/AI potential is the central theme."
+  },
+  "stats": {
+    "input_tokens": 11666,
+    "total_output_tokens": 424,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.22143679434125,
+    "time_to_first_token_seconds": 17.999
+  },
+  "timestamp": "2026-04-20 18:26:24"
+}

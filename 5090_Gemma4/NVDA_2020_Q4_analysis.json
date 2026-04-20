@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 12.51,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI breakthroughs",
+      "Inference is a substantial part of our business",
+      "End of Dennard scaling",
+      "Reduced Q1 revenue outlook by $100 million due to coronavirus",
+      "Every query on the Internet will be accelerated"
+    ],
+    "reasoning": "The company reported record Data Center revenue and strong Gaming growth, driven by AI (inference/training) and RTX technology. While the long-term sentiment is extremely optimistic regarding the 'new computing era' and technological moat (CUDA), the short-term forward guidance was tempered by a specific $100M reduction due to the emerging COVID-19 impact. Management demonstrated high transparency in Q&A, directly addressing supply chain and China-specific risks."
+  },
+  "timestamp": "2026-04-20 14:54:34"
+}

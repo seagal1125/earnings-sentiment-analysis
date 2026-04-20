@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 18.6,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.9,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.6,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "major surge in customer demand",
+      "gut-wrenching and unprecedented",
+      "$4 billion or more in Q2 costs",
+      "digital transformation",
+      "essential products"
+    ],
+    "reasoning": "The call reflects a unique period of extreme demand volatility due to the COVID-19 pandemic. While demand was 'explosive' for essential goods, it created massive operational headwinds and significant cost increases (projected $4B in Q2), leading to a cautious but resilient tone. Management showed high confidence in their ability to scale and handle the crisis, though they were transparent about the uncertainty of timing for a return to 'normal' operations. The sentiment is slightly positive due to demand strength but tempered by the massive, unpredictable cost spikes and operational disruptions. AWS remains a strong pillar of growth and stability."
+  },
+  "stats": {
+    "input_tokens": 8154,
+    "total_output_tokens": 331,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.652602635864206,
+    "time_to_first_token_seconds": 12.812
+  },
+  "timestamp": "2026-04-20 18:29:14"
+}

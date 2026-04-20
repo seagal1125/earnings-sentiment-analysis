@@ -1,0 +1,34 @@
+{
+  "file": "META_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 14.71,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.9,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "48% year-over-year increase",
+      "average price per ad increased 30%",
+      "Quest 2 is doing better than we expected",
+      "decelerate sequentially",
+      "iOS 14 changes"
+    ],
+    "reasoning": "The company reported exceptional Q1 growth with revenue up 48% and ad revenue up 46%, driven by strong advertiser demand and a 30% increase in average price per ad. Management shows high confidence in long-term pillars (AR/VR, Commerce, Creators). However, the forward guidance is cautious, explicitly warning of sequential deceleration in H2 2021 due to lapping pandemic-driven highs and regulatory headwinds from Apple's iOS 14. The transcript is highly quantitative with specific metrics provided for users, revenue, and expenses."
+  },
+  "timestamp": "2026-04-20 14:44:18"
+}

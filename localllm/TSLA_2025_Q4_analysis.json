@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 28.54,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "amazing abundance",
+      "massive investments in AI chips",
+      "transitioning fully to a subscription-based model",
+      "CapEx in excess of $20 billion",
+      "Tesla TerraFab",
+      "intelligence density per gigabyte"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by Elon Musk's vision of 'abundance' through AI and robotics. Management shows extreme confidence in their technological lead (AI efficiency) and long-term strategy, despite acknowledging massive capital expenditure requirements (over $20B). The forward guidance is aggressive regarding the shift to autonomy and Optimus production. While there is significant risk disclosure regarding geopolitical tensions and supply chain constraints for chips/memory, management presents these as reasons for their vertical integration (TerraFab) rather than deterrents. Quantitative specificity is high with clear figures on margins, energy revenue growth, and CapEx targets. The only slight negative is the mention of margin compression due to subscription model transitions and low-cost competition in the energy sector."
+  },
+  "timestamp": "2026-04-20 13:37:47"
+}

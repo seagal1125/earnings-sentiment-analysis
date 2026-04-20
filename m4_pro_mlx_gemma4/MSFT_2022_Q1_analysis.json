@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.16,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Microsoft Cloud quarterly revenue surpassing $20 billion",
+      "digital technology is a deflationary force in an inflationary economy",
+      "building Azure as the world's computer",
+      "demand continues to exceed supply",
+      "strategic investments to support our customers success"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record-breaking cloud revenue and strong demand across all segments. Management demonstrates extreme confidence in their 'digital fabric' strategy, particularly with Azure and the integration of AI. While there are minor risks mentioned regarding supply chain constraints (PC/Xbox) and the volatility of large Azure contracts, these are treated as manageable operational hurdles rather than structural threats. The quantitative data provided is dense and supports the growth narrative. The transition from on-premises to cloud (hybrid) is framed as a strength rather than a loss of legacy revenue. The only slight dampener is the 'management_consistency' score (set to 0.5 as no prior quarter data was provided) and the slight margin compression due to strategic CapEx and mix shifts, but these are clearly explained as investments for future growth."
+  },
+  "stats": {
+    "input_tokens": 12374,
+    "total_output_tokens": 448,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.57767137903921,
+    "time_to_first_token_seconds": 19.182
+  },
+  "timestamp": "2026-04-20 19:01:51"
+}

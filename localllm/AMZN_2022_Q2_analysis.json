@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2022_Q2.txt",
+  "status": "success",
+  "duration_seconds": 22.87,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.5,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.7
+    },
+    "key_phrases": [
+      "improvement in many of our key operational metrics",
+      "inflationary pressures remained at elevated levels",
+      "slowed our 2022 and 2023 operations expansion plans",
+      "AWS continues to grow at a fast pace",
+      "net loss of $2 billion... includes a pretax valuation loss of $3.9 billion from Rivian"
+    ],
+    "reasoning": "The overall sentiment is slightly positive but cautious, as management highlights strong revenue growth (10% YoY) and AWS strength, while simultaneously navigating significant macroeconomic headwinds like inflation and FX volatility. Confidence is moderate; while they are confident in long-term cloud adoption, the CFO uses conservative language regarding the 'difficult macroeconomic state.' Forward guidance is slightly bearish due to expected cost increases in AWS (infrastructure/energy) and the impact of Prime Day timing. Risk disclosure is moderate, focusing on inflation and labor costs. Quantitative specificity is high, with detailed breakdowns of CapEx, revenue, and FX impacts. The company is actively pivoting its CapEx strategy from fulfillment expansion to technology infrastructure (AWS)."
+  },
+  "timestamp": "2026-04-20 12:31:53"
+}

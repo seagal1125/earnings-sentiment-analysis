@@ -1,0 +1,35 @@
+{
+  "file": "META_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 12.25,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "major AI acceleration",
+      "personal superintelligence",
+      "MetaCompute",
+      "agentic coding tools",
+      "massive infrastructure investment",
+      "glasses are the ultimate incarnation"
+    ],
+    "reasoning": "The call is characterized by extreme optimism regarding AI's transformative potential ('personal superintelligence') and a massive, aggressive expansion in capital expenditure ($115B-$135B for 2026). Revenue growth remains very strong (+25% YoY), driven by ad performance. While the CFO provided highly specific financial metrics and guidance, the CEO was intentionally vague/evasive regarding long-term ROI and specific product timelines, labeling his answers as potentially 'unfulfilling'. Risk disclosure was moderate, focusing primarily on EU regulatory headwinds and legal expenses."
+  },
+  "timestamp": "2026-04-20 14:48:36"
+}

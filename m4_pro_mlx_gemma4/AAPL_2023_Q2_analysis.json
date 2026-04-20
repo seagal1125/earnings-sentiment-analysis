@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 25.3,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.4,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time record for Services",
+      "March quarter record for iPhone",
+      "foreign exchange headwinds",
+      "installed base of active devices continued to grow",
+      "emerging markets... incredible excitement"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While year-over-year revenue declined due to macroeconomic headwinds and foreign exchange (FX) issues, the company achieved record-breaking results in Services and specific geographic segments (emerging markets). Management shows high confidence, particularly regarding the growing installed base of over 2 billion devices. The forward guidance is conservative (predicting similar performance to the previous quarter), but it's framed within a context of managing through macro volatility. The company demonstrates strong competitive moat and innovation momentum, especially in the transition to Apple Silicon and expansion of services. QA was direct, with management providing specific data on market share and user metrics to address analyst concerns about demand destruction versus deferral."
+  },
+  "stats": {
+    "input_tokens": 11025,
+    "total_output_tokens": 411,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.75457847200849,
+    "time_to_first_token_seconds": 17.775
+  },
+  "timestamp": "2026-04-20 18:24:40"
+}

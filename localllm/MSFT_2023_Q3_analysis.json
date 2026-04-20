@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 30.21,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-powered",
+      "Azure OpenAI Service",
+      "generational shift",
+      "relative performance",
+      "cloud engineering efficiencies",
+      "driving operating leverage"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by the massive momentum in AI and Azure growth (27% in constant currency). Management shows extreme confidence in their 'relative performance' strategy, emphasizing that while some customers are optimizing costs, Microsoft is capturing new workloads via AI. The CapEx enthusiasm is high due to necessary infrastructure build-out for AI. Quantitative specificity is excellent, with detailed segment revenue and margin figures provided by the CFO. Risk disclosure is low, focused mainly on FX and macro optimization trends. The only slight downward pressure noted was in the Windows OEM/Devices segment due to elevated channel inventory."
+  },
+  "timestamp": "2026-04-20 13:08:56"
+}

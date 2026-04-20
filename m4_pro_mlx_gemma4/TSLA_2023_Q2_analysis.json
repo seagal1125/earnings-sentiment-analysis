@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.22,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "quasi-infinite demand",
+      "10x better than human",
+      "game of pennies",
+      "investment in core technologies",
+      "autonomy will make all of these numbers look silly"
+    ],
+    "reasoning": "The sentiment is cautiously optimistic, driven by high confidence in long-term AI and autonomy (FSD/Optimus) which management views as a massive value driver. While short-term macro risks (interest rates) and production downtimes in Q3 are acknowledged, the tone remains aggressive regarding technological leadership. The 'pricing power' score is lower due to recent price cuts to maintain volume, but 'innovation momentum' and 'competitive moat' are exceptionally high due to the focus on Dojo, FSD, and vertical integration. The 'qa_evasiveness' is low as they provided specific data on 4680 cells and energy, though Musk occasionally deflects granular financial questions to focus on the 'big picture'."
+  },
+  "stats": {
+    "input_tokens": 12499,
+    "total_output_tokens": 418,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.73145989563951,
+    "time_to_first_token_seconds": 18.747
+  },
+  "timestamp": "2026-04-20 19:24:46"
+}

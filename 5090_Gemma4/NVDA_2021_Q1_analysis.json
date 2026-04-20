@@ -1,0 +1,33 @@
+{
+  "file": "NVDA_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 26.89,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "era of data center scale computing",
+      "A100 is in full production",
+      "RTX and ray tracing is just a home run",
+      "Mellanox acquisition... immediately accretive"
+    ],
+    "reasoning": "The transcript reflects an exceptionally strong performance in Data Center (+80% YoY) and Gaming, driven by the structural shift toward AI and the COVID-19 pandemic's impact on remote work/learning. While management acknowledges a significant near-term decline in Automotive revenue (~40%), they offset this with high confidence in the Mellanox integration and the Ampere architecture's ability to capture new markets in edge AI and cloud computing. The tone is highly optimistic, characterized by aggressive technological expansion and a robust software ecosystem."
+  },
+  "timestamp": "2026-04-20 14:55:00"
+}

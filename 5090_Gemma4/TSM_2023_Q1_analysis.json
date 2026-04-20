@@ -1,0 +1,35 @@
+{
+  "file": "TSM_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 15.64,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": -0.2,
+      "demand_strength": 0.3,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "inventory adjustment",
+      "bottom of the cycle",
+      "N3 technology",
+      "AI-related demand",
+      "prudent capital spending",
+      "structural growth"
+    ],
+    "reasoning": "TSMC is currently navigating a cyclical downturn, evidenced by declining QoQ revenue and margin pressure due to macroeconomic headwinds and prolonged semiconductor inventory corrections. The near-term guidance remains cautious with expected declines in Q2. However, management maintains high confidence in their technological moat (N3/N2) and identifies AI as a significant long-term structural driver. While CapEx is being managed more prudently in the short term to mitigate uncertainty, the company's commitment to advanced nodes remains strong. The Q&A session showed typical professional avoidance regarding specific competitor comparisons and CHIPS Act details, but provided high quantitative transparency regarding technology revenue splits and financial targets."
+  },
+  "timestamp": "2026-04-20 16:16:55"
+}

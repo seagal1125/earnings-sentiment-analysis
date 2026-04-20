@@ -1,0 +1,41 @@
+{
+  "file": "META_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.13,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.5,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "2.6 billion people now use one or more of our apps each day",
+      "Apple as one of our biggest competitors",
+      "iOS 14 changes... will no longer be able to reach their customers with targeted ads",
+      "Quest 2 is on track to be the first mainstream virtual reality headset",
+      "tougher comps in the back half of the year"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, driven by strong Q4 results and massive user scale (2.6B DAUs). Management shows high confidence in their long-term vision (Metaverse/AR/VR) and product innovation, evidenced by the successful launch of Quest 2. However, the forward guidance tone is tempered by significant headwinds: specifically the 'tougher comps' in 2H 2021 and the looming impact of Apple's iOS 14 privacy changes (IDFA), which management explicitly identifies as a competitive threat and an advertising headwind. The company is in a transition phase from social media to a computing platform, leading to high capex and R&D intensity. Quantitative data is highly specific, providing clear metrics on user growth, revenue, and expense breakdown."
+  },
+  "stats": {
+    "input_tokens": 13539,
+    "total_output_tokens": 467,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.18197988851679,
+    "time_to_first_token_seconds": 20.779
+  },
+  "timestamp": "2026-04-20 18:48:56"
+}

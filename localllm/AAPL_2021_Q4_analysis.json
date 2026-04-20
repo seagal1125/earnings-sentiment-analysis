@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.61,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "robust demand",
+      "supply constraints",
+      "all-time record",
+      "chip shortages",
+      "services growth",
+      "installed base"
+    ],
+    "reasoning": "The overall sentiment is highly positive due to record-breaking revenue and growth across all product categories, despite significant supply chain headwinds. Management shows high confidence in the long-term ecosystem and demand, though they are cautious about near-term supply constraints (estimating a larger impact than $6B for the next quarter). The guidance tone is mixed: while demand remains 'robust', the company explicitly warns of worsening supply constraints and potential margin compression due to new product launch costs. Quantitative specificity is very high with detailed revenue, margin, and subscription figures provided. Risk disclosure focuses primarily on macro-level supply chain issues (silicon shortages/COVID) rather than competitive threats. QA was direct, though management avoided sharing specific subscriber counts for individual services (TV+, etc.) to protect proprietary data."
+  },
+  "timestamp": "2026-04-20 12:20:37"
+}

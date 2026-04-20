@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 30.34,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "critical inflection point",
+      "real-world AI",
+      "unsupervised full self-driving",
+      "infinite money glitch",
+      "sustainable abundance",
+      "AI five chip will be 40 times better"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by Elon Musk's extreme confidence in 'real-world AI', Optimus, and the upcoming AI 5 chip. Management shows very high confidence (using phrases like '100% confident'). Forward guidance is aggressive regarding production expansion and Robotaxi deployment. While there are mentions of risks (tariffs, regulatory hurdles, and Musk's personal voting control), the intensity is low compared to the technological optimism. Quantitative specificity is moderate, with clear figures on delivery growth (e.g., China up 33%) and FSD mileage. Capex enthusiasm is at a maximum, with explicit plans to increase spending substantially in 2026 for AI initiatives. The only significant drag on sentiment is the mention of tariff impacts ($400M) and the tension regarding corporate governance/compensation."
+  },
+  "timestamp": "2026-04-20 13:37:18"
+}

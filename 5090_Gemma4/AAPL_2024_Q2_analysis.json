@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 12.66,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.7,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "all-time revenue record in services",
+      "bullish about Generative AI",
+      "spatial computing",
+      "net cash-neutral target",
+      "iPhone revenue flat when adjusted for one-time impact"
+    ],
+    "reasoning": "Apple reported a record EPS and strong Services growth (14%) despite a slight decline in total revenue caused by difficult year-over-year comparisons in iPhone and iPad. Management demonstrated high confidence, particularly regarding the GenAI opportunity and the expansion of the installed base. While they acknowledged macroeconomic headwinds and competition in China, the tone remained optimistic, supported by highly specific quantitative data and a clear strategy for capital return (additional $110B buyback authorization). Evasiveness was low, limited only to strategic non-disclosure regarding upcoming AI features and EU regulatory impacts."
+  },
+  "timestamp": "2026-04-20 14:31:43"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 14.52,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2021,
+    "fiscal_pattern": 2,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Ampere architecture",
+      "A100 GPU",
+      "Mellanox acquisition integration",
+      "data center-scale computing",
+      "full-stack computing platform"
+    ],
+    "reasoning": "The transcript shows extraordinary growth in Data Center (+167% YoY) and Gaming segments, driven by the Ampere architecture launch and the structural shift toward AI/Cloud. Management (Jensen Huang) displays extreme confidence in their 'full-stack' moat and technological leadership, specifically regarding AI and networking integration with Mellanox. While there are declines in Automotive and Pro Vis due to pandemic-related disruptions, management frames these as temporary or part of a larger transition to cloud-based workflows. The QA session was highly transparent, with deep technical detail provided on architecture and supply chain. Quantitative data density is very high, providing specific revenue, margin, and growth percentages."
+  },
+  "timestamp": "2026-04-20 14:55:15"
+}

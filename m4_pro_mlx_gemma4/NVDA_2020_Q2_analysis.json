@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 24.02,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.75,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "RTX is doing great",
+      "AI is the single most powerful technology force of our time",
+      "broad-based growth in data centers",
+      "RTX Studio laptops... deliver performance that’s up to 7x faster than that of the MacBook Pro",
+      "the wave of AI is going from the cloud to the enterprise to the edge"
+    ],
+    "reasoning": "The management demonstrates high confidence in their technological leadership, particularly regarding the transition to RTX and the massive potential of AI. While year-on-year revenue was down (reflecting a transitional period), sequential growth and the 'normalization' of gaming suggest a recovery. The data center segment shows strong qualitative momentum in AI training and inference, offsetting weakness in specific hyperscale customers. The competitive moat is highlighted through the CUDA ecosystem and hardware-software integration. Risk disclosure was minimal, focusing on seasonal fluctuations rather than structural threats. The QA session was direct, with management providing detailed strategic context for their growth drivers."
+  },
+  "stats": {
+    "input_tokens": 11128,
+    "total_output_tokens": 425,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.38028768294751,
+    "time_to_first_token_seconds": 16.537
+  },
+  "timestamp": "2026-04-20 19:09:21"
+}

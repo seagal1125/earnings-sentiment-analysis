@@ -1,0 +1,35 @@
+{
+  "file": "META_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 31.48,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.3,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.5,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "revenue headwinds",
+      "Apple's iOS 14 changes",
+      "metaverse investment",
+      "retooling for young adults",
+      "AI and machine learning capabilities",
+      "Facebook Reality Labs"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to significant revenue headwinds from Apple's privacy changes (ATT) and macroeconomic uncertainties. However, management shows high confidence in their long-term roadmap, particularly regarding the Metaverse and AI. The forward guidance is cautious/pessimistic, explicitly forecasting a deceleration in revenue growth and increased expenses for 2022. CapEx enthusiasm is extremely high as they are aggressively investing in infrastructure and AI to offset signal loss. While there is significant risk disclosure regarding competition (TikTok) and platform changes, the management provides highly specific quantitative data regarding user metrics and financial outlooks."
+  },
+  "timestamp": "2026-04-20 12:52:32"
+}

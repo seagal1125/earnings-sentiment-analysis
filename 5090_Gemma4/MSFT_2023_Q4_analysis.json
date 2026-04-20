@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 10.45,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.75,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.85,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI platform shift",
+      "Azure AI momentum",
+      "CapEx acceleration",
+      "Cloud optimization headwinds",
+      "Copilot productivity gains",
+      "Microsoft Fabric"
+    ],
+    "reasoning": "The call reflects high optimism regarding the 'AI platform shift' and significant momentum in Azure AI and Copilot adoption. Management demonstrated extremely high confidence and provided a wealth of specific quantitative data (e.g., Cloud revenue, seat growth, customer counts). While there are acknowledged headwinds such as cloud optimization trends and lower advertising spend in certain segments, the tone remains expansionary, particularly evidenced by the explicit commitment to accelerate capital expenditures to meet AI demand. The Q&A session was highly transparent with direct answers regarding margins and CapEx."
+  },
+  "timestamp": "2026-04-20 14:51:48"
+}

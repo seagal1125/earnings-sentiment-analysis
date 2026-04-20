@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 29.18,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.6,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record production, deliveries and surpassed $1 billion in non-GAAP net income",
+      "demand is the best we have ever seen",
+      "achieving positive gross margin in the first quarter of production [Model Y Shanghai]",
+      "long-term growth of 50% annually",
+      "Dojo will be probably in order of magnitude more efficient"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by record financial results and unprecedented demand. Management shows extreme confidence in AI (Dojo) and future vehicle models, though they acknowledge significant supply chain headwinds and the difficulty of scaling production. While there was some minor evasiveness regarding specific product announcements (e.g., $25k car), the CFO provided substantial quantitative detail on margins and cash flow. The risk disclosure is moderate, focusing primarily on supply chain and manufacturing complexity rather than macro-economic threats."
+  },
+  "timestamp": "2026-04-20 13:27:47"
+}

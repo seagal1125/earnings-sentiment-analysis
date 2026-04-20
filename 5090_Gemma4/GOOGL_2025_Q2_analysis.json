@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 11.43,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Cloud annual revenue run rate more than $50 billion",
+      "CapEx increase from $75 billion to $85 billion",
+      "AI Overviews 2 billion monthly users",
+      "Google Cloud revenue increased by 32%",
+      "Agentic search and Gemini 2.5 expansion"
+    ],
+    "reasoning": "The call reflects an extremely strong quarter with robust growth in Search, YouTube, and particularly Cloud (32% growth). Management is highly confident, explicitly increasing CapEx guidance from $75B to $85B to meet 'explosive' AI demand, signaling aggressive expansion. While there are mentions of supply constraints in Cloud and legal settlement charges, the overall tone is dominated by technological breakthroughs (Gemini 2.5, Veo 3) and massive user scale. The transcript is exceptionally dense with specific KPIs and financial metrics."
+  },
+  "timestamp": "2026-04-20 14:42:42"
+}

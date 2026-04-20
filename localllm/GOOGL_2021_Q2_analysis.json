@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 21.28,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "rising tide of online consumer and business activity",
+      "MUM (Multitask Unified Models)",
+      "aggressive investment in compute capacity",
+      "strong growth in Google Cloud",
+      "expanding YouTube e-commerce opportunity"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record-breaking revenue growth (62% YoY) and strong performance in Search and YouTube. Management shows high confidence, particularly regarding AI advancements (MUM) and Cloud expansion. While forward guidance contains some caution regarding the 'lapping' of easy COVID-era comps and FX headwinds, the tone remains optimistic about long-term structural shifts. Quantitative specificity is very high with detailed segment breakdowns provided by the CFO. Capex enthusiasm is high as they are increasing investment in servers and infrastructure. The only slight downward pressure on scores comes from the recognition of potential headwinds in the second half of the year due to base effects (lapping 2020 growth)."
+  },
+  "timestamp": "2026-04-20 12:40:14"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 27.42,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.1,
+      "qa_evasiveness": 0.0,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "moving from talking about AI to applying AI at scale",
+      "Azure AI advantage",
+      "GitHub Copilot revenue accelerated to over 40%",
+      "AI-first position",
+      "massive market opportunity"
+    ],
+    "reasoning": "The call reflects an exceptionally strong quarter driven by the successful integration of AI across Microsoft's tech stack, particularly in Azure and GitHub. Management displays extremely high confidence (CEO Satya Nadella's vision vs. CFO Amy Hood's operational detail) and provides highly specific quantitative data to back up growth claims. The forward guidance is optimistic, focusing on the transition from 'training' to 'inference' as a massive revenue driver. While there is significant capital expenditure (CapEx) for AI infrastructure, it is framed as a strategic necessity to meet explosive demand rather than a cost burden. Risk disclosure was minimal, focused mostly on standard macroeconomic and integration factors (Activision). The QA session was direct, with management providing deep technical and strategic insights without evasion."
+  },
+  "stats": {
+    "input_tokens": 13136,
+    "total_output_tokens": 425,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.37978808969742,
+    "time_to_first_token_seconds": 19.808
+  },
+  "timestamp": "2026-04-20 19:05:53"
+}

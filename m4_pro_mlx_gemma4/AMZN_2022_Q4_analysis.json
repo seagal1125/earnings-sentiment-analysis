@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 22.7,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.1,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.4,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "optimization efforts will continue to be a headwind to AWS growth",
+      "reducing our cost to serve",
+      "difficult decision to eliminate just over 18,000 roles",
+      "customer focus is in our DNA",
+      "strategic investments that we believe can meaningfully change broad customer experiences"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company faced significant headwinds in Q4 (impairments, severance costs, and AWS growth deceleration due to customer cost-optimization), management demonstrated high confidence in their long-term strategic pivot. The score reflects a transition period: they are aggressively streamlining costs (layoffs, closing low-growth stores) to fund long-term innovation (AI/Cloud, Kuiper, Healthcare). AWS growth is clearly under pressure from macro-economic 'optimization' trends, which acts as a drag on the forward guidance. However, the competitive moat remains strong due to the scale of their logistics and the stickiness of Prime. Quantitative specificity was high, with detailed breakdowns of charges and revenue segments."
+  },
+  "stats": {
+    "input_tokens": 9824,
+    "total_output_tokens": 435,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.51202029372579,
+    "time_to_first_token_seconds": 14.841
+  },
+  "timestamp": "2026-04-20 18:32:54"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 33.38,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.85,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "structural increase in underlying semiconductor demand",
+      "mid-to-high 20s percent growth in 2022",
+      "technology leadership will enable TSMC to capture the strong demand",
+      "strategic, not opportunistic pricing",
+      "capacity to remain tight throughout 2022"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong revenue growth and the structural megatrends of 5G and HPC. Management shows extreme confidence in their technology leadership (moat) and ability to outgrow the broader foundry market. CapEx is aggressively high ($40B-$44B) to capture future growth, reflecting high enthusiasm. While there are minor risks mentioned (inflation, supply chain, complexity), they are overshadowed by demand strength. The QA session was direct, though management avoided specific quantitative breakdowns for certain segments (like exact HPC growth percentages) to protect strategic interests. Management consistency is set at 0.5 as no prior year guidance was provided for comparison, but the internal logic of their growth projections is consistent."
+  },
+  "stats": {
+    "input_tokens": 16174,
+    "total_output_tokens": 442,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.861455716643434,
+    "time_to_first_token_seconds": 25.229
+  },
+  "timestamp": "2026-04-20 19:33:30"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "META_2025_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.38,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "frontload building capacity",
+      "annual run rate of over $50 billion (Reels)",
+      "annual run rate... passed $60 billion (AI-powered ad tools)",
+      "superintelligence",
+      "compute starved state"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong user growth (3.5B daily actives) and the successful integration of AI into core advertising and recommendation engines. Management shows extreme confidence in their 'frontloading' strategy for compute/AI infrastructure, viewing high CapEx as a strategic necessity rather than just an expense. While there is significant capital expenditure planned for 2026 (which could be seen as a risk), the leadership frames this as capturing a generational paradigm shift. The company demonstrates strong quantitative specificity regarding revenue run rates and user engagement metrics. Risk disclosure is present but handled as a strategic trade-off (e.g., regulatory headwinds and compute overinvestment). The QA session was direct, with management providing clear strategic rationales for their aggressive investment posture."
+  },
+  "stats": {
+    "input_tokens": 12301,
+    "total_output_tokens": 432,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.80824166548087,
+    "time_to_first_token_seconds": 18.722
+  },
+  "timestamp": "2026-04-20 18:57:35"
+}

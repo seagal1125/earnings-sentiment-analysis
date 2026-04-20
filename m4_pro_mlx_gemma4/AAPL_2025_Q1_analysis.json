@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.16,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue records",
+      "Apple Intelligence is a breakthrough",
+      "installed base of 2.35 billion active devices",
+      "services revenue reached an all-time record",
+      "favorable mix and leverage"
+    ],
+    "reasoning": "The company reported record-breaking revenue and EPS, driven by strong iPhone sales and an expanding Services business. Management expressed high confidence in the 'Apple Intelligence' rollout as a catalyst for future upgrades and market expansion. While there are noted headwinds in China (channel inventory issues) and upcoming FX headwinds, the overall tone is highly optimistic regarding product innovation and ecosystem strength. The QA session was direct, with management providing specific data on user segments (upgraders vs. new users) and regional performance. The high score in innovation momentum reflects the strategic pivot toward AI-integrated hardware."
+  },
+  "stats": {
+    "input_tokens": 11422,
+    "total_output_tokens": 391,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.90298063389186,
+    "time_to_first_token_seconds": 18.008
+  },
+  "timestamp": "2026-04-20 18:27:39"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 14.55,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record revenue in both Data Center and Gaming",
+      "Data Center has become our largest market platform",
+      "H100 is the world's largest, most powerful accelerator",
+      "AI factories where you're processing the data... turning that data into intelligence",
+      "automotive design win pipeline now exceeds $11 billion"
+    ],
+    "reasoning": "NVIDIA reported record-breaking revenue growth (46% YoY), driven by massive demand in Data Center and Gaming. While management explicitly disclosed significant macro headwinds (Russia/Ukraine war and China COVID lockdowns) leading to a projected sequential decline in Gaming for Q2, the long-term sentiment remains highly optimistic due to the 'AI factory' narrative and next-gen hardware (H100, Grace). The management team demonstrated high transparency with specific quantitative impacts of macro risks and provided direct, non-evasive answers during the Q&A session. Innovation momentum is at a peak with advancements in Transformers, Omniverse, and Robotics."
+  },
+  "timestamp": "2026-04-20 14:57:01"
+}

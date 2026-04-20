@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 20.48,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "demand remained elevated throughout Q2",
+      "$4 billion of COVID-related expenses",
+      "accelerated Prime member growth",
+      "AWS is now a $43 billion annualized run rate business",
+      "significant fulfillment and transportation capacity expansion"
+    ],
+    "reasoning": "The overall sentiment is positive due to explosive demand growth and record-breaking revenue that exceeded guidance, despite significant COVID-related headwinds. Management shows high confidence in their ability to scale capacity (CapEx enthusiasm is very high, with a 65% YoY increase). While demand strength is massive (0.9), pricing power is noted as a secondary factor due to the shift toward lower-margin consumables and safety items. The risk disclosure is moderate, primarily focused on pandemic-related operational costs and labor. QA was direct, with management providing specific data points (e.g., AWS run rate, headcount growth) to address analyst concerns about normalization and capacity. The 'forward guidance' is cautiously optimistic, acknowledging that while demand is high, the transition to a new capacity-heavy structure will impact short-term profitability."
+  },
+  "stats": {
+    "input_tokens": 8508,
+    "total_output_tokens": 442,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.500017613933565,
+    "time_to_first_token_seconds": 12.65
+  },
+  "timestamp": "2026-04-20 18:29:34"
+}

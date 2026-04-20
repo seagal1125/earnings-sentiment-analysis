@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 25.19,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "digital tech intensity is key to business resilience",
+      "Azure as the world's computer",
+      "breakthrough in AI",
+      "record engagement and monetization",
+      "secular tailwinds"
+    ],
+    "reasoning": "The call reflects a highly successful quarter driven by the acceleration of digital transformation (work-from-home trends). Management shows extreme confidence in their 'modern technology stack' (Cloud + AI). While there is some mention of SMB weakness and advertising headwinds, the overall tone is dominated by massive growth in Azure, Teams, and Gaming. The strategic shift toward AI (OpenAI/GPT-3) and the expansion of the cloud footprint provide a strong competitive moat. The only slight drag is the volatility in consumer/SMB segments and the transition of the user base, but these are framed as temporary or strategic shifts rather than structural failures."
+  },
+  "stats": {
+    "input_tokens": 11948,
+    "total_output_tokens": 395,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.945490906139405,
+    "time_to_first_token_seconds": 18.188
+  },
+  "timestamp": "2026-04-20 18:59:41"
+}

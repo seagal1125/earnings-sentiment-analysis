@@ -1,0 +1,34 @@
+{
+  "file": "META_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 15.27,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": -0.1,
+      "confidence_score": 0.4,
+      "forward_guidance_tone": -0.8,
+      "risk_disclosure_intensity": 0.9,
+      "qa_evanciveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": -0.4,
+      "demand_strength": 0.3,
+      "pricing_power": -0.8,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "significant impact on our business as a consequence of the pandemic",
+      "average price per ad decreased 16%",
+      "not providing specific revenue guidance for the second quarter or full year 2020",
+      "surge in video and voice calling",
+      "reduction in CapEx... reflects a significant decrease in our construction efforts"
+    ],
+    "reasoning": "The call is characterized by extreme macro uncertainty due to COVID-19. While user engagement metrics (DAU/MAU) and usage of communication tools are surging, the advertising business faced a sharp decline in price per ad (-16%) and demand in key verticals like travel and auto during late Q1. Management's refusal to provide forward guidance for Q2 or FY2020 is a significant negative signal for predictability, despite their high confidence in long-term product innovation (AR/VR, WhatsApp commerce). Risk disclosure is very high as they explicitly address economic fallout and regulatory headwinds."
+  },
+  "timestamp": "2026-04-20 14:43:24"
+}

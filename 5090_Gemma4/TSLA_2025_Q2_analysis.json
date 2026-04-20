@@ -1,0 +1,35 @@
+{
+  "file": "TSLA_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 11.17,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Robotaxi launch in Austin",
+      "10x FSD parameter count increase",
+      "IRA EV credit repeal impact",
+      "Optimus production scale-up",
+      "AI5 chip development",
+      "Tariff-related cost increases"
+    ],
+    "reasoning": "The call presents a stark dichotomy: extreme technological optimism regarding autonomy (Robotaxi, FSD V12/V13) and robotics (Optimus Gen 3) contrasted with significant macroeconomic and regulatory headwinds. Elon Musk exhibits high confidence in Tesla's AI superiority ('best in the world at real-world AI'), but CFO Vaibhav Taneja provides a sobering outlook on near-term financial pressures, specifically the repeal of the $7,500 IRA tax credit, rising tariff costs ($300M impact), and regulatory hurdles in Europe/China. While innovation momentum is at a peak with clear hardware/software roadmaps (AI5, Dojo 2), the forward guidance is tempered by warnings of 'rough quarters' due to shifting incentive landscapes."
+  },
+  "timestamp": "2026-04-20 16:13:15"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 24.79,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.4,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "most challenging global environment",
+      "unmatched capacity to be creative",
+      "lack of visibility and uncertainty in the near term",
+      "enduring strength of our business",
+      "we will not be issuing guidance for the coming quarter"
+    ],
+    "reasoning": "The sentiment is cautiously optimistic despite the unprecedented impact of COVID-19. Management shows high confidence in long-term business durability and the strength of the installed base, but they explicitly withheld forward guidance due to extreme macro uncertainty, leading to a slightly negative guidance tone. The call is characterized by high quantitative specificity (detailed revenue breakdowns) and low evasiveness, as management directly addressed the impact of lockdowns on supply and demand. While product revenue saw a dip due to retail closures and China supply issues, the growth in Services and the 'all-time high' installed base provide a strong competitive moat. The decision to not provide guidance is the primary reason for the cautious outlook."
+  },
+  "stats": {
+    "input_tokens": 10791,
+    "total_output_tokens": 410,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.13320176030298,
+    "time_to_first_token_seconds": 17.338
+  },
+  "timestamp": "2026-04-20 18:17:51"
+}

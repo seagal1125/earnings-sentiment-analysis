@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 30.19,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "double digit revenue growth",
+      "new June quarter revenue record of $81.4 billion",
+      "supply constraints during the September quarter will be greater",
+      "early innings of 5G",
+      "installed base of active devices to a new all-time record"
+    ],
+    "reasoning": "The overall sentiment is highly positive due to record-breaking revenue and double-digit growth across all segments. Management shows high confidence, particularly regarding the ecosystem strength and 5G potential. However, forward guidance tone is slightly tempered by explicit warnings about increased supply constraints in the upcoming quarter and a normalization of services growth. Quantitative specificity is very high with detailed margins, revenue figures, and growth percentages provided. Risk disclosure is moderate, focusing primarily on supply chain and macro uncertainty (COVID/FX). QA was direct, though Tim Cook occasionally used 'we're not predicting' to avoid specific long-term forecasts."
+  },
+  "timestamp": "2026-04-20 12:20:07"
+}

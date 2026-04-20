@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 10.67,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.3,
+      "demand_strength": 0.3,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-first company",
+      "reengineering our cost base",
+      "macroeconomic climate has become more challenging",
+      "path to profitability",
+      "technical infrastructure investment"
+    ],
+    "reasoning": "The call presents a dichotomy between short-term macroeconomic headwinds and long-term AI optimism. While management acknowledged significant pressures in advertising revenue (pullbacks in spend) and currency (FX headwinds), they displayed high confidence in their technological moat, specifically regarding Generative AI (LaMDA, PaLM). The tone is heavily focused on 'cost reengineering'—a euphemism for disciplined spending and workforce reductions—to offset the macro volatility. Quantitative detail was high, particularly regarding Cloud growth (32%) and cost-related charges ($1.2B inventory charge), though forward guidance remained cautious due to the ongoing economic climate."
+  },
+  "timestamp": "2026-04-20 14:40:26"
+}

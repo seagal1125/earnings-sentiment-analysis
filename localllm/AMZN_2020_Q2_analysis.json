@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 23.28,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.6,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "significant increase in customer demand",
+      "$4 billion of COVID-related expenses",
+      "$9.4 billion in CapEx",
+      "online grocery sales tripled year-over-year",
+      "AWS is now a $43 billion annualized run rate business"
+    ],
+    "reasoning": "The overall sentiment is positive due to explosive demand growth and strong top-line performance, despite significant COVID-19 related cost headwinds ($4B). Management shows high confidence in their ability to scale capacity, evidenced by a massive 65% YoY increase in CapEx and a planned 50% increase in fulfillment square footage. While risk disclosure is high due to the pandemic's uncertainty, the company demonstrates strong demand strength (grocery tripling, Prime engagement) and innovation momentum (AWS growth, Zoox). The only notable weakness is pricing power/margin pressure, as lower-margin consumables and increased shipping costs impacted gross margins by 200 bps. QA was direct, though management occasionally pivoted to safety priorities when discussing shipping delays."
+  },
+  "timestamp": "2026-04-20 12:29:00"
+}

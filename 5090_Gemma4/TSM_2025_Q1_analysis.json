@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 16.06,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.95,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.9
+    },
+    "key_phrases": [
+      "AI accelerators revenue to double in 2025",
+      "CoWoS capacity doubling",
+      "gross margin dilution from overseas fabs",
+      "US$165 billion total investment in Arizona",
+      "N2 tape-outs exceeding N3 and N5"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by explosive AI demand and strong Q2 revenue guidance (+38% YoY), which offsets the seasonal smartphone dip and earthquake impact. Management shows high confidence and quantitative specificity, providing detailed CapEx and technology roadmaps (N2, A16). However, forward guidance tone is tempered by explicit warnings regarding gross margin dilution (up to 3-4%) due to higher overseas manufacturing costs and potential tariffs. Risk disclosure is moderate, focusing on geopolitical/tariff uncertainties and cost inflation. Pricing power is being actively managed through discussions with customers to reflect value and offset expansion costs. The company's competitive moat remains extremely strong due to technological leadership in advanced nodes."
+  },
+  "timestamp": "2026-04-20 16:19:01"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 12.44,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.3,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.9
+    },
+    "key_phrases": [
+      "significant increase in customer demand",
+      "$4 billion of COVID-related expenses",
+      "$9.4 billion in CapEx and finance leases",
+      "online grocery sales tripled year-over to year",
+      "AWS $43 billion annualized run rate"
+    ],
+    "reasoning": "The earnings call reflects a period of extreme demand volatility driven by the COVID-19 pandemic. While revenue and operating income significantly exceeded guidance due to 'explosive' demand in groceries and consumables, the company faced massive operational headwinds, including $4 billion in pandemic-related costs and productivity losses. Management demonstrated high confidence in their long-term infrastructure scaling, evidenced by a 65% YoY increase in CapEx and a planned 50% increase in fulfillment network square footage. Quantitative specificity was very high, with clear disclosures on headcount, cost structures, and AWS run rates. However, the forward guidance tone is tempered by the recognition of decelerating growth rates in Q3 compared to the Q2 surge and the ongoing challenge of maintaining shipping speeds (one-day/two-day) while prioritizing employee safety."
+  },
+  "timestamp": "2026-04-20 14:33:25"
+}

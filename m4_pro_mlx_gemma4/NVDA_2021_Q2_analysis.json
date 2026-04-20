@@ -1,0 +1,41 @@
+{
+  "file": "NVDA_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 24.63,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.1,
+      "qa_evasiveness": 0.05,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "extraordinary quarter",
+      "A100 is the largest chip ever made",
+      "data center-scale company",
+      "the future is going to be more virtual, more digital",
+      "transformative announcement for the automotive industry"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance driven by the gaming and data center segments, particularly with the launch of the Ampere architecture. Management displays extremely high confidence, framing current growth not as a pandemic fluke but as a structural shift toward AI and cloud computing. The integration of Mellanox is highlighted as a key driver for data center dominance. While there are minor headwinds in automotive and professional visualization, the overall tone is one of aggressive expansion and technological leadership. The transition from a chip maker to a 'data center-scale company' is the central strategic theme. Quantitative data provided by the CFO was highly specific, supporting the strong growth narrative."
+  },
+  "stats": {
+    "input_tokens": 11397,
+    "total_output_tokens": 409,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.929581530123144,
+    "time_to_first_token_seconds": 17.362
+  },
+  "timestamp": "2026-04-20 19:11:08"
+}

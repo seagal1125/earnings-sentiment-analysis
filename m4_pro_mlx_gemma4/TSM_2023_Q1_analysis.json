@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 30.27,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": -0.3,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "inventory adjustment in first half '23 is taking longer than our prior expectation",
+      "passing through the bottom of the cycle in the second quarter",
+      "N3 demand exceeds our ability to supply",
+      "strategic and long term pricing",
+      "tighten up our capital spending where appropriate"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to the significant revenue decline and the realization that inventory corrections in the fabless segment are taking longer than expected. However, management maintains high confidence in their technological leadership (N3/N2) and long-term structural growth (AI/HPC). The forward guidance is cautious, reflecting a contraction in the first half of 2023. Quantitative specificity is high with detailed financial and capacity data. The competitive moat remains a core strength, as management emphasizes their leadership in advanced nodes to offset cyclical downturns. Management was direct in Q&A, though they carefully avoided specific competitor or subsidy details."
+  },
+  "stats": {
+    "input_tokens": 14234,
+    "total_output_tokens": 418,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.765679344134654,
+    "time_to_first_token_seconds": 22.67
+  },
+  "timestamp": "2026-04-20 19:36:03"
+}

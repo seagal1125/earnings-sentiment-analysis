@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.95,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.6,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record June quarter",
+      "supply constraints",
+      "foreign exchange headwinds",
+      "installed base of active devices reached an all-time high",
+      "revenue growth will accelerate during the September quarter"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic; while management reported record revenues, they heavily emphasized significant macroeconomic headwinds including FX (over 300 bps impact), inflation, and the situation in Russia. Confidence remains high regarding product ecosystem strength (98% customer satisfaction), but forward guidance is intentionally vague due to 'uncertainty,' though they expect revenue acceleration in the next quarter despite Services deceleration. Risk disclosure was moderate, focusing on macro and supply chain. Quantitative specificity was high with detailed revenue and margin figures provided by the CFO. Management showed strong defense of their competitive moat through ecosystem metrics (installed base/subscriptions) but was somewhat evasive regarding specific recessionary impacts on demand."
+  },
+  "timestamp": "2026-04-20 12:22:01"
+}

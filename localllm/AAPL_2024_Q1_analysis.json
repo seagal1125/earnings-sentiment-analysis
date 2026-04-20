@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.79,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.5,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.7,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue records",
+      "era of spatial computing",
+      "double-digit growth in emerging markets",
+      "installed base surpassed 2.2 billion",
+      "generative AI opportunity"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record-breaking revenue in Services and strong iPhone performance despite a difficult year-over-year comparison (due to an extra week last year). Management shows high confidence, particularly regarding the installed base and emerging markets. While there are headwinds in China (mid-single digit decline in constant currency) and potential FX pressure, the company's expansion into spatial computing (Vision Pro) and the strategic focus on AI provide strong innovation momentum. Quantitative specificity is very high with detailed revenue and margin figures provided by the CFO. The only slight caution comes from the 'difficult compares' in iPad and Wearables and the cautious approach to discussing specific GenAI details."
+  },
+  "timestamp": "2026-04-20 12:24:52"
+}

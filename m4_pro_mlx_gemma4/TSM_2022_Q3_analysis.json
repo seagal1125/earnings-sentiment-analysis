@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 29.44,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": -0.3,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": -0.2,
+      "demand_strength": 0.3,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "inventory correction in first half 2023",
+      "N3 demand exceeds our ability to supply",
+      "strategic and consistent pricing",
+      "tightening up capital spending",
+      "cyclical issue rather than structural"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While the company reports strong current performance (especially in 5nm and N3 demand), management is transparent about the significant headwinds expected in H1 2023 due to inventory corrections in the smartphone and PC sectors. Confidence remains high regarding technology leadership (N3/N2) and long-term growth (15-20% CAGR), which offsets the near-term cyclicality. CapEx was tightened from previous guidance to optimize capacity, reflecting a prudent approach to market uncertainty. Pricing power is defended through 'strategic and consistent' positioning rather than opportunistic hikes. The QA session shows management being direct about the cyclicality of N7/N6 while maintaining a strong moat through advanced node leadership."
+  },
+  "stats": {
+    "input_tokens": 14118,
+    "total_output_tokens": 425,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.63249053678645,
+    "time_to_first_token_seconds": 21.687
+  },
+  "timestamp": "2026-04-20 19:34:59"
+}

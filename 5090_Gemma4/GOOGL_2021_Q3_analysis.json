@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 10.37,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "revenue up 41%",
+      "GCP revenue growth rate about 45%",
+      "MUM is a thousand times more powerful than BERT",
+      "operating income was 21 billion, up 88%",
+      "uncertainty is the new normal"
+    ],
+    "reasoning": "The company demonstrated exceptional financial performance with massive year-over-year growth in both revenue (41%) and operating income (88%). Management showed high confidence in their AI-first strategy, specifically highlighting breakthroughs like MUM. While they acknowledged macro headwinds such as uneven global recovery and supply chain issues in the auto vertical, the tone remained overwhelmingly optimistic due to strong momentum in Cloud and YouTube. The QA session was direct, with management addressing specific concerns regarding Apple's iOS privacy changes (ATT) and margin fluctuations without significant evasion. Quantitative data density was extremely high throughout the call."
+  },
+  "timestamp": "2026-04-20 14:39:28"
+}

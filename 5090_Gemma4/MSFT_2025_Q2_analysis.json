@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2025_Q2.txt",
+  "status": "success",
+  "duration_seconds": 13.01,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.95,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Azure AI services grew 157% year-over-year",
+      "AI business annual revenue run rate surpassed $13 billion",
+      "demand continued to be higher than our available capacity",
+      "capacity constrained weeks matter",
+      "FX to decrease total revenue growth by two points",
+      "scaling our AI infrastructure"
+    ],
+    "reasoning": "The call reflects extremely strong performance in the AI and Cloud segments, with specific high-growth metrics (Azure AI +157%). Management shows high confidence in long-term scaling laws despite acknowledging near-term capacity constraints (power/space) and execution challenges in non-AI Azure services. The CapEx is aggressively expanding to meet demand. While there are clear FX headwinds mentioned for the upcoming quarter, the overall tone remains highly optimistic due to massive demand signals and innovation momentum in Copilot and AI agents. QA was direct, particularly regarding Azure's performance at the bottom end of guidance."
+  },
+  "timestamp": "2026-04-20 14:53:16"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "META_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 27.1,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "year of efficiency",
+      "build the most popular and most advanced AI products",
+      "aggressive investment in compute infrastructure",
+      "open-source software infrastructure",
+      "full general intelligence",
+      "monetization efficiency"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by the successful execution of the 'year of efficiency' which resulted in significant margin expansion and a return to growth. Management shows high confidence, particularly Mark Zuckerberg, regarding the transition from social media to an AI-centric company. The forward guidance is cautiously optimistic; while revenue growth remains strong, the massive increase in CapEx (up to $37B) and rising operating costs due to AI infrastructure are noted. Risk disclosure is moderate, primarily focusing on regulatory headwinds and the volatility of long-term tech investments. The company demonstrates high innovation momentum with a clear pivot toward AGI and smart glasses. Quantitative data was highly specific, providing clear guidance on revenue, expenses, and capital allocation. Management's consistency is high as they successfully delivered on the efficiency goals promised in previous periods."
+  },
+  "stats": {
+    "input_tokens": 12621,
+    "total_output_tokens": 440,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.587259083201005,
+    "time_to_first_token_seconds": 19.271
+  },
+  "timestamp": "2026-04-20 18:54:31"
+}

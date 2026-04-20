@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 19.98,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.7,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "accelerated the shift to cloud",
+      "rebound from the negative impact of COVID",
+      "investing ahead to making sure we are able to serve the customers globally",
+      "extraordinary opportunities we see",
+      "scale of the opportunity"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by a strong Q4 rebound and the successful transition of consumer behavior to online platforms. Management shows high confidence, particularly regarding Cloud growth and YouTube's evolving monetization. Forward guidance is cautiously optimistic; while they anticipate increased investment (CapEx) and hiring, they also acknowledge 'easier comps' in the upcoming year due to the 2020 pandemic baseline. The risk disclosure is low, primarily focused on COVID-19 uncertainty and macroeconomic shifts. Quantitative specificity is high, with detailed segment breakdowns provided by the CFO. The company demonstrates strong competitive moat and innovation momentum, especially in AI and Cloud infrastructure. Management consistency is marked as 0.5 as there was no prior quarter data provided for comparison."
+  },
+  "stats": {
+    "input_tokens": 8266,
+    "total_output_tokens": 431,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.3349098534464,
+    "time_to_first_token_seconds": 12.431
+  },
+  "timestamp": "2026-04-20 18:39:01"
+}

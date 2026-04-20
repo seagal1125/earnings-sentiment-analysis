@@ -1,0 +1,11 @@
+{
+  "file": "AMZN_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 13.18,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "{\"symbol\": \"AMZN\", \"fiscal_year\": 2022, \"fiscal_quarter\": 4, \"scores\": {\"overall_sentiment\": 0.1, \"confidence_score\": 0.75, \"forward_guidance_tone\": -0.3, \"risk_disclosure_intensity\": 0.6, \"qa_evasiveness\": 0.1, \"quantitative_specificity\": 0.9, \"capex_enthusiasm\": -0.2, \"demand_strength\": 0.3, \"pricing_power\": 0::0.2, \"competitive_moat\": 0.8, \"innovation_momentum\": 0.7, \"management_consistency\": 0.5}, \"key_phrases\": [\"cost to serve\", \"optimization efforts\", \"economic uncertainty\", \"inflationary pressures\", \"streamline our costs\", \"long-term strategic investments\"], \"reasoning\": \"The overall sentiment is slightly positive/neutral as the company reported revenue growth despite significant one-time charges and macroeconomic headwinds. Management showed high confidence in their long-term strategy but provided a cautious forward guidance, specifically noting AWS growth headwinds due to customer cost-optimization efforts in the near term. Risk disclosure was high, explicitly detailing layoffs (18k roles), impairments, and inflationary impacts. Quantitative specificity was very high with detailed revenue, margin, and investment figures. While retail capex/expansion is being streamlined for efficiency, innovation momentum remains strong through long-term bets like Kuiper and healthcare.\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 14:35:35"
+}

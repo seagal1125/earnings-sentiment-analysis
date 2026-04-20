@@ -1,0 +1,36 @@
+{
+  "file": "AAPL_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 12.24,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.7,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record June quarter revenue",
+      "supply constraints",
+      "foreign exchange headwinds",
+      "macroeconomic environment",
+      "installed base all-time high",
+      "M2 chip",
+      "Services revenue rose to $19.6 billion"
+    ],
+    "reasoning": "The company reported record revenues and strong growth in Services, driven by an all-time high installed base. However, management expressed significant caution regarding macroeconomic uncertainty, inflation, and substantial foreign exchange headwinds (projected 600 bps impact). While the tone regarding product innovation (M2 chip, iOS updates) is highly optimistic, the forward guidance was intentionally vague on revenue numbers due to global volatility. The QA session showed direct answers regarding margins and supply chains, though management avoided specific revenue forecasting for the upcoming quarter."
+  },
+  "timestamp": "2026-04-20 14:30:12"
+}

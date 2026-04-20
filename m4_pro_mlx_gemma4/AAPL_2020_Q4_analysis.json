@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 50.75,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.75,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.4,
+      "demand_strength": 0.85,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "resilient",
+      "once in a decade opportunity with 5G",
+      "supply constrained",
+      "strong double-digit growth",
+      "all-time high installed base"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record-breaking revenue and the successful launch of 5G-enabled iPhones despite COVID-19 disruptions. Management shows high confidence, particularly regarding the 'once in a decade' 5G cycle and growing services revenue. While supply constraints (especially for Mac, iPad, and Watch) are a noted risk, they are framed as a result of 'too much demand,' which mitigates the negative impact. The QA session was direct, with management providing specific growth figures and addressing macroeconomic concerns (China, US carrier subsidies) transparently. The transition to 5G and the expansion of the Services ecosystem are highlighted as key innovation drivers."
+  },
+  "stats": {
+    "input_tokens": 11648,
+    "total_output_tokens": 405,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.33822934077106,
+    "time_to_first_token_seconds": 18.881
+  },
+  "timestamp": "2026-04-20 18:20:31"
+}

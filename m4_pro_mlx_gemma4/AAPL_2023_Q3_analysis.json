@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 25.68,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.6,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record in Services",
+      "record for switchers",
+      "uneven macroeconomic environment",
+      "Apple Vision Pro is a marvel of engineering",
+      "iPhone and Services year-over-year performance to accelerate"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic. While hardware revenue (Mac and iPad) showed year-over-year declines due to difficult comparisons and supply chain timing, the Services segment is a massive growth engine with record-breaking performance. Management shows high confidence in their ecosystem and the 'switcher' metric, which indicates strong brand loyalty. The guidance for the next quarter is slightly mixed: iPhone and Services are expected to accelerate, but Mac and iPad will face double-digit declines due to seasonality/comparisons. The introduction of Vision Pro and the focus on AI (though not explicitly detailed as a primary driver) suggest strong innovation momentum. The QA session was direct, with management providing specific data to defend their position against macroeconomic concerns."
+  },
+  "stats": {
+    "input_tokens": 11216,
+    "total_output_tokens": 420,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.710803052348,
+    "time_to_first_token_seconds": 17.994
+  },
+  "timestamp": "2026-04-20 18:25:06"
+}

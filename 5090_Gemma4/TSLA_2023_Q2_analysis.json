@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 13.74,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.6,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "record revenue of about $25 billion",
+      "quasi-infinite demand",
+      "demand is so far off the hook",
+      "10x... increase in the value of the company",
+      "Q3 production will be a little bit down because we’ve got summer shutdowns"
+    ],
+    "reasoning": "The call reflects strong operational achievements (record revenue and Model Y success) and extreme long-term optimism regarding AI, Dojo, and Autonomy. However, there is clear short-term caution due to factory upgrades in Q3 and macroeconomic headwinds like high interest rates. Management shows high confidence in their technological moat but exhibits significant evasiveness when asked for specific near-term financial impacts (e.g., exact downtime costs or precise COGS targets), often redirecting to long-term valuation narratives. Pricing power is clearly under pressure as the company uses price cuts to maintain volume."
+  },
+  "timestamp": "2026-04-20 15:02:44"
+}

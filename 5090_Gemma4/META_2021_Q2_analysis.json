@@ -1,0 +1,35 @@
+{
+  "file": "META_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 14.33,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.9,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "revenue up 56%",
+      "average price per ad increased 47%",
+      "Metaverse",
+      "AI progress",
+      "iOS headwinds",
+      "deceleration in revenue growth"
+    ],
+    "reasoning": "The company demonstrated exceptional financial performance with 56% YoY revenue growth and a massive 47% increase in average ad price, signaling strong pricing power. Management's confidence is high regarding long-term strategy (Metaverse/AI), though they provided cautious forward guidance regarding H2 deceleration due to lapping high comps and iOS privacy changes. The call was highly quantitative and transparent about risks like regulatory shifts and infrastructure costs."
+  },
+  "timestamp": "2026-04-20 14:44:33"
+}

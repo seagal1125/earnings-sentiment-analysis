@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.25,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AWS grew 19.1% year-over-year",
+      "AI business is a multi-billion dollar revenue run rate business",
+      "operating income was $17.4 billion, up 56%",
+      "we expect to spend approximately $75 billion in CapEx in 2024",
+      "customers are looking for deals and are price conscious"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by massive operating income growth (56%) and AWS reacceleration. Management shows extreme confidence in AI as a 'once in a lifetime' opportunity, backed by aggressive CapEx plans ($75B). While there is some pressure on ASPs due to consumer price sensitivity, the company is offsetting this through logistics efficiency and robotics. The QA session was direct, with management addressing margin sustainability and capacity constraints head-on. The only slight drag is the 'pricing power' score, as they explicitly mentioned consumers are trading down to lower ASP items."
+  },
+  "timestamp": "2026-04-20 12:35:47"
+}

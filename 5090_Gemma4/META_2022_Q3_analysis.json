@@ -1,0 +1,34 @@
+{
+  "file": "META_2022_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.12,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.6,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.3,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.5,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "macroeconomic volatility",
+      "AI discovery engine",
+      "Reels monetization headwind",
+      "CapEx expansion for AI",
+      "year of efficiency/headcount flat"
+    ],
+    "reasoning": "The earnings call reflects a company in a difficult transition period. Sentiment is weighed down by clear macroeconomic headwinds, declining ad pricing (-18%), and the revenue headwind from Reels monetization ($500M). However, management shows high confidence in long-term product trends (Reels engagement) and maintains an aggressive CapEx stance for AI infrastructure. While they are being conservative with headcount and budgets ('efficiency'), the heavy investment in AI and the Metaverse suggests a high innovation momentum despite near-term revenue volatility."
+  },
+  "timestamp": "2026-04-20 14:45:42"
+}

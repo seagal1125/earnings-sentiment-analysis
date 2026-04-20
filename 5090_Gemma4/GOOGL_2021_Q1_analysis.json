@@ -1,0 +1,34 @@
+{
+  "file": "GOOGL_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 10.01,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong growth in Google Services revenues",
+      "YouTube advertising revenues of $6 billion up 49%",
+      "invest aggressively to support the extraordinary opportunities",
+      "too early to say how durable this consumer behavior will be",
+      "transformer breakthrough from our Google AI team"
+    ],
+    "reasoning": "The earnings call shows exceptional financial performance with high double-digit growth in revenue and operating income. Management exhibits high confidence in their long-term AI and Cloud strategy, specifically highlighting technical breakthroughs like BERT. While the sentiment is overwhelmingly positive due to strong demand in Search and YouTube, there is a notable layer of caution regarding the 'durability' of pandemic-driven consumer trends. Quantitative specificity is very high, with detailed segment-level breakdowns provided. Capex remains aggressive toward technical infrastructure (servers/AI) despite a slowdown in office expansion."
+  },
+  "timestamp": "2026-04-20 14:39:06"
+}

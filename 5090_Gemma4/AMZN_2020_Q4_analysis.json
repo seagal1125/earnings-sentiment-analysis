@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 12.53,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.8,
+      "forward_guidance_tone": 0.2,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Revenue was $125.6 billion versus our guidance range of $112 billion to $121 billion",
+      "AWS annualized run-rate business of $51 billion",
+      "total COVID-related costs for the year to more than $11.5 billion",
+      "square footage growing about 50% year-over-year in 2020",
+      "backlog stands at about $50 billion at the end of the year"
+    ],
+    "reasoning": "The company delivered a significant revenue beat and showed explosive growth in AWS and international segments. Management demonstrated high confidence in business fundamentals despite heavy COVID-related operational costs ($11.5B). While forward guidance is tempered by 'tougher comps' and pandemic uncertainty, the CapEx remains aggressive to support logistics expansion and AWS infrastructure. The transcript is exceptionally rich in quantitative data (revenue, growth rates, headcount, cost breakdowns)."
+  },
+  "timestamp": "2026-04-20 14:33:50"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 13.83,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue record",
+      "best ever for the company",
+      "supply constraints... given strong demand",
+      "I'm dodging the question intentionally",
+      "Apple Intelligence"
+    ],
+    "reasoning": "The earnings call is overwhelmingly positive, characterized by record-breaking revenue and EPS across multiple segments. Management provided very strong forward guidance, predicting the December quarter to be the 'best ever.' Innovation momentum is high due to the introduction of M5 chips and Apple Intelligence. While demand is described as 'tremendous,' there are notable supply constraints on iPhone models and rising tariff costs mentioned. A key highlight for analysts was the CEO's explicit admission of dodging a question regarding advertising revenue splits, indicating some strategic evasion during Q&A despite the overall transparency in financial reporting."
+  },
+  "timestamp": "2026-04-20 14:33:00"
+}

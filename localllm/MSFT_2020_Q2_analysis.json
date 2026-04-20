@@ -1,0 +1,35 @@
+{
+  "file": "MSFT_2020_Q2.txt",
+  "status": "success",
+  "duration_seconds": 28.3,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "double-digit top and bottom line growth",
+      "strength of our commercial cloud",
+      "differentiated tech stack",
+      "Azure revenue grew 62%",
+      "commercial bookings growth was ahead of expectations",
+      "carbon negative by 2030"
+    ],
+    "reasoning": "The call reflects an exceptionally strong quarter with significant double-digit growth across key segments, particularly Azure and Commercial Cloud. Management (CEO Satya Nadella and CFO Amy Hood) displayed extremely high confidence, using specific, impressive data points to back up claims of market leadership in AI, cloud, and developer tools. While there were minor mentions of risks (FX impact, China public health situation, and gaming console cycle transitions), the overall tone was overwhelmingly optimistic about long-term secular trends in digitization. The QA session was direct, with management providing detailed breakdowns of margin drivers and segment performance without significant evasion."
+  },
+  "timestamp": "2026-04-20 13:02:21"
+}

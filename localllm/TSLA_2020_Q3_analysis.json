@@ -1,0 +1,36 @@
+{
+  "file": "TSLA_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 32.33,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "best quarter in history",
+      "record free cash flow of $1.4 billion",
+      "batteries that cost half as much",
+      "manufacturing follows the S-curve",
+      "unprecedented demand across the globe",
+      "vertically integrated",
+      "making the machine that makes the machine"
+    ],
+    "reasoning": "The overall sentiment is extremely positive, driven by record-breaking financial metrics (revenue, net income, and free cash flow). Management shows exceptionally high confidence, particularly Elon Musk, regarding long-term manufacturing advantages and battery technology. Forward guidance is optimistic with increased CapEx planned to support expansion in Berlin and Austin. While there is a slight signal of pricing pressure (Musk explicitly mentioned the need for affordability), this is offset by strong demand in the Energy segment and massive innovation momentum in FSD and 4680 cells. Risk disclosure was low, focused mainly on manufacturing complexity rather than macro threats. The only neutral score is management consistency due to lack of prior quarter comparison data."
+  },
+  "timestamp": "2026-04-20 13:26:47"
+}

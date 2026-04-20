@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.09,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.95,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "rate of innovation and the speed of diffusion is unlike anything we have seen",
+      "demand remains higher than supply",
+      "we currently expect to remain capacity-constrained through the first half of our fiscal year",
+      "compounding S curves across silicon, systems and models",
+      "massive scale"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance with record revenue and growth in Azure (34%) and Microsoft Cloud. Management displays extreme confidence, particularly Satya Nadella, regarding AI's role as a generational shift. While CapEx is increasing significantly ($30B+ for Q1), management justifies this through massive contracted backlog ($368B) and high demand signals. The only slight 'negative' or cautious note is the mention of capacity constraints (supply not meeting demand) and margin pressure from AI infrastructure scaling, but these are framed as opportunities rather than risks. Quantitative specificity was very high with detailed segment and product metrics provided."
+  },
+  "timestamp": "2026-04-20 13:13:34"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "META_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 26.18,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama 3.1 as an inflection point",
+      "AI-driven engagement growth",
+      "significant CapEx growth in 2025",
+      "business messaging revenue acceleration",
+      "open source ecosystem strategy"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong revenue growth (22% YoY) and the successful integration of AI into core products. Management shows extreme confidence in their AI roadmap, particularly with Llama and the potential for 'AI agents' to drive future monetization. CapEx is aggressively increasing to support compute needs, which management justifies through long-term strategic value. While there are risks regarding regulatory headwinds and the high cost of GenAI investment, the company's ability to deliver immediate ROI through core ad improvements provides a strong buffer. The QA session was direct, with management providing specific strategic justifications for their massive capital expenditures."
+  },
+  "stats": {
+    "input_tokens": 12791,
+    "total_output_tokens": 400,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.56328119157686,
+    "time_to_first_token_seconds": 19.041
+  },
+  "timestamp": "2026-04-20 18:55:24"
+}

@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 15.19,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.95,
+      "confidence_score": 0.98,
+      "forward_guidance_tone": 0.9,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.85,
+      "competitive_moat": 0.95,
+      "innovation_momentum": 1.0,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "AI factories",
+      "Sovereign AI",
+      "Demand outstrips our supply",
+      "Blackwell is in full production",
+      "Next industrial revolution"
+    ],
+    "reasoning": "NVIDIA delivered an exceptional Q1 with revenue up 262% YoY, significantly beating guidance. Management's tone was extremely bullish, emphasizing that demand for H200 and Blackwell exceeds supply well into next year. The transition to 'AI factories' and the emergence of 'Sovereign AI' represent massive new market drivers. While there is a noted risk regarding China export controls, the company's full-stack integration (software, networking, and silicon) provides a formidable competitive moat. The QA session was direct, with the CEO providing specific timelines for Blackwell shipments and addressing competition by highlighting the TCO advantages of their ecosystem."
+  },
+  "timestamp": "2026-04-20 14:58:45"
+}

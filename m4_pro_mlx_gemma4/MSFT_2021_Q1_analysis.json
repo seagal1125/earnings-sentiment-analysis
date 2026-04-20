@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2021_Q1.txt",
+  "status": "success",
+  "duration_seconds": 26.56,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "commercial cloud revenue grew 31%",
+      "Azure revenue grew 48% in constant currency",
+      "distributed computing fabric",
+      "early innings",
+      "digital transformation acceleration"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance driven by the rapid acceleration of digital transformation and cloud adoption (Azure). Management displays high confidence, particularly regarding the 'early innings' of AI and cloud infrastructure. While there are mentions of headwinds like transactional weakness and tough year-over-year comparables (due to Windows 7 end of support), the overall tone is highly optimistic. The transition from legacy software to cloud-based subscription models (Office 365/E5) is a key driver of growth and moat. Quantitative data was abundant, showing clear segment-level strength. The only slight drag on sentiment is the volatility in bookings due to large contract timing and the impact of accounting changes, but these are treated as manageable operational nuances rather than structural risks."
+  },
+  "stats": {
+    "input_tokens": 12466,
+    "total_output_tokens": 420,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.63964750861124,
+    "time_to_first_token_seconds": 19.079
+  },
+  "timestamp": "2026-04-20 19:00:07"
+}

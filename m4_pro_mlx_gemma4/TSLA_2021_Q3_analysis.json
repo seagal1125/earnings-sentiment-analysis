@@ -1,0 +1,42 @@
+{
+  "file": "TSLA_2021_Q3.txt",
+  "status": "success",
+  "duration_seconds": 26.83,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.15,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.9,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "annualized production run rate of over 1 million cars",
+      "target annual growth rate of 50%",
+      "auto gross margins reached 30.5% on a GAAP basis",
+      "backlogs are continuing to grow",
+      "Dojo... substantially faster training computer",
+      "the best service is no service"
+    ],
+    "reasoning": "The overall sentiment is strongly positive, driven by record-breaking financial metrics and massive demand (backlogs growing despite price adjustments). Management shows high confidence in their ability to scale, targeting 50% annual growth. While they acknowledge significant headwinds (supply chain, logistics, and new factory ramp-up costs), the tone remains optimistic about long-term margins. The QA session was direct, though management carefully managed expectations regarding the 'unknown unknowns' of new factory ramps and FSD timelines. Quantitative data was robust, particularly regarding production rates and margins. The primary risks identified are supply chain volatility and the capital-intensive nature of scaling new factories (Austin/Berlin), but these are framed as necessary for growth."
+  },
+  "stats": {
+    "input_tokens": 12571,
+    "total_output_tokens": 442,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.625986973365336,
+    "time_to_first_token_seconds": 18.945
+  },
+  "timestamp": "2026-04-20 19:21:40"
+}

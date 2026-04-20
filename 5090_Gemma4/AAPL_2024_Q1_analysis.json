@@ -1,0 +1,35 @@
+{
+  "file": "AAPL_2024_Q1.txt",
+  "status": "success",
+  "duration_seconds": 11.87,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_density": 0.9,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 0.7,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time revenue records",
+      "2.2 billion active devices",
+      "era of spatial computing",
+      "double-digit growth in Services",
+      "iPhone 15... gold standard",
+      "China Mainland... down mid-single digits"
+    ],
+    "reasoning": "The company reported a very strong Q1 with record EPS and Services revenue, driven by an expanding installed base. While there are headwinds in China (mid-single digit decline in mainland iPhone revenue) and regulatory challenges in the EU (DMA), management's tone remains highly confident, pivoting to emerging markets and new product categories like Vision Pro. Quantitative specificity was high throughout the call. Forward guidance is cautious due to FX headwinds and difficult year-over-year comparisons, but maintains a positive trajectory for Services."
+  },
+  "timestamp": "2026-04-20 14:31:30"
+}

@@ -1,0 +1,41 @@
+{
+  "file": "GOOGL_2021_Q2.txt",
+  "status": "success",
+  "duration_seconds": 19.47,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "rising tide of online consumer and business activity",
+      "bet on AI",
+      "MUM (Multitask Unified Models)",
+      "significant growth in both infrastructure and platform services",
+      "invest aggressively"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong quarter with record-breaking revenue growth across Google Services and Cloud. Management displays high confidence, particularly regarding AI integration (MUM) and the expansion of YouTube's e-commerce capabilities. While there is a slight caution regarding the 'lapping' of pandemic-driven growth and FX headwinds, the overall tone is one of aggressive expansion and technological leadership. The quantitative data provided by the CFO was highly specific, showing massive YoY growth in Search and YouTube. The QA session was direct, with management providing clear strategic justifications for their investments. The only minor drag on sentiment is the acknowledgment of uneven global recovery and the transition from pandemic-era growth levels."
+  },
+  "stats": {
+    "input_tokens": 8403,
+    "total_output_tokens": 408,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.85265416990764,
+    "time_to_first_token_seconds": 12.37
+  },
+  "timestamp": "2026-04-20 18:39:39"
+}

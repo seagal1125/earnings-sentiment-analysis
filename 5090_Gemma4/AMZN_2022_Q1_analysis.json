@@ -1,0 +1,35 @@
+{
+  "file": "AMZN_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 12.87,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.7,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": -0.3,
+      "demand_strength": 0.7,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "inflationary pressures",
+      "excess capacity",
+      "rightsizing cost structure",
+      "AWS growth",
+      "net loss due to Rivian valuation",
+      "fixed cost deleverage"
+    ],
+    "reasoning": "The sentiment is slightly positive but heavily weighed down by significant cost headwinds. While AWS and advertising show strong growth (37% and 25% respectively) and management insists consumer demand remains strong, the company is facing a massive $6 billion incremental cost increase due to inflation, labor productivity issues, and excess fulfillment capacity. Management is being very transparent about these risks and the impact of the Ukraine war on fuel costs. CapEx for the consumer side is being reduced to 'rightsize' the network, though AWS infrastructure investment remains a priority. The QA session was highly direct with management providing specific figures regarding cost pressures and labor transitions."
+  },
+  "timestamp": "2026-04-20 14:34:56"
+}

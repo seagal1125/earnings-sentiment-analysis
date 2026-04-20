@@ -1,0 +1,41 @@
+{
+  "file": "AMZN_2022_Q1.txt",
+  "status": "success",
+  "duration_seconds": 19.87,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.1,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": -0.3,
+      "demand_strength": 0.5,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "excess capacity in our fulfillment and transportation network",
+      "inflationary pressures have added approximately $2 billion of incremental costs",
+      "we've seen a large cost to keep up with demand these past two years",
+      "AWS net sales were $18.4 billion in Q1, up 37% year-over-year",
+      "we've brought down our build expectations"
+    ],
+    "reasoning": "The overall sentiment is slightly positive but tempered by significant cost headwinds. Management reports strong demand and AWS growth, yet faces a massive 'cost bubble' from over-expansion during the pandemic (excess capacity and labor issues). The guidance is cautious due to inflation and a shift in Prime Day timing. Confidence remains high regarding the business model, but the tone is defensive regarding margins. Quantitative specificity is very high, with detailed breakdowns of cost buckets ($6B total incremental costs). The primary tension is between strong top-line growth/innovation and the struggle to rightsize the massive operational footprint built during 2020-2021."
+  },
+  "stats": {
+    "input_tokens": 8006,
+    "total_output_tokens": 438,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.02080214653124,
+    "time_to_first_token_seconds": 12.171
+  },
+  "timestamp": "2026-04-20 18:31:53"
+}

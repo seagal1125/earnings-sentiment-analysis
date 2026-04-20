@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 34.75,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.4,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.3,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "inventory adjustment",
+      "N3 fully utilized",
+      "AI-related demand upside",
+      "bottom of the cycle",
+      "strategic pricing"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to declining revenues (-18.7% seq) and softening end-market demand (smartphone/PC), with management explicitly stating inventory adjustments are taking longer than expected. However, confidence remains high regarding long-term technology leadership (N3/N2). Forward guidance is cautious, forecasting further revenue declines in Q2. Risk disclosure is moderate, focusing on macro uncertainty and utility costs. QA shows some evasiveness when discussing competitors, market share numbers, and CHIPS Act specifics. Quantitative specificity is high with detailed margin and revenue breakdown. Capex remains robust ($32B-$36B) despite 'tightening' language, driven by long-term structural growth (AI). Pricing power signals are strong via the mention of 'selling value' and geographic flexibility. Innovation momentum is very high due to N3/N3E/N2 progress and AI tailwinds."
+  },
+  "timestamp": "2026-04-20 13:45:33"
+}

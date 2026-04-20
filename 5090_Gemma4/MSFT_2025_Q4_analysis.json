@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 14.85,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.9,
+      "confidence_score": 0.95,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.95,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "Azure revenue up 34%",
+      "Microsoft Cloud surpassed $168 billion",
+      "Commercial bookings over $100 billion",
+      "Demand remains higher than supply",
+      "CapEx to be over $30 billion in Q1"
+    ],
+    "reasoning": "The earnings call was exceptionally strong, characterized by record-breaking growth in Azure (34%) and Microsoft Cloud. Management demonstrated high confidence, directly linking massive CapEx increases to a significant contracted backlog ($368B RPO). The quantitative specificity was extremely high, with detailed breakdowns of segment performance and user metrics. While there is aggressive capital expenditure, it is framed as a necessary response to demand that exceeds supply. The transition from simple AI models to 'agentic' workflows shows strong innovation momentum."
+  },
+  "timestamp": "2026-04-20 14:53:43"
+}

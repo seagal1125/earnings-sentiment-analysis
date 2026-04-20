@@ -1,0 +1,34 @@
+{
+  "file": "MSFT_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 30.83,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "two years' worth of digital transformation in two months",
+      "surge demand",
+      "structural changes",
+      "secular shift",
+      "capital efficiency"
+    ],
+    "reasoning": "The overall sentiment is highly positive due to the massive acceleration in cloud and collaboration tools (Teams) driven by COVID-19. Management shows high confidence, specifically highlighting how their integrated stack positions them for long-term structural shifts. While there are risks mentioned regarding advertising spend slowdowns and supply chain constraints, the focus remains on 'surge demand'. Quantitative specificity is very high with detailed segment revenue, user counts (e.g., 75M daily Teams users), and margin percentages. Forward guidance is cautiously optimistic; while they expect continued cloud growth, they warn of volatility in new deals and a slowdown in LinkedIn advertising due to the weak job market. CapEx enthusiasm is high as they plan to increase investment to meet demand."
+  },
+  "timestamp": "2026-04-20 13:02:52"
+}

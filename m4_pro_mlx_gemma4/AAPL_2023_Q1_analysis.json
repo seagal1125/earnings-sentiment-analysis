@@ -1,0 +1,41 @@
+{
+  "file": "AAPL_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 25.62,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": -0.1,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.1,
+      "demand_strength": 0.4,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "revenue was down 5% year-over-year",
+      "more than 2 billion active devices",
+      "challenging macroeconomic environment",
+      "supply shortages for iPhone 14 Pro",
+      "services set an all-time revenue record"
+    ],
+    "reasoning": "The overall sentiment is slightly positive despite a 5% YoY revenue decline, which was largely attributed to external factors like FX headwinds (800 bps) and COVID-related supply constraints. Management shows high confidence in the long-term ecosystem (2 billion active devices) and services growth, which acts as a buffer. Forward guidance is cautious/neutral due to macroeconomic uncertainty and double-digit declines expected in Mac and iPad. The QA session was direct, with management providing specific context on supply chain recovery and emerging market growth (India). The core strength lies in the installed base and services, while the primary risks are macro headwinds and component-related volatility."
+  },
+  "stats": {
+    "input_tokens": 10877,
+    "total_output_tokens": 411,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 55.77465875578484,
+    "time_to_first_token_seconds": 18.095
+  },
+  "timestamp": "2026-04-20 18:24:15"
+}

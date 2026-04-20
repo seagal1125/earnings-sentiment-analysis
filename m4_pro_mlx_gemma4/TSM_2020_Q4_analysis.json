@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2020_Q4.txt",
+  "status": "success",
+  "duration_seconds": 31.44,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "strong demand for our 5 nanometer technology",
+      "HPC-related applications",
+      "10% to 15% CAGR target",
+      "50% gross margin is reasonable and achievable",
+      "higher level of inventory to ensure supply security"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by strong demand in 5nm and the emerging HPC sector. Management shows extreme confidence in their technological leadership (N3/N5) and long-term growth targets, which were revised upward. CapEx is aggressively high ($25B-$28B) to capture future growth, reflecting an expansionary stance. While there is some risk disclosure regarding supply chain shifts and macro uncertainty, it is overshadowed by the strength of their competitive moat. The QA session shows management being firm on financial targets (50% gross margin) while remaining somewhat evasive regarding specific customer names or exact 2022 growth details, which is typical for a leader in a sensitive industry. The shift from smartphone-centric to HPC/Automotive growth is a key strategic highlight."
+  },
+  "stats": {
+    "input_tokens": 14912,
+    "total_output_tokens": 446,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 56.51698523876632,
+    "time_to_first_token_seconds": 23.311
+  },
+  "timestamp": "2026-04-20 19:31:30"
+}

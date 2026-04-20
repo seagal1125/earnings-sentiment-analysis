@@ -1,0 +1,41 @@
+{
+  "file": "META_2023_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.12,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "efficiency work",
+      "AI wave",
+      "Reels monetization efficiency",
+      "click-to-message ads",
+      "open ecosystem"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic, driven by strong engagement growth and the successful pivot toward 'efficiency' (layoffs/restructuring) which has improved financial positioning. Management shows high confidence in their AI roadmap and the ability to turn Reels from a revenue headwind into a neutral/positive driver. Quantitative specificity is high, with detailed breakdowns of user growth and revenue metrics. While pricing power shows some pressure (due to impression growth vs. price decline), the innovation momentum regarding AI and the Metaverse is a central, bullish theme. The risk disclosure is relatively low, focusing primarily on regulatory/EU data transfer issues and macro volatility. Management was direct in the QA session, providing specific answers to analyst inquiries."
+  },
+  "stats": {
+    "input_tokens": 12822,
+    "total_output_tokens": 398,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.29620779002409,
+    "time_to_first_token_seconds": 19.988
+  },
+  "timestamp": "2026-04-20 18:53:08"
+}

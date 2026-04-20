@@ -1,0 +1,34 @@
+{
+  "file": "META_2024_Q3.txt",
+  "status": "success",
+  "duration_seconds": 13.76,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Llama 3.2",
+      "Meta AI 500 million monthly active users",
+      "Revenue up 19%",
+      "Average price per ad increased 11%",
+      "CapEx $38 billion to $40 billion"
+    ],
+    "reasoning": "The company demonstrated exceptionally strong financial performance with 19% YoY revenue growth and significant improvements in ad pricing (+11%). Management's tone is highly optimistic, particularly regarding the AI roadmap (Llama 4) and its integration into core products. While CapEx is expected to grow significantly to support infrastructure, management frames this as a strategic necessity for long-term ROI. The CFO provided very specific financial guidance for Q4 revenue and full-year expenses, though she was slightly evasive regarding specific 2025 headcount numbers and long-term Reality Labs loss projections, which is typical for the budgeting phase. Innovation momentum is at its peak due to rapid adoption of Meta AI and progress in AR/VR hardware."
+  },
+  "timestamp": "2026-04-20 14:47:34"
+}

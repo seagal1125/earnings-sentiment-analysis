@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 37.72,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": -0.2,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.4,
+      "risk_disclosure_intensity": 0.5,
+      "qa_evasiveness": 0.3,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.2,
+      "demand_strength": 0.4,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI-related demand is directionally positive",
+      "N3 technology ramp-up will dilute gross margin",
+      "long-term gross margin of 53% and higher is achievable",
+      "overseas fab costs are higher",
+      "leveling off of capital intensity"
+    ],
+    "reasoning": "The overall sentiment is slightly negative due to the downward revision in full-year revenue guidance (from mid-single digit decline to 10% decline) and the impact of macroeconomic headwinds on mature nodes. However, management maintains high confidence in their long-term structural growth (15-20% CAGR) and technological leadership (N3/N2). The QA session showed some evasiveness regarding specific 2024 CapEx numbers and exact AI revenue breakdown, but provided high quantitative specificity regarding technology revenue splits and margin dilution. Demand for AI is strong but not yet enough to offset the broader cyclical downturn in smartphones and PCs."
+  },
+  "timestamp": "2026-04-20 13:46:11"
+}

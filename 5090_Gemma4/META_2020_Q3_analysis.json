@@ -1,0 +1,34 @@
+{
+  "file": "META_2020_Q3.txt",
+  "status": "success",
+  "duration_seconds": 11.62,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.7,
+      "forward_guidance_tone": -0.2,
+      "risk_disclosure_intensity": 0.6,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": -0.2,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.8,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "22% year-over-year increase in ad revenue",
+      "significant headwinds from iOS 14",
+      "accelerated shift from offline to online commerce",
+      "Quest 2 pre-orders outpaced original by 5x",
+      "investing aggressively in Facebook Reality Labs"
+    ],
+    "reasoning": "The quarter showed strong financial performance with 22% ad revenue growth driven by the pandemic-induced digital transformation. However, the forward guidance tone is tempered by significant warnings regarding regulatory changes (EU) and Apple's iOS 14 privacy updates, which management expects to create major headwinds in 2021. Management shows high confidence in product innovation (Reels, Quest 2, AR/VR) and aggressive capital expenditure plans for 2021, though pricing power saw a slight decline due to ad mix shifts."
+  },
+  "timestamp": "2026-04-20 14:43:49"
+}

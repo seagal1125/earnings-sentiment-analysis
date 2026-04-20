@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2025_Q4.txt",
+  "status": "success",
+  "duration_seconds": 28.34,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 1.0,
+      "pricing_power": 0.8,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI megatrend",
+      "25% CAGR in U.S. dollar terms",
+      "capacity is very tight",
+      "strategic, not opportunistic pricing",
+      "N2 successful entry into high-volume manufacturing"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by the 'AI megatrend' and robust demand for leading-edge technologies (N3, N2). Management shows extreme confidence in their ability to capture structural growth, projecting a 25% long-term CAGR. CapEx is aggressively increasing (projected $52B-$56B in 2026) to meet demand, which is viewed as a growth driver rather than a risk. While they acknowledge risks like overseas expansion dilution and geopolitical/tariff uncertainties, the focus remains on technology leadership as a moat. The QA session was direct, with management providing specific growth projections and addressing 'AI bubble' concerns by citing customer financial health. The only slight drag on scores is the high CapEx intensity and potential margin dilution from overseas fabs, but these are framed as necessary for growth."
+  },
+  "stats": {
+    "input_tokens": 13344,
+    "total_output_tokens": 446,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.21457236557001,
+    "time_to_first_token_seconds": 20.304
+  },
+  "timestamp": "2026-04-20 19:41:13"
+}

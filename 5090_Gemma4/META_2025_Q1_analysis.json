@@ -1,0 +1,35 @@
+{
+  "file": "META_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 12.3,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.4,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 1.0,
+      "demand_strength": 0.8,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "3.4 billion daily active users",
+      "Llama 4 models released",
+      "CapEx increased to $64B-$72B",
+      "Ray-Ban Meta AI Glasses sales tripled",
+      "EU DMA regulatory headwinds",
+      "average price per ad increased 10%"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by massive user growth and the transformative potential of AI (Llama 4, Meta AI). Management shows high confidence in their long-term AI strategy and infrastructure. Quantitative specificity is exceptionally high with detailed revenue, expense, and user metrics. CapEx enthusiasm is at a maximum as they are aggressively increasing investment to support AI workloads. However, there is notable risk disclosure regarding EU regulatory decisions (DMA) and potential shifts in China-based e-commerce advertising spend. The QA session was direct, with management providing specific technical and financial details despite some deferrals on ongoing legal matters."
+  },
+  "timestamp": "2026-04-20 14:48:00"
+}

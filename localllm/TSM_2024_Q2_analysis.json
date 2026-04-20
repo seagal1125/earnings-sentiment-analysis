@@ -1,0 +1,34 @@
+{
+  "file": "TSM_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 32.12,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.8,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 1.0
+    },
+    "key_phrases": [
+      "strong structural AI-related demand",
+      "supply is very tight",
+      "strategic, not opportunistic pricing",
+      "53% and higher gross margin is achievable",
+      "CoWoS capacity more than doubled"
+    ],
+    "reasoning": "The overall sentiment is highly optimistic, driven by explosive AI demand and strong revenue growth. Management shows high confidence, particularly in their ability to scale advanced packaging (CoWoS) and leading-edge nodes (N3, N5). While there are clear cost headwinds (electricity, overseas fab expansion), the guidance for Q3 revenue and gross margin is upwardly revised or strong. The CEO was somewhat evasive on specific 2025 capacity numbers and exact pricing levels, but provided concrete technical roadmaps for N2 and N16. Capex remains aggressive to meet structural demand."
+  },
+  "timestamp": "2026-04-20 13:48:25"
+}

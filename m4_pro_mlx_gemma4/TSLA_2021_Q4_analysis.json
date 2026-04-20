@@ -1,0 +1,41 @@
+{
+  "file": "TSLA_2021_Q4.txt",
+  "status": "success",
+  "duration_seconds": 25.4,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2021,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.7,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "growth of nearly 90% last year",
+      "significant growth in 2022 over 2021, comfortably above 50%",
+      "Full Self-Driving will become the most important source of profitability",
+      "supply chain will continue to be the fundamental limiter",
+      "optimizing for volume production over new models"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by record profitability and aggressive growth targets (50%+ for 2022). Management shows extreme confidence in FSD and future autonomy, which they view as a paradigm shift in asset utility. While supply chain risks (chips) and inflationary pressures are acknowledged, they are framed as manageable hurdles rather than existential threats. The focus on scaling production (Giga Texas/Berlin) and the pivot toward AI/robotics (Optimus, Dojo) indicates high innovation momentum. A slight deduction in pricing power is noted due to cost pressures and the strategic decision not to launch new models this year to prioritize volume. The QA session was direct, though Musk's answers often shifted from specific financial metrics to broad visionary statements (e.g., robotaxis), which is characteristic of his leadership style."
+  },
+  "stats": {
+    "input_tokens": 11289,
+    "total_output_tokens": 467,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 58.320305883065856,
+    "time_to_first_token_seconds": 17.173
+  },
+  "timestamp": "2026-04-20 19:22:05"
+}

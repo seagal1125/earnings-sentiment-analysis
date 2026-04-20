@@ -1,0 +1,41 @@
+{
+  "file": "TSM_2024_Q2.txt",
+  "status": "success",
+  "duration_seconds": 27.62,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSM",
+    "fiscal_year": 2024,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.85,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.95,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "strong demand for our industry-leading three- and five-nanometer technologies",
+      "AI-related demand continues, we continue to invest",
+      "the supply continued to be very tight",
+      "we are raising our full-year guidance",
+      "strategic, not opportunistic"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by explosive AI-related demand and strong revenue growth. Management shows extreme confidence in their technological leadership (N2, N16) and capacity planning. The forward guidance is bullish, with a raised full-year revenue target. While there are mentions of cost challenges (electricity, overseas expansion) and geopolitical risks, these are treated as manageable operational factors rather than existential threats. The QA session was direct, with management providing specific details on capacity and technology roadmaps, though they remained strategically vague on exact pricing models. The 'management_consistency' is set to 0.5 as no prior year data was provided for comparison, but the internal consistency of the current narrative is high."
+  },
+  "stats": {
+    "input_tokens": 13100,
+    "total_output_tokens": 433,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.3885905054023,
+    "time_to_first_token_seconds": 19.835
+  },
+  "timestamp": "2026-04-20 19:38:32"
+}

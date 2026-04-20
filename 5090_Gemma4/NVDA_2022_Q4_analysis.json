@@ -1,0 +1,34 @@
+{
+  "file": "NVDA_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 18.13,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.8,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.5,
+      "demand_strength": 1.0,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "Demand is greater than our supply",
+      "Record revenue",
+      "Supply constrained",
+      "Software-driven business model",
+      "Arm acquisition terminated"
+    ],
+    "reasoning": "NVIDIA reported record-breaking revenue with massive year-over-year growth in Data Center and Gaming segments. While the company explicitly acknowledged significant supply constraints (demand exceeding supply) and the regulatory failure of the Arm acquisition, management's tone remains extremely confident, focusing on a high-moat 'full-stack' strategy involving AI software (Omniverse, DRIVE) and hardware integration. The transition toward a software-driven revenue model and the expansion of the AI ecosystem provide strong long-term momentum."
+  },
+  "timestamp": "2026-04-20 14:56:46"
+}

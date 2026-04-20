@@ -1,0 +1,34 @@
+{
+  "file": "AMZN_2023_Q4.txt",
+  "status": "success",
+  "duration_seconds": 29.47,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AMZN",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.8,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "cost-to-serve down",
+      "AWS revenue acceleration",
+      "generative AI stack",
+      "regionalization benefits",
+      "expansion of same day facilities"
+    ],
+    "reasoning": "The overall sentiment is highly positive, driven by massive operating income growth (383% YoY) and significant free cash flow improvement. Management shows high confidence, particularly regarding the efficiency gains from regionalization and the accelerating revenue in AWS due to GenAI demand. Quantitative specificity is very high, with detailed figures on revenue, margins, and cost reductions provided. While CapEx is expected to rise (driven by AI infrastructure), it is framed as strategic expansion rather than inefficient spending. The only slight caution lies in the 'uncertain economy' and geopolitical risks mentioned, but these are standard disclosures. Management was direct in Q&A, specifically addressing AWS backlog and capital return queries."
+  },
+  "timestamp": "2026-04-20 12:34:23"
+}

@@ -1,0 +1,35 @@
+{
+  "file": "GOOGL_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 13.99,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "GOOGL",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.85,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.6,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.95,
+      "capex_enthusiasm": 0.9,
+      "demand_strength": 0.9,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.85,
+      "innovation_momentum": 0.95,
+      "management_consistency": 0.9
+    },
+    "key_phrases": [
+      "Gemini 2.5 Pro",
+      "AI Overviews 1.5 billion users",
+      "$75 billion CapEx expectation",
+      "Cloud revenue growth 28%",
+      "Waymo 5x trip growth",
+      "depreciation pressure"
+    ],
+    "reasoning": "Alphabet delivered exceptionally strong Q1 results with double-digit growth across Search, YouTube, and Cloud. The management team exhibits high confidence in their 'full-stack' AI strategy, backed by massive capital expenditure plans (increasing to $75B for the year) to support infrastructure like TPU Ironwood. While there is a clear warning regarding the impact of accelerating depreciation on future margins, the core growth drivers—AI integration in Search and Cloud demand—remain robust. The QA session was direct, though management avoided specific conversion/CTR metrics for AI Overviews, which is typical for the industry."
+  },
+  "timestamp": "2026-04-20 14:42:31"
+}

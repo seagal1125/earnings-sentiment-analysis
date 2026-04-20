@@ -1,0 +1,34 @@
+{
+  "file": "TSLA_2022_Q4.txt",
+  "status": "success",
+  "duration_seconds": 30.95,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "TSLA",
+    "fiscal_year": 2022,
+    "fiscal_quarter": 4,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.7,
+      "capex_enthusiasm": 0.6,
+      "demand_strength": 0.8,
+      "pricing_power": 0.5,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "orders at almost twice the rate of production",
+      "achieved 17% operating margin",
+      "demand far exceeds production",
+      "manufacturing technology will be our most important long-term strength",
+      "Dojo will be competitive with the NVIDIA H1"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by record-breaking 2022 performance and strong early 2023 order data. Management shows high confidence in their technological moat (AI, FSD, Dojo) and manufacturing capabilities. While there are clear risks mentioned regarding interest rates, inflation, and potential recession, the tone remains optimistic about long-term value. Quantitative specificity is high with mentions of specific margins, delivery numbers, and battery capacity. Some evasiveness was noted when Elon Musk declined to provide specific details on future product timelines or exact cost targets for lower-priced models, but they were direct regarding current demand and production constraints."
+  },
+  "timestamp": "2026-04-20 13:31:22"
+}

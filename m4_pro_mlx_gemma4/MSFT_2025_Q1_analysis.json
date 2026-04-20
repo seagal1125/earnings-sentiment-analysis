@@ -1,0 +1,41 @@
+{
+  "file": "MSFT_2025_Q1.txt",
+  "status": "success",
+  "duration_seconds": 27.83,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "MSFT",
+    "fiscal_year": 2025,
+    "fiscal_quarter": 1,
+    "scores": {
+      "overall_sentiment": 0.8,
+      "confidence_score": 0.9,
+      "forward_guidance_tone": 0.7,
+      "risk_disclosure_intensity": 0.2,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.8,
+      "demand_strength": 0.9,
+      "pricing_power": 0.6,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 1.0,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "AI business is on track to surpass an annual revenue run rate of $10 billion next quarter",
+      "Azure took share this quarter",
+      "demand continues to be higher than our available capacity",
+      "the fastest business in our history to reach this milestone",
+      "invest once and then we have all these categories that benefit from that"
+    ],
+    "reasoning": "The earnings call reflects an exceptionally strong performance driven by AI integration and cloud growth. Management demonstrates high confidence, particularly regarding the $10B AI revenue run rate milestone. While there are significant capital expenditures (CapEx) and supply-side constraints mentioned, these are framed as 'demand-driven' rather than structural weaknesses. The relationship with OpenAI is addressed transparently, and the transition from 'Copilot' to 'Agents' shows a clear innovation roadmap. The only slight drag in sentiment comes from the high CapEx and the impact of the Activision acquisition on margins, but overall, the tone is one of aggressive expansion and market leadership."
+  },
+  "stats": {
+    "input_tokens": 12977,
+    "total_output_tokens": 426,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.45253988097997,
+    "time_to_first_token_seconds": 20.211
+  },
+  "timestamp": "2026-04-20 19:07:14"
+}

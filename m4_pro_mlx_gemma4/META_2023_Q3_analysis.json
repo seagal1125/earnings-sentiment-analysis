@@ -1,0 +1,41 @@
+{
+  "file": "META_2023_Q3.txt",
+  "status": "success",
+  "duration_seconds": 27.1,
+  "model": "mlx-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "META",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 3,
+    "scores": {
+      "overall_sentiment": 0.6,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.4,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.7,
+      "pricing_power": 0.3,
+      "competitive_moat": 0.7,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.8
+    },
+    "key_phrases": [
+      "AI will be our biggest investment area in 2024",
+      "Reels is now net neutral to overall company ad revenue",
+      "hiring backlog",
+      "business messaging will be the next major pillar",
+      "operating efficiency"
+    ],
+    "reasoning": "The overall sentiment is positive, driven by strong revenue growth and the successful integration of AI into core products. Management shows high confidence in their long-term vision (AI and Metaverse) despite current spending. The guidance is cautiously optimistic; while they project higher CapEx and headcount costs in 2024 due to a 'hiring backlog' and infrastructure needs, the underlying business fundamentals (Reels monetization, engagement) are strong. Risk disclosure is moderate, primarily focusing on regulatory headwinds and geopolitical volatility. The QA session was direct, with management providing specific data points regarding user growth and segment performance. A key tension exists between the aggressive AI investment (high capex) and the stated goal of 'operating efficiency,' but management justifies this as a strategic shift rather than pure expansion."
+  },
+  "stats": {
+    "input_tokens": 12760,
+    "total_output_tokens": 435,
+    "reasoning_output_tokens": 0,
+    "tokens_per_second": 57.52161161561202,
+    "time_to_first_token_seconds": 19.351
+  },
+  "timestamp": "2026-04-20 18:54:04"
+}

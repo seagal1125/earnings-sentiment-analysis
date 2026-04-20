@@ -1,0 +1,11 @@
+{
+  "file": "TSM_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 18.11,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "raw_content": "---\n{\"symbol\": \"TSM\", \"fiscal_year\": 2023, \"fiscal_quarter\": 2, \"scores\": {\"overall_sentiment\": -0.2, \"confidence_score\": 0.75, \"forward_guidance_tone\": -0.3, \"risk_disclosure_intensity\": 0.4, \"qa_evasiveness\": 0.2, \"quantitative_specificity: 0.95, \"capex_enthusiasm\": -0.3, \"demand_strength\": 0.4, \"pricing_power\": 0.6, \"competitive_moat\": 0.9, \"innovation_momentum\": 0.9, \"management_consistency\": 0.4}, \"key_phrases\": [\"AI-related demand\", \"inventory adjustment\", \"N3 ramp-up\", \"cyclical downturn\", \"long-term gross margin of 53%\"], \"reasoning\": \"The company is navigating a significant cyclical downturn in the semiconductor industry, evidenced by declining revenue and downward revisions to full-year 2023 revenue guidance (from mid-single digit decline to ~10% decline). However, management maintains high confidence in their long-term structural growth drivers, specifically AI-related demand and the ramp-up of N3/N2 technologies. While near-term margins are under pressure due to N3 ramp costs and higher utility/overseas fab costs, the company's technological moat remains extremely strong.\"}",
+    "error": "Failed to parse JSON content"
+  },
+  "timestamp": "2026-04-20 16:17:14"
+}

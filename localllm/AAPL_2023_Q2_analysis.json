@@ -1,0 +1,34 @@
+{
+  "file": "AAPL_2023_Q2.txt",
+  "status": "success",
+  "duration_seconds": 28.46,
+  "model": "lmstudio-community/gemma-4-26b-a4b-it",
+  "analysis": {
+    "symbol": "AAPL",
+    "fiscal_year": 2023,
+    "fiscal_quarter": 2,
+    "scores": {
+      "overall_sentiment": 0.4,
+      "confidence_score": 0.85,
+      "forward_guidance_tone": 0.1,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.2,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.0,
+      "demand_strength": 0.5,
+      "pricing_power": 0.4,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.7,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "all-time record for Services",
+      "iPhone revenue of $51.3 billion",
+      "emerging markets growth",
+      "foreign exchange headwinds",
+      "installed base of active devices reached an all-time high"
+    ],
+    "reasoning": "The overall sentiment is cautiously optimistic; while year-over-year revenue declined by 3% due to macroeconomic headwinds and FX impacts, the company achieved record revenues in Services and iPhone (March quarter). Management shows high confidence, particularly regarding the growing installed base (>2 billion devices) and expansion in emerging markets like India. Forward guidance is neutral/stable, expecting June quarter performance to be similar to March. Risk disclosure focuses on macroeconomics and FX rather than structural threats. Quantitative specificity is very high with detailed revenue breakdowns per product line. Innovation momentum is supported by AI integration discussions and Apple Silicon advancements, though management was evasive regarding specific generative AI roadmaps."
+  },
+  "timestamp": "2026-04-20 12:23:25"
+}

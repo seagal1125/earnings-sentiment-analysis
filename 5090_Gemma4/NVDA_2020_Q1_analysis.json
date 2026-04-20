@@ -1,0 +1,35 @@
+{
+  "file": "NVDA_2020_Q1.txt",
+  "status": "success",
+  "duration_seconds": 12.46,
+  "model": "google/gemma-4-26b-a4b",
+  "analysis": {
+    "symbol": "NVDA",
+    "fiscal_year": 2020,
+    "fiscal_quarter": 0,
+    "scores": {
+      "overall_sentiment": 0.2,
+      "confidence_sore": 0.8,
+      "forward_guidance_tone": 0.3,
+      "risk_disclosure_intensity": 0.3,
+      "qa_evasiveness": 0.1,
+      "quantitative_specificity": 0.9,
+      "capex_enthusiasm": 0.7,
+      "demand_strength": 0.6,
+      "pricing_power": 0.7,
+      "competitive_moat": 0.9,
+      "innovation_momentum": 0.9,
+      "management_consistency": 0.5
+    },
+    "key_phrases": [
+      "hyperscale spending pause",
+      "RTX ray tracing standard",
+      "Mellanox acquisition",
+      "inference revenue up sharply",
+      "Turing architecture ramp",
+      "edge computing expansion"
+    ],
+    "reasoning": "The overall sentiment is slightly positive despite a significant year-on-year revenue decline (-31%), as management focuses heavily on the long-term transition to RTX and AI inference. Confidence is high, particularly from CEO Jensen Huang regarding technological leadership in AI and automotive. Forward guidance is cautious (returning to quarterly instead of full-year) due to low visibility in data center spending, but expects a stronger second half. Quantitative specificity is very high with detailed revenue breakdowns by segment. Risk disclosure is moderate, primarily focusing on the hyperscale pause and CPU shortages. Innovation momentum is extremely strong, driven by breakthroughs in conversational AI and the Mellanox integration."
+  },
+  "timestamp": "2026-04-20 14:53:55"
+}
